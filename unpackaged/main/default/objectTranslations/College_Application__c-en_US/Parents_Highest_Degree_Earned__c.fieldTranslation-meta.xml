@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Parents Highest Degree Earned --></label>
+        <name>Parents_Highest_Degree_Earned__c</name>
+        <picklistValues>
+            <masterLabel>Associate&#39;s Degree</masterLabel>
+            <translation><!-- Associate&apos;s Degree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bachelor&#39;s Degree</masterLabel>
+            <translation><!-- Bachelor&apos;s Degree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certificate</masterLabel>
+            <translation><!-- Certificate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Did Not Graduate High School</masterLabel>
+            <translation><!-- Did Not Graduate High School --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GED</masterLabel>
+            <translation><!-- GED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High School Diploma</masterLabel>
+            <translation><!-- High School Diploma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master&#39;s Degree or Doctoral Degree</masterLabel>
+            <translation><!-- Master&apos;s Degree or Doctoral Degree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

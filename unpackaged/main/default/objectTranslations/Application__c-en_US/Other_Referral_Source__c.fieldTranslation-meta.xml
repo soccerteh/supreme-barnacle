@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If the applicant selects Other in response to the application question &quot;How did you hear about Verto?&quot;, this field is their explanation of Other. --></help>
+        <label><!-- Other Referral Source --></label>
+        <name>Other_Referral_Source__c</name>
+    </CustomFieldTranslation>

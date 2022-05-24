@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- z_What drew this student to Verto? --></label>
+        <name>z_What_drew_this_student_to_Verto__c</name>
+    </CustomFieldTranslation>

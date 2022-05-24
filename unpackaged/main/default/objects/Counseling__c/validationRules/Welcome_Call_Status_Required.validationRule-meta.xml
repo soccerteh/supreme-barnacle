@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Welcome_Call_Status_Required</fullName>
+    <active>true</active>
+    <description>Requires a Welcome Call Status if the Counseling Status is &#39;Welcome Call Scheduled&#39;</description>
+    <errorConditionFormula>AND(
+    !$User.Bypass_Validation__c,
+    ISPICKVAL(Counseling_Status__c, &#39;Welcome Call Scheduled&#39;),
+    ISBLANK(TEXT(Welcome_Call_Status__c))
+)</errorConditionFormula>
+    <errorDisplayField>Welcome_Call_Status__c</errorDisplayField>
+    <errorMessage>A Welcome Call Status is required.</errorMessage>
+</ValidationRule>

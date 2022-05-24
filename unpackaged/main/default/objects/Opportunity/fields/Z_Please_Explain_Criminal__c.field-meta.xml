@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Z_Please_Explain_Criminal__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is populated from the student application if they answered yes to a previous criminal conviction.</inlineHelpText>
+    <label>Z_Please Explain (Criminal)</label>
+    <length>10000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Purpose__c</fullName>
+    <externalId>false</externalId>
+    <label>Purpose</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Initial/intro</fullName>
+                <default>false</default>
+                <label>Initial/intro</label>
+            </value>
+            <value>
+                <fullName>Follow up second outreach</fullName>
+                <default>false</default>
+                <label>Follow up second outreach</label>
+            </value>
+            <value>
+                <fullName>Check in</fullName>
+                <default>false</default>
+                <label>Check in</label>
+            </value>
+            <value>
+                <fullName>College Counseling</fullName>
+                <default>false</default>
+                <label>College Counseling</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

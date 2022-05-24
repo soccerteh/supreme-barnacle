@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Enrollment_Record__c$Name</field>
+    </columns>
+    <columns>
+        <field>Enrollment_Record__c$Owner__c</field>
+    </columns>
+    <columns>
+        <field>Enrollment_Record__c$LastActivityDate</field>
+    </columns>
+    <columns>
+        <field>Enrollment_Record__c.Opportunities__r$Name</field>
+    </columns>
+    <columns>
+        <field>Enrollment_Record__c$Retention_Challenges__c</field>
+    </columns>
+    <columns>
+        <field>Enrollment_Record__c$Retention_Challenges_Notes__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Enrollment_Record__c$Retention_Challenges_Notes__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>vaccine</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Vaccine Retention Challenge</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Enrollment_Records_with_Opportunities__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Enrollment_Record__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

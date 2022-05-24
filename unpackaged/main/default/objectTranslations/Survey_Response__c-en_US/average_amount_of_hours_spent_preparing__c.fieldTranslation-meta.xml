@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- average amount of hours spent preparing --></label>
+        <name>average_amount_of_hours_spent_preparing__c</name>
+        <picklistValues>
+            <masterLabel>1-2</masterLabel>
+            <translation><!-- 1-2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2-3</masterLabel>
+            <translation><!-- 2-3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3-4</masterLabel>
+            <translation><!-- 3-4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;1</masterLabel>
+            <translation><!-- &lt;1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;5</masterLabel>
+            <translation><!-- &gt;5 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

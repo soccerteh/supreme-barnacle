@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Audience xmlns="http://soap.sforce.com/2006/04/metadata">
+    <audienceName>Not Channel Partner</audienceName>
+    <container>Verto Partners</container>
+    <criteria>
+        <criterion>
+            <criteriaNumber>1</criteriaNumber>
+            <criterionValue>
+                <entityField>Contact.Account.$Account.Channel_Partner__c</entityField>
+                <entityType>User</entityType>
+                <fieldValue>false</fieldValue>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>FieldBased</type>
+        </criterion>
+    </criteria>
+    <formulaFilterType>AllCriteriaMatch</formulaFilterType>
+    <isDefaultAudience>false</isDefaultAudience>
+    <targets>
+        <target>
+            <groupName>e39e961a-5cc9-4830-937f-a93d9d0c7ae9$#$4452b9bf-8c9e-4262-ad70-fc7d73b5dbff</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>FAQ_and_Training_HTML_Editor_1_Component</targetValue>
+        </target>
+        <target>
+            <groupName>db166830-cb37-47d2-894e-f4d29380337c$#$8b82bc40-c018-4727-8251-cfdce7b3d322</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>Home_Rich_Content_Editor_2_Component</targetValue>
+        </target>
+    </targets>
+</Audience>

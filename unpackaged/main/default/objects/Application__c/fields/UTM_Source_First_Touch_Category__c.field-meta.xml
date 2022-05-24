@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UTM_Source_First_Touch_Category__c</fullName>
+    <description>Outputs a source category based on the UTM Source First Touch field, with the intention of utilizing that category in the Original and Most Recent Source fields on the related lead and account. Created for administrative purposes only, not for end users</description>
+    <externalId>false</externalId>
+    <formula>IF(
+ AND( UTM_Source__c = &quot;tiktok&quot;,  UTM_Medium__c = &quot;social&quot; ), &quot;Social Media&quot;,
+
+CASE(
+UTM_Source__c,
+&quot;tiktok&quot;, &quot;Online Ad&quot;,
+&quot;bing&quot;, &quot;Online Ad&quot;,
+&quot;fb&quot;, &quot;Online Ad&quot;,
+&quot;google&quot;, &quot;Online Ad&quot;,
+&quot;Google&quot;, &quot;Online Ad&quot;,
+&quot;ig&quot;, &quot;Online Ad&quot;,
+&quot;snap&quot;, &quot;Online Ad&quot;,
+&quot;snapchat&quot;, &quot;Online Ad&quot;,
+&quot;spotify&quot;, &quot;Online Ad&quot;,
+&quot;taboola&quot;, &quot;Online Ad&quot;,
+&quot;yahoo&quot;, &quot;Online Ad&quot;,
+&quot;scholarshippoints&quot;, &quot;Online Ad&quot;,
+&quot;Facebook&quot;, &quot;Online Ad&quot;,
+&quot;facebook&quot;, &quot;Online Ad&quot;,
+&quot;sfmc&quot;, &quot;Online Ad&quot;,
+
+&quot;accessscholarships&quot;, &quot;Advertisement&quot;,
+&quot;scholarships&quot;, &quot;Advertisement&quot;,
+&quot;Scholarships&quot;, &quot;Advertisement&quot;,
+&quot;bold.org&quot;, &quot;Advertisement&quot;,
+&quot;scholarships360&quot;, &quot;Advertisement&quot;,
+&quot;princetonreview&quot;, &quot;Advertisement&quot;,
+&quot;gooverseas&quot;, &quot;Advertisement&quot;,
+
+&quot;leads&quot;, &quot;Purchased List&quot;,
+&quot;scholarshipowl&quot;, &quot;Advertisement&quot;,
+&quot;&quot;)
+)</formula>
+    <label>UTM Source First Touch Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

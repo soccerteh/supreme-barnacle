@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Step 4 in the Withdrawal Request and Financial Appeal Policy SOP, to be sent when students&#39; Semester Withdrawal Form submissions have been accepted by Student Success.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Step 4: Tuition To be Returned: Enrolled Student Withdrawal Request Approved</name>
+    <relatedEntityType>Enrollment_Record__c</relatedEntityType>
+    <style>none</style>
+    <subject>Your Verto Withdrawal Request has been Approved</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

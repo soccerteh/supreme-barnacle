@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- z_Partner School Choice 2: Why --></label>
+        <name>z_hool_Choice_2_Why__c</name>
+    </CustomFieldTranslation>

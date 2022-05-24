@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Intended post-college plan --></label>
+        <name>Intended_post_college_plan__c</name>
+        <picklistValues>
+            <masterLabel>Graduate School</masterLabel>
+            <translation><!-- Graduate School --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (Explain)</masterLabel>
+            <translation><!-- Other (Explain) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start a career</masterLabel>
+            <translation><!-- Start a career --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Undecided</masterLabel>
+            <translation><!-- Undecided --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

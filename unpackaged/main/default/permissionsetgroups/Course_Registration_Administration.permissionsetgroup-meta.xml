@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permissions needed to administrate the Course Registration components, such as adding or editing courses, mappings, and course sections.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Course Registration - Administration</label>
+    <permissionSets>Building_Create_Edit_Access</permissionSets>
+    <permissionSets>Course_Create_Edit_Access</permissionSets>
+    <permissionSets>Course_Interest_Read_Edit</permissionSets>
+    <permissionSets>Course_Mapping_Create_Edit_Access</permissionSets>
+    <permissionSets>Course_Offering_Create_Edit_Access</permissionSets>
+    <permissionSets>Course_Prerequisite_Create_Edit_Access</permissionSets>
+    <permissionSets>Course_Registration_Application_Access</permissionSets>
+    <permissionSets>Course_Section_Create_Edit_Access</permissionSets>
+    <permissionSets>Course_Section_Seat_Create_Edit_Access</permissionSets>
+    <permissionSets>Edit_Enrollment_Record_Course_Registration_Close_Date</permissionSets>
+    <permissionSets>Meeting_Time_Create_Edit_Access</permissionSets>
+    <permissionSets>Room_Create_Edit_Access</permissionSets>
+    <permissionSets>School_of_Record_Mapping_Create_Edit_Access</permissionSets>
+    <permissionSets>Transcript_Evaluation_Read_Create</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Train_Arrival_Station__c</fullName>
+    <externalId>false</externalId>
+    <label>Train Arrival Station</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Santa Justa Train Station</fullName>
+                <default>false</default>
+                <label>Santa Justa Train Station</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

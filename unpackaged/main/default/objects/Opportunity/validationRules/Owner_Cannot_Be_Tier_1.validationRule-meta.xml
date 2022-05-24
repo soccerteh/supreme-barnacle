@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owner_Cannot_Be_Tier_1</fullName>
+    <active>false</active>
+    <description>Prevents an opportunity from being created with an owner in the Admissions Tier 1 role.</description>
+    <errorConditionFormula>and(
+$User.Bypass_Validation__c = FALSE,
+
+isnew(),
+left(Owner.UserRole.Id,15) = &quot;00E3h000000tQIK&quot;)</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>The opportunity owner can&#39;t be in the Admissions Tier 1 role. Please select a new owner.</errorMessage>
+</ValidationRule>

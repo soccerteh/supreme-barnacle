@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <assignments>
+        <name>Add_to_LeadCollectionForUpdate</name>
+        <label>Add to LeadCollectionForUpdate</label>
+        <locationX>264</locationX>
+        <locationY>636</locationY>
+        <assignmentItems>
+            <assignToReference>LeadCollectionForUpdate</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Loop_through_Leads</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_through_Leads</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Behavior_Score</name>
+        <label>Assign Behavior Score</label>
+        <locationX>264</locationX>
+        <locationY>516</locationY>
+        <assignmentItems>
+            <assignToReference>Loop_through_Leads.Behavior_Score__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>BehaviorScoreFormula</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Add_to_LeadCollectionForUpdate</targetReference>
+        </connector>
+    </assignments>
+    <description>Updates Behavior Score based on the amount of time since the Last Qualifying Activity Date</description>
+    <formulas>
+        <name>BehaviorScoreFormula</name>
+        <dataType>Number</dataType>
+        <expression>IF(
+( NOW() - DATETIMEVALUE( {!Loop_through_Leads.Last_Qualifying_Activity_Date__c} ))*24 &lt;= 24, {!Loop_through_Leads.Activity_Score__c},
+IF(
+AND(
+( NOW() - DATETIMEVALUE( {!Loop_through_Leads.Last_Qualifying_Activity_Date__c} ))*24 &gt; 24,
+( NOW() - DATETIMEVALUE( {!Loop_through_Leads.Last_Qualifying_Activity_Date__c} ))*24 &lt;= 168
+), {!Loop_through_Leads.Activity_Score__c}*0.9,
+IF(
+AND(
+( NOW() - DATETIMEVALUE( {!Loop_through_Leads.Last_Qualifying_Activity_Date__c} ))*24 &gt; 168,
+( NOW() - DATETIMEVALUE( {!Loop_through_Leads.Last_Qualifying_Activity_Date__c} ))*24 &lt;= 336
+), {!Loop_through_Leads.Activity_Score__c}*0.8,
+IF(
+AND(
+( NOW() - DATETIMEVALUE( {!Loop_through_Leads.Last_Qualifying_Activity_Date__c} ))*24 &gt; 336,
+( NOW() - DATETIMEVALUE( {!Loop_through_Leads.Last_Qualifying_Activity_Date__c} ))*24 &lt;= 720
+), {!Loop_through_Leads.Activity_Score__c}*0.5,
+{!Loop_through_Leads.Activity_Score__c}*0.3 
+)
+)
+)
+)</expression>
+        <scale>1</scale>
+    </formulas>
+    <formulas>
+        <description>31 days represented as 744 hours</description>
+        <name>ThirtyOneDaysAgo</name>
+        <dataType>Date</dataType>
+        <expression>NOW() - (744/24)</expression>
+    </formulas>
+    <interviewLabel>Lead Age Scoring {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Lead Age Scoring</label>
+    <loops>
+        <name>Loop_through_Leads</name>
+        <label>Loop through Leads</label>
+        <locationX>176</locationX>
+        <locationY>396</locationY>
+        <collectionReference>Get_Leads</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Assign_Behavior_Score</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Update_Lead_Collection</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Leads</name>
+        <label>Get Leads</label>
+        <locationX>176</locationX>
+        <locationY>276</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Loop_through_Leads</targetReference>
+        </connector>
+        <filterLogic>(1 OR 2) AND 3 AND 4 AND 5 AND 6</filterLogic>
+        <filters>
+            <field>RecordTypeId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Label.RT_Lead_TraditionalEnrollment</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>RecordTypeId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Label.RT_Lead_ChannelEnrollment</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Last_Qualifying_Activity_Date__c</field>
+            <operator>GreaterThanOrEqualTo</operator>
+            <value>
+                <elementReference>ThirtyOneDaysAgo</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>IsConverted</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Last_Qualifying_Activity_Date__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Activity_Score__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Lead</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Lead_Collection</name>
+        <label>Update Lead Collection</label>
+        <locationX>176</locationX>
+        <locationY>852</locationY>
+        <inputReference>LeadCollectionForUpdate</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Leads</targetReference>
+        </connector>
+        <schedule>
+            <frequency>Daily</frequency>
+            <startDate>2022-04-02</startDate>
+            <startTime>01:00:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <variables>
+        <name>LeadCollectionForUpdate</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Lead</objectType>
+    </variables>
+</Flow>

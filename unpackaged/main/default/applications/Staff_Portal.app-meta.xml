@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Staff_Portal_Home</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#1D7891</headerColor>
+        <logo>Verto_Logo</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>Staff Portal for internal users. This app reflects the data in the Experience Cloud version of the portal.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Staff Portal</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>Enrollment_Record__c</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>Accommodation__c</tabs>
+    <tabs>Flight__c</tabs>
+    <tabs>Health_Form__c</tabs>
+    <tabs>Checkpoint__c</tabs>
+    <tabs>Roommate_Request__c</tabs>
+    <tabs>Housing_Preference__c</tabs>
+    <tabs>Student_Success_Survey__c</tabs>
+    <tabs>standard-report</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Staff_Portal_UtilityBar</utilityBar>
+</CustomApplication>

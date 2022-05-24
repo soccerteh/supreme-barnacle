@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Original_Source_Cannot_be_Changed</fullName>
+    <active>true</active>
+    <description>Once the Original Source is filled, it can&#39;t be edited.</description>
+    <errorConditionFormula>and(
+$User.Bypass_Validation__c = false,
+
+ischanged(Original_Source__c),
+
+not(isblank(priorvalue(Original_Source__c)))
+)</errorConditionFormula>
+    <errorDisplayField>Original_Source__c</errorDisplayField>
+    <errorMessage>The original source can&#39;t be edited.</errorMessage>
+</ValidationRule>

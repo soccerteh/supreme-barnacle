@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_for_Creation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$User.Bypass_Validation__c = FALSE,
+
+left( $User.ProfileId , 15) &lt;&gt; left( $Label.Profile_SystemAdministrator , 15),
+
+isnew(),
+
+or(
+(isblank(Email) &amp;&amp; isblank(Phone)),
+
+isblank(FirstName),
+
+isblank(LastName),
+
+ispickval(Persona__c,&quot;&quot;),
+
+ispickval(LeadSource,&quot;&quot;)
+)
+)</errorConditionFormula>
+    <errorMessage>Please ensure that First and Last Name, Persona, Lead Source, and Email or Phone are filled in.</errorMessage>
+</ValidationRule>

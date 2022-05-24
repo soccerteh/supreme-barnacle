@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.First_Name__c}}},&nbsp;<br />
+<br />
+Thank you for submitting your Semester Withdrawal Form and for discussing next steps with me. I'm saddened to see you go, but I know that you have a bright future ahead of you.&nbsp;<br />
+<br />
+Our goal at Verto Education is to provide the best first semester of college, packed with experiential learning and cultural immersion. We live by our mission, so if you change your mind, or need anything at all, please don't hesitate to reach out.&nbsp;<br />
+<br />
+At this time, the Student Success team has approved your Withdrawal Request. At this time, you do not have any refundable tuition paid, in accordance with our <a href="https://https://vertoeducation.org/payment-cancellation-policy/">Payment &amp; Cancellation Policy</a> and our <a href="https://https://vertoeducation.org/withdrawal-financial-appeal-policies/">Withdrawal &amp; Financial Appeal Policy</a>, so I will go ahead and close out your account with Verto.&nbsp;<br />
+<br />
+Once again, you will be missed! Wishing you all the best on your college journey.&nbsp;<br />
+<br />
+Sincerely,&nbsp;<br />
+&nbsp;
+</body></html>

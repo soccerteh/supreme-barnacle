@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Counseling</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Counseling</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Channel Counseling Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- College Applications --></label>
+            <section>College Applications</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Partner Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Traditional Counseling Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- College Applications --></label>
+            <section>College Applications</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Forms --></label>
+            <section>Forms</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- File Share to Partners --></label>
+        <name>File_Share_to_Partners</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New College App --></label>
+        <name>New_College_App</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Default Record Type for Channel Students --></description>
+        <label><!-- Channel Students --></label>
+        <name>Channel_Students</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Default Record Type for Direct Applications --></description>
+        <label><!-- Direct Apply --></label>
+        <name>Direct_Apply</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Default Record Type for Traditional Counseling --></description>
+        <label><!-- Traditional Counseling --></label>
+        <name>Traditional_Counseling</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Default Record Type for Waived Counseling --></description>
+        <label><!-- Waived Counseling --></label>
+        <name>Waived_Counseling</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- A Decision Call Status is required. --></errorMessage>
+        <name>Decision_Call_Status_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Final Student Decision Type must be either a Partner or Non-Partner. --></errorMessage>
+        <name>Deposited_And_Not_Deposited_Requirements</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Final Student Decision Type must be either a Partner or Non-Partner. --></errorMessage>
+        <name>Deposited_And_Not_Despoited_Requirements</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- An On Hold Reason and On Hold Follow Up Date are required. --></errorMessage>
+        <name>On_Hold_Reason_Follow_Up_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- An Unresponsive Stage is required. --></errorMessage>
+        <name>Unresponsive_Stage_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Welcome Call Status is required. --></errorMessage>
+        <name>Welcome_Call_Status_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

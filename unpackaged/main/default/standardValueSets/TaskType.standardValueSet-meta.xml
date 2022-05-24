@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Student Interview</fullName>
+        <default>false</default>
+        <label>Student Interview</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Parent Interview</fullName>
+        <default>false</default>
+        <label>Parent Interview</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Welcome Call</fullName>
+        <default>false</default>
+        <label>Welcome Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow Up Reminder</fullName>
+        <default>false</default>
+        <label>Follow Up Reminder</label>
+    </standardValue>
+    <standardValue>
+        <fullName>College Counseling</fullName>
+        <default>false</default>
+        <label>College Counseling</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Student Success Coaching</fullName>
+        <default>false</default>
+        <label>Student Success Coaching</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Financial Services</fullName>
+        <default>false</default>
+        <label>Financial Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Withdrawal Request</fullName>
+        <default>false</default>
+        <label>Withdrawal Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Financial Appeal</fullName>
+        <default>false</default>
+        <label>Financial Appeal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Text</fullName>
+        <default>false</default>
+        <label>Text</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Zoom</fullName>
+        <default>false</default>
+        <label>Zoom</label>
+    </standardValue>
+</StandardValueSet>

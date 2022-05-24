@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Prerequisites Satisfied For: --></label>
+        <name>Prerequisites_Satisfied_For__c</name>
+        <picklistValues>
+            <masterLabel>British Literature II</masterLabel>
+            <translation><!-- British Literature II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calculus I</masterLabel>
+            <translation><!-- Calculus I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Chemistry I</masterLabel>
+            <translation><!-- General Chemistry I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediate Spanish I</masterLabel>
+            <translation><!-- Intermediate Spanish I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediate Spanish II</masterLabel>
+            <translation><!-- Intermediate Spanish II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Introduction to Biology I</masterLabel>
+            <translation><!-- Introduction to Biology I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Introduction to Statistics</masterLabel>
+            <translation><!-- Introduction to Statistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Introductory Spanish II</masterLabel>
+            <translation><!-- Introductory Spanish II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Calculus I</masterLabel>
+            <translation><!-- Pre-Calculus I --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Principles of Microeconomics</masterLabel>
+            <translation><!-- Principles of Microeconomics --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

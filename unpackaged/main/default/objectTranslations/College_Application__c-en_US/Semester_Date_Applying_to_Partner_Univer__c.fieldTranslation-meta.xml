@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Semester Date Applying to Partner Univer --></label>
+        <name>Semester_Date_Applying_to_Partner_Univer__c</name>
+    </CustomFieldTranslation>

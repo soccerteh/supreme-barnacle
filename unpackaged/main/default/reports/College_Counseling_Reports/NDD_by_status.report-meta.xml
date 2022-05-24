@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Counseling__c.Accounts__r$Name</field>
+    </columns>
+    <columns>
+        <field>Counseling__c$Name</field>
+    </columns>
+    <columns>
+        <field>Counseling__c.Accounts__r.Opportunities$Name</field>
+    </columns>
+    <columns>
+        <field>Counseling__c$Counseling_Status__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Counseling__c.Accounts__r$College_Planning_Form_Complete__c</field>
+    </columns>
+    <columns>
+        <field>Counseling__c.Accounts__r.Opportunities$Owner</field>
+    </columns>
+    <columns>
+        <field>Counseling__c$CreatedDate</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <column>Counseling__c.Accounts__r.Opportunities$Post_Verto_Plans__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Needs Decision to Deposit</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Counseling__c.Accounts__r.Opportunities$StageName</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Closed Won,Closed Lost</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Counseling__c.Accounts__r.Opportunities$StageName</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>NDD by status</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opps_with_Counseling__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Counseling__c$CreatedDate</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Counseling__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

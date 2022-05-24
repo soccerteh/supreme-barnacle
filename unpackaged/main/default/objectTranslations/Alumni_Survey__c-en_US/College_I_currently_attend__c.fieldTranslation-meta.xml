@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- College I currently attend: --></label>
+        <lookupFilter>
+            <errorMessage><!-- Please enter a valid University. --></errorMessage>
+        </lookupFilter>
+        <name>College_I_currently_attend__c</name>
+        <relationshipLabel><!-- Alumni Surveys --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>Request_Information_Sharing</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Request Information Sharing</label>
+        <sharedTo>
+            <guestUser>Request_Information</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Event_Status__c</field>
+            <operation>equals</operation>
+            <value>Scheduled,Completed</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+</SharingRules>

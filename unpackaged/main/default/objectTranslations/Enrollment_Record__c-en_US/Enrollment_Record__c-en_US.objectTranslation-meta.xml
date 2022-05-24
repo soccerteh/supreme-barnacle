@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Enrollment Record</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Enrollment Records</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Additional Semester Layout</layout>
+        <sections>
+            <label><!-- Additional Enrollment Information --></label>
+            <section>Additional Enrollment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Form Information --></label>
+            <section>Form Information</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Retention Information [Temporary Section] --></label>
+            <section>Retention Information [Temporary Section]</section>
+        </sections>
+        <sections>
+            <label><!-- School of Record Information --></label>
+            <section>School of Record Information</section>
+        </sections>
+        <sections>
+            <label><!-- Student Onboarding Advisor Information --></label>
+            <section>Student Onboarding Advisor Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Visa Information --></label>
+            <section>Visa Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>First Semester Layout</layout>
+        <sections>
+            <label><!-- Additional Enrollment Information --></label>
+            <section>Additional Enrollment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Form Information --></label>
+            <section>Form Information</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Retention Information [Temporary Section] --></label>
+            <section>Retention Information [Temporary Section]</section>
+        </sections>
+        <sections>
+            <label><!-- School of Record Information --></label>
+            <section>School of Record Information</section>
+        </sections>
+        <sections>
+            <label><!-- Student Onboarding Advisor Information --></label>
+            <section>Student Onboarding Advisor Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Visa Information --></label>
+            <section>Visa Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Staff Portal</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Form Information --></label>
+            <section>Form Information</section>
+        </sections>
+        <sections>
+            <label><!-- School of Record Information --></label>
+            <section>School of Record Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>EREmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Checkpoint Layout --></label>
+        <name>Checkpoint_Layout</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- First Enrollment Record Info --></label>
+        <name>First_Enrollment_Record_Info</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Case --></label>
+        <name>New_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Student Success Notes --></label>
+        <name>Student_Success_Notes</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Default Record Type for Additional Verto Semesters --></description>
+        <label><!-- Additional Semester --></label>
+        <name>Additional_Semester</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Default Record Type for the First Semester --></description>
+        <label><!-- First Semester --></label>
+        <name>First_Semester</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- The opportunity can&apos;t be edited. --></errorMessage>
+        <name>Opportunity_Cannot_be_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Program field must always be filled. --></errorMessage>
+        <name>Program_Must_be_Populated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A withdrawal reason is needed if the student has withdrawn. --></errorMessage>
+        <name>Withdrawal_Reason_Requirements</name>
+    </validationRules>
+</CustomObjectTranslation>

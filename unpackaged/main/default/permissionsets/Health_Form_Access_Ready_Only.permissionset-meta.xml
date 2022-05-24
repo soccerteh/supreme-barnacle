@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>For Student Concern Portal Users</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Health Form Access - Ready Only</label>
+    <license>Partner Community</license>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Health_Form__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <recordTypeVisibilities>
+        <recordType>Health_Form__c.Health_History_Form</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

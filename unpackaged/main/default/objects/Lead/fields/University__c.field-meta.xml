@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>University__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Field originally created to track a purchased list of students from the University of South Florida who were denied admission or waitlisted. This field does not indicate that the student has submitted a channel application from the partner school.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Represents the channel partner school that shared the student&#39;s information with Verto PRIOR to the student submitting a channel application.</inlineHelpText>
+    <label>University</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>University</value>
+        </filterItems>
+        <filterItems>
+            <field>Account.Channel_Partner__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Leads (University)</relationshipLabel>
+    <relationshipName>Leads</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

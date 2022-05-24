@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disability_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Disability Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ADHD</fullName>
+                <default>false</default>
+                <label>ADHD</label>
+            </value>
+            <value>
+                <fullName>Learning Disability</fullName>
+                <default>false</default>
+                <label>Learning Disability</label>
+            </value>
+            <value>
+                <fullName>Mental Health</fullName>
+                <default>false</default>
+                <label>Mental Health</label>
+            </value>
+            <value>
+                <fullName>Chronic/ medical condition</fullName>
+                <default>false</default>
+                <label>Chronic/ medical condition</label>
+            </value>
+            <value>
+                <fullName>Physical disabilities</fullName>
+                <default>false</default>
+                <label>Physical disabilities</label>
+            </value>
+            <value>
+                <fullName>Low vision/ Blind</fullName>
+                <default>false</default>
+                <label>Low vision/ Blind</label>
+            </value>
+            <value>
+                <fullName>Hard of Hearing/ Deaf</fullName>
+                <default>false</default>
+                <label>Hard of Hearing/ Deaf</label>
+            </value>
+            <value>
+                <fullName>Autism Spectrum Disorder</fullName>
+                <default>false</default>
+                <label>Autism Spectrum Disorder</label>
+            </value>
+            <value>
+                <fullName>Intellectual disability</fullName>
+                <default>false</default>
+                <label>Intellectual disability</label>
+            </value>
+            <value>
+                <fullName>Traumatic Brain Injury</fullName>
+                <default>false</default>
+                <label>Traumatic Brain Injury</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

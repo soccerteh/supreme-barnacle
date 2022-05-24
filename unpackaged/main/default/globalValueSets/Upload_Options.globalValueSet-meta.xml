@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Not Required</fullName>
+        <default>false</default>
+        <label>Not Required</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing</fullName>
+        <default>false</default>
+        <label>Missing</label>
+    </customValue>
+    <customValue>
+        <fullName>Received</fullName>
+        <default>false</default>
+        <label>Received</label>
+    </customValue>
+    <customValue>
+        <fullName>Uploaded</fullName>
+        <default>false</default>
+        <label>Uploaded</label>
+    </customValue>
+    <customValue>
+        <fullName>Student Submitted to University</fullName>
+        <default>false</default>
+        <label>Student Submitted to University</label>
+    </customValue>
+    <masterLabel>Upload Options</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

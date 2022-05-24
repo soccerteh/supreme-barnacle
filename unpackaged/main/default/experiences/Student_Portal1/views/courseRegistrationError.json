@@ -1,0 +1,69 @@
+{
+  "appPageId" : "f8f8f5fe-a794-41ab-88e0-6bf8d49cc606",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "72d1cbd5-d963-475e-8d4f-c0532b515b6d",
+  "label" : "Course Registration Error",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 70,
+        "sectionConfig" : {
+          "UUID" : "2dad6eba-1b3f-49cd-903d-41ea9c5636cb",
+          "columns" : [ {
+            "UUID" : "1258a62a-c91c-4101-b8f3-5c5a16955f59",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 151
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "2dad6eba-1b3f-49cd-903d-41ea9c5636cb",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"slds-card\" style=\"background: white; padding: 25px;\"><br>\n    <h1 style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.icons8block90.1}\"></h1><br>\n    <h1 style=\"text-align: center;\"><strong style=\"font-size: 36px;\">Currently Ineligible</strong></h1>\n    <div style=\"text-align: center; color: rgb(68, 68, 68); font-size: 16px; padding: 20px 20px 0px;\">\n        <p>\n            It does not appear that you are currently eligible to participate in this portion of course registration.\n        </p>\n        <p>\n            This could be due to not completing the registration within the specified time period or other reasons.\n            If you believe this to be a mistake or would like additional information, please contact us at <a href=\"mailto:registrar@vertoeducation.org\">registrar@vertoeducation</a>.\n        </p>\n    </div>\n</div>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "30a6691d-492d-49c8-85f2-027b3a22fcbd",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1258a62a-c91c-4101-b8f3-5c5a16955f59",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6d48e372-82d1-48eb-bc92-ae3d33db83a9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Course Registration Error"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "a3d45305-1e50-400a-a08c-c285b0462d04",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6f4dd8b2-d239-4580-b635-3a6720d5e25e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-course-registration-error"
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tell us more about why you wish to nomin --></label>
+        <name>Tell_us_more_about_why_you_wish_to_nomin__c</name>
+    </CustomFieldTranslation>

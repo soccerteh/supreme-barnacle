@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Rating_Requirement</fullName>
+    <active>true</active>
+    <description>This will require the event rating to be populated if the Event Status is Completed.</description>
+    <errorConditionFormula>and(
+$User.Bypass_Validation__c = false,
+
+ISPICKVAL(Event_Status__c, &#39;Completed&#39;),
+ISBLANK(TEXT(Event_Rating__c)),
+
+or(isnew(),
+ischanged(Event_Status__c),
+ischanged(Event_Rating__c)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Event_Rating__c</errorDisplayField>
+    <errorMessage>Event Rating is required when Event Status is Completed.</errorMessage>
+</ValidationRule>

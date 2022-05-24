@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Verto_Semester__c</columns>
+    <columns>Semester_Applying_to_Partner__c</columns>
+    <columns>University_Decision__c</columns>
+    <columns>Final_Student_Decision__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>College_Application_Owner__c</field>
+        <operation>equals</operation>
+        <value>Krista Goebel</value>
+    </filters>
+    <label>All</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

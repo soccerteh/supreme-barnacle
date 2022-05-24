@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- z_Partner School Choice 3 --></label>
+        <name>z_Partner_School_Choice_3__c</name>
+        <relationshipLabel><!-- Enrollment Records (Partner School Choice 3) --></relationshipLabel>
+    </CustomFieldTranslation>

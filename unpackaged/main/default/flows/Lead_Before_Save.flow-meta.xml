@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <assignments>
+        <name>Assign_Reformatted_Phone</name>
+        <label>Assign Reformatted Phone</label>
+        <locationX>242</locationX>
+        <locationY>551</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Phone</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>ReformattedPhone</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>P1_Phone_Bad_Format</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Reformatted_Phone_P1</name>
+        <label>Assign Reformatted Phone P1</label>
+        <locationX>242</locationX>
+        <locationY>887</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Parent_Phone_Number__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>ReformattedPhoneP1</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>P2_Phone_Bad_Format</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Reformatted_Phone_P2</name>
+        <label>Assign Reformatted Phone P2</label>
+        <locationX>242</locationX>
+        <locationY>1223</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Parent_Guardian_2_Phone_Number__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>ReformattedPhoneP2</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>Override</name>
+        <label>Override?</label>
+        <locationX>176</locationX>
+        <locationY>311</locationY>
+        <defaultConnector>
+            <targetReference>Primary_Phone_Bad_Format</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$User.Override_Workflow__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Does the parent/guardian 1 phone have a format that will not sync with Five9?</description>
+        <name>P1_Phone_Bad_Format</name>
+        <label>P1 Phone Bad Format?</label>
+        <locationX>374</locationX>
+        <locationY>767</locationY>
+        <defaultConnector>
+            <targetReference>P2_Phone_Bad_Format</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes3</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Parent_Phone_Number__c</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>1</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Parent_Phone_Number__c</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>+</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Parent_Phone_Number__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>(</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Parent_Phone_Number__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>)</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Parent_Phone_Number__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>-</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Reformatted_Phone_P1</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Does the parent/guardian 2 phone have a format that will not sync with Five9?</description>
+        <name>P2_Phone_Bad_Format</name>
+        <label>P2 Phone Bad Format?</label>
+        <locationX>374</locationX>
+        <locationY>1103</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes4</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Parent_Guardian_2_Phone_Number__c</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>1</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Parent_Guardian_2_Phone_Number__c</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>+</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Parent_Guardian_2_Phone_Number__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>(</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Parent_Guardian_2_Phone_Number__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>)</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Parent_Guardian_2_Phone_Number__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>-</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Reformatted_Phone_P2</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Does the phone have a format that will not sync with Five9?</description>
+        <name>Primary_Phone_Bad_Format</name>
+        <label>Primary Phone Bad Format?</label>
+        <locationX>374</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>P1_Phone_Bad_Format</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes2</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Phone</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>1</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Phone</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>+</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Phone</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>(</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Phone</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>)</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Phone</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>-</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Reformatted_Phone</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <description>Reformat U.S. and Canadian phone numbers to allow Five9 sync</description>
+    <formulas>
+        <name>ReformattedPhone</name>
+        <dataType>String</dataType>
+        <expression>IF( 
+AND( 
+LEN( 
+SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( {!$Record.Phone}, &quot;+&quot;, &quot;&quot;) , &quot;(&quot;,&quot;&quot;), &quot;)&quot;,&quot;&quot;), &quot;-&quot;,&quot;&quot;), &quot; &quot;,&quot;&quot;)
+) = 11,
+LEFT( 
+SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( {!$Record.Phone}, &quot;+&quot;, &quot;&quot;) , &quot;(&quot;,&quot;&quot;), &quot;)&quot;,&quot;&quot;), &quot;-&quot;,&quot;&quot;), &quot; &quot;,&quot;&quot;),
+1) = &quot;1&quot;
+),
+RIGHT( 
+SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( {!$Record.Phone}, &quot;+&quot;, &quot;&quot;) , &quot;(&quot;,&quot;&quot;), &quot;)&quot;,&quot;&quot;), &quot;-&quot;,&quot;&quot;), &quot; &quot;,&quot;&quot;),
+10),
+SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( {!$Record.Phone}, &quot;+&quot;, &quot;&quot;) , &quot;(&quot;,&quot;&quot;), &quot;)&quot;,&quot;&quot;), &quot;-&quot;,&quot;&quot;), &quot; &quot;,&quot;&quot;)
+)</expression>
+    </formulas>
+    <formulas>
+        <description>parent/guardian 1</description>
+        <name>ReformattedPhoneP1</name>
+        <dataType>String</dataType>
+        <expression>IF( 
+AND( 
+LEN( 
+SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( {!$Record.Parent_Phone_Number__c}, &quot;+&quot;, &quot;&quot;) , &quot;(&quot;,&quot;&quot;), &quot;)&quot;,&quot;&quot;), &quot;-&quot;,&quot;&quot;), &quot; &quot;,&quot;&quot;)
+) = 11,
+LEFT( 
+SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( {!$Record.Parent_Phone_Number__c}, &quot;+&quot;, &quot;&quot;) , &quot;(&quot;,&quot;&quot;), &quot;)&quot;,&quot;&quot;), &quot;-&quot;,&quot;&quot;), &quot; &quot;,&quot;&quot;),
+1) = &quot;1&quot;
+),
+RIGHT( 
+SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( {!$Record.Parent_Phone_Number__c}, &quot;+&quot;, &quot;&quot;) , &quot;(&quot;,&quot;&quot;), &quot;)&quot;,&quot;&quot;), &quot;-&quot;,&quot;&quot;), &quot; &quot;,&quot;&quot;),
+10),
+SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( {!$Record.Parent_Phone_Number__c}, &quot;+&quot;, &quot;&quot;) , &quot;(&quot;,&quot;&quot;), &quot;)&quot;,&quot;&quot;), &quot;-&quot;,&quot;&quot;), &quot; &quot;,&quot;&quot;)
+)</expression>
+    </formulas>
+    <formulas>
+        <description>parent/guardian 2</description>
+        <name>ReformattedPhoneP2</name>
+        <dataType>String</dataType>
+        <expression>IF( 
+AND( 
+LEN( 
+SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( {!$Record.Parent_Guardian_2_Phone_Number__c}, &quot;+&quot;, &quot;&quot;) , &quot;(&quot;,&quot;&quot;), &quot;)&quot;,&quot;&quot;), &quot;-&quot;,&quot;&quot;), &quot; &quot;,&quot;&quot;)
+) = 11,
+LEFT( 
+SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( {!$Record.Parent_Guardian_2_Phone_Number__c}, &quot;+&quot;, &quot;&quot;) , &quot;(&quot;,&quot;&quot;), &quot;)&quot;,&quot;&quot;), &quot;-&quot;,&quot;&quot;), &quot; &quot;,&quot;&quot;),
+1) = &quot;1&quot;
+),
+RIGHT( 
+SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( {!$Record.Parent_Guardian_2_Phone_Number__c}, &quot;+&quot;, &quot;&quot;) , &quot;(&quot;,&quot;&quot;), &quot;)&quot;,&quot;&quot;), &quot;-&quot;,&quot;&quot;), &quot; &quot;,&quot;&quot;),
+10),
+SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( {!$Record.Parent_Guardian_2_Phone_Number__c}, &quot;+&quot;, &quot;&quot;) , &quot;(&quot;,&quot;&quot;), &quot;)&quot;,&quot;&quot;), &quot;-&quot;,&quot;&quot;), &quot; &quot;,&quot;&quot;)
+)</expression>
+    </formulas>
+    <interviewLabel>Lead - Before Save {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Lead - Before Save</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Override</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>(1 or 2) and (3 or 4) and (5 or 6 or 7 or 8 or 9 or 10 or 11 or 12 or 13 or 14 or 15 or 16 or 17 or 18 or 19)</filterLogic>
+        <filters>
+            <field>Country</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>United States</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Country</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Canada</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>RecordTypeId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>0123h0000015NluAAE</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>RecordTypeId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>0123h000000VHZDAA4</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Phone</field>
+            <operator>StartsWith</operator>
+            <value>
+                <stringValue>1</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Phone</field>
+            <operator>StartsWith</operator>
+            <value>
+                <stringValue>+</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Phone</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>(</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Phone</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>)</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Phone</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>-</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Parent_Phone_Number__c</field>
+            <operator>StartsWith</operator>
+            <value>
+                <stringValue>1</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Parent_Phone_Number__c</field>
+            <operator>StartsWith</operator>
+            <value>
+                <stringValue>+</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Parent_Phone_Number__c</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>(</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Parent_Phone_Number__c</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>)</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Parent_Phone_Number__c</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>-</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Parent_Guardian_2_Phone_Number__c</field>
+            <operator>StartsWith</operator>
+            <value>
+                <stringValue>1</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Parent_Guardian_2_Phone_Number__c</field>
+            <operator>StartsWith</operator>
+            <value>
+                <stringValue>+</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Parent_Guardian_2_Phone_Number__c</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>(</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Parent_Guardian_2_Phone_Number__c</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>)</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Parent_Guardian_2_Phone_Number__c</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>-</stringValue>
+            </value>
+        </filters>
+        <object>Lead</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>UpdatedLead</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Lead</objectType>
+    </variables>
+</Flow>

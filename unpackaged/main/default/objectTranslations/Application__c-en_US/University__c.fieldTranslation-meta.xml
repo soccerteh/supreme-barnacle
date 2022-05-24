@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The university/college that the channel enrollment or bridge application was sourced from --></help>
+        <label><!-- University --></label>
+        <name>University__c</name>
+        <relationshipLabel><!-- Applications (Channel Enrollment University) --></relationshipLabel>
+    </CustomFieldTranslation>

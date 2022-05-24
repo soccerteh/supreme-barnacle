@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Any final comments or questions? --></label>
+        <name>Any_final_comments_or_questions__c</name>
+    </CustomFieldTranslation>

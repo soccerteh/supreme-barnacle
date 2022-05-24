@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The message that will be displayed to the student regarding corequisites. --></help>
+        <label><!-- Corequisite Description --></label>
+        <name>Corequisite_Description__c</name>
+    </CustomFieldTranslation>

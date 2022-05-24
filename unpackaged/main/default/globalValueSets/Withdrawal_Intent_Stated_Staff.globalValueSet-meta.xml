@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Financial Services</fullName>
+        <default>false</default>
+        <label>Financial Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Student Onboarding Advisor</fullName>
+        <default>false</default>
+        <label>Student Onboarding Advisor</label>
+    </customValue>
+    <customValue>
+        <fullName>Academic Success Coach</fullName>
+        <default>false</default>
+        <label>Academic Success Coach</label>
+    </customValue>
+    <customValue>
+        <fullName>Program Leader</fullName>
+        <default>false</default>
+        <label>Program Leader</label>
+    </customValue>
+    <customValue>
+        <fullName>Professor(s)</fullName>
+        <default>false</default>
+        <label>Professor(s)</label>
+    </customValue>
+    <customValue>
+        <fullName>College Counselor</fullName>
+        <default>false</default>
+        <label>College Counselor</label>
+    </customValue>
+    <customValue>
+        <fullName>Admissions Counselor</fullName>
+        <default>false</default>
+        <label>Admissions Counselor</label>
+    </customValue>
+    <customValue>
+        <fullName>No, I have not spoken with anyone about my intent to withdraw</fullName>
+        <default>false</default>
+        <label>No, I have not spoken with anyone about my intent to withdraw</label>
+    </customValue>
+    <customValue>
+        <fullName>Student Life Coordinator</fullName>
+        <default>false</default>
+        <label>Student Life Coordinator</label>
+    </customValue>
+    <masterLabel>Withdrawal Intent Stated Staff</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

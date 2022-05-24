@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Important_Factors_in_Selection_Legacy__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This is legacy data from submissions prior to 11-13-2020.</inlineHelpText>
+    <label>z_Important Factors in Selection Legacy</label>
+    <length>300</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>2</visibleLines>
+</CustomField>

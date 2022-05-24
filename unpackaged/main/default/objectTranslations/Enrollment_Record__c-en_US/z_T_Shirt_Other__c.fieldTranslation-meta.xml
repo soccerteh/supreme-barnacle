@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- z_T-Shirt: Other --></label>
+        <name>z_T_Shirt_Other__c</name>
+    </CustomFieldTranslation>

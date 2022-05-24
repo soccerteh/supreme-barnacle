@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Approval_Process_Active_False</fullName>
+        <field>Approval_Process_Active__c</field>
+        <literalValue>0</literalValue>
+        <name>Approval Process Active = False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approval_Process_Active_True</fullName>
+        <field>Approval_Process_Active__c</field>
+        <literalValue>1</literalValue>
+        <name>Approval Process Active = True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Close_Date_Today</fullName>
+        <field>CloseDate</field>
+        <formula>today()</formula>
+        <name>Close Date = Today</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Convert_GPA_100_PT_Scale</fullName>
+        <field>z_GPA_on_4_0_Scale__c</field>
+        <formula>(z_High_School_GPA__c/100) * 4</formula>
+        <name>Convert GPA: 100 PT Scale</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Convert_GPA_5_PT_Scale</fullName>
+        <field>z_GPA_on_4_0_Scale__c</field>
+        <formula>(z_High_School_GPA__c /5) * 4</formula>
+        <name>Convert GPA: 5 PT Scale</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Convert_GPA_6_PT_Scale</fullName>
+        <field>z_GPA_on_4_0_Scale__c</field>
+        <formula>(z_High_School_GPA__c /6) * 4</formula>
+        <name>Convert GPA: 6 PT Scale</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Loss_Reason_Admission_Denied_by_Verto</fullName>
+        <field>Loss_Reason__c</field>
+        <literalValue>Admission Denied by Verto</literalValue>
+        <name>Loss Reason = Admission Denied by Verto</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Semesters_Interest_Undecided</fullName>
+        <field>Z_Which_Verto_Semesters_Interest_You_Mo__c</field>
+        <formula>&quot;Undecided&quot;</formula>
+        <name>Semesters Interest = Undecided</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Approval_Process_Completion_Date</fullName>
+        <field>Approval_Process_Completion_Date__c</field>
+        <formula>today()</formula>
+        <name>Set Approval Process Completion Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Most_Recent_Admitted_Date_Time</fullName>
+        <description>Set Most Recent Admitted Date/Time to when record was approved</description>
+        <field>Most_Recent_Admitted_Date_Time__c</field>
+        <formula>NOW()</formula>
+        <name>Set Most Recent Admitted Date/Time</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Stage_Admitted</fullName>
+        <field>StageName</field>
+        <literalValue>Admitted</literalValue>
+        <name>Stage = Admitted</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Stage_Closed_Lost</fullName>
+        <field>StageName</field>
+        <literalValue>Closed Lost</literalValue>
+        <name>Stage = Closed Lost</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UpdateRT</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Traditional_Enrollment</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>UpdateRT</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <outboundMessages>
+        <fullName>New_Customer_In_Quickbooks</fullName>
+        <apiVersion>51.0</apiVersion>
+        <endpointUrl>https://hooks.zapier.com/hooks/catch/9928313/ov3r0di/</endpointUrl>
+        <fields>AccountId</fields>
+        <fields>Id</fields>
+        <fields>Z_Parent_1_Email__c</fields>
+        <fields>Z_Parent_2_Email__c</fields>
+        <fields>z_Email__c</fields>
+        <fields>z_First_Name__c</fields>
+        <fields>z_Last_Name__c</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>zapier@vertoeducation.org</integrationUser>
+        <name>New Customer In Quickbooks</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+    <rules>
+        <fullName>Convert GPA%3A 100 PT Scale</fullName>
+        <actions>
+            <name>Convert_GPA_100_PT_Scale</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.z_GPA_Scale__c</field>
+            <operation>equals</operation>
+            <value>100</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.z_High_School_GPA__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Convert GPA%3A 5 PT Scale</fullName>
+        <actions>
+            <name>Convert_GPA_5_PT_Scale</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.z_GPA_Scale__c</field>
+            <operation>equals</operation>
+            <value>5.0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.z_High_School_GPA__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Convert GPA%3A 6 PT Scale</fullName>
+        <actions>
+            <name>Convert_GPA_6_PT_Scale</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.z_GPA_Scale__c</field>
+            <operation>equals</operation>
+            <value>6.0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.z_High_School_GPA__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>New Closed Won Opportunity</fullName>
+        <actions>
+            <name>New_Customer_In_Quickbooks</name>
+            <type>OutboundMessage</type>
+        </actions>
+        <active>true</active>
+        <formula>and(  $User.Override_Workflow__c = false,  OR( AND( ISCHANGED(StageName),      OR(         ISPICKVAL(StageName, &quot;Closed Won (Enrolled)&quot;),          ISPICKVAL(StageName, &quot;Closed Won&quot;))),  Trigger_Quickbooks__c) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>New Traditional Opp</fullName>
+        <actions>
+            <name>UpdateRT</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>LEFT( Associated_Application__r.RecordTypeId , 15) = LEFT( $Label.RT_Application_TraditionalEnrollment , 15)</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>No Semester Interest Upon Closed Won</fullName>
+        <actions>
+            <name>Semesters_Interest_Undecided</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>If an opportunity is Closed Won and the Which Verto Semesters Interest You Most? field is blank, populate Undecided.</description>
+        <formula>and(  $User.Override_Workflow__c = False, or( ischanged(StageName), ischanged(Z_Which_Verto_Semesters_Interest_You_Mo__c)),  ispickval(StageName, &quot;Closed Won (Enrolled)&quot;), isblank(Z_Which_Verto_Semesters_Interest_You_Mo__c))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Set Close Date when Opp is Closed</fullName>
+        <actions>
+            <name>Close_Date_Today</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>and(  $User.Override_Workflow__c = false,  or( ischanged( IsClosed ), ischanged(StageName) ),  or( IsClosed = true, ispickval(StageName, &quot;Closed Won (Enrolled)&quot;), ispickval(StageName, &quot;Closed Won&quot;), ispickval(StageName, &quot;Closed Lost&quot;) ) )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,49 @@
+{
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "7c90083d-56d1-495a-bbb9-64983ac6b7df",
+  "label" : "Student Success Survey",
+  "regions" : [ {
+    "id" : "a6e6cd51-8d39-45fa-a108-f7dc12e3255c",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"Account_Id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!aid}\"},{\"label\":\"Program_Id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!program}\"}]",
+        "flowLayout" : "oneColumn",
+        "flowName" : "Student_Success_Survey"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "5cdaa121-0293-4603-a18a-5c85d7616d6e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "78a13aed-74e7-4cc8-9c88-b57bbe62740a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "e5955e3e-f3e0-43c6-9c09-a56dbff41b99",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Student Success Survey"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "06945342-9d1c-46b5-a2e2-b5f887ab2e1b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "00ca7b0f-37b6-4b5a-a152-545772e35782",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-student-success-survey"
+}

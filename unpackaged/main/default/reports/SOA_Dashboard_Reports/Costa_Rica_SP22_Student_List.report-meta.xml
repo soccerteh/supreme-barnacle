@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$First_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account$Last_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account$Email__c</field>
+    </columns>
+    <columns>
+        <field>Account$Date_of_Birth__c</field>
+    </columns>
+    <columns>
+        <field>Account$Passport_Issuing_Country__c</field>
+    </columns>
+    <columns>
+        <field>Account$Passport_Number__c</field>
+    </columns>
+    <columns>
+        <field>Account$Passport_Expiration_Date__c</field>
+    </columns>
+    <columns>
+        <field>Account$Passport_Sex__c</field>
+    </columns>
+    <columns>
+        <field>Account$Passport_Full_Legal_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account.Enrollment_Records__r$Enrollment_Status__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Account.Enrollment_Records__r$Program_Semester_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Spring 2022</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Enrollment_Records__r$Program__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Costa Rica</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Enrollment_Records__r$Enrollment_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Enrolled,Pending Withdrawal,Withdrew,Cancel,Dismissed,Verto Cancel</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Spring 2022 Costa Rica Report (OS)</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Enrollment_Records__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Account.Enrollment_Records__r$Enrollment_Status__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

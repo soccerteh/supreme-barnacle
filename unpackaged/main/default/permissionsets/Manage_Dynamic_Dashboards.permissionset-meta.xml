@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create, edit, and delete dynamic dashboards. Grants the option to set the dashboard running user. This permission does not grant this access to ALL dynamic dashboards, unless the user has access via a different permission set.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Manage Dynamic Dashboards</label>
+    <license>Salesforce</license>
+</PermissionSet>

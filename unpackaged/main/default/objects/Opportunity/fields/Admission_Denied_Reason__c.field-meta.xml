@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Admission_Denied_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Admission Denied Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Behavior</fullName>
+                <default>false</default>
+                <label>Behavior</label>
+            </value>
+            <value>
+                <fullName>Low GPA</fullName>
+                <default>false</default>
+                <label>Low GPA</label>
+            </value>
+            <value>
+                <fullName>Needs Academic Accommodations</fullName>
+                <default>false</default>
+                <label>Needs Academic Accommodations</label>
+            </value>
+            <value>
+                <fullName>Safety Reasons</fullName>
+                <default>false</default>
+                <label>Safety Reasons</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

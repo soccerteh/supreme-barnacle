@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quiet_Person__c</fullName>
+    <externalId>false</externalId>
+    <label>Quiet Person?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes, I would like a roommate who prefers a quiet environment with fewer people hanging around.</fullName>
+                <default>false</default>
+                <label>Yes, I would like a roommate who prefers a quiet environment with fewer people hanging around.</label>
+            </value>
+            <value>
+                <fullName>No, I like to have people over, share my space, and play music without headphones/earbuds.</fullName>
+                <default>false</default>
+                <label>No, I like to have people over, share my space, and play music without headphones/earbuds.</label>
+            </value>
+            <value>
+                <fullName>No Preference.</fullName>
+                <default>false</default>
+                <label>No Preference.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

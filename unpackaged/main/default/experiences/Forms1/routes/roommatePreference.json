@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "74fcd7cb-af8c-4ccd-a95d-989c8b9f5918",
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "configurationTags" : [ ],
+  "id" : "e88c0271-895f-4213-96cd-0854a1e19edf",
+  "label" : "Roommate Preference",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-roommate-preference",
+  "type" : "route",
+  "urlPrefix" : "RoommatePreference"
+}

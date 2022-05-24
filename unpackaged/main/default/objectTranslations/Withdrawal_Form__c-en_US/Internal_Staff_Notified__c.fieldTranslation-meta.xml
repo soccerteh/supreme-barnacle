@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Internal Staff Notified --></label>
+        <name>Internal_Staff_Notified__c</name>
+        <picklistValues>
+            <masterLabel>Academic Success Coach</masterLabel>
+            <translation><!-- Academic Success Coach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Admissions Counselor</masterLabel>
+            <translation><!-- Admissions Counselor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>College Counselor</masterLabel>
+            <translation><!-- College Counselor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Services</masterLabel>
+            <translation><!-- Financial Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No, I have not spoken with anyone about my intent to withdraw</masterLabel>
+            <translation><!-- No, I have not spoken with anyone about my intent to withdraw --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professor(s)</masterLabel>
+            <translation><!-- Professor(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program Leader</masterLabel>
+            <translation><!-- Program Leader --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student Life Coordinator</masterLabel>
+            <translation><!-- Student Life Coordinator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student Onboarding Advisor</masterLabel>
+            <translation><!-- Student Onboarding Advisor --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

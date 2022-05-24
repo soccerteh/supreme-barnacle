@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "794bfbd0-2a41-42e6-9478-55f339d28cda",
+  "appPageId" : "de408c33-b15c-4263-a366-fefa60038b5f",
+  "configurationTags" : [ ],
+  "id" : "780a23d5-4e3e-493b-981a-79ff3c2d6de6",
+  "label" : "Additional Reports",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-additional-reports",
+  "type" : "route",
+  "urlPrefix" : "additional-reports"
+}

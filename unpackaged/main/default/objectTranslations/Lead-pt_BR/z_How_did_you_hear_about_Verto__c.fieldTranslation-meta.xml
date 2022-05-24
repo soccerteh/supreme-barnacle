@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- z_How did you hear about Verto? --></label>
+        <name>z_How_did_you_hear_about_Verto__c</name>
+    </CustomFieldTranslation>

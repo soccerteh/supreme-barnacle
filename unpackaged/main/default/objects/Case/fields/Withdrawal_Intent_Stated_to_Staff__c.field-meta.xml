@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Withdrawal_Intent_Stated_to_Staff__c</fullName>
+    <externalId>false</externalId>
+    <label>Withdrawal Intent Stated to Staff</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Withdrawal_Intent_Stated_Staff</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

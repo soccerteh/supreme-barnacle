@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requires_Additional_Review__c</fullName>
+    <externalId>false</externalId>
+    <label>Requires Additional Review</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AP Test Score(s)</fullName>
+                <default>false</default>
+                <label>AP Test Score(s)</label>
+            </value>
+            <value>
+                <fullName>Prior College Credit(s)</fullName>
+                <default>false</default>
+                <label>Prior College Credit(s)</label>
+            </value>
+            <value>
+                <fullName>Final Transcript</fullName>
+                <default>false</default>
+                <label>Final Transcript</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

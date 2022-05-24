@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+Thank you for jumping on a call with me today. Based on our conversation, I'm hearing that you'd like to proceed with withdrawal from your {{{Enrollment_Record__c.Program__c}}} program. While I'm sad to hear this news, I want to make sure you're equipped with all the information and next steps in the withdrawal process.&nbsp;<br />
+<br />
+To begin the process, please review the <a href="https://vertoeducation.org/payment-cancellation-policy/">Verto Payment &amp; Cancellation Policy</a> in detail. It's especially important to note that your $500 deposit is non-refundable, as per the conditions of the Verto Cancellation and Payment Policy. You also should note that the Semester Withdrawal Form is required. <b>Verbal requests to withdrawal or intent to withdraw cannot be honored as official requests.</b> It's equally important that you review how withdrawal could affect any financial aid or college acceptances through Verto.&nbsp;<br />
+<br />
+Once you've thoroughly reviewed the <a href="https://vertoeducation.org/payment-cancellation-policy/">Verto Payment &amp; Cancellation Policy</a> &nbsp;you can complete your Semester Withdrawal Form via this link (you may need to copy and paste the link into your browser):&nbsp;&nbsp;{{{Enrollment_Record__c.Withdrawal_Request_Link__c}}}.<br />
+<br />
+After you submit your form, the Student Onboarding Team will review the request and be in contact with you regarding next steps. If you change your mind or have any questions, please do let me know! At Verto, our mission is to help students navigate the path of least resistance to a meaningful college education, so if there's anything we can do to help, don't hesitate to let me know.&nbsp;<br />
+<br />
+Best,&nbsp;<br />
+{{{Sender.FirstName}}}<br />
+<br />
+{{{Sender.Signature}}}<br />
+&nbsp;
+</body></html>

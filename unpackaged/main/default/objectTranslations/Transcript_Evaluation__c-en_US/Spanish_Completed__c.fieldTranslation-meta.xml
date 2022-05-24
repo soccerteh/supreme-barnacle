@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Spanish Completed --></label>
+        <name>Spanish_Completed__c</name>
+        <picklistValues>
+            <masterLabel>Four Years</masterLabel>
+            <translation><!-- Four Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One Year</masterLabel>
+            <translation><!-- One Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Three Years</masterLabel>
+            <translation><!-- Three Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Two Years</masterLabel>
+            <translation><!-- Two Years --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Inquiry</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Inquiries</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Parent</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing --></label>
+            <section>Marketing</section>
+        </sections>
+        <sections>
+            <label><!-- Parent Information --></label>
+            <section>Parent Information</section>
+        </sections>
+        <sections>
+            <label><!-- Student Information --></label>
+            <section>Student Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Request for Information Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Tracking Information --></label>
+            <section>Marketing Tracking Information</section>
+        </sections>
+        <sections>
+            <label><!-- Parent/Guardian Information --></label>
+            <section>Parent/Guardian Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Started Application</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Tracking Information --></label>
+            <section>Marketing Tracking Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Parent --></label>
+        <name>Parent</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Request for Information --></label>
+        <name>Request_for_Information</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Started Application --></label>
+        <name>Started_Application</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- A valid first name, last name, email, phone, country, and postal code are required to save --></errorMessage>
+        <name>Contact_Fields_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

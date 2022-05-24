@@ -1,0 +1,13 @@
+<template>
+  <template iterator:it={cart}>
+    <c-cart-item key={it.value.primaryItemId}
+      id={it.value.primaryItemId}
+      item-name={it.value.primaryItemName}
+      sub-item-name={it.value.subItemName}
+      onincrement={handleOnIncrement}
+      ondecrement={handleOnDecrement}
+      first={it.first}
+      last={it.last}
+    ></c-cart-item>
+  </template>
+</template>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Applications_with_low_GPA</fullName>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Year_of_Graduation__c</columns>
+    <columns>High_School_GPA__c</columns>
+    <columns>Associated_Application_Date_Time__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>High_School_GPA__c</field>
+        <operation>lessOrEqual</operation>
+        <value>2.49</value>
+    </filters>
+    <filters>
+        <field>Associated_Application__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Marketing Nurture,Unqualified</value>
+    </filters>
+    <filters>
+        <field>Year_of_Graduation__c</field>
+        <operation>equals</operation>
+        <value>2019,2020,2021,2022</value>
+    </filters>
+    <filters>
+        <field>Most_Recent_Call_Date__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Applications with low GPA</label>
+</ListView>

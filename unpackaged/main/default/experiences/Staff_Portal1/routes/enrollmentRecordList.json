@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "aee79381-58c1-4be8-90b7-6b3417c4e213",
+  "appPageId" : "343e1c50-9b03-4e63-98c9-c932e5e44c31",
+  "configurationTags" : [ ],
+  "id" : "30c1f60a-fb0f-489f-9748-879f24f8bfd6",
+  "label" : "Enrollment Record List",
+  "objectApiName" : "Enrollment_Record__c",
+  "routeType" : "list-a17",
+  "type" : "route",
+  "urlPrefix" : "enrollment-record"
+}

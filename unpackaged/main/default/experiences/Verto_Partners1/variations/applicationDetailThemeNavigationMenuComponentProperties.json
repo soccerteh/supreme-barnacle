@@ -1,0 +1,15 @@
+{
+  "componentVariants" : [ {
+    "id" : "881da7d7-c986-4cec-afbc-3b568c9d0726",
+    "propertyOverrides" : {
+      "componentAttributes" : {
+        "navigationMenuEditorRefresh" : "Channel_Partner_Navigation"
+      }
+    },
+    "targetId" : "91960b50-9333-479c-9751-9c9178993766",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Application_Detail_Theme_Navigation_Menu_Component_Properties",
+  "id" : "0f08a0a8-9d0e-4bd7-ab33-0c972025ca99",
+  "type" : "experienceVariation"
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Opportunity.OpportunityContactRoles$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity.OpportunityContactRoles$FirstName</field>
+    </columns>
+    <columns>
+        <field>Opportunity.OpportunityContactRoles$LastName</field>
+    </columns>
+    <columns>
+        <field>Opportunity.OpportunityContactRoles$Email</field>
+    </columns>
+    <columns>
+        <field>Opportunity.OpportunityContactRoles*Contact$Persona__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.OpportunityContactRoles$MailingCity</field>
+    </columns>
+    <columns>
+        <field>Opportunity.OpportunityContactRoles$MailingState</field>
+    </columns>
+    <columns>
+        <field>Opportunity.OpportunityContactRoles$MailingPostalCode</field>
+    </columns>
+    <columns>
+        <field>Opportunity$StageName</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Fafsa__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Deposit_Date__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity$Pell_Grant_Amount_Paid__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity$Enrollment_Record__c.Semester_Withdrawal_Form_Submitted__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Enrollment_Status__c</field>
+    </columns>
+    <description>All Time Verto Alumni with Zip Code</description>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity.OpportunityContactRoles*Contact$Persona__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Alumni,US High School Student,International High School Student</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity$StageName</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Closed Won</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Additional Semester</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity$Current_Program__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Spring 2023,Fall 2022,Spring 2022</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity$Enrollment_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Cancel,Verto Cancel</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Applied &gt;did not attend, all time</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunities_with_Contact_Roles_Custom__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <sortColumn>Opportunity$Name</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Opportunity$CloseDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

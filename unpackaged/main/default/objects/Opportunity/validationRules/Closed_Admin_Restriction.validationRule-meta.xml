@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Admin_Restriction</fullName>
+    <active>true</active>
+    <description>Restricts the Loss Reason from being changed to Closed Admin by anyone except a system administrator</description>
+    <errorConditionFormula>and(
+!$User.Bypass_Validation__c,
+
+left($User.ProfileId, 15) &lt;&gt; left( $Label.Profile_SystemAdministrator , 15),
+
+ispickval( Loss_Reason__c , &quot;Closed Admin&quot;),
+
+ischanged(Loss_Reason__c)
+)</errorConditionFormula>
+    <errorMessage>Only a system administrator can select the Closed Admin loss reason. Please select a different loss reason or submit a request for support.</errorMessage>
+</ValidationRule>

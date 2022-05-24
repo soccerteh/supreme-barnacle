@@ -1,0 +1,91 @@
+{
+  "appPageId" : "de408c33-b15c-4263-a366-fefa60038b5f",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "db166830-cb37-47d2-894e-f4d29380337c",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 26px;\">Welcome to the Verto Education Partner Portal. </span></p><p style=\"text-align: center;\"><span style=\"font-size: 26px;\">Visit the </span><a href=\"https://sites.google.com/vertoeducation.org/vertopartnerhub/home\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 26px;\">Verto Education Partner Hub</a><span style=\"font-size: 26px;\"> for the most up to date information about Verto!</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "c7075e34-35aa-48e7-a29a-0817d1fb27d0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9f8b5cc5-5fd1-4c29-800e-e986378ba466",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 16px; color: rgb(0, 0, 0); background-color: transparent;\">We are so excited to debut our new Partner Portal!</span></p><p><br></p><ul><li class=\"ql-indent-1\"><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">To learn more about how to navigate the portal, check out our FAQ tab. This links out to a user guide and has the answers to some common questions.</span></li></ul><p><br></p><ul><li class=\"ql-indent-1\"><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">We're also here to help! If you would like a refresher training for you and your team, pick the slot that works best for you </span><a href=\"https://calendly.com/lakota-bowen/partner-portal-training\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(17, 85, 204); background-color: transparent;\">here.</a></li></ul><p><br></p><ul><li class=\"ql-indent-1\"><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">Please remember that all BOX access has </span><b style=\"color: rgb(0, 0, 0); background-color: transparent;\">ended</b><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">.</span></li></ul><p><br></p><ul><li class=\"ql-indent-1\"><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">We welcome your </span><a href=\"https://docs.google.com/forms/d/153Ckt6Sk-1r_hmS3QX6If28ZlZOLBEvrvzmVtvbDRK8/edit\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(17, 85, 204); background-color: transparent;\">feedback!</a></li></ul><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "541421a3-c5d9-4fd4-8288-864f7f1c423e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><span style=\"font-size: 16px; color: rgb(0, 0, 0); background-color: transparent;\">We are so excited to debut our new Partner Portal!</span></p><p><br></p><ul><li class=\"ql-indent-1\"><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">To learn more about how to navigate the portal, check out our FAQ tab. This links out to a user guide and has the answers to some common questions.</span></li></ul><p><br></p><ul><li class=\"ql-indent-1\"><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">We're also here to help! If you would like to schedule a training or refresher for you and your team, pick the slot that works best for you </span><a href=\"https://calendly.com/lakota-bowen/partner-portal-training\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(17, 85, 204); background-color: transparent;\">here.</a></li></ul><p><br></p><ul><li class=\"ql-indent-1\"><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">Please remember that all BOX access has ended.</span></li></ul><p><br></p><ul><li class=\"ql-indent-1\"><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">We welcome your </span><a href=\"https://docs.google.com/forms/d/153Ckt6Sk-1r_hmS3QX6If28ZlZOLBEvrvzmVtvbDRK8/edit\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(17, 85, 204); background-color: transparent;\">feedback!</a></li></ul><p><br></p><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "8b82bc40-c018-4727-8251-cfdce7b3d322",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "815bdf0a-6740-4e89-9f64-ed7a305093d5",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "",
+        "flowLayout" : "oneColumn",
+        "flowName" : "Add_Point_of_Contact"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "bbebb709-dd12-4a6e-b8ec-369271bfda78",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "Contact:\n<ul>\n    <li>Lakota Bowen</li>\n    <ul>\n    \t<li>Email: <a href=\"mailto:lakota.bowen@vertoeducation.org\" style=\"color:#efac06\">lakota.bowen@vertoeducation.org</a></li>\n        <li><a href=\"https://calendly.com/lakota-bowen\">Book a meeting</a></li>\n    </ul>\n    <li>Nicole Holmberg</li>\n    <ul>\n    \t<li>Email: <a href=\"mailto:Nicole.holmberg@vertoeducation.org\" style=\"color:#efac06\">nicole.holmberg@vertoeducation.org</a></li>\n        <li><a href=\"https://calendly.com/nicole-holmberg-1\">Book a meeting</a></li>\n    </ul>\n<ul>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "3c134aa3-d01f-4fa7-860a-b983ced5c276",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4b9a25f7-259a-4fe8-ac35-8acc74d33bb1",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "85b8211a-dc4f-402d-93d4-0af759bc0a30",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "a813d8e2-3e64-4b28-8a3c-9c7f623b06ad",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "076b06e2-4153-4d0d-a46b-f3bb16ed8a81",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

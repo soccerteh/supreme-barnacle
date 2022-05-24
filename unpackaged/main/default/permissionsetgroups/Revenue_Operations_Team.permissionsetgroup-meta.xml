@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Members of the Digital Product team, including system integration users, as well as third party consultants if needed</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Digital Product Team</label>
+    <permissionSets>Alumni_Survey_Permissions</permissionSets>
+    <permissionSets>Manage_Salesforce_System_Admin_Permissions</permissionSets>
+    <permissionSets>Marketing_Cloud_Connected_App</permissionSets>
+    <permissionSets>VisualAntidote__Community_Regular_Permissions</permissionSets>
+    <permissionSets>VisualAntidote__Community_Services</permissionSets>
+    <permissionSets>VisualAntidote__Fast_Forms_Permissions</permissionSets>
+    <permissionSets>VisualAntidote__Formstack_Admin_Settings</permissionSets>
+    <permissionSets>VisualAntidote__Formstack_App_Launcher</permissionSets>
+    <permissionSets>VisualAntidote__NativeCloud_Permissions</permissionSets>
+    <permissionSets>VisualAntidote__Utility_Permissions</permissionSets>
+    <permissionSets>box__Box_Admin</permissionSets>
+    <permissionSets>et4ae5__DMTracking</permissionSets>
+    <permissionSets>et4ae5__ExactTarget_Integration_Admin</permissionSets>
+    <permissionSets>et4ae5__Marketing_Cloud_Connector_Partner_Community_User</permissionSets>
+    <permissionSets>et4ae5__Marketing_Cloud_System_User</permissionSets>
+    <permissionSets>fpro__FieldProApp</permissionSets>
+    <permissionSets>heymarket__Heymarket_Admin</permissionSets>
+    <permissionSets>n2de__Distribution_Engine_Admin</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

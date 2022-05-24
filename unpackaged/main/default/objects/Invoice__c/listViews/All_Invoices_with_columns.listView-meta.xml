@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Invoices_with_columns</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Date_Paid__c</columns>
+    <columns>Amount__c</columns>
+    <columns>Is_Deposit__c</columns>
+    <columns>Location__c</columns>
+    <columns>Semester__c</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Notes__c</columns>
+    <columns>Stripe_Email_Address__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Invoices with columns</label>
+</ListView>

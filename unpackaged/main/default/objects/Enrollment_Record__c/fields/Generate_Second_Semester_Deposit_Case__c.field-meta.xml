@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Generate_Second_Semester_Deposit_Case__c</fullName>
+    <defaultValue>&quot;No&quot;</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>Change this field to Yes to have the system automatically generate a Case for Admissions to collect a second deposit.</inlineHelpText>
+    <label>Generate Second Semester Deposit Case</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Yes_No</valueSetName>
+    </valueSet>
+</CustomField>

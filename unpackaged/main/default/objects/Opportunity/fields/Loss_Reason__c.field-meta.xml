@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loss_Reason__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <externalId>false</externalId>
+    <label>Loss Reason</label>
+    <required>false</required>
+    <securityClassification>MissionCritical</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Admission Denied by Verto</fullName>
+                <default>false</default>
+                <label>Admission Denied by Verto</label>
+            </value>
+            <value>
+                <fullName>Chose Alternate Source</fullName>
+                <default>false</default>
+                <label>Chose Alternate Source</label>
+            </value>
+            <value>
+                <fullName>Cost</fullName>
+                <default>false</default>
+                <label>Cost</label>
+            </value>
+            <value>
+                <fullName>Course Credit Redundancy</fullName>
+                <default>false</default>
+                <label>Course Credit Redundancy</label>
+            </value>
+            <value>
+                <fullName>Different Route</fullName>
+                <default>false</default>
+                <label>Different Route</label>
+            </value>
+            <value>
+                <fullName>Discomfort with Travel</fullName>
+                <default>false</default>
+                <label>Discomfort with Travel</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>Expired</fullName>
+                <default>false</default>
+                <label>Expired</label>
+            </value>
+            <value>
+                <fullName>Family Needs</fullName>
+                <default>false</default>
+                <label>Family Needs</label>
+            </value>
+            <value>
+                <fullName>Going Straight to Traditional College</fullName>
+                <default>false</default>
+                <label>Going Straight to Traditional College</label>
+            </value>
+            <value>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+                <label>Lost to Competitor</label>
+            </value>
+            <value>
+                <fullName>Mental/physical health</fullName>
+                <default>false</default>
+                <label>Mental/Physical Health</label>
+            </value>
+            <value>
+                <fullName>Non-Responsive</fullName>
+                <default>false</default>
+                <label>Non-Responsive</label>
+            </value>
+            <value>
+                <fullName>Parents Veto</fullName>
+                <default>false</default>
+                <label>Parents Veto</label>
+            </value>
+            <value>
+                <fullName>Political/Religious Difference</fullName>
+                <default>false</default>
+                <label>Political/Religious Difference</label>
+            </value>
+            <value>
+                <fullName>Pulled from Waitlist</fullName>
+                <default>false</default>
+                <label>Pulled from Waitlist</label>
+            </value>
+            <value>
+                <fullName>Safety Concerns</fullName>
+                <default>false</default>
+                <label>Safety Concerns</label>
+            </value>
+            <value>
+                <fullName>Too Old</fullName>
+                <default>false</default>
+                <label>Too Old</label>
+            </value>
+            <value>
+                <fullName>Closed Admin</fullName>
+                <default>false</default>
+                <label>Closed Admin</label>
+            </value>
+            <value>
+                <fullName>Affordability issues</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Affordability issues</label>
+            </value>
+            <value>
+                <fullName>Affording Partner College Options</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Affording Partner College Options</label>
+            </value>
+            <value>
+                <fullName>Choosing work</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Choosing work</label>
+            </value>
+            <value>
+                <fullName>College acceptance won&#39;t allow credit to be earned while on deferment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>College acceptance won&#39;t allow credit to be earned while on deferment</label>
+            </value>
+            <value>
+                <fullName>Lost to competitor (other travel semester, study abroad, gap)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lost to competitor (other travel semester, study abroad, gap)</label>
+            </value>
+            <value>
+                <fullName>Low GPA, cannot enroll in RBC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Low GPA, cannot enroll in RBC</label>
+            </value>
+            <value>
+                <fullName>NPC won&#39;t accept Verto credits</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NPC won&#39;t accept Verto credits</label>
+            </value>
+            <value>
+                <fullName>No Budget / Lost Funding</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Budget / Lost Funding</label>
+            </value>
+            <value>
+                <fullName>No Decision / Non-Responsive</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Decision / Non-Responsive</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other non-verto college options were more affordable</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other non-verto college options were more affordable</label>
+            </value>
+            <value>
+                <fullName>Parents aren&#39;t convinced on Verto</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Parents aren&#39;t convinced on Verto</label>
+            </value>
+            <value>
+                <fullName>Parents don&#39;t support enrolling in Verto</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Parents don&#39;t support enrolling in Verto</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>REJECTION (PARTIAL) - Low GPA w possible re-evaluation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>REJECTION (PARTIAL) - Low GPA w possible re-evaluation</label>
+            </value>
+            <value>
+                <fullName>REJECTION- hard no misc reasons</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>REJECTION- hard no misc reasons</label>
+            </value>
+            <value>
+                <fullName>REJECTION- low GPA cannot enroll in a SOR</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>REJECTION- low GPA cannot enroll in a SOR</label>
+            </value>
+            <value>
+                <fullName>Test Record</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Test Record</label>
+            </value>
+            <value>
+                <fullName>Verto no longer supports my future goals</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Verto no longer supports my future goals</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Admission Denied by Verto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Chose Alternate Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Cost</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Course Credit Redundancy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Different Route</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Discomfort with Travel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Duplicate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Expired</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Family Needs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Going Straight to Traditional College</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Lost to Competitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Mental/physical health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Non-Responsive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Parents Veto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Political/Religious Difference</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Pulled from Waitlist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Safety Concerns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Too Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Closed Admin</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

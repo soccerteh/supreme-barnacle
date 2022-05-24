@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Non-Partner Institutuion --></label>
+        <name>Non_Partner_Institutuion__c</name>
+    </CustomFieldTranslation>

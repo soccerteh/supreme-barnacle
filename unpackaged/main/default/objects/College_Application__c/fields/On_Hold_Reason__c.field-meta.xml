@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>On_Hold_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>On Hold Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Research/Decision making</fullName>
+                <default>false</default>
+                <label>Research/Decision making</label>
+            </value>
+            <value>
+                <fullName>Financial</fullName>
+                <default>false</default>
+                <label>Financial</label>
+            </value>
+            <value>
+                <fullName>Verto Grades</fullName>
+                <default>false</default>
+                <label>Verto Grades</label>
+            </value>
+            <value>
+                <fullName>Working</fullName>
+                <default>false</default>
+                <label>Working</label>
+            </value>
+            <value>
+                <fullName>Non-partner decisions</fullName>
+                <default>false</default>
+                <label>Non-partner decisions</label>
+            </value>
+            <value>
+                <fullName>Partner Application Not Yet Open</fullName>
+                <default>false</default>
+                <label>Partner Application Not Yet Open</label>
+            </value>
+            <value>
+                <fullName>Partner Onboarding</fullName>
+                <default>false</default>
+                <label>Partner Onboarding</label>
+            </value>
+            <value>
+                <fullName>Gap Year</fullName>
+                <default>false</default>
+                <label>Gap Year</label>
+            </value>
+            <value>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+                <label>Undecided</label>
+            </value>
+            <value>
+                <fullName>Parter Application Not Yet Open</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Parter Application Not Yet Open</label>
+            </value>
+            <value>
+                <fullName>Parter Onboarding</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Parter Onboarding</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

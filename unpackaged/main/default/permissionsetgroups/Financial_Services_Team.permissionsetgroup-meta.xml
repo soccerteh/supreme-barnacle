@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Members of the student Financial Services team, including employees who work on student billing, scholarships and financial aid</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Financial Services Team</label>
+    <permissionSets>Apex_Class_Visualforce_Page_Access_High_School_Event</permissionSets>
+    <permissionSets>Create_Edit_Contact</permissionSets>
+    <permissionSets>Edit_Invoice_Status_Field</permissionSets>
+    <permissionSets>Edit_Nomination</permissionSets>
+    <permissionSets>Edit_Nomination_Rubric</permissionSets>
+    <permissionSets>Edit_Opportunity_Financial_Services</permissionSets>
+    <permissionSets>Edit_Opportunity_Grant</permissionSets>
+    <permissionSets>Heymarket_View_Message_Object_Template_Tab</permissionSets>
+    <permissionSets>heymarket__Heymarket_User</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

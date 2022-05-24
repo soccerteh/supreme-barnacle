@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Passport_Upload_Form_Link__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&#39;https://vertoed.secure.force.com/PassportUpload?aid=&#39;&amp;Student_Account__c&amp;&#39;&amp;program=&#39;&amp;Program__c , &#39;Passport Upload Form&#39;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Passport Upload Form Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

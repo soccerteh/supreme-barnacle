@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Leads1</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>Channel_Source_Type__c</columns>
+    <columns>LEAD.RECORDTYPE</columns>
+    <columns>GPA_Scale__c</columns>
+    <columns>High_School_GPA__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Most_Recent_Source__c</field>
+        <operation>equals</operation>
+        <value>KIPP</value>
+    </filters>
+    <label>*My Leads View</label>
+</ListView>

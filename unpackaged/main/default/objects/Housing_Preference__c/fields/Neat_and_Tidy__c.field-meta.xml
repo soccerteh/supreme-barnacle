@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Neat_and_Tidy__c</fullName>
+    <externalId>false</externalId>
+    <label>Neat and Tidy?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes, I like to have clothes put away and messes cleaned up each day. Dirty dishes, laundry piles, or clutter may bother me if not taken care right away.</fullName>
+                <default>false</default>
+                <label>Yes, I like to have clothes put away and messes cleaned up each day. Dirty dishes, laundry piles, or clutter may bother me if not taken care right away.</label>
+            </value>
+            <value>
+                <fullName>No, a messy room may not bother me. I may put away clothes, clean dirty dishes, or take out trash when I have time. I may not notice right away that my room has become cluttered.</fullName>
+                <default>false</default>
+                <label>No, a messy room may not bother me. I may put away clothes, clean dirty dishes, or take out trash when I have time. I may not notice right away that my room has become cluttered.</label>
+            </value>
+            <value>
+                <fullName>No Preference.</fullName>
+                <default>false</default>
+                <label>No Preference.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

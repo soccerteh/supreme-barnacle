@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Knew_college_I_was_going_to_attend__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Before enrolling with Verto Education</inlineHelpText>
+    <label>Knew college I was going to attend</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

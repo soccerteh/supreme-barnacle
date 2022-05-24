@@ -1,0 +1,49 @@
+{
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "6fb4255f-457d-4251-8697-40a3fc321b5f",
+  "label" : "Housing Accommodation",
+  "regions" : [ {
+    "id" : "68c3bd91-77c7-49fa-b46d-f0f7de9d47ef",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"Account_Id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!aid}\"},{\"label\":\"Program_Id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!program}\"}]",
+        "flowLayout" : "oneColumn",
+        "flowName" : "Housing_Accommodation_Form"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "7401f4ce-ce0c-4c15-b724-48b341945b49",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "febfcaeb-7ac2-411d-a84f-c0bc6fd42f42",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "55edec79-19e0-40b5-a9da-5a437c14cab2",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Housing Accommodation"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "d345bb10-ce06-4168-9d38-4f15491e2457",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5fcc4fa0-b907-441e-b475-00eb82e0b74d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-housing-accommodation"
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Last Retention Status Updater --></label>
+        <name>Last_Retention_Status_Updater__c</name>
+    </CustomFieldTranslation>

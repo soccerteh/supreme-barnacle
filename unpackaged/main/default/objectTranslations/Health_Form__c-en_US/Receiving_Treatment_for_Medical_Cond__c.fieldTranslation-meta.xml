@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Receiving  Treatment for (Medical Cond) --></label>
+        <name>Receiving_Treatment_for_Medical_Cond__c</name>
+        <picklistValues>
+            <masterLabel>Chronic or reoccurring illness</masterLabel>
+            <translation><!-- Chronic or reoccurring illness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diabetes (Type 1 or 2)</masterLabel>
+            <translation><!-- Diabetes (Type 1 or 2) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head injury or concussion (within the past 12 months)</masterLabel>
+            <translation><!-- Head injury or concussion (within the past 12 months) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neurological problems (such as seizures or epilepsy)</masterLabel>
+            <translation><!-- Neurological problems (such as seizures or epilepsy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None of the above</masterLabel>
+            <translation><!-- None of the above --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respiratory issues (such as asthma)</masterLabel>
+            <translation><!-- Respiratory issues (such as asthma) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

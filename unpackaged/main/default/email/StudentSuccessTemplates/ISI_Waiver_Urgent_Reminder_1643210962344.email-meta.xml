@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>For students that haven&#39;t completed the ISI waiver prior to departure.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ISI Waiver Urgent Reminder</name>
+    <relatedEntityType>Enrollment_Record__c</relatedEntityType>
+    <style>none</style>
+    <subject>URGENT: ISI Waiver &amp; Information Forms!</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

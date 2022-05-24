@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Z_College Process Need Guidance --></label>
+        <name>Z_College_Process_Need_Guidance__c</name>
+        <picklistValues>
+            <masterLabel>Choosing the right colleges</masterLabel>
+            <translation><!-- Choosing the right colleges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Developing my personal statement</masterLabel>
+            <translation><!-- Developing my personal statement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I do not need additional college counseling or guidance</masterLabel>
+            <translation><!-- I do not need additional college counseling or guidance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Narrowing down my major and career path</masterLabel>
+            <translation><!-- Narrowing down my major and career path --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Understanding the Verto application process</masterLabel>
+            <translation><!-- Understanding the Verto application process --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

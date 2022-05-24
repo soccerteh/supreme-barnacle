@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Challenges_that_impact_academic_success__c</fullName>
+    <externalId>false</externalId>
+    <label>Challenges that impact academic success</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Procrastination / issues with time management</fullName>
+                <default>false</default>
+                <label>Procrastination / issues with time management</label>
+            </value>
+            <value>
+                <fullName>Distractions (social media, texting, video games, YouTube, etc.)</fullName>
+                <default>false</default>
+                <label>Distractions (social media, texting, video games, YouTube, etc.)</label>
+            </value>
+            <value>
+                <fullName>Difficulty staying organized</fullName>
+                <default>false</default>
+                <label>Difficulty staying organized</label>
+            </value>
+            <value>
+                <fullName>Lack of motivation</fullName>
+                <default>false</default>
+                <label>Lack of motivation</label>
+            </value>
+            <value>
+                <fullName>Not enjoying classes and/or activities</fullName>
+                <default>false</default>
+                <label>Not enjoying classes and/or activities</label>
+            </value>
+            <value>
+                <fullName>Personal/familial obligations and responsibilities</fullName>
+                <default>false</default>
+                <label>Personal/familial obligations and responsibilities</label>
+            </value>
+            <value>
+                <fullName>Learning differences and/or learning styles</fullName>
+                <default>false</default>
+                <label>Learning differences and/or learning styles</label>
+            </value>
+            <value>
+                <fullName>Concerns about educational preparedness (reading and writing skills, etc.)</fullName>
+                <default>false</default>
+                <label>Concerns about educational preparedness (reading and writing skills, etc.)</label>
+            </value>
+            <value>
+                <fullName>Concerns about &quot;hidden curriculum&quot; (staff expectations, access to resources, etc.)</fullName>
+                <default>false</default>
+                <label>Concerns about &quot;hidden curriculum&quot; (staff expectations, access to resources, etc.)</label>
+            </value>
+            <value>
+                <fullName>Problems with workspace</fullName>
+                <default>false</default>
+                <label>Problems with workspace</label>
+            </value>
+            <value>
+                <fullName>Problems with technology (computer, internet access/wifi, online platforms, email, etc.)</fullName>
+                <default>false</default>
+                <label>Problems with technology (computer, internet access/wifi, online platforms, email, etc.)</label>
+            </value>
+            <value>
+                <fullName>Issues with social life / extracurriculars</fullName>
+                <default>false</default>
+                <label>Issues with social life / extracurriculars</label>
+            </value>
+            <value>
+                <fullName>Not feeling a sense of belonging and/or feeling socially isolated or excluded</fullName>
+                <default>false</default>
+                <label>Not feeling a sense of belonging and/or feeling socially isolated or excluded</label>
+            </value>
+            <value>
+                <fullName>Not feeling respected, heard or understood</fullName>
+                <default>false</default>
+                <label>Not feeling respected, heard or understood</label>
+            </value>
+            <value>
+                <fullName>Feeling discriminated against (due to race, gender identity, sexual orientation, nationality, etc.)</fullName>
+                <default>false</default>
+                <label>Feeling discriminated against (due to race, gender identity, sexual orientation, nationality, etc.)</label>
+            </value>
+            <value>
+                <fullName>Daily self-care (sleep, diet, screen time, exercise, breaks, etc.)</fullName>
+                <default>false</default>
+                <label>Daily self-care (sleep, diet, screen time, exercise, breaks, etc.)</label>
+            </value>
+            <value>
+                <fullName>Physical illness, hospital stays, doctor&#39;s appointments, etc.</fullName>
+                <default>false</default>
+                <label>Physical illness, hospital stays, doctor&#39;s appointments, etc.</label>
+            </value>
+            <value>
+                <fullName>Mental health challenges (homesickness, chronic stress, anxiety, etc.)</fullName>
+                <default>false</default>
+                <label>Mental health challenges (homesickness, chronic stress, anxiety, etc.)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Concerns about &quot;hidden curriculum&quot; (faculty expectations, access to resources, etc.)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Concerns about &quot;hidden curriculum&quot; (faculty expectations, access to resources, etc.)</label>
+            </value>
+            <value>
+                <fullName>Concerns about academic preparedness (reading and writing skills, etc.)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Concerns about academic preparedness (reading and writing skills, etc.)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ASC_Meeting_Notes</fullName>
+    <active>true</active>
+    <label>ASC Meeting Notes</label>
+    <picklistValues>
+        <picklist>Outcome__c</picklist>
+        <values>
+            <fullName>Engaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shaky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unresponsive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Appointment</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Scheduled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Academic Success Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College %26 Career Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Final 1%3A1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial 1%3A1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid-Semester 1%3A1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SLC Meeting Notes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

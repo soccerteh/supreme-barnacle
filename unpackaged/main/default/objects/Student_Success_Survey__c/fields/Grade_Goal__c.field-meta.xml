@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grade_Goal__c</fullName>
+    <externalId>false</externalId>
+    <label>Grade Goal</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Straight As</fullName>
+                <default>false</default>
+                <label>Straight As</label>
+            </value>
+            <value>
+                <fullName>No grade below a B</fullName>
+                <default>false</default>
+                <label>No grade below a B</label>
+            </value>
+            <value>
+                <fullName>No grade below a C</fullName>
+                <default>false</default>
+                <label>No grade below a C</label>
+            </value>
+            <value>
+                <fullName>No grade below a D</fullName>
+                <default>false</default>
+                <label>No grade below a D</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

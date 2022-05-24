@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Junior Year English Grade --></label>
+        <name>Junior_Year_English_Grade__c</name>
+        <picklistValues>
+            <masterLabel>B- or Higher</masterLabel>
+            <translation><!-- B- or Higher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C+ or Lower</masterLabel>
+            <translation><!-- C+ or Lower --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

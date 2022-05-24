@@ -1,0 +1,132 @@
+<template>
+  <div class="slds-card slds-card_boundary slds-col slds-m-vertical_small slds-p-around_x-small" style="border: 1px solid rgba(0, 0, 0, .1); background-color: white;">
+    <div class="slds-grid">
+      <div class="slds-col slds-medium-size_1-of-12 slds-show_medium slds-p-top_x-small">
+        <!-- Icon column -->
+        <div class="event-block">
+          <lightning-icon icon-name="utility:education" size="large" class=""></lightning-icon>
+        </div>
+      </div>
+      <div class="slds-col slds-medium-size_11-of-12 slds-small_size_1-of-1">
+        <!-- Info column -->
+        <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-x-small-size_1-of-1 slds-small-size_1-of-2">
+            <!-- Name, Subject, and Credit Hours -->
+            <div class="slds-grid slds-gutters_x-small slds-wrap slds-p-around_x-small">
+              <div class="slds-col slds-size_1-of-1">
+                <!-- Course Name -->
+                <h1 class="slds-text-heading_medium">{course.name}</h1>
+              </div>
+              <div class="slds-col slds-small-size_1-of-1 slds-medium-size_1-of-2">
+                <!-- Subject -->
+                <div class="slds-media slds-media_center">
+                  <lightning-icon
+                    icon-name="utility:description"
+                    alternative-text="subject"
+                    title="subject"
+                    size="xx-small"
+                  ></lightning-icon>
+                  <span class="slds-text-color_weak slds-p-left_x-small slds-media__body">Subject: {course.subject}</span>
+                </div>
+              </div>
+              <div class="slds-col slds-small-size_1-of-1 slds-medium-size_1-of-2">
+                <!-- Credit Hours -->
+                <div class="slds-media slds-media_center">
+                  <lightning-icon
+                    icon-name="utility:clock"
+                    alternative-text="clock"
+                    title="Clock"
+                    size="xx-small">
+                  </lightning-icon>
+                  <span class="slds-text-color_weak slds-p-left_x-small slds-media__body slds-float_left">Credit Hours: {course.creditHours}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slds-col slds-x-small-size_1-of-1 slds-small-size_1-of-2">
+            <!-- Buttons -->
+            <template if:true={showAddButton}>
+              <div class="slds-grid slds-wrap slds-p-around_x-small">
+                <div class="slds-col slds-x-small-size_1-of-2 slds-small-size_1-of-1 slds-medium-size_1-of-2 slds-p-vertical_xxx-small">
+                  <lightning-button-stateful
+                    label-when-off="Add Course"
+                    label-when-on="Added"
+                    label-when-hover="Remove"
+                    icon-name-when-off="utility:add"
+                    icon-name-when-on="utility:check"
+                    icon-name-when-hover="utility:close"
+                    selected={primary}
+                    onclick={addPrimary}
+                    variant="brand-outline"
+                    class="course-button my button">
+                  </lightning-button-stateful>
+                </div>
+                <div class="slds-col slds-x-small-size_1-of-2 slds-size_1-of-1 slds-medium-size_1-of-2 slds-p-vertical_xxx-small">
+                  <lightning-button-stateful
+                    label-when-off="Alternative"
+                    label-when-on="Added"
+                    label-when-hover="Remove"
+                    icon-name-when-off="utility:add"
+                    icon-name-when-on="utility:check"
+                    icon-name-when-hover="utility:close"
+                    selected={alternative}
+                    onclick={addAlternative}
+                    variant="brand-outline"
+                    class="course-button my button">
+                  </lightning-button-stateful>
+                </div>
+              </div>
+            </template>
+          </div>
+          <div class="slds-col slds-size_1-of-1 slds-p-around_x-small">
+            <!-- Details -->
+            <div class="slds-hide_medium">
+              <lightning-accordion active-section-name="Description">
+                <lightning-accordion-section name="Description" label="Description">
+                  <lightning-formatted-text 
+                    value={course.description}
+                  ></lightning-formatted-text>
+                </lightning-accordion-section>
+                <!-- <lightning-accordion-section name="Prerequisite" label="Prerequisite Information">
+                  <div class="slds-grid slds-grid_vertical">
+                    <div class="slds-col slds-p-vertical_small">
+                      <lightning-formatted-text 
+                        value={course.prerequisiteDescription}
+                      ></lightning-formatted-text>
+                    </div>
+                    <div class="slds-col slds-p-vertical_small">
+                      <lightning-formatted-text 
+                        value={course.corequisiteDescription}
+                        class="slds-p-vertical_small"
+                      ></lightning-formatted-text>
+                    </div>
+                  </div>
+                </lightning-accordion-section> -->
+              </lightning-accordion>
+            </div>
+            <div class="slds-show_medium">
+              <div class="slds-grid slds-grid_vertical">
+                <div class="slds-col slds-p-vertical_x-small">
+                  <lightning-formatted-text 
+                    value={course.description}
+                  ></lightning-formatted-text>
+                </div>
+                <div class="slds-col slds-p-vertical_x-small">
+                  <lightning-formatted-text 
+                    value={course.prerequisiteDescription}
+                  ></lightning-formatted-text>
+                </div>
+                <div class="slds-col slds-p-vertical_x-small">
+                  <lightning-formatted-text 
+                    value={course.corequisiteDescription}
+                    class="slds-p-vertical_small"
+                  ></lightning-formatted-text>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

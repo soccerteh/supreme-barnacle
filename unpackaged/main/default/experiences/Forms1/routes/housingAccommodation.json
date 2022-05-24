@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "6fb4255f-457d-4251-8697-40a3fc321b5f",
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "configurationTags" : [ ],
+  "id" : "514389e6-b533-49a2-9f0d-e915a7236f7a",
+  "label" : "Housing Accommodation",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-housing-accommodation",
+  "type" : "route",
+  "urlPrefix" : "HousingAccommodation"
+}

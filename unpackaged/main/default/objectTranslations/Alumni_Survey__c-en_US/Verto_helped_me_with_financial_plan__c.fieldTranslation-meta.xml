@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Verto Education helped me develop a clear plan for financing college. --></help>
+        <label><!-- Verto helped me with financial plan --></label>
+        <name>Verto_helped_me_with_financial_plan__c</name>
+    </CustomFieldTranslation>

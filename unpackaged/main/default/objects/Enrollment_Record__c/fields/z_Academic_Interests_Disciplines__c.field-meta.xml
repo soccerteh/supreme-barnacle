@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>z_Academic_Interests_Disciplines__c</fullName>
+    <businessStatus>DeprecateCandidate</businessStatus>
+    <externalId>false</externalId>
+    <label>z_Academic Interests/Disciplines</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Arts and Humanities</fullName>
+                <default>false</default>
+                <label>Arts and Humanities</label>
+            </value>
+            <value>
+                <fullName>Business</fullName>
+                <default>false</default>
+                <label>Business</label>
+            </value>
+            <value>
+                <fullName>Health and Medicine</fullName>
+                <default>false</default>
+                <label>Health and Medicine</label>
+            </value>
+            <value>
+                <fullName>Multi-/Interdisciplinary Studies</fullName>
+                <default>false</default>
+                <label>Multi-/Interdisciplinary Studies</label>
+            </value>
+            <value>
+                <fullName>Public and Social Sciences</fullName>
+                <default>false</default>
+                <label>Public and Social Sciences</label>
+            </value>
+            <value>
+                <fullName>Science, Math, and Technology</fullName>
+                <default>false</default>
+                <label>Science, Math, and Technology</label>
+            </value>
+            <value>
+                <fullName>Social Sciences and Education</fullName>
+                <default>false</default>
+                <label>Social Sciences and Education</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_brought_you_to_Verto__c</fullName>
+    <description>What brought you to Verto? Why did you decide to join this particular program? What are you most excited to experience this semester, and why? What are you most concerned/unsure about, and why?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What brought you to Verto? Why did you decide to join this particular program? What are you most excited to experience this semester, and why? What are you most concerned/unsure about, and why?</inlineHelpText>
+    <label>What brought you to Verto?</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

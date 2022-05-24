@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Employees of Verto, including part-time employees. Verto contractors and consultants are also included in this group.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>All Internal Users</label>
+    <permissionSets>Edit_Account_No_Field_Access</permissionSets>
+    <permissionSets>Edit_Application_No_Field_Access</permissionSets>
+    <permissionSets>Edit_Enrollment_Record_No_Field_Access</permissionSets>
+    <permissionSets>Edit_Task_Fields</permissionSets>
+    <permissionSets>Marketing_Cloud_Apex_Classes</permissionSets>
+    <permissionSets>System_Permissions_All_Internal_Users</permissionSets>
+    <permissionSets>View_Alumni_Survey</permissionSets>
+    <permissionSets>View_Objects_Fields_All_Internal_Users</permissionSets>
+    <permissionSets>et4ae5__ExactTarget_Integration</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

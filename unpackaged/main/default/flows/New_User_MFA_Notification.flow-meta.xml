@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_New_User_MFA_Notification</name>
+        <label>Send New User MFA Notification</label>
+        <locationX>50</locationX>
+        <locationY>575</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>MFATextBody</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>rose.mcintosh@vertoeducation.org</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <elementReference>MFASubject</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>53.0</apiVersion>
+    <decisions>
+        <description>Checks to see if Workflow Override is enabled on User Profile</description>
+        <name>Override</name>
+        <label>Override?</label>
+        <locationX>380</locationX>
+        <locationY>335</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Override_False</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$User.Override_Workflow__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Type_of_User</targetReference>
+            </connector>
+            <label>Override=False</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Will evaluate to see if the profile ID is Profile_Partner Community User - Verto, if not it will send the email notification to the new user</description>
+        <name>Type_of_User</name>
+        <label>Type of User?</label>
+        <locationX>182</locationX>
+        <locationY>455</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>MFA_Required</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.ProfileId</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Label.Profile_Partner_Community_User_Verto</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.ProfileId</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Label.Profile_StudentConcernPortalUser</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Email</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>@vertoeducation.org</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_New_User_MFA_Notification</targetReference>
+            </connector>
+            <label>MFA Required</label>
+        </rules>
+    </decisions>
+    <description>Will send an email notification explaining how to set up MFA to all new Verto users that are not Profile_Partner Community User - Verto</description>
+    <interviewLabel>New User MFA Notification {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>New User MFA Notification</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>254</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Override</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>IsActive</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>User</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <textTemplates>
+        <name>MFASubject</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Welcome to Verto {!$Record.FirstName}!</text>
+    </textTemplates>
+    <textTemplates>
+        <name>MFATextBody</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;img src=&quot;https://vertoeducation--c.documentforce.com/servlet/servlet.ImageServer?id=0156S00000IY3v2&amp;amp;oid=00D3h0000057qCI&amp;amp;lastMod=1637337200000&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: sans-serif; background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(0, 0, 0);&quot;&gt;Hello &lt;/span&gt;&lt;span style=&quot;font-family: sans-serif; background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;{!$Record.FirstName}&lt;/span&gt;&lt;span style=&quot;font-family: sans-serif; background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(0, 0, 0);&quot;&gt;!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: sans-serif; background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(0, 0, 0);&quot;&gt;Welcome to Verto Education! We are so excited to have you join the team.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: sans-serif; background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(0, 0, 0);&quot;&gt;Salesforce is a big part of our business and we have implemented Multi-Factor Authentication as measure to protect our information and the information of our customers.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: sans-serif; background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(0, 0, 0);&quot;&gt;In order to access Salesforce, you will need to download the Salesforce Authenticator app to your mobile device.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: sans-serif; background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(0, 0, 0);&quot;&gt;Once you have downloaded the app, follow the process of the&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://docs.google.com/document/d/1EpPZFYBf1XBnnwBWqYHcgI5FiME91MUOhEcVRlVQgNo/edit&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-family: sans-serif; background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(0, 0, 0);&quot;&gt;SOP - Salesforce Two-Factor Authentication (internal users)&lt;/a&gt;&lt;span style=&quot;font-family: sans-serif; background-color: rgb(255, 255, 255); font-size: 12px; color: rgb(0, 0, 0);&quot;&gt;&amp;nbsp;to set up the configuration.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: sans-serif; font-size: 12px;&quot;&gt;If you have trouble with this process, please &lt;/span&gt;&lt;a href=&quot;https://docs.google.com/document/d/1uLkYnSVc0XFKL9IGwE3npFpkGq3YMb1SuwHhpkJRaQ8/edit&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-family: sans-serif; font-size: 12px; color: rgb(17, 85, 204);&quot;&gt;&lt;i&gt;&lt;u&gt;submit a request&lt;/u&gt;&lt;/i&gt;&lt;/a&gt;&lt;span style=&quot;font-family: sans-serif; font-size: 12px;&quot;&gt; to the Digital Product team.&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+</Flow>

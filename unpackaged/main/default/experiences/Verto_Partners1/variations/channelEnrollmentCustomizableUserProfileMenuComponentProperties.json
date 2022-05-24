@@ -1,0 +1,15 @@
+{
+  "componentVariants" : [ {
+    "id" : "5d0cda24-e922-411d-a0c6-6ceb2b190ecf",
+    "propertyOverrides" : {
+      "componentAttributes" : {
+        "customizableUserProfileMenuEditor" : "Channel_Partner_Navigation"
+      }
+    },
+    "targetId" : "5c9dbf07-ae9f-4b82-9aef-0948d7c61798",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Channel_Enrollment_Customizable_User_Profile_Menu_Component_Properties",
+  "id" : "171d0c99-ce96-407e-a9f0-bcc338286e9f",
+  "type" : "experienceVariation"
+}

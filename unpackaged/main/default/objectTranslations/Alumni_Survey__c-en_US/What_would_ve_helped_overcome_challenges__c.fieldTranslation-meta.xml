@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What would have helped you overcome those challenges --></help>
+        <label><!-- Would&apos;ve helped you overcome challenges --></label>
+        <name>What_would_ve_helped_overcome_challenges__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fall_2021_Student_List_ENROLLED</fullName>
+    <columns>Students_Name__c</columns>
+    <columns>NAME</columns>
+    <columns>Date_Enrolled__c</columns>
+    <columns>Owner__c</columns>
+    <columns>Phone__c</columns>
+    <columns>E_Email__c</columns>
+    <columns>School_of_Record__c</columns>
+    <columns>Student_ID_SoR__c</columns>
+    <columns>School_of_Record_Email__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Enrollment_Status__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Enrollment_Record__c.First_Semester</value>
+    </filters>
+    <filters>
+        <field>Program__c</field>
+        <operation>contains</operation>
+        <value>Fall 2021</value>
+    </filters>
+    <label>Fall 2021 Student List ENROLLED</label>
+</ListView>

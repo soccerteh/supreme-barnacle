@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Traditional Enrollment</fullName>
+    <description>The sales process for traditional enrollment students</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Admitted</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Decision Ready</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Deposit Received</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Family Admissions Call</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Qualified</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Requirements Gathering</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Send Student Acceptance</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Persona --></label>
+        <name>Persona__c</name>
+        <picklistValues>
+            <masterLabel>High School Counselor</masterLabel>
+            <translation><!-- High School Counselor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Independent Educational Consultant</masterLabel>
+            <translation><!-- Independent Educational Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospective Parent</masterLabel>
+            <translation><!-- Prospective Parent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospective Student</masterLabel>
+            <translation><!-- Prospective Student --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,54 @@
+{
+  "appPageId" : "f8f8f5fe-a794-41ab-88e0-6bf8d49cc606",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "d622d334-2afa-4ce4-8c20-7ba98cbdacbc",
+  "label" : "Course Registration",
+  "regions" : [ {
+    "id" : "b2209342-8ade-472b-9b6a-4fb759ca1c0a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1 style=\"text-align: center;\">Welcome to Course Registration for Fall 2022!</h1><p style=\"text-align: center;\"><br></p><p><b>Please carefully read the instructions for course registration, which can be found in your Student Portal.</b></p><h2><br></h2><p>Course registration happens in 3 phases.</p><ol><li>Today you will input your preferred courses. You will see the courses that you qualify for based on an audit of your initial high school transcript.</li><li>Once you submit your final high school transcript we will reconfirm your eligibility for the courses you selected. You may also be asked to complete an online assessment as a placement exam for certain courses.</li><li>&nbsp;After confirming your eligibility, we will do our best to place you in your preferred courses. Note that today’s registration does not guarantee the courses you select.&nbsp;</li></ol><p><br></p><p>Take some time to review the course selection guides and consider which ones will be best for your academic path and personal interests. We will do our very best to place you into your top choices. It is important to note that this registration does not guarantee you will be placed in your top course choices. There will also be an add/drop period at the start of the semester where you can change your course schedule if necessary. All Verto participants must maintain a minimum of 12 academic credits at all times.</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "4f0edf3d-9a20-4f41-a254-c9db54bb1cf1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "c:courseRegistration",
+      "id" : "28193522-b750-49b7-9859-7e921f6fc38f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c7da7010-c86c-4784-bb14-d69c484802b8",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "c30163ce-c33a-4dfe-876e-036594966e03",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "87369fcc-cca3-4dd6-b490-d81a79f9060f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cc6081b8-b237-42a2-a7fb-e22833ceecc5",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

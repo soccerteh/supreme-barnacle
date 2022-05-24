@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Complete_Prior_to_Converting</fullName>
+    <active>true</active>
+    <description>This validation rule prevents a lead from being converted if the student&#39;s application is not completed (i.e. Application field is checked).</description>
+    <errorConditionFormula>AND(
+$User.Bypass_Validation__c = FALSE,
+
+left( RecordTypeId , 15) = left( $Label.RT_Lead_TraditionalEnrollment , 15),
+
+IsConverted = TRUE,
+
+ISBLANK( Associated_Application__c ) 
+)</errorConditionFormula>
+    <errorMessage>The student&#39;s application must be submitted in full prior to converting a lead.</errorMessage>
+</ValidationRule>

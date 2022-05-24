@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Withdrawal Notice Email</name>
+    <relatedEntityType>Enrollment_Record__c</relatedEntityType>
+    <style>none</style>
+    <subject>URGENT:  You Have Been Withdrawn from Your Verto Semester</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

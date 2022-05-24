@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>PortlandStateUniversityPartnerUser</sharedTo>
+        <sharedToType>PortalRole</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>SeattleUniversityPartnerUser</sharedTo>
+        <sharedToType>PortalRole</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>TheUniversityofOregonPartnerUser</sharedTo>
+        <sharedToType>PortalRole</sharedToType>
+    </folderShares>
+    <name>Partner Portal - Quarter Applications</name>
+</DashboardFolder>

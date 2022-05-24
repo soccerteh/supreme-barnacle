@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Orphaned_Student_Success_Surveys</fullName>
+    <columns>NAME</columns>
+    <columns>Full_Name_Missing_Enrollment_Id__c</columns>
+    <columns>Email_Missing_Enrollment_Id__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Enrollment_Record__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Orphaned Student Success Surveys</label>
+</ListView>

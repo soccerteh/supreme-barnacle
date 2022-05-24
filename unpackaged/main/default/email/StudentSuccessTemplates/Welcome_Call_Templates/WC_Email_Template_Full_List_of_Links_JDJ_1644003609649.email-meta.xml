@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>WC Followup</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>WC Email Template- Full List of Links- JDJ</name>
+    <relatedEntityType>Enrollment_Record__c</relatedEntityType>
+    <style>none</style>
+    <subject>Important Next Steps for your Verto Semester</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

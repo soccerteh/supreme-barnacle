@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Field semester in Hawaii</fullName>
+        <default>false</default>
+        <label>Field Semester in Hawaii</label>
+    </customValue>
+    <customValue>
+        <fullName>Field semester in Costa Rica</fullName>
+        <default>false</default>
+        <label>Field Semester in Costa Rica</label>
+    </customValue>
+    <customValue>
+        <fullName>Campus Semester in England</fullName>
+        <default>false</default>
+        <label>Campus Semester in England</label>
+    </customValue>
+    <customValue>
+        <fullName>Campus Semester in Spain</fullName>
+        <default>false</default>
+        <label>Campus Semester in Spain</label>
+    </customValue>
+    <customValue>
+        <fullName>Campus Semester in Italy</fullName>
+        <default>false</default>
+        <label>Campus Semester in Italy</label>
+    </customValue>
+    <customValue>
+        <fullName>Field semester in the South Pacific (Fiji, New Zealand, Australia)</fullName>
+        <default>false</default>
+        <label>Field Semester in Fiji</label>
+    </customValue>
+    <masterLabel>Programs</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

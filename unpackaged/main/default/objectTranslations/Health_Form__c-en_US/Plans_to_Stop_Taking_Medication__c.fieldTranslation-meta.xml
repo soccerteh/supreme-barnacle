@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Plans to Stop Taking Medication --></label>
+        <name>Plans_to_Stop_Taking_Medication__c</name>
+    </CustomFieldTranslation>

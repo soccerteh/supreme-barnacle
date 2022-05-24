@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Retention Status --></label>
+        <name>Retention_Status__c</name>
+        <picklistValues>
+            <masterLabel>Shaky</masterLabel>
+            <translation><!-- Shaky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solid</masterLabel>
+            <translation><!-- Solid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unlikely</masterLabel>
+            <translation><!-- Unlikely --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unresponsive</masterLabel>
+            <translation><!-- Unresponsive --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

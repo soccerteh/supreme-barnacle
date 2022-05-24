@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Change this field to Yes to have the system automatically generate a Case for Admissions to collect a second deposit. --></help>
+        <label><!-- Generate Second Semester Deposit Case --></label>
+        <name>Generate_Second_Semester_Deposit_Case__c</name>
+    </CustomFieldTranslation>

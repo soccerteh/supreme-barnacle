@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "39efc281-6648-4859-85d9-503cf6489896",
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "configurationTags" : [ ],
+  "id" : "2bf931eb-5b56-4114-8d8c-eec822ce32f0",
+  "label" : "FlightSubmission",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-flightsubmission",
+  "type" : "route",
+  "urlPrefix" : "FlightSubmission"
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Advertisement</fullName>
+        <default>false</default>
+        <label>Advertisement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral Program</fullName>
+        <default>false</default>
+        <label>Referral Program</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner</fullName>
+        <default>false</default>
+        <label>Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Purchased List</fullName>
+        <default>false</default>
+        <label>Purchased List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webinar</fullName>
+        <default>false</default>
+        <label>Webinar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website</fullName>
+        <default>false</default>
+        <label>Website</label>
+    </standardValue>
+    <standardValue>
+        <fullName>High School Counselor Meeting</fullName>
+        <default>false</default>
+        <label>High School Counselor Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lunch Visit</fullName>
+        <default>false</default>
+        <label>Lunch Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Classroom Presentation</fullName>
+        <default>false</default>
+        <label>Classroom Presentation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Assembly Presentation</fullName>
+        <default>false</default>
+        <label>Assembly Presentation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>College Fair</fullName>
+        <default>false</default>
+        <label>College Fair</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Home Visits</fullName>
+        <default>false</default>
+        <label>Home Visits</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social Media</fullName>
+        <default>false</default>
+        <label>Social Media</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Conference</fullName>
+        <default>false</default>
+        <label>Conference</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Family/Friend</fullName>
+        <default>false</default>
+        <label>Family/Friend</label>
+    </standardValue>
+    <standardValue>
+        <fullName>High School Counselor</fullName>
+        <default>false</default>
+        <label>High School Counselor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Independent Educational Consultant</fullName>
+        <default>false</default>
+        <label>Independent Educational Consultant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Channel Enrollment</fullName>
+        <default>false</default>
+        <label>Channel Enrollment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Road Team</fullName>
+        <default>false</default>
+        <label>Road Team</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Online Ad</fullName>
+        <default>false</default>
+        <label>Online Ad</label>
+    </standardValue>
+</StandardValueSet>

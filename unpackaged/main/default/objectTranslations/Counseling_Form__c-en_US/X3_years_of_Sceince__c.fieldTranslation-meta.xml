@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- 3 years of Science --></label>
+        <name>X3_years_of_Sceince__c</name>
+    </CustomFieldTranslation>

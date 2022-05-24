@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Smoker_Preference__c</fullName>
+    <externalId>false</externalId>
+    <label>Smoker Preference</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Non-Smokers</fullName>
+                <default>false</default>
+                <label>Non-Smokers</label>
+            </value>
+            <value>
+                <fullName>Smokers who smoke at home</fullName>
+                <default>false</default>
+                <label>Smokers who smoke at home</label>
+            </value>
+            <value>
+                <fullName>Smokers who smoke outside (balcony, terrace, street)</fullName>
+                <default>false</default>
+                <label>Smokers who smoke outside (balcony, terrace, street)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

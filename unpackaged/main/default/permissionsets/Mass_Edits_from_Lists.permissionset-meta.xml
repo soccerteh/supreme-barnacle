@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Edit multiple records simultaneously from a list with inline editing.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Mass Edits from Lists</label>
+    <license>Salesforce</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>MassInlineEdit</name>
+    </userPermissions>
+</PermissionSet>

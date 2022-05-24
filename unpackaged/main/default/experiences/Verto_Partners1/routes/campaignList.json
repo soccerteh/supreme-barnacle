@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "7d2fe030-55f0-4679-9007-9dbafae013e5",
+  "appPageId" : "de408c33-b15c-4263-a366-fefa60038b5f",
+  "configurationTags" : [ ],
+  "id" : "7dab2783-9c94-46a2-b789-af906947483c",
+  "label" : "Campaign List",
+  "routeType" : "list-701",
+  "type" : "route",
+  "urlPrefix" : "campaign"
+}

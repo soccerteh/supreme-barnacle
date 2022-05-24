@@ -1,0 +1,12 @@
+Hi {!Lead.FirstName},
+
+My name is {!Lead.OwnerFirstName} and I'm your Admissions Counselor with Verto Education. I am writing to share how you can spend your freshman year of college earning credits while traveling in Hawaii, Costa Rica and the Dominican Republic, the South Pacific (Australia, New Zealand, Fiji), London, Milan, or Madrid. I would love to talk with you about our semesters, how our application process works, our partner colleges and universities you can apply to for free (and hear back from within a matter of weeks), our scholarships and more!
+
+When you receive this message, please call me or send me your phone number so we can touch base. Or you could even begin your application at vertoeducation.org/apply. It only takes about ten minutes to fill out and is free and non-binding.  
+
+We also hold info sessions twice a week: vertoeducation.org/info/
+
+Thanks for checking us out and I look forward to connecting with you!
+
+Best wishes,
+{!Lead.OwnerFullName}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_Original_Program_Post_Deposit</fullName>
+    <active>true</active>
+    <description>Locks Original Program after either the Deposit Date or Most Recent Deposit Date/Time is populated, or the stage is on or past Deposit Received</description>
+    <errorConditionFormula>and( 
+ $User.Bypass_Validation__c = false,
+
+or(
+left( RecordTypeId , 15) = left( $Label.RT_Opp_TraditionalEnrollment , 15),
+left( RecordTypeId , 15) = left( $Label.RT_Opp_ChannelEnrollment , 15),
+left( RecordTypeId , 15) = left(  $Label.RT_Opp_Additional_Semester , 15)
+),
+
+or(
+not(isblank(Deposit_Date__c)),
+not(isblank( Most_Recent_Deposit_Received_Date_Time__c )),
+ispickval(StageName, &quot;Deposit Received&quot;),
+IsWon = true
+),
+
+ischanged( Original_Program__c ),
+
+not(isblank(priorvalue(Original_Program__c)))
+)</errorConditionFormula>
+    <errorMessage>Once the student has submitted their deposit, the Original Program can&#39;t be changed.</errorMessage>
+</ValidationRule>

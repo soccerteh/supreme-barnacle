@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Standard_Application</fullName>
+    <active>true</active>
+    <description>Record Type for the Standard Opportunity Grant Application</description>
+    <label>Standard Application</label>
+    <picklistValues>
+        <picklist>Reason__c</picklist>
+        <values>
+            <fullName>High medical%2C Educational or Family expense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Significant loss of income or change in work status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Your household%2Ffamily income is %240 to %24125%2C000 annually</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Documents</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

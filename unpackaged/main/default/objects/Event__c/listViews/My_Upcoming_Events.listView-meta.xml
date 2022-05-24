@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Upcoming_Events</fullName>
+    <columns>NAME</columns>
+    <columns>High_School__c</columns>
+    <columns>Counselor__c</columns>
+    <columns>Event_Type__c</columns>
+    <columns>Event_Start__c</columns>
+    <columns>Event_End__c</columns>
+    <columns>Event_Page__c</columns>
+    <columns>Event_Status__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Event_Start__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2022 12:00 AM</value>
+    </filters>
+    <label>My Upcoming Events</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

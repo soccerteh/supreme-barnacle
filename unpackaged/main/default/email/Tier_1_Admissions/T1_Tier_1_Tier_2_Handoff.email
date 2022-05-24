@@ -1,0 +1,6 @@
+Hi {!Opportunity.z_First_Name__c},
+
+Great talking with you just now! I think you're a great fit for Verto, and we're excited to help you launch a meaningful, successful college career next year. I'm excited to introduce you to {!Opportunity.OwnerFirstName}, your Senior Admissions Counselor. You both will get along great, and will be set up with options in no time! {!Opportunity.OwnerFirstName}, {!Opportunity.z_First_Name__c} is awesome, so I think you should hop on a call ASAP. {!Opportunity.z_First_Name__c}, what time today or tomorrow works best for you? {!Opportunity.OwnerFirstName} will call you then! 
+
+Best wishes,
+{!Opportunity.Tier_1_Owner__c}

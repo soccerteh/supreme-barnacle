@@ -1,0 +1,35 @@
+<apex:component >
+    <apex:attribute name="origin" 
+        description="The parent component or page that this component is included within." 
+        type="String"
+        required="true"
+        />
+
+    <apex:pageBlock id="thank-you">
+        <apex:outputPanel >
+            <div class="small-padding" >
+                <div class="form-header-section">
+                    <h3 class="form-header">Thank You!</h3>
+                </div>
+                <div class="form-header-section">
+                </div>
+                <div class="small-padding">
+                    <section class="section-block">
+                        <div class="row flex-safari-initial">
+                            <div class="col-md-12" rendered="outputDecisionOne == 0">
+                                <apex:outputText value="Thank you for submitting your passport! Your Student Onboarding Advisor will review it soon and let you know if we need anything else." 
+                                    rendered="{!IF(origin == 'Passport', true, false)}" />
+                                <apex:outputText value="Thank you for submitting your proof of your passport application!" 
+                                    rendered="{!IF(origin == 'PassportApplication', true, false)}" />
+                                <apex:outputText value="Thank you for notifying your Student Onboarding Advisor. They will be contacting you for next steps."
+                                    rendered="{!IF(origin == 'Notify', true, false)}" />
+                                <apex:outputText value="Thank you for completing the form and submitting any necessary information!"
+                                    rendered="{!IF(origin == null, true, false)}" />
+                            </div>
+                        </div>
+                    </section>
+                </div> 
+            </div>
+        </apex:outputPanel>
+    </apex:pageBlock>
+</apex:component>

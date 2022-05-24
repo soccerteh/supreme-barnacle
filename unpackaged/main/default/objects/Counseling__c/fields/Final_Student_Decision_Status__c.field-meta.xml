@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Final_Student_Decision_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Final Student Decision Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>true</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Not Deposited</fullName>
+                <default>false</default>
+                <label>Not Deposited</label>
+            </value>
+            <value>
+                <fullName>Deposited</fullName>
+                <default>false</default>
+                <label>Deposited</label>
+            </value>
+            <value>
+                <fullName>Other Commitment</fullName>
+                <default>false</default>
+                <label>Other Commitment</label>
+            </value>
+            <value>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+                <label>Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Withdrew</fullName>
+                <default>false</default>
+                <label>Withdrew</label>
+            </value>
+            <value>
+                <fullName>Matriculated</fullName>
+                <default>false</default>
+                <label>Matriculated</label>
+            </value>
+            <value>
+                <fullName>Committed - Channel</fullName>
+                <default>false</default>
+                <label>Committed - Channel</label>
+            </value>
+            <value>
+                <fullName>Committed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Committed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,161 @@
+{
+  "activeBrandingSetId" : "d6924d1e-15e4-461e-9730-96e216f9187f",
+  "customCSS" : "html, body {\n    background-color: #1d7891;\n}",
+  "developerName" : "starter",
+  "id" : "6b836885-3e9b-4d1f-afd8-ccd8ee9cdce6",
+  "label" : "Build Your Own",
+  "layouts" : {
+    "Inner" : "7813c334-2f0b-4d38-b3e7-2a45dae0cc8d",
+    "Login" : "79e4fa8d-684f-49e6-9986-cdd82f6f78e6",
+    "ServiceNotAvailable" : "5caf8552-40ef-4dfb-9c7a-38f235c9c4a7"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "79e4fa8d-684f-49e6-9986-cdd82f6f78e6",
+    "label" : "Login",
+    "regions" : [ {
+      "id" : "fa688cd3-3dfc-446a-9e42-e8d6b7bcbad5",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "c19d1d01-8df3-4bbb-bc36-a00cc0b4c1a9",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "id" : "3e69533d-f429-419d-a52d-a856bc14c218",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1000,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : false
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "7813c334-2f0b-4d38-b3e7-2a45dae0cc8d",
+    "label" : "Default",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "maxAutoCompleteResults" : 5,
+          "searchLabel" : "Search...",
+          "searchObjects" : [ {
+            "isPublic" : true,
+            "name" : "Account"
+          } ]
+        },
+        "componentName" : "forceCommunity:globalSearchInput",
+        "id" : "5086a4e8-8b0c-49a4-80e6-bc9eef3971d4",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "d0e0bdda-8ab9-4eb2-bab2-a2eab8892954",
+      "regionName" : "search",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "accountManagementLabel" : "Account Management",
+          "communityBuilderLabel" : "Experience Builder",
+          "communitySetupLabel" : "Salesforce Setup",
+          "contactSupportLabel" : "Contact Support",
+          "filterName" : "MyCases",
+          "homeLabel" : "Home",
+          "includeContactSupport" : true,
+          "includeMessages" : false,
+          "loginLabel" : "Login",
+          "logoutLabel" : "Logout",
+          "myAccountLabel" : "My Account",
+          "showAccountManagement" : true,
+          "showUserSettings" : true,
+          "userSettingsLabel" : "My Settings",
+          "viewProfileLabel" : "My Profile"
+        },
+        "componentName" : "selfService:userProfileMenu",
+        "id" : "11f168b9-d473-41b7-9824-2c5f06b201e7",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "c827b98e-96e5-47cc-88a4-5869437f5685",
+      "regionName" : "profileMenu",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "NavigationMenuEditorRefresh" : "",
+          "hideAppLauncher" : true,
+          "hideHomeText" : true
+        },
+        "componentName" : "forceCommunity:globalNavigation",
+        "id" : "e5265ee1-02ba-4a06-be2e-359ac1857a81",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "2c6c108b-4129-4fe4-9593-c48719ee662b",
+      "regionName" : "navBar",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<div id=\"header-image\" style=\"text-align: center;\">\n    <img src=\"https://verto-assets.s3.amazonaws.com/LOGO-verto-header-dark-500.png\" \n         alt=\"Verto Education Logo\" style=\"height: 50px; margin-top: 40px; margin-bottom: 0.75rem;\" />\n</div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "c03f6b96-9e52-45e1-9463-b60ce85dbf28",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "00c84aaa-5351-4e79-8322-dcd3c54873d2",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "ebad0f5a-86ac-4044-b0e4-76655ab13690",
+      "regionName" : "themeHero",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<div style=\"text-align:center; padding-top: 0.75rem; color: black;\">\n\t<p>&#169 2022 Verto Education.</p>\n</div>"
+        },
+        "componentName" : "forceCommunity:htmlBlock",
+        "id" : "98102957-5904-46f1-88c5-6162a6e56c5a",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "3bb0c636-c4e2-41bc-82bf-7094f6d9c41b",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "5caf8552-40ef-4dfb-9c7a-38f235c9c4a7",
+    "label" : "ServiceNotAvailable",
+    "regions" : [ {
+      "id" : "d49f044a-e04a-43e6-b46c-6ee382cb2ea0",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "279fc308-bbb2-4dd7-9516-db61a739be07",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

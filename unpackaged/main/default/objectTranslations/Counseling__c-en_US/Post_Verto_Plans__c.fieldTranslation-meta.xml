@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Post-Verto Plans --></label>
+        <name>Post_Verto_Plans__c</name>
+        <picklistValues>
+            <masterLabel>Already Committed To Plans</masterLabel>
+            <translation><!-- Already Committed To Plans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs Decision to Deposit</masterLabel>
+            <translation><!-- Needs Decision to Deposit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wants College Counseling</masterLabel>
+            <translation><!-- Wants College Counseling --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

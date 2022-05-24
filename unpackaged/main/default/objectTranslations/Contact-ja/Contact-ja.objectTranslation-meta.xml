@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Counselor Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Parent/Guardian Layout</layout>
+        <sections>
+            <label><!-- Marketing Cloud Information --></label>
+            <section>Marketing Cloud Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Program Staff</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Student Layout</layout>
+        <sections>
+            <label><!-- Marketing Cloud Information --></label>
+            <section>Marketing Cloud Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>University Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- This Contact record type should be used when creating a contact for a high school counselor or other school/educational officials. --></description>
+        <label><!-- Counselor --></label>
+        <name>Counselor</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This contact record type is to record a students parents. --></description>
+        <label><!-- Parent/Guardian --></label>
+        <name>Parent_Guardian</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Program Staff --></label>
+        <name>Program_Staff</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Student --></label>
+        <name>Student</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Default Record Type for University Contacts --></description>
+        <label><!-- University --></label>
+        <name>University</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You must enter an account record in order to create a contact. --></errorMessage>
+        <name>Account_must_be_added</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- University Partner must be selected --></errorMessage>
+        <name>University_Partner_must_be_selected</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must enter an Account and an email in order to give this user box access. --></errorMessage>
+        <name>cant_save_view_access_without_details</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

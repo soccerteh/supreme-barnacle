@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Writing_Skill_Confidence__c</fullName>
+    <description>On a scale of 1 (not confident) to 6 (very confident), describe your confidence in your writing skills.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>On a scale of 1 (not confident) to 6 (very confident), describe your confidence in your writing skills.</inlineHelpText>
+    <label>Writing Skill Confidence</label>
+    <precision>1</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

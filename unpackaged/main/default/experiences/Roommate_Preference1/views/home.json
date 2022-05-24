@@ -1,0 +1,69 @@
+{
+  "appPageId" : "052f863a-4000-4ed4-be10-35270f4e3d6d",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "346d7bc3-4b89-4121-b59c-ac6541bd37ff",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div id=\"header-image\" style=\"text-align: center;\">\n    <img src=\"https://s3.amazonaws.com/files.formstack.com/public/922754/549833_tmpl_head_5ebecac4de0dd.\" alt=\"Verto Education Logo\" style=\"width: 390px; height: 390px;\" />\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "4d1078fc-a0dd-41f5-b480-0ef66f052b16",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "040eb69d-eac8-4feb-9e63-af9ccd699dd3",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"Enrollment_Id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!Enrollment_Id}\"}]",
+        "flowLayout" : "oneColumn",
+        "flowName" : "Roommate_Request"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "1cae0df1-b200-4e6c-b502-43d5c6e8ed1d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4464ae4a-eba7-4d4a-a7cb-6788d05734cf",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"text-align:center\">\n\t<p>&#169 2021 Verto Education.</p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "1e20bfd3-40be-4966-b65f-462dfe9124b9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0a0a1c7a-b58a-4ec0-af4c-181504407948",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "09670afd-2dbd-4aae-b70a-d9fc4da51c0f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5adae8d1-4863-4bdb-9882-11e0ae6d846c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

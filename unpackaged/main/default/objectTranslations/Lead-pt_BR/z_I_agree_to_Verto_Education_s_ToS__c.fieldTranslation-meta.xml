@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- z_I agree to Verto Education&apos;s ToS --></label>
+        <name>z_I_agree_to_Verto_Education_s_ToS__c</name>
+    </CustomFieldTranslation>

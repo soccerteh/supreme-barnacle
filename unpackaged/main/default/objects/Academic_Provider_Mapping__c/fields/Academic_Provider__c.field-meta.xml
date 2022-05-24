@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Academic_Provider__c</fullName>
+    <externalId>false</externalId>
+    <label>Academic Provider</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Only a School of Record may be used.</errorMessage>
+        <filterItems>
+            <field>Account.School_of_Record__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Academic Provider Mappings</relationshipLabel>
+    <relationshipName>School_of_Record_Mappings</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>true</writeRequiresMasterRead>
+</CustomField>

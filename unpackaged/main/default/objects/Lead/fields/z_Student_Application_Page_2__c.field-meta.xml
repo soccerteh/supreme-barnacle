@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>z_Student_Application_Page_2__c</fullName>
+    <description>This link is auto generated from FormStack when a new lead is created and can be used to email students to complete their applications (i.e. Page 2 of the application).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This link is auto generated when a new lead is created and can be used to email students to complete their applications (i.e. Page 2 of the application).</inlineHelpText>
+    <label>z_Student Application Page 2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Url</type>
+</CustomField>

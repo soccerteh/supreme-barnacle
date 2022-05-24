@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- I am on track to graduate in 4 years --></label>
+        <name>I_am_on_track_to_graduate_in_4_years__c</name>
+    </CustomFieldTranslation>

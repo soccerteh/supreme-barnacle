@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}}<br />
+<br />
+Congratulations! We have reviewed your student visa packet, and your student visa application is complete.<br />
+<br />
+Once Verto visits the Spanish Consulate, processing can take 4-6 weeks, so you can expect your passport returned to you in the mail about 2 weeks prior to your program start date. &nbsp;<br />
+<br />
+<u><b>Important Notes</b></u>
+<ul>
+	<li><span style="color:#e74c3c;">Keep the tracking number</span> from your self-addressed envelope to track your package once it leaves the consulate, tracking is your responsibility</li>
+	<li>Verto does not track packages and cannot intervene with courier services</li>
+	<li>A student visa will be affixed <span style="color:#e74c3c;">inside the passport </span>(as a large sticker)</li>
+	<li>The Spanish consulate will not provide updates on the visa processing</li>
+	<li>The Spanish consulate will not expedite a student visa application</li>
+</ul>
+<br />
+If you have any questions, feel free to reach out.<br />
+<br />
+Best,&nbsp;<br />
+<b>{{{Sender.Signature}}}</b><br />
+&nbsp;
+</body></html>

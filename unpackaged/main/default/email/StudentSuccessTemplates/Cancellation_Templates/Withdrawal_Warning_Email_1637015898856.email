@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hello&nbsp;{{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+I have been trying to contact you for the past several weeks without any response.&nbsp; I am writing to let you know that <b>if I do not hear from you within one week that you will be withdrawn from your Verto Education semester</b>.&nbsp; It is mandatory that you actively engage in the onboarding process to be eligible to attend your Verto semester.&nbsp;<br />
+<br />
+I'd like to remind you that your $500 deposit is non-refundable and I encourage you to review our <a href="https://vertoeducation.org/payment-cancellation-policy/#gref">payment and cancellation policy</a>.&nbsp;<br />
+<br />
+<b>To continue as a Verto student, you must contact me as soon as possible&nbsp;</b>by either returning this email or calling me at the phone number indicated in my signature below.&nbsp;&nbsp;<br />
+<br />
+I hope to hear from you soon.&nbsp;<br />
+<br />
+Best,&nbsp;<br />
+{{{Sender.FirstName}}}<br />
+<br />
+{{{Sender.Signature}}}
+</body></html>

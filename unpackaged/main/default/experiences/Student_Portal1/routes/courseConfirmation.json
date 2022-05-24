@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "d536ecd6-0813-431b-852a-be9421394930",
+  "appPageId" : "f8f8f5fe-a794-41ab-88e0-6bf8d49cc606",
+  "configurationTags" : [ ],
+  "id" : "fbeb6c4c-16df-4f4e-97fb-71a9d77da634",
+  "label" : "Course Confirmation",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-course-confirmation",
+  "type" : "route",
+  "urlPrefix" : "CourseConfirmation"
+}

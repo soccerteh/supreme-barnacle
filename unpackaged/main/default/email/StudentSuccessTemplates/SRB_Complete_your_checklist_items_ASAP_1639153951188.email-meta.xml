@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Last-minute warning to students to complete checklist items or risk being withdrawn from their program.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SRB Complete your checklist items ASAP</name>
+    <relatedEntityType>Enrollment_Record__c</relatedEntityType>
+    <style>none</style>
+    <subject>URGENT: Pre-departure checklist items</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X1_1_All_New_Opportunities_w_Step_1</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Family_Admissions_Call_Status__c</columns>
+    <columns>Family_Admissions_Call_Date_Time__c</columns>
+    <columns>Family_Interview_Booked_Date__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Family Admissions Call</value>
+    </filters>
+    <label>2.2 My Family Admissions Call</label>
+    <sharedTo>
+        <roleAndSubordinates>COO</roleAndSubordinates>
+    </sharedTo>
+</ListView>

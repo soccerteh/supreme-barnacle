@@ -1,0 +1,79 @@
+{
+  "appPageId" : "de408c33-b15c-4263-a366-fefa60038b5f",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "f986cff3-3ad2-43ba-9ee7-e250e4322726",
+  "label" : "Channel Enrollment",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f295f3a0-3eed-4bed-a29b-0e9476773627",
+          "columns" : [ {
+            "UUID" : "5b725778-752c-4c70-99b9-8d97b327ca32",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f295f3a0-3eed-4bed-a29b-0e9476773627",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: right;\"><span style=\"font-size: 13px; color: rgb(0, 0, 0);\">Note: Please click the Refresh button below for up to date information (not the refresh button on your browser)</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "07f90b4f-5fe9-422c-8c14-551aa5b41252",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "height" : "1600",
+            "recordId" : "01Z6S000001DfQ0UAK"
+          },
+          "componentName" : "forceCommunity:dashboard",
+          "id" : "e3907aa1-704c-46a0-b8bd-558b5aac356b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5b725778-752c-4c70-99b9-8d97b327ca32",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c3662ebf-fe97-48a8-ba9c-84247e537b85",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Channel Enrollment"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "91706d7b-56cb-4b67-847f-9061d51625ad",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "590d2939-c265-42ec-ab5f-114a54bf9b4c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "StRZkqCHu5Lsb1IryNgLSWDNkW6HF9",
+  "type" : "view",
+  "viewType" : "custom-channel-enrollment"
+}

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Health Form</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Health Forms</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Health History Form Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Medication Information --></label>
+            <section>Additional Medication Information</section>
+        </sections>
+        <sections>
+            <label><!-- Allergy 1 --></label>
+            <section>Allergy 1</section>
+        </sections>
+        <sections>
+            <label><!-- Allergy 2 --></label>
+            <section>Allergy 2</section>
+        </sections>
+        <sections>
+            <label><!-- Allergy 3 --></label>
+            <section>Allergy 3</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dietary Restrictions --></label>
+            <section>Dietary Restrictions</section>
+        </sections>
+        <sections>
+            <label><!-- Emergency Contact 1 --></label>
+            <section>Emergency Contact 1</section>
+        </sections>
+        <sections>
+            <label><!-- Emergency Contact 2 --></label>
+            <section>Emergency Contact 2</section>
+        </sections>
+        <sections>
+            <label><!-- Emergency Contact 3 --></label>
+            <section>Emergency Contact 3</section>
+        </sections>
+        <sections>
+            <label><!-- Health History --></label>
+            <section>Health History</section>
+        </sections>
+        <sections>
+            <label><!-- Medication 1 --></label>
+            <section>Medication 1</section>
+        </sections>
+        <sections>
+            <label><!-- Medication 2 --></label>
+            <section>Medication 2</section>
+        </sections>
+        <sections>
+            <label><!-- Medication 3 --></label>
+            <section>Medication 3</section>
+        </sections>
+        <sections>
+            <label><!-- Medication 4 --></label>
+            <section>Medication 4</section>
+        </sections>
+        <sections>
+            <label><!-- Mental Health History --></label>
+            <section>Mental Health History</section>
+        </sections>
+        <sections>
+            <label><!-- Swimming Ability --></label>
+            <section>Swimming Ability</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Health History Form --></label>
+        <name>Health_History_Form</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

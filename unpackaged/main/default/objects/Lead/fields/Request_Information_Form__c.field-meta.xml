@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Information_Form__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the link auto created when a new lead is added that can be used to email to a student to complete the Request For Information Form (i.e. Page 1 of the Application).</inlineHelpText>
+    <label>z_Request Information Form</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Url</type>
+</CustomField>

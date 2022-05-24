@@ -1,0 +1,16 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hello&nbsp;{{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+My name is&nbsp;{{{Sender.FirstName}}} and I am going to be your student's Student Onboarding Advisor (SOA).&nbsp; Between now and the start of the semester, I will be supporting your student as they navigate the pre-departure process.&nbsp;<br />
+<br />
+This is an exciting step toward the next chapter in your student's life and I am looking forward to working with them! Along with beginning their college career, they are embarking on a life-changing journey, which requires an additional degree of independence and self-advocacy.&nbsp; In order to best prepare each of our students for their programs and college careers, we believe that students should be the person who is consistently engaged in the pre-departure process.&nbsp; This means that your student will be my primary point of contact within your family for important next steps and action items leading up to the semester.&nbsp;<br />
+<br />
+Though I will be communicating with your student directly for the majority of this process to help foster their independence and self-advocacy skills, I would also like you to know that if you do have any questions or concerns regarding the program, you can reach out to me any time by emailing&nbsp;{{{Sender.Email}}}.&nbsp; You will also be able to stay up-to-date on important program information with our regular email communications, the <a href="https://vertoeducation.org/enrolled-students">Enrolled Students Page</a>, and through our Parent Circle meetings, which you can register for on our <a href="https://vertoeducation.org/community-events/">Verto Events Page</a>.&nbsp;<br />
+<br />
+All the best,&nbsp;<br />
+<br />
+{{{Sender.Signature}}}<br />
+&nbsp;
+</body></html>

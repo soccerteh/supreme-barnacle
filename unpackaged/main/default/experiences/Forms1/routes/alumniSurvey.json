@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "bc31f085-3edc-45bf-8c6f-129f71644efc",
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "configurationTags" : [ ],
+  "id" : "6bc81e47-0c3d-4ac4-a429-5364428c0884",
+  "label" : "AlumniSurvey",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-alumnisurvey",
+  "type" : "route",
+  "urlPrefix" : "alumnisurvey"
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Roommate Stays Up Late --></label>
+        <name>Roommate_Stays_Up_Late__c</name>
+        <picklistValues>
+            <masterLabel>No preference.</masterLabel>
+            <translation><!-- No preference. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No, I go to bed before 11:00pm and prefer to live with someone who also goes to bed before 11:00pm.</masterLabel>
+            <translation><!-- No, I go to bed before 11:00pm and prefer to live with someone who also goes to bed before 11:00pm. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, I typically stay up until after 11:00pm and/or am comfortable living with someone who does.</masterLabel>
+            <translation><!-- Yes, I typically stay up until after 11:00pm and/or am comfortable living with someone who does. --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

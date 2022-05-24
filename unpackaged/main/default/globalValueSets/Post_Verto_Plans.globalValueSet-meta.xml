@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>I’m interested in learning more about Verto’s partner schools.</fullName>
+        <default>false</default>
+        <label>I’m interested in learning more about Verto’s partner schools.</label>
+    </customValue>
+    <customValue>
+        <fullName>Already committed to a College, University or Other Educational Institution.</fullName>
+        <default>false</default>
+        <label>Already committed to a College, University or Other Educational Institution.</label>
+    </customValue>
+    <customValue>
+        <fullName>I have not begun planning my post-Verto education.</fullName>
+        <default>false</default>
+        <label>I have not begun planning my post-Verto education.</label>
+    </customValue>
+    <masterLabel>Post-Verto Plans</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

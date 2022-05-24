@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows editing the Course Registration Close Date field on the Enrollment Record.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Enrollment_Record__c.Course_Registration_Close_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Edit Enrollment Record - Course Registration Close Date</label>
+</PermissionSet>

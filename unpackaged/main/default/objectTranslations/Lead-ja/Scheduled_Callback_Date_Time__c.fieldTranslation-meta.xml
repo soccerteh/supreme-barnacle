@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Select the date and time that you would like the student to receive a callback via a Five9 campaign. To cancel a scheduled callback, empty this field. --></help>
+        <label><!-- Scheduled Callback Date/Time --></label>
+        <name>Scheduled_Callback_Date_Time__c</name>
+    </CustomFieldTranslation>

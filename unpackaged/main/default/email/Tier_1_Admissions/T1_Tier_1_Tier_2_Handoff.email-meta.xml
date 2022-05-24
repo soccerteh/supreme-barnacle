@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email creates a warm introduction to the student&#39;s Tier 2 Counselor</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>T1: Tier 1 &gt; Tier 2 Handoff</name>
+    <style>none</style>
+    <subject>Great chatting with you!</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

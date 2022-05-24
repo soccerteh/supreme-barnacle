@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.First_Name__c}}},&nbsp;<br />
+<br />
+We've received a request from your Verto Student Success Coach,&nbsp;{{{Enrollment_Record__c.Owner__c}}} that your Semester Withdrawal request has been submitted and approved. As a member of Verto's Financial Services team, I have now begun the process of your reimbursement in accordance with our <a href="https://vertoeducation.org/payment-cancellation-policy/">Payment &amp; Cancellation Policy</a> and our <a href="https://vertoeducation.org/withdrawal-financial-appeal-policies/">Withdrawal &amp; Financial Appeal policy</a>.<br />
+<br />
+After processing the request, I'm pleased to verify that you will receive a refund of xx for tuition and fees paid. This will be reimbursed to you via check/direct disbursement, so please look out for that.<br />
+<br />
+We wish you the best in the rest of your college career!&nbsp;<br />
+&nbsp;
+</body></html>

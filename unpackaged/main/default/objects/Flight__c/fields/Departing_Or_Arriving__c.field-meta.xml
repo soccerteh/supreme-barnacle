@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Departing_Or_Arriving__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Unchecked is Departing &amp; Checked is Arriving</description>
+    <externalId>false</externalId>
+    <label>Departing Or Arriving</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

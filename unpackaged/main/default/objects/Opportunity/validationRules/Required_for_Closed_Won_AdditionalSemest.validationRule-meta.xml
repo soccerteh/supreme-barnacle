@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_for_Closed_Won_AdditionalSemest</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$User.Bypass_Validation__c = FALSE,
+
+LEFT( RecordTypeId , 15) = LEFT( $Label.RT_Opp_Additional_Semester , 15),
+
+ispickval(StageName, &quot;Closed Won&quot;),
+
+or(
+isblank( Original_Program__c ),
+isblank( Current_Program__c ),
+isblank( Enrollment_Agreement_Signed_Date_Time__c )
+),
+
+or(
+ischanged(StageName),
+ischanged(Original_Program__c),
+(ischanged(Current_Program__c) &amp;&amp; not(ischanged( Current_Program_Automation_Run_Time__c ))),
+ischanged(Enrollment_Agreement_Signed_Date_Time__c)
+)
+)</errorConditionFormula>
+    <errorMessage>To set the opportunity stage to closed won, Original Program and Current Program must be filled in, and the student must have submitted their enrollment agreement.</errorMessage>
+</ValidationRule>

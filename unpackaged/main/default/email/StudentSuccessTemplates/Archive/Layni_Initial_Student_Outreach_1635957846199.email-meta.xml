@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Invite a student for a welcome call</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Layni - Initial Student Outreach</name>
+    <relatedEntityType>Enrollment_Record__c</relatedEntityType>
+    <style>none</style>
+    <subject>Important: Introducing Your Verto Advisor</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

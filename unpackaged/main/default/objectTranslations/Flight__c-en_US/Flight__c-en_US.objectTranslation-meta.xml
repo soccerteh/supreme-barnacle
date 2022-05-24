@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Flight</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Flights</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Flight Layout</layout>
+        <sections>
+            <label><!-- Addtional Information --></label>
+            <section>Addtional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Connecting Originating Flight 1 --></label>
+            <section>Connecting Originating Flight 1</section>
+        </sections>
+        <sections>
+            <label><!-- Connecting Originating Flight 2 --></label>
+            <section>Connecting Originating Flight 2</section>
+        </sections>
+        <sections>
+            <label><!-- Connecting Return Flight 1 --></label>
+            <section>Connecting Return Flight 1</section>
+        </sections>
+        <sections>
+            <label><!-- Connecting Return Flight 2 --></label>
+            <section>Connecting Return Flight 2</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Originating Flight --></label>
+            <section>Originating Flight</section>
+        </sections>
+        <sections>
+            <label><!-- Return Flight --></label>
+            <section>Return Flight</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Flight Legacy Layout</layout>
+        <sections>
+            <label><!-- Addtional Information --></label>
+            <section>Addtional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Departing First Leg --></label>
+            <section>Departing First Leg</section>
+        </sections>
+        <sections>
+            <label><!-- Departing Second Leg --></label>
+            <section>Departing Second Leg</section>
+        </sections>
+        <sections>
+            <label><!-- Departing Third Leg --></label>
+            <section>Departing Third Leg</section>
+        </sections>
+        <sections>
+            <label><!-- Returning First Leg --></label>
+            <section>Returning First Leg</section>
+        </sections>
+        <sections>
+            <label><!-- Returning Second Leg --></label>
+            <section>Returning Second Leg</section>
+        </sections>
+        <sections>
+            <label><!-- Returning Third Leg --></label>
+            <section>Returning Third Leg</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Current RT for Flights --></description>
+        <label><!-- Flights --></label>
+        <name>Flights</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Converted from Standard &gt; Legacy since all new Flight Forms will be on a new page layout --></description>
+        <label><!-- Legacy --></label>
+        <name>Standard</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

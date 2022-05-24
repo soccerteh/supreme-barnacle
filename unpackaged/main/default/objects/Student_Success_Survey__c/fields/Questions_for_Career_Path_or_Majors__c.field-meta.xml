@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Questions_for_Career_Path_or_Majors__c</fullName>
+    <description>What questions do you have regarding possible career paths or majors? What would you like to learn more about?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What questions do you have regarding possible career paths or majors? What would you like to learn more about?</inlineHelpText>
+    <label>Questions for Career Path or Majors</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

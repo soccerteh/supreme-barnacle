@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Fields_Required</fullName>
+    <active>true</active>
+    <description>Ensures the following contact fields are populated, to save the record.</description>
+    <errorConditionFormula>AND(
+    !$User.Bypass_Validation__c,
+    RecordType.Name != &#39;Parent&#39;,
+    OR(
+        ISNEW(),
+        ISCHANGED(First_Name__c),
+        ISCHANGED(Last_Name__c),
+        ISCHANGED(Email__c),
+        ISBLANK(Phone__c),
+        ISCHANGED(Country__c),
+        ISCHANGED(Zip_Postal_Code__c)
+    ),
+    OR(
+        ISBLANK(First_Name__c),
+        ISBLANK(Last_Name__c),
+        ISBLANK(Email__c),
+        ISBLANK(Phone__c),
+        AND(
+            $UserRole.Name != &#39;System Integrations&#39;,
+            OR(
+                ISBLANK(TEXT(Country__c)),
+                ISBLANK(Zip_Postal_Code__c)
+            )
+        )
+    )
+)</errorConditionFormula>
+    <errorMessage>A valid first name, last name, email, phone, country, and postal code are required to save</errorMessage>
+</ValidationRule>

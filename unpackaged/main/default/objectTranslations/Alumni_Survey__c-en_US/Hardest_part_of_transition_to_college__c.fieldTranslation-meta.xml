@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Hardest part of transition to college --></label>
+        <name>Hardest_part_of_transition_to_college__c</name>
+    </CustomFieldTranslation>

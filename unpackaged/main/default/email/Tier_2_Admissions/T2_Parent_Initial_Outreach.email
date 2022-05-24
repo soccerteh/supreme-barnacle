@@ -1,0 +1,18 @@
+Hi {!Opportunity.Z_Parent_1_First_Name__c},
+
+{!Opportunity.z_First_Name__c} has taken the initiative to begin an application to Verto Education, and we just wrapped up a wonderful interview. College is certainly a big decision, so it's always best when families are on the same page. Would it be possible to set up a family call? Please let me know if there's a time tomorrow or the next day that would work best for you.
+
+As you discuss Verto Education with {!Opportunity.z_First_Name__c}, here’s a brief overview of how Verto works to launch students' college careers with immersive semesters: 
+
+Verto is a first semester (or year) of college abroad, with direct admission to 50+ colleges and universities. It's more affordable than your typical semester of college and can get your student admitted to at least one of our 50+ partner colleges (William & Mary, Bucknell, University of Vermont, University of Oregon, Temple University, and more). They will also get a full load of college credits to transfer to any school of their choice, including colleges that are not Verto partners.
+
+Many families are wondering about college in these uncertain times. Verto is more well-equipped and likely to offer amazing, in-person semesters than most other institution of higher learning. Here are some documents that will help answer questions most parents are asking at this time: vertoeducation.org/scenario-plan/. We also offer an Enrollment Guarantee; if for any reason Verto is not able to run the semester location that {!Opportunity.z_First_Name__c} signed up for, your family can switch to one of our other locations or receive a refund. We are confident that Verto will provide a secure, impactful launch to college for {!Opportunity.z_First_Name__c}!
+
+If you have further questions before our call, please reply to this email or arrange a meeting with me using my scheduling link. Here is a link to sign up for our upcoming Virtual Open House, where you can speak with recent Verto alumni and our financial aid and college counseling team: https://vertoeducation.org/open-house
+
+This quick video does a nice job of outlining our model: https://www.youtube.com/watch?v=wFaOfZ4Amm8
+
+I Iook forward to speaking with you and {!Opportunity.z_First_Name__c} in more detail during our upcoming group call, and during our call we can cover program experience, tuition/scholarships, safety, and anything else on your mind. 
+ 
+All my best, 
+{!Opportunity.OwnerFullName}

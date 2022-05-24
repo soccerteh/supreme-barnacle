@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FormStack_All_Opportunities</fullName>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Phone_Number__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <columns>z_Email__c</columns>
+    <columns>Z_Select_your_Starting_Semester__c</columns>
+    <columns>Z_Year_of_Graduation__c</columns>
+    <columns>Persona__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>FormStack All Opportunities</label>
+</ListView>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Receiving_Treatment_for_Mental_Health__c</fullName>
+    <externalId>false</externalId>
+    <label>Receiving  Treatment for (Mental Health)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Eating disorder or disordered eating</fullName>
+                <default>false</default>
+                <label>Eating disorder or disordered eating</label>
+            </value>
+            <value>
+                <fullName>Suicidal or destructive thoughts</fullName>
+                <default>false</default>
+                <label>Suicidal or destructive thoughts</label>
+            </value>
+            <value>
+                <fullName>Self-harm</fullName>
+                <default>false</default>
+                <label>Self-harm</label>
+            </value>
+            <value>
+                <fullName>Substance abuse or addiction</fullName>
+                <default>false</default>
+                <label>Substance abuse or addiction</label>
+            </value>
+            <value>
+                <fullName>Severe anxiety or depression</fullName>
+                <default>false</default>
+                <label>Severe anxiety or depression</label>
+            </value>
+            <value>
+                <fullName>None of the above</fullName>
+                <default>false</default>
+                <label>None of the above</label>
+            </value>
+            <value>
+                <fullName>Anxiety</fullName>
+                <default>false</default>
+                <label>Anxiety</label>
+            </value>
+            <value>
+                <fullName>Depression</fullName>
+                <default>false</default>
+                <label>Depression</label>
+            </value>
+            <value>
+                <fullName>Bipolar disorder</fullName>
+                <default>false</default>
+                <label>Bipolar disorder</label>
+            </value>
+            <value>
+                <fullName>PTSD</fullName>
+                <default>false</default>
+                <label>PTSD</label>
+            </value>
+            <value>
+                <fullName>Alcohol abuse or addiction</fullName>
+                <default>false</default>
+                <label>Alcohol abuse or addiction</label>
+            </value>
+            <value>
+                <fullName>Other substance abuse or addiction</fullName>
+                <default>false</default>
+                <label>Other substance abuse or addiction</label>
+            </value>
+            <value>
+                <fullName>Suicidal ideation or attempt</fullName>
+                <default>false</default>
+                <label>Suicidal ideation or attempt</label>
+            </value>
+            <value>
+                <fullName>ADHD</fullName>
+                <default>false</default>
+                <label>ADHD</label>
+            </value>
+            <value>
+                <fullName>Autism Spectrum</fullName>
+                <default>false</default>
+                <label>Autism Spectrum</label>
+            </value>
+            <value>
+                <fullName>Other (please specify below)</fullName>
+                <default>false</default>
+                <label>Other (please specify below)</label>
+            </value>
+            <value>
+                <fullName>Panic attacks</fullName>
+                <default>false</default>
+                <label>Panic attacks</label>
+            </value>
+            <value>
+                <fullName>General emotional wellness</fullName>
+                <default>false</default>
+                <label>General emotional wellness</label>
+            </value>
+            <value>
+                <fullName>Specific life event</fullName>
+                <default>false</default>
+                <label>Specific life event</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

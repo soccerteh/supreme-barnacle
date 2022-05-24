@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>General_Ed_Credit</fullName>
+    <active>true</active>
+    <label>General Ed Credit</label>
+    <picklistValues>
+        <picklist>No_Transfer_Reason__c</picklist>
+        <values>
+            <fullName>Equivalent partner course has higher level prerequisites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equivalent partner course is at a higher level than the Verto course</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner course is part of a 2-semester sequence while Verto course is just one</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner has no equivalent department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verto course is part of a 2-semester sequence while partner course is just one</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Transferability__c</picklist>
+        <values>
+            <fullName>Does Not Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfers</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

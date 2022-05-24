@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Number of Verto Semesters --></label>
+        <name>Number_of_Verto_Semesters__c</name>
+        <picklistValues>
+            <masterLabel>1 Semester</masterLabel>
+            <translation><!-- 1 Semester --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Semesters</masterLabel>
+            <translation><!-- 2 Semesters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not sure yet.</masterLabel>
+            <translation><!-- Not sure yet. --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

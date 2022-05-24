@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Z_Stage_Prior_Value__c</fullName>
+    <externalId>false</externalId>
+    <label>Z_Stage Prior Value</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Stage - New Opportunity</fullName>
+                <default>false</default>
+                <label>Stage - New Opportunity</label>
+            </value>
+            <value>
+                <fullName>Stage - Interview</fullName>
+                <default>false</default>
+                <label>Stage - Interview</label>
+            </value>
+            <value>
+                <fullName>Stage - Application</fullName>
+                <default>false</default>
+                <label>Stage - Application</label>
+            </value>
+            <value>
+                <fullName>Application Approved (Accepted)</fullName>
+                <default>false</default>
+                <label>Application Approved (Accepted)</label>
+            </value>
+            <value>
+                <fullName>Pending Enrollment</fullName>
+                <default>false</default>
+                <label>Pending Enrollment</label>
+            </value>
+            <value>
+                <fullName>Closed Won (Enrolled)</fullName>
+                <default>false</default>
+                <label>Closed Won (Enrolled)</label>
+            </value>
+            <value>
+                <fullName>Closed Lost</fullName>
+                <default>false</default>
+                <label>Closed Lost</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

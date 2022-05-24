@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Welcome_Call_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Welcome Call Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Counseling_Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Scheduled</fullName>
+                <default>false</default>
+                <label>Not Scheduled</label>
+            </value>
+            <value>
+                <fullName>Scheduled</fullName>
+                <default>false</default>
+                <label>Scheduled</label>
+            </value>
+            <value>
+                <fullName>Complete</fullName>
+                <default>false</default>
+                <label>Complete</label>
+            </value>
+            <value>
+                <fullName>No-Show</fullName>
+                <default>false</default>
+                <label>No-Show</label>
+            </value>
+            <value>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+                <label>Cancel</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Welcome Call Scheduled</controllingFieldValue>
+            <valueName>Not Scheduled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Welcome Call Scheduled</controllingFieldValue>
+            <valueName>Scheduled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Welcome Call Scheduled</controllingFieldValue>
+            <valueName>Complete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Welcome Call Scheduled</controllingFieldValue>
+            <valueName>No-Show</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Welcome Call Scheduled</controllingFieldValue>
+            <valueName>Cancel</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

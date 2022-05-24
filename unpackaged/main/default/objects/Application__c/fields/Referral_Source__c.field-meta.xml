@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral_Source__c</fullName>
+    <description>The applicant&#39;s response to the question &quot;How did you hear about Verto?&quot;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The applicant&#39;s response to the question &quot;How did you hear about Verto?&quot;</inlineHelpText>
+    <label>Referral Source</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A Verto Representative Visited My School</fullName>
+                <default>false</default>
+                <label>A Verto Representative Visited My School</label>
+            </value>
+            <value>
+                <fullName>College Fair</fullName>
+                <default>false</default>
+                <label>College Fair</label>
+            </value>
+            <value>
+                <fullName>Family or Friend</fullName>
+                <default>false</default>
+                <label>Family or Friend</label>
+            </value>
+            <value>
+                <fullName>Google Search (or another search engine)</fullName>
+                <default>false</default>
+                <label>Google Search (or another search engine)</label>
+            </value>
+            <value>
+                <fullName>Independent Educational Consultant</fullName>
+                <default>false</default>
+                <label>Independent Educational Consultant</label>
+            </value>
+            <value>
+                <fullName>My College</fullName>
+                <default>false</default>
+                <label>My College</label>
+            </value>
+            <value>
+                <fullName>My High School Counselor</fullName>
+                <default>false</default>
+                <label>My High School Counselor</label>
+            </value>
+            <value>
+                <fullName>Online Ad</fullName>
+                <default>false</default>
+                <label>Online Ad</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+                <label>Social Media</label>
+            </value>
+            <value>
+                <fullName>Mail</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mail</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

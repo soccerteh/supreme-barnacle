@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discount_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Discount Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CTW</fullName>
+                <default>false</default>
+                <label>CTW</label>
+            </value>
+            <value>
+                <fullName>ILA</fullName>
+                <default>false</default>
+                <label>ILA</label>
+            </value>
+            <value>
+                <fullName>Opportunity Grant</fullName>
+                <default>false</default>
+                <label>Opportunity Grant</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Merit Award</fullName>
+                <default>false</default>
+                <label>Merit Award</label>
+            </value>
+            <value>
+                <fullName>Early Enrollment Discount</fullName>
+                <default>false</default>
+                <label>Early Enrollment Discount</label>
+            </value>
+            <value>
+                <fullName>Prior Pricing Discount</fullName>
+                <default>false</default>
+                <label>Prior Pricing Discount</label>
+            </value>
+            <value>
+                <fullName>Promise Grant 1</fullName>
+                <default>false</default>
+                <label>Promise Grant 1</label>
+            </value>
+            <value>
+                <fullName>Promise Grant 2</fullName>
+                <default>false</default>
+                <label>Promise Grant 2</label>
+            </value>
+            <value>
+                <fullName>USF Scholarship</fullName>
+                <default>false</default>
+                <label>USF Scholarship</label>
+            </value>
+            <value>
+                <fullName>Scholarship</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Scholarship</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

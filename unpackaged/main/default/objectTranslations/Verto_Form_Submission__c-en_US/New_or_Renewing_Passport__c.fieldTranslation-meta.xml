@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- New or Renewing Passport --></label>
+        <name>New_or_Renewing_Passport__c</name>
+        <picklistValues>
+            <masterLabel>New Passport</masterLabel>
+            <translation><!-- New Passport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewing Passport</masterLabel>
+            <translation><!-- Renewing Passport --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

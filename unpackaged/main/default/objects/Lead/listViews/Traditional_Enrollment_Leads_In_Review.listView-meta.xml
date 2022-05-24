@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Traditional_Enrollment_Leads_In_Review</fullName>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>FULL_NAME</columns>
+    <columns>Associated_Application__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Traditional_Enrollment</value>
+    </filters>
+    <filters>
+        <field>Approval_Process_Completion_Date__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Approval_Process_Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Traditional Leads Needing Approval</label>
+    <sharedTo>
+        <role>COO</role>
+        <role>Head_of_Enrollment_Services</role>
+        <role>Program_Operations</role>
+        <roleAndSubordinatesInternal>Admissions_Tier_1_Manager</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Admissions_Tier_2_Manager</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

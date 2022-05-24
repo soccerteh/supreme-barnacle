@@ -1,0 +1,49 @@
+{
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "c868bf91-f889-4d6f-9184-1716a6ccc55f",
+  "label" : "Transportation Accommodation",
+  "regions" : [ {
+    "id" : "4f21cb36-1552-4a81-aa12-2843b51e57d7",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"Account_Id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!aid}\"},{\"label\":\"Program_Id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!program}\"}]",
+        "flowLayout" : "oneColumn",
+        "flowName" : "Transportation_Accommodation_Form"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "2f2d2740-41e4-4d8a-bc17-165358d8891d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5b60fb67-9d24-4f6a-a427-e69baf1d2fdf",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "2edc5ff2-80d4-40cb-a6e8-d3de32c8b9c6",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Transportation Accommodation"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4d971382-487d-4256-9cf4-e64a8d151df6",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "45719c5d-84a7-4889-a8c3-09a007303a2a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-transportation-accommodation"
+}

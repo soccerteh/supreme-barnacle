@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Student_Interview_Notes_Required</fullName>
+    <active>true</active>
+    <description>This validation rule stops an Opportunity from progressing past interview stage if interview notes are not input.</description>
+    <errorConditionFormula>AND($User.Bypass_Validation__c = False,
+ $User.Username   &lt;&gt; &quot;formstack@vertoeducation.org&quot;,
+NOT(ISPICKVAL( LeadSource ,&quot;Channel Enrollment&quot;)),
+OR(
+(ISBLANK( HS_Experience_Notes__c )),
+(ISBLANK( Student_Hobbies_or_Interests__c )),
+(ISBLANK( College_Planning_Process_Notes__c )),
+(ISBLANK( Thoughts_on_Major__c )),
+(ISBLANK( Student_Family_Support_Situation__c )) ,
+(ISBLANK( What_drew_this_student_to_Verto__c )) ,
+(ISBLANK( Does_student_have_concerns__c )) ,
+(ISBLANK( Additional_feedback_for_Student_Success__c ))
+),
+OR (
+ISPICKVAL( StageName , &quot;Stage - Application&quot;),
+ISPICKVAL(StageName, &quot;Application Approved (Accepted)&quot;),
+ISPICKVAL(StageName, &quot;Pending Enrollment&quot;),
+ISPICKVAL(StageName, &quot;Closed Won (Enrolled)&quot;)),
+
+ISCHANGED( StageName )
+)</errorConditionFormula>
+    <errorMessage>Please enter your student interview notes.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel_Type__c</fullName>
+    <description>This field was requested by the Partner Relations and College Counseling teams. It indicates the type of pathway a student can follow to attend the channel partner school. &quot;Bridge&quot; indicates that the student must reapply to the partner after they successfully complete a Verto semester. &quot;Guaranteed&quot; indicates that the student does not need to reapply to the partner school in order to attend.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+AND(
+LEFT( RecordTypeId , 15) = LEFT( $Label.RT_Application_TraditionalEnrollment , 15),
+NOT(ISBLANK(University__c))
+),
+&quot;Bridge&quot;,
+IF(
+LEFT( RecordTypeId , 15) = LEFT( $Label.RT_Application_ChannelEnrollment , 15),
+&quot;Guaranteed&quot;,
+&quot;&quot;
+)
+)</formula>
+    <inlineHelpText>&quot;Bridge&quot; indicates that the student must reapply to the partner after they successfully complete a Verto semester. &quot;Guaranteed&quot; indicates that the student does not need to reapply to the partner school in order to attend.</inlineHelpText>
+    <label>Channel Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

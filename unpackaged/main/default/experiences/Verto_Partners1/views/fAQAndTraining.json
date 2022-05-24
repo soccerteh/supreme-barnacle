@@ -1,0 +1,100 @@
+{
+  "appPageId" : "de408c33-b15c-4263-a366-fefa60038b5f",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "e39e961a-5cc9-4830-937f-a93d9d0c7ae9",
+  "label" : "FAQ and Training",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "dafd0a6b-6016-4bce-8994-4aa9614fc34a",
+          "columns" : [ {
+            "UUID" : "a6053863-c6b8-4d48-ba8e-ce82bac35a9f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "bd567320-2449-44e4-acb6-1b519ce029e7",
+            "columnKey" : "c0c98",
+            "columnName" : "Column 2",
+            "columnWidth" : "6",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "dafd0a6b-6016-4bce-8994-4aa9614fc34a",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-decoration:underline;text-align:center\">FAQ</h1>\n<br>\n<h3 style=\"font-family:Oswald;\">Who do I reach out to for questions?</h3>\n<ul>\n    <li style=\"font-family:'Roboto', sans-serif;\">If you have any questions regarding portal access, portal reports, or student applications, reach out to Lakota Bowen. You chatter her directly from a student application or email <a href=\"mailto:lakota.bowen@vertoeducation.org\">lakota.bowen@vertoeducation.org</a></li>\n\t<li style=\"font-family:'Roboto', sans-serif;\">If you have any questions regarding the partnership, please reach out to your account manager.</li> \n\t<ul>\n        <li style=\"font-family:'Roboto', sans-serif;\">Kathleen Fink: <a href=\"mailto:kathleen.fink@vertoeducation.org\">kathleen.fink@vertoeducation.org</a></li>\n        <li style=\"font-family:'Roboto', sans-serif;\">Nicole Holmberg: <a href=\"mailto:nicole.holmberg@vertoeducation.org\">nicole.holmberg@vertoeducation.org</a> </li>\n\t</ul>\n</ul>\n<br>\n<h3 style=\"font-family:Oswald;\">How do I know I have a new application?</h3>\n<ul>\n    <li style=\"font-family:'Roboto', sans-serif;\">An email will be sent to our admissions and operations contacts when a new application is sent. If you see a new application and did not receive an email, please reach out to <a href=\"mailto:lakota.bowen@vertoeducation.org\">lakota.bowen@vertoeducation.org</a>. </li>   \n</ul>\n<br>\n<h3 style=\"font-family:Oswald;\">Do you have a data dictionary I can map?</h3>\n<ul>\n    <li style=\"font-family:'Roboto', sans-serif;\">Yes! Our updated data dictionary is linked <a href=\"https://docs.google.com/spreadsheets/d/1gwzUhW1RJkKuZFJz0Nlk237dtBcub-Aklfv1AF9X4Ms/edit#gid=1670330626\">here.</a> </li>\n</ul>\n<br>\n<h3 style=\"font-family:Oswald;\">Once we have made a decision on a student, do we still need to tell Verto?</h3>\n<ul>\n    <li style=\"font-family:'Roboto', sans-serif;\">Yes! At this point we still ask that you send copies of decision letters to <a href=\"mailto:collegecounseling@vertoeducation.org\">collegecounseling@vertoeducation.org</a>. Once we receive the decision, our Operations Team will update our records and that will reflect in the portal. You are also welcome to update the decision within the portal if you prefer.</li> \n\t<li style=\"font-family:'Roboto', sans-serif;\">This allows our college counselors to follow up with students and provide support as they receive their decisions.</li>\n</ul>\n<br>\n<h3 style=\"font-family:Oswald;\">How do I provide feedback on the portal or the information included in the application packet?</h3>\n<ul>\n    <li style=\"font-family:'Roboto', sans-serif;\">We would love any feedback you can provide <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSe8kKRD9rGAJAoTJBdNl7f5JRMlkpblccLeOgaDmW3f_YKR5g/viewform\" target=\"_blank\">here!</a></li>\n</ul>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "b4d8c569-d04e-46a0-b0c0-5c99da3ba69b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a6053863-c6b8-4d48-ba8e-ce82bac35a9f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-decoration:underline;text-align:center\">Training Documents</h1>\n<br>\n<h4 style=\"font-family:'Roboto', sans-serif;text-align:center\"><a href=\"https://docs.google.com/document/d/1P2u3WJ5_8DCFENrn8t-P3zlOGlgn3DOMThQieZ_L3ZM/edit\" target=\"_blank\">Partner Portal Navigation and Use</a></h3>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "9d6c0cf8-08c5-4c45-87aa-3fa86e501a2f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-decoration:underline;text-align:center\">Training Documents</h1>\n<br>\n<h4 style=\"font-family:'Roboto', sans-serif;text-align:center\"><a href=\"https://docs.google.com/document/d/1QRMQZR9Cl-1j2bPNV0vvvR5LbFXFYkD5PsN4s28SiXI/edit\" target=\"_blank\">Partner Portal Navigation and Use</a></h3>"
+          },
+          "componentName" : "forceCommunity:htmlBlock",
+          "id" : "4452b9bf-8c9e-4262-ad70-fc7d73b5dbff",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "bd567320-2449-44e4-acb6-1b519ce029e7",
+        "regionLabel" : "Column 2",
+        "regionName" : "c0c98",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "64125269-d700-4457-8d84-c16a462fd54a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "FAQ and Training"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f3a3a771-01b1-4b0c-852a-46f88881232c",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "48f1dd69-b9f1-4af8-a852-04a6155fd7bd",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "5r52dehobRw8FNJmUAGN8XXBXcza42",
+  "type" : "view",
+  "viewType" : "custom-faq-and-training"
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_$Enrollment_Record__c.Students_Name__c</field>
+    </columns>
+    <columns>
+        <field>FK_CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Awarded_Amount__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Scholarship__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Z_Parent_1_Email__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Z_Parent_2_Email__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.z_Email__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Enrollment_Record__c.Enrollment_Status__c</field>
+    </columns>
+    <description>helps steph create weekly invoicing</description>
+    <filter>
+        <booleanFilter>1 AND (2 OR 3) AND 4 AND 5</booleanFilter>
+        <criteriaItems>
+            <column>FK_$Enrollment_Record__c.Enrollment_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Enrolled</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_$Enrollment_Record__c.Z_Confirmed_First_Semester__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Fall 2021</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_$Enrollment_Record__c.Z_Confirmed_Second_Semester__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Fall 2021</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Persona__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>US High School Student,International High School Student</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Closed Won (Enrolled)</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_$Enrollment_Record__c.Z_Confirmed_First_Program__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Steph Invoicing Report Fall 21</name>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity@Opportunity.Enrollment_Record__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>FK_CREATED_DATE</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

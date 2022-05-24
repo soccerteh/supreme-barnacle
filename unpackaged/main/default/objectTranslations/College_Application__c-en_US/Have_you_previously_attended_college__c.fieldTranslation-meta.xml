@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Have you previously attended college or --></label>
+        <name>Have_you_previously_attended_college__c</name>
+    </CustomFieldTranslation>

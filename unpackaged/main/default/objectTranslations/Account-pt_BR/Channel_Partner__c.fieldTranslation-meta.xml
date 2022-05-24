@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check this box if this University participates in Channel Enrollments with Verto. --></help>
+        <label><!-- Guaranteed Channel Partner --></label>
+        <name>Channel_Partner__c</name>
+    </CustomFieldTranslation>

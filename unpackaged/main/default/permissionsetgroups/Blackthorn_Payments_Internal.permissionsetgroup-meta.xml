@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>All required permission sets for SFS</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Blackthorn Payments Internal</label>
+    <permissionSets>Blackthorn_Payments_SFS_Verto</permissionSets>
+    <permissionSets>Discounts_CRUD</permissionSets>
+    <permissionSets>Financial_Aid_CRUD</permissionSets>
+    <permissionSets>Financial_Aid_Documents_CRUD</permissionSets>
+    <permissionSets>Products_PriceBooks_CRUD</permissionSets>
+    <permissionSets>Verto_Fund_CRUD</permissionSets>
+    <permissionSets>bt_paylink__PayLink_User</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deposited_And_Not_Deposited_Requirements</fullName>
+    <active>true</active>
+    <description>Requires the Final Student Decision Type to be a &#39;Partner&#39; or &#39;Non-Partner&#39; if the Final Student Decision Status is &#39;Deposited&#39; or &#39;Not Deposited&#39;</description>
+    <errorConditionFormula>AND(
+    !$User.Bypass_Validation__c,
+    OR(
+        ISPICKVAL(Final_Student_Decision_Status__c, &#39;Not Deposited&#39;),
+        ISPICKVAL(Final_Student_Decision_Status__c, &#39;Deposited&#39;)
+    ),
+    !ISPICKVAL(Final_Student_Decision_Type__c, &#39;Partner&#39;),
+    !ISPICKVAL(Final_Student_Decision_Type__c, &#39;Non-Partner&#39;),
+    ISCHANGED(Final_Student_Decision_Status__c)
+)</errorConditionFormula>
+    <errorDisplayField>Final_Student_Decision_Type__c</errorDisplayField>
+    <errorMessage>The Final Student Decision Type must be either a Partner or Non-Partner.</errorMessage>
+</ValidationRule>

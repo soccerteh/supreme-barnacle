@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What activities, resources would you take advantage of if they were offered to you as a Verto Alumnus --></help>
+        <label><!-- Activities and resources if offered --></label>
+        <name>Activities_Resources__c</name>
+        <picklistValues>
+            <masterLabel>Alumni Ambassadors Program (spokesperson for Verto Education at events)</masterLabel>
+            <translation><!-- Alumni Ambassadors Program (spokesperson for Verto Education at events) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Career Workshops (e.g. Resume / LinkedIn)</masterLabel>
+            <translation><!-- Career Workshops (e.g. Resume / LinkedIn) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>College Counseling</masterLabel>
+            <translation><!-- College Counseling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leadership Opportunities</masterLabel>
+            <translation><!-- Leadership Opportunities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mentorship Opportunities</masterLabel>
+            <translation><!-- Mentorship Opportunities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Networking with other Verto alumni</masterLabel>
+            <translation><!-- Networking with other Verto alumni --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

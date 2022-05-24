@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Party_Consent__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This field contains other parties that information can be released.</inlineHelpText>
+    <label>Other Party Consent</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

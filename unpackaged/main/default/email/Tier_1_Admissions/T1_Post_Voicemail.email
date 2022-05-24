@@ -1,0 +1,17 @@
+Hi {!Lead.FirstName}, 
+
+This is {!Lead.OwnerFirstName}, your Admissions Counselor with Verto Education. I just left you a voicemail, and would love to chat with you about Verto's semesters abroad for your first semester or two of college. We can get you admission decisions from 50+ colleges within the next few weeks, and then you can travel next fall to places like Costa Rica, London, New Zealand, and Madrid - all for full college credit!
+
+What time today or tomorrow works best for a call? Feel free to suggest a few times, and I'll send over a calendar invite and call you then!
+
+Thanks,
+{!Lead.OwnerFirstName}
+
+Here's a basic overview of how Verto works:
+Verto is a first semester (or year) of college abroad. While earning a full load of college credits, with Verto you will explore locations including Spain, England, Australia, Fiji, or Costa Rica. You will be traveling and taking classes in a small group of, at maximum, 25 other students.
+
+Check out our semesters, how our application process works, and our 45+ Partner Colleges (including the University of Vermont, the University of Oregon, and the College of William and Mary) to which you can apply (for free!) and get an admissions decision from us and them within a matter of weeks.
+
+Here's a quick overview: youtube.com/watch?v=wFaOfZ4Amm8
+
+Let me know when works best for our call, or shoot me a text! Looking forward to meeting you, {!Lead.FirstName}.

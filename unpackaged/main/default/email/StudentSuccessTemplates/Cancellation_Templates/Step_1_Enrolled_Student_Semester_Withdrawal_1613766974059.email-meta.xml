@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Semester Withdrawal Step 1 from SOAs to students with link to withdrawal form</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Step 1: Enrolled Student Semester Withdrawal</name>
+    <relatedEntityType>Enrollment_Record__c</relatedEntityType>
+    <style>none</style>
+    <subject>Your Semester Withdrawal Next Steps</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

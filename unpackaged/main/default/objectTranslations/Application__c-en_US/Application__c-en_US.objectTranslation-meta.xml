@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Application</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Applications</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Channel Enrollment Layout</layout>
+        <sections>
+            <label><!-- Additional Student Information --></label>
+            <section>Additional Student Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Application Information --></label>
+            <section>Application Information</section>
+        </sections>
+        <sections>
+            <label><!-- Behavioral Information --></label>
+            <section>Behavioral Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- High School Information --></label>
+            <section>High School Information</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Tracking Information --></label>
+            <section>Marketing Tracking Information</section>
+        </sections>
+        <sections>
+            <label><!-- Parent/Guardian Information --></label>
+            <section>Parent/Guardian Information</section>
+        </sections>
+        <sections>
+            <label><!-- Partner Information --></label>
+            <section>Partner Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Traditional Enrollment Layout</layout>
+        <sections>
+            <label><!-- Additional Student Information --></label>
+            <section>Additional Student Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Behavioral Information --></label>
+            <section>Behavioral Information</section>
+        </sections>
+        <sections>
+            <label><!-- Citizenship Information --></label>
+            <section>Citizenship Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Information --></label>
+            <section>Financial Information</section>
+        </sections>
+        <sections>
+            <label><!-- High School Information --></label>
+            <section>High School Information</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Tracking Information --></label>
+            <section>Marketing Tracking Information</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Parent/Guardian Information --></label>
+            <section>Parent/Guardian Information</section>
+        </sections>
+        <sections>
+            <label><!-- Partner Information --></label>
+            <section>Partner Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Application on ER Page --></label>
+        <name>Application_on_ER_Page</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- TE Application on Lead Page --></label>
+        <name>TE_Application_on_Lead_Page</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- CE Application --></label>
+        <name>CE_Application</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- CE Application on Lead Page --></label>
+        <name>CE_Application_on_Lead_Page</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- CE Application on Opp Page --></label>
+        <name>CE_Application_on_Opp_Page</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- TE Application on Opp Page --></label>
+        <name>TE_Application_on_Opp_Page</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- The record type for channel enrollment student applications --></description>
+        <label><!-- Channel Enrollment --></label>
+        <name>Channel_Enrollment</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- The record type for traditional enrollment student applications --></description>
+        <label><!-- Traditional Enrollment --></label>
+        <name>Traditional_Enrollment</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- The application name can&apos;t be edited. --></errorMessage>
+        <name>Restrict_Application_Name_Change</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Grants user access to view the Heymarket Message History component on a lightning page</description>
+    <isLicensed>false</isLicensed>
+    <label>View Heymarket Message History on Page</label>
+</CustomPermission>

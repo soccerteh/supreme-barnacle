@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Opportunity_Update</label>
+    <protected>false</protected>
+    <values>
+        <field>Endpoint_Extension__c</field>
+        <value xsi:type="xsd:string">/events</value>
+    </values>
+    <values>
+        <field>Endpoint_Method__c</field>
+        <value xsi:type="xsd:string">POST</value>
+    </values>
+    <values>
+        <field>Fields_To_Query__c</field>
+        <value xsi:type="xsd:string">Id, AccountId, Account.Email__c, Account.First_Name__c, Account.Last_Name__c, Account.Phone, Admission_Denied_Reason__c, Application_Packet_Sent__c, Approval_Process_Completion_Date__c, Approval_Status__c, Associated_Application__c,Associated_Application_Source__c, Associated_Application_University_Name__c,Associated_Application_Utm_Source__c, Bridge_Call_Completed_Date__c, CloseDate, Cohort__c,College_Counselor__r.Name, Commitment_Form_Complete__c, Current_Program__r.Name, Deposit_Paylink_Url__c, Early_Enrollment_Discount_Amount__c, Enrollment_Agreement_Url__c, Enrollment_Agreement_Signed_Date_Time__c, Enrollment_Record__c, Enrollment_Status__c, Family_Interview_Booked_Date__c, Family_Admissions_Call_Date_Time__c, Family_Admissions_Call_Status__c, Family_Financial_Call_Date_Time__c, Interview_Stage_Date__c,Last_Activity__c, Last_Family_Admissions_Call_Date_Time__c, LastModifiedBy.Name,Last_Requirements_Gathering_Date_Time__c, LeadSource, Loss_Reason__c, Matriculated__c,Most_Recent_Admitted_Date_Time__c, Most_Recent_Call_Date__c, Most_Recent_Consideration_Date_Time__c,Most_Recent_Deposit_Received_Date_Time__c, Most_Recent_Qualified_Date_Time__c,Most_Recent_Qualification_Date_Time__c,New_Lead_Date__c, NextStep, Number_Of_Calls__c, Name, Owner.Calendly_Link__c, Owner.Calendly_Family_Interview_Link__c, Owner.Email, Owner.Name, Owner.Phone, IqScore, Original_Program__r.Name, PartnerAccountId, Pending_Enrollment_Stage__c, Post_Verto_Plans__c, Source__c, StageName, Student_Success_Coach__c, Submit_Documents_Form__c, Tier_1_Owner__r.Name, Type, CreatedBy.Name, CreatedDate, RecordType.Name</value>
+    </values>
+    <values>
+        <field>SObject__c</field>
+        <value xsi:type="xsd:string">Opportunity</value>
+    </values>
+    <values>
+        <field>Type__c</field>
+        <value xsi:type="xsd:string">Event</value>
+    </values>
+    <values>
+        <field>Watch_Fields__c</field>
+        <value xsi:type="xsd:string">OwnerId,StageName,Current_Program__c,Family_Interview_Booked_Date__c,Deposit_Date__c,Enrollment_Agreement_Signed_Date_Time__c</value>
+    </values>
+</CustomMetadata>

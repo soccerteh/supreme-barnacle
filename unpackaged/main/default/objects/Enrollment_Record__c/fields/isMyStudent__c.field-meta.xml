@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isMyStudent__c</fullName>
+    <description>Determines if the person viewing the record is either the ASC or SLC.</description>
+    <externalId>false</externalId>
+    <formula>OR(
+    $User.Id = Academic_Success_Coordinator__c,
+    $User.Id = Student_Life_Coordinator__c
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>isMyStudent</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

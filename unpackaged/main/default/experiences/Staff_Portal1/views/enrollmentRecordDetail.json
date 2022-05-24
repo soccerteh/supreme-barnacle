@@ -1,0 +1,272 @@
+{
+  "appPageId" : "343e1c50-9b03-4e63-98c9-c932e5e44c31",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "a3c88879-298e-40ac-b217-4f61f84e3c78",
+  "label" : "Enrollment Record Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "bee561ff-a9c8-4d41-82ae-25f8cf33ee26",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "15366cec-5b64-4b70-aa85-5b46d0aed77b",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "8de186d3-3438-4082-8fa4-7c3d046cf13b",
+          "activeTab" : "",
+          "tabs" : [ {
+            "UUID" : "2afba5b1-f1c3-4595-b68d-88a388b75c3c",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "1",
+            "tabName" : "Student"
+          }, {
+            "UUID" : "93d4cd1d-c1dd-4744-9235-651bd4296824",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "b1630",
+            "tabName" : "Roommates"
+          }, {
+            "UUID" : "be6e3dde-d3bb-487e-9e4d-bb544cd88828",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "cf283",
+            "tabName" : "Housing"
+          }, {
+            "UUID" : "182c6128-ae25-457f-a131-d7b9e10c23b2",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "3",
+            "tabName" : "Accommodations"
+          }, {
+            "UUID" : "c35c0873-4249-48e5-a179-b0a2063619c3",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "2",
+            "tabName" : "Checkpoints"
+          }, {
+            "UUID" : "a8212fe9-76da-4731-b666-314800290d46",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "de652",
+            "tabName" : "Student Success Survey"
+          }, {
+            "UUID" : "fc33ac7e-73da-490a-8957-6008a104c175",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "b8f76",
+            "tabName" : "Flights"
+          }, {
+            "UUID" : "1523496d-1961-4ed1-ba89-a5050036c89f",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "41036",
+            "tabName" : "College Counseling Updates"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "8de186d3-3438-4082-8fa4-7c3d046cf13b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "c:staffPortalStudentProfile",
+          "id" : "7aa4383b-0dd0-4237-b3d3-a5ca313efa92",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2afba5b1-f1c3-4595-b68d-88a388b75c3c",
+        "regionLabel" : "Student",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "relatedListApiName" : "Roommate_Requests__r",
+            "relatedListComponentOverride" : "ADVGRID",
+            "width" : "MEDIUM"
+          },
+          "componentName" : "forceCommunity:responsiveRelatedListSingle",
+          "id" : "aad73cf4-2bc6-4ba2-9aa2-cd3a20466a32",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "93d4cd1d-c1dd-4744-9235-651bd4296824",
+        "regionLabel" : "Roommates",
+        "regionName" : "b1630",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "relatedListApiName" : "Housing_Preferences__r",
+            "relatedListComponentOverride" : "ADVGRID",
+            "width" : "MEDIUM"
+          },
+          "componentName" : "forceCommunity:responsiveRelatedListSingle",
+          "id" : "9a9d5ec2-5a2d-485b-a010-7b8403a84156",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "be6e3dde-d3bb-487e-9e4d-bb544cd88828",
+        "regionLabel" : "Housing",
+        "regionName" : "cf283",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "relatedListApiName" : "Accommodations__r",
+            "relatedListComponentOverride" : "ADVGRID",
+            "width" : "MEDIUM"
+          },
+          "componentName" : "forceCommunity:responsiveRelatedListSingle",
+          "id" : "3ffc1909-7b26-466a-9dd7-1c1cfa03e0e1",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "182c6128-ae25-457f-a131-d7b9e10c23b2",
+        "regionLabel" : "Accommodations",
+        "regionName" : "3",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "relatedListApiName" : "Checkpoints__r",
+            "relatedListComponentOverride" : "ADVGRID",
+            "width" : "MEDIUM"
+          },
+          "componentName" : "forceCommunity:responsiveRelatedListSingle",
+          "id" : "e1f35e02-36c7-435a-841e-c71702777b98",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c35c0873-4249-48e5-a179-b0a2063619c3",
+        "regionLabel" : "Checkpoints",
+        "regionName" : "2",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "relatedListApiName" : "Student_Success_Surveys__r",
+            "relatedListComponentOverride" : "ADVGRID",
+            "width" : "MEDIUM"
+          },
+          "componentName" : "forceCommunity:responsiveRelatedListSingle",
+          "id" : "4ca8f37b-1095-4e3f-a069-e8a3e12e0fc4",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a8212fe9-76da-4731-b666-314800290d46",
+        "regionLabel" : "Student Success Survey",
+        "regionName" : "de652",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "relatedListApiName" : "Flights__r",
+            "relatedListComponentOverride" : "ADVGRID",
+            "width" : "MEDIUM"
+          },
+          "componentName" : "forceCommunity:responsiveRelatedListSingle",
+          "id" : "625a6db6-f697-487c-863f-43c9de0d4238",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "fc33ac7e-73da-490a-8957-6008a104c175",
+        "regionLabel" : "Flights",
+        "regionName" : "b8f76",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "context" : "GLOBAL",
+            "recordId" : "",
+            "width" : "MEDIUM"
+          },
+          "componentName" : "forceCommunity:feedPublisher",
+          "id" : "8f5d2743-ec14-4d1e-b977-7e0a168d9e75",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "canChangeSorting" : true,
+            "defaultFilter" : "",
+            "defaultSortOrderHomeFeed" : "Relevance",
+            "defaultSortOrderTopicsFeed" : "Relevance",
+            "feedDesign" : "DEFAULT",
+            "hasFeedSearch" : true,
+            "subjectId" : "{!recordId}",
+            "type" : "Record"
+          },
+          "componentName" : "forceCommunity:forceCommunityFeed",
+          "id" : "380baaa9-9f5e-4b87-b7b6-b66baccc9d9f",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1523496d-1961-4ed1-ba89-a5050036c89f",
+        "regionLabel" : "College Counseling Updates",
+        "regionName" : "41036",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2b8f3900-185d-4112-bea5-1a499bad1df9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "99e4ca2e-7e22-4023-9fdc-387499411373",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "1dfed161-1874-4325-a8fc-029abc953329",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fb322d01-9a8c-4050-9fc9-6158cdb065fc",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "id" : "520659c5-2508-40ed-a972-cc2b335b3223",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-a17"
+}

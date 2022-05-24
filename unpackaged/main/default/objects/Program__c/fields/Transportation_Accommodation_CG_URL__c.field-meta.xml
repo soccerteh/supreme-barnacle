@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transportation_Accommodation_CG_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>&#39;vertoeducation.force.com/Forms/s/TransportationAccommodation?aid=[netid2]&amp;program=&#39;+Id</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Transportation Accommodation CG URL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

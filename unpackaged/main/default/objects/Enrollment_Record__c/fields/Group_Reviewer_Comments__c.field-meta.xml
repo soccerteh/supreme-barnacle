@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_Reviewer_Comments__c</fullName>
+    <description>Comment box for group leader to indicate any incomplete items that are needed. This box will be required to be filled if the Group Packet Complete field is set to ‘No’. If docs received but something is missing or incomplete, the batch reviewer will enter comments so SOA can follow up with the student.
+
+NOTE: If student is not complete the first time they send in their docs, the Group Packet Complete will stay set to ‘No’ until everything is complete.  Once the missing items are received the second time, they will be reviewed and the Group Packet Complete will be updated to ‘Yes’ if everything is complete or keep set to ‘No’ if still incomplete.</description>
+    <externalId>false</externalId>
+    <label>Group Reviewer Comments</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

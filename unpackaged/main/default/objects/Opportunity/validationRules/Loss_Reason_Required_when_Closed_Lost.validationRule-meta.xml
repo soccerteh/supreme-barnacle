@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loss_Reason_Required_when_Closed_Lost</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$User.Bypass_Validation__c = FALSE,
+ISCHANGED(StageName),
+
+TEXT(StageName) = &quot;Closed Lost&quot;,
+ISBLANK(TEXT(Loss_Reason__c))
+)</errorConditionFormula>
+    <errorMessage>Please select a Loss Reason</errorMessage>
+</ValidationRule>

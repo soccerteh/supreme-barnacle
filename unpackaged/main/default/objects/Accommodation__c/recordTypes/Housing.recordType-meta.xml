@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Housing</fullName>
+    <active>true</active>
+    <label>Housing</label>
+    <picklistValues>
+        <picklist>Disability_Category__c</picklist>
+        <values>
+            <fullName>ADHD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autism Spectrum Disorder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chronic%2F medical condition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hard of Hearing%2F Deaf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intellectual disability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Learning Disability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low vision%2F Blind</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mental Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physical disabilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Traumatic Brain Injury</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Housing_Type__c</picklist>
+        <values>
+            <fullName>TEMP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

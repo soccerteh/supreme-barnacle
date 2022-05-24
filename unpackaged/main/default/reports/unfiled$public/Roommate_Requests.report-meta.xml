@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Enrollment_Record__c.Students_Name__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Roommate_Request__c.Enrollment_Record__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>FK_$Roommate_Request__c.Has_Roommate_Preference__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Roommate_Request__c.Roommate_Preference_1__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Roommate_Request__c.Roommate_Preference_2__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Roommate_Request__c.Comment__c</field>
+    </columns>
+    <description>Spring 2022</description>
+    <filter>
+        <criteriaItems>
+            <column>Enrollment_Record__c.Program__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>spring 2022</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Enrollment_Record__c.Program__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Enrollment_Record__c.Owner__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Roommate Requests</name>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>OpportunityCustomEntity$Enrollment_Record__c@Enrollment_Record__c.Roommate_Request__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

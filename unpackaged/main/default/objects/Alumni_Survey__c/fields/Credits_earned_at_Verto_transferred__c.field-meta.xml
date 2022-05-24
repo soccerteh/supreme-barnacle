@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credits_earned_at_Verto_transferred__c</fullName>
+    <description>The college credits I earned at Verto transferred successfully to my new college.</description>
+    <externalId>false</externalId>
+    <label>Credits earned at Verto transferred</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

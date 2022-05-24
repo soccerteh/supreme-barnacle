@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Condition__c</fullName>
+    <externalId>false</externalId>
+    <label>Condition</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Question__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Algebra II</fullName>
+                <default>false</default>
+                <label>Algebra II</label>
+            </value>
+            <value>
+                <fullName>Geometry</fullName>
+                <default>false</default>
+                <label>Geometry</label>
+            </value>
+            <value>
+                <fullName>Trigonometry</fullName>
+                <default>false</default>
+                <label>Trigonometry</label>
+            </value>
+            <value>
+                <fullName>Pre-Calculus</fullName>
+                <default>false</default>
+                <label>Pre-Calculus</label>
+            </value>
+            <value>
+                <fullName>Calculus</fullName>
+                <default>false</default>
+                <label>Calculus</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>One Year</fullName>
+                <default>false</default>
+                <label>One Year</label>
+            </value>
+            <value>
+                <fullName>Two Years</fullName>
+                <default>false</default>
+                <label>Two Years</label>
+            </value>
+            <value>
+                <fullName>Three Years</fullName>
+                <default>false</default>
+                <label>Three Years</label>
+            </value>
+            <value>
+                <fullName>Four Years</fullName>
+                <default>false</default>
+                <label>Four Years</label>
+            </value>
+            <value>
+                <fullName>B- or Higher</fullName>
+                <default>false</default>
+                <label>B- or Higher</label>
+            </value>
+            <value>
+                <fullName>C+ or Lower</fullName>
+                <default>false</default>
+                <label>C+ or Lower</label>
+            </value>
+            <value>
+                <fullName>Contemporary Math</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contemporary Math</label>
+            </value>
+            <value>
+                <fullName>Pre-Calculus I</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pre-Calculus I</label>
+            </value>
+            <value>
+                <fullName>Pre-Calculus II</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pre-Calculus II</label>
+            </value>
+            <value>
+                <fullName>test</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>test</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>What is the students highest level of math completed with a C or greater?</controllingFieldValue>
+            <valueName>Algebra II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>What is the students highest level of math completed with a C or greater?</controllingFieldValue>
+            <valueName>Geometry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>What is the students highest level of math completed with a C or greater?</controllingFieldValue>
+            <valueName>Trigonometry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>What is the students highest level of math completed with a C or greater?</controllingFieldValue>
+            <valueName>Pre-Calculus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>What is the students highest level of math completed with a C or greater?</controllingFieldValue>
+            <valueName>Calculus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>What is the students highest level of math completed with a C or greater?</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How many years of High School Spanish has the student completed with a C or greater?</controllingFieldValue>
+            <valueName>One Year</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How many years of High School Spanish has the student completed with a C or greater?</controllingFieldValue>
+            <valueName>Two Years</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How many years of High School Spanish has the student completed with a C or greater?</controllingFieldValue>
+            <valueName>Three Years</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How many years of High School Spanish has the student completed with a C or greater?</controllingFieldValue>
+            <valueName>Four Years</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>What was the students Junior year English grade?</controllingFieldValue>
+            <valueName>B- or Higher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>What was the students Junior year English grade?</controllingFieldValue>
+            <valueName>C+ or Lower</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

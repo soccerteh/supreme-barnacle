@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Post High School Concerns --></label>
+        <name>Post_High_School_Concerns__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Opportunity.OpportunityContactRoles$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Enrollment_Record__c.z_First_Name__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Enrollment_Record__c.z_Last_Name__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Enrollment_Record__c.z_Email__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Scholarship__c</field>
+    </columns>
+    <description>Spring 2021 Verto Fund Global Leadership Grant Awardees</description>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity$Scholarship__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Verto Fund Global</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.OpportunityContactRoles*Contact$Persona__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>US High School Student,International High School Student</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>S2021 Verto Fund Awardees</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunities_with_Contact_Roles_Custom__c</reportType>
+    <roleHierarchyFilter>CEO</roleHierarchyFilter>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Opportunity$CloseDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

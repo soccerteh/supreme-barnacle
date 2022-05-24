@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>College_of_Idaho_List_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>College of Idaho List</label>
+    <queue>College_of_Idaho_List</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

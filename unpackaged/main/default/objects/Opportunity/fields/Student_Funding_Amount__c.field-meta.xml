@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Student_Funding_Amount__c</fullName>
+    <externalId>false</externalId>
+    <formula>Net_Tuition__c - Deposit_Amount__c - External_Scholarships_Amount__c - Tentative_Pell_Grant_Amount__c - Tentative_Student_Loan_Amount__c - Tentative_Parent_Loan_Amount__c - Tentative_Private_Loan_Amount__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Net Tuition minus Deposit Amount, External Scholarships Amount, and Tentative Pell Grant Amount, as well as the Tentative Student, Parent and Private Loan Amounts</inlineHelpText>
+    <label>Student Funding Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

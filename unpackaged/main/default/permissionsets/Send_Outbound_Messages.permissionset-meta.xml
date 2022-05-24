@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Send outbound messages to an external Web service API. Some users will need this permission for the Box integration.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Send Outbound Messages</label>
+    <license>Salesforce</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EnableNotifications</name>
+    </userPermissions>
+</PermissionSet>

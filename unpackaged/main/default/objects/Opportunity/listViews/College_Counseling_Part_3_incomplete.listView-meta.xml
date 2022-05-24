@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>College_Counseling_Part_3_incomplete</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>z_College_Planning_Process__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>College_Counselor__c</columns>
+    <columns>Z_Pipeline__c</columns>
+    <columns>z_Chosen_Partner_School__c</columns>
+    <columns>College_Planning_Form__c</columns>
+    <columns>z_College_Process_Need_Guidance__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>z_College_Planning_Process__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Closed Won (Enrolled)</value>
+    </filters>
+    <filters>
+        <field>College_Counselor__c</field>
+        <operation>equals</operation>
+        <value>Erika Strauss-Cacsire</value>
+    </filters>
+    <label>College Counseling Part 3 incomplete</label>
+</ListView>

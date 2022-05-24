@@ -1,0 +1,47 @@
+{
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "b98ca6f3-61a1-4d31-8f18-3dac8b476659",
+  "label" : "Home",
+  "regions" : [ {
+    "id" : "a5062c60-f23b-4945-a83c-3e58060f04f8",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><span style=\"font-size: 48px;\">Temporary Hold Page - Forms</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "de2b085d-f92d-4910-9e13-338659949583",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4e267336-9642-4045-ba30-d1fd297db14e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "5f5c3e6f-7bd9-4b49-89f1-88e3db692ee5",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "138df411-1d7c-4a19-a76c-5774cb396e77",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0a1bac01-f778-4605-8315-3c53f0577734",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

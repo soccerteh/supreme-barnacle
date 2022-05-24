@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create/Read/Update/Delete for all Payments objects, except Payment Gateway only includes Read. Not Modify All. Setup tab not available or visible.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Blackthorn | Payments (SFS) | Verto</label>
+</PermissionSet>

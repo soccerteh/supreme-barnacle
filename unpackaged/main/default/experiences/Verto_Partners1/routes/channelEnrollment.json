@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "f986cff3-3ad2-43ba-9ee7-e250e4322726",
+  "appPageId" : "de408c33-b15c-4263-a366-fefa60038b5f",
+  "configurationTags" : [ ],
+  "id" : "2a317fc5-85ad-4150-8a4b-c56d34b2bea4",
+  "label" : "Channel Enrollment",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-channel-enrollment",
+  "type" : "route",
+  "urlPrefix" : "channel-enrollment"
+}

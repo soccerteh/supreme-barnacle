@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- z_Tier 1 Owner --></label>
+        <name>z_Tier_1_Owner__c</name>
+        <relationshipLabel><!-- Leads (z_Tier 1 Owner) --></relationshipLabel>
+    </CustomFieldTranslation>

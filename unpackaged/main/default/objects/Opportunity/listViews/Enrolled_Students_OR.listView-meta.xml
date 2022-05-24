@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enrolled_Students_OR</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>z_Email__c</columns>
+    <columns>Phone_Number__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>z_Student_Success_Manager__c</field>
+        <operation>equals</operation>
+        <value>Olivia Rockwood</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Closed Won (Enrolled)</value>
+    </filters>
+    <filters>
+        <field>Z_Select_your_Starting_Semester__c</field>
+        <operation>equals</operation>
+        <value>Spring 2021,Fall 2021,Spring 2022</value>
+    </filters>
+    <label>Enrolled Students (OR)</label>
+</ListView>

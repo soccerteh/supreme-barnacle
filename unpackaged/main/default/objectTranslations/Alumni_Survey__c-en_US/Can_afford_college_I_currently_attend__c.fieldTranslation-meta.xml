@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Can afford college I currently attend --></label>
+        <name>Can_afford_college_I_currently_attend__c</name>
+    </CustomFieldTranslation>

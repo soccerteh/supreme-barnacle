@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Applied to Student Invoice</masterLabel>
+            <translation><!-- Applied to Student Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billed Verto Fund</masterLabel>
+            <translation><!-- Billed Verto Fund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received Amount from Verto Fund</masterLabel>
+            <translation><!-- Received Amount from Verto Fund --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Use this email if you left a voicemail for a lead and haven&#39;t connected</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>T1: Post-Voicemail</name>
+    <style>none</style>
+    <subject>Just left you a voicemail - freshman year abroad</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

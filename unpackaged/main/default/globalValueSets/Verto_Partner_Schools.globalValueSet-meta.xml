@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Adelphi University (Garden City, NY)</fullName>
+        <default>false</default>
+        <label>Adelphi University (Garden City, NY)</label>
+    </customValue>
+    <customValue>
+        <fullName>Belhaven Universirty (Jackson, MS)</fullName>
+        <default>false</default>
+        <label>Belhaven Universirty (Jackson, MS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Berry College (Berry, GA)</fullName>
+        <default>false</default>
+        <label>Berry College (Berry, GA)</label>
+    </customValue>
+    <customValue>
+        <fullName>Bucknell University (Lewisburg, PA)</fullName>
+        <default>false</default>
+        <label>Bucknell University (Lewisburg, PA)</label>
+    </customValue>
+    <customValue>
+        <fullName>Butler University (Indianapolis, IN)</fullName>
+        <default>false</default>
+        <label>Butler University (Indianapolis, IN)</label>
+    </customValue>
+    <customValue>
+        <fullName>Case Western Reserve University (Cleveland, OH)</fullName>
+        <default>false</default>
+        <label>Case Western Reserve University (Cleveland, OH)</label>
+    </customValue>
+    <customValue>
+        <fullName>Catholic University (Washington, DC)</fullName>
+        <default>false</default>
+        <label>Catholic University (Washington, DC)</label>
+    </customValue>
+    <customValue>
+        <fullName>Chatham University (Pittsburgh, PA)</fullName>
+        <default>false</default>
+        <label>Chatham University (Pittsburgh, PA)</label>
+    </customValue>
+    <customValue>
+        <fullName>Clark University (Worcester, MA)</fullName>
+        <default>false</default>
+        <label>Clark University (Worcester, MA)</label>
+    </customValue>
+    <customValue>
+        <fullName>Cornell College (Mount Vernon, IA)</fullName>
+        <default>false</default>
+        <label>Cornell College (Mount Vernon, IA)</label>
+    </customValue>
+    <customValue>
+        <fullName>Denison University (Granville, OH)</fullName>
+        <default>false</default>
+        <label>Denison University (Granville, OH)</label>
+    </customValue>
+    <customValue>
+        <fullName>DePauw University (Greencastle, IN)</fullName>
+        <default>false</default>
+        <label>DePauw University (Greencastle, IN)</label>
+    </customValue>
+    <customValue>
+        <fullName>Goucher College (Baltimore, MD)</fullName>
+        <default>false</default>
+        <label>Goucher College (Baltimore, MD)</label>
+    </customValue>
+    <customValue>
+        <fullName>Hanover College (Hanover, IN)</fullName>
+        <default>false</default>
+        <label>Hanover College (Hanover, IN)</label>
+    </customValue>
+    <customValue>
+        <fullName>High Point University (High Point, NC)</fullName>
+        <default>false</default>
+        <label>High Point University (High Point, NC)</label>
+    </customValue>
+    <customValue>
+        <fullName>Illinois Institute of Technology (Chicago, IL)</fullName>
+        <default>false</default>
+        <label>Illinois Institute of Technology (Chicago, IL)</label>
+    </customValue>
+    <customValue>
+        <fullName>James Madison University (Harrisonburg, VA)</fullName>
+        <default>false</default>
+        <label>James Madison University (Harrisonburg, VA)</label>
+    </customValue>
+    <customValue>
+        <fullName>Lynn University (Boca Raton, FL)</fullName>
+        <default>false</default>
+        <label>Lynn University (Boca Raton, FL)</label>
+    </customValue>
+    <customValue>
+        <fullName>Merrimack College (North Andover, MA)</fullName>
+        <default>false</default>
+        <label>Merrimack College (North Andover, MA)</label>
+    </customValue>
+    <customValue>
+        <fullName>Mills College (Oakland, CA)</fullName>
+        <default>false</default>
+        <label>Mills College (Oakland, CA)</label>
+    </customValue>
+    <customValue>
+        <fullName>Muhlenberg College (Allentown, PA)</fullName>
+        <default>false</default>
+        <label>Muhlenberg College (Allentown, PA)</label>
+    </customValue>
+    <customValue>
+        <fullName>Naropa University (Boulder, CO)</fullName>
+        <default>false</default>
+        <label>Naropa University (Boulder, CO)</label>
+    </customValue>
+    <customValue>
+        <fullName>Northern Michigan University (Marquette, Michigan)</fullName>
+        <default>false</default>
+        <label>Northern Michigan University (Marquette, Michigan)</label>
+    </customValue>
+    <customValue>
+        <fullName>Ohio Wesleyan University (Delaware, OH)</fullName>
+        <default>false</default>
+        <label>Ohio Wesleyan University (Delaware, OH)</label>
+    </customValue>
+    <customValue>
+        <fullName>Pace University (New York, NY)</fullName>
+        <default>false</default>
+        <label>Pace University (New York, NY)</label>
+    </customValue>
+    <customValue>
+        <fullName>Portland State University (Portland, OR)</fullName>
+        <default>false</default>
+        <label>Portland State University (Portland, OR)</label>
+    </customValue>
+    <customValue>
+        <fullName>Prescott College (Prescott, AZ)</fullName>
+        <default>false</default>
+        <label>Prescott College (Prescott, AZ)</label>
+    </customValue>
+    <customValue>
+        <fullName>Regis University (Denver, CO)</fullName>
+        <default>false</default>
+        <label>Regis University (Denver, CO)</label>
+    </customValue>
+    <customValue>
+        <fullName>Rhodes College (Memphis, TN)</fullName>
+        <default>false</default>
+        <label>Rhodes College (Memphis, TN)</label>
+    </customValue>
+    <customValue>
+        <fullName>Roger Williams University (Bristol, RI)</fullName>
+        <default>false</default>
+        <label>Roger Williams University (Bristol, RI)</label>
+    </customValue>
+    <customValue>
+        <fullName>Springfield College (Springfield, MA)</fullName>
+        <default>false</default>
+        <label>Springfield College (Springfield, MA)</label>
+    </customValue>
+    <customValue>
+        <fullName>St. Mary&#39;s College of Maryland (St. Mary&#39;s City, Maryland)</fullName>
+        <default>false</default>
+        <label>St. Mary&#39;s College of Maryland (St. Mary&#39;s City, Maryland)</label>
+    </customValue>
+    <customValue>
+        <fullName>St. Michael&#39;s College (Colchester, VT)</fullName>
+        <default>false</default>
+        <label>St. Michael&#39;s College (Colchester, VT)</label>
+    </customValue>
+    <customValue>
+        <fullName>Temple University (Philadelphia, PA)</fullName>
+        <default>false</default>
+        <label>Temple University (Philadelphia, PA)</label>
+    </customValue>
+    <customValue>
+        <fullName>The College of Wooster (Wooster, OH)</fullName>
+        <default>false</default>
+        <label>The College of Wooster (Wooster, OH)</label>
+    </customValue>
+    <customValue>
+        <fullName>The University of Oregon (Eugene, OR)</fullName>
+        <default>false</default>
+        <label>The University of Oregon (Eugene, OR)</label>
+    </customValue>
+    <customValue>
+        <fullName>The University of Southern Maine (Portland, ME)</fullName>
+        <default>false</default>
+        <label>The University of Southern Maine (Portland, ME)</label>
+    </customValue>
+    <customValue>
+        <fullName>The University of South Florida (Tampa, FL)</fullName>
+        <default>false</default>
+        <label>The University of South Florida (Tampa, FL)</label>
+    </customValue>
+    <customValue>
+        <fullName>The University of Tennessee (Knoxville, TN)</fullName>
+        <default>false</default>
+        <label>The University of Tennessee (Knoxville, TN)</label>
+    </customValue>
+    <customValue>
+        <fullName>The University of Vermont (Burlington, VT)</fullName>
+        <default>false</default>
+        <label>The University of Vermont (Burlington, VT)</label>
+    </customValue>
+    <customValue>
+        <fullName>Valparaiso University (Valparaiso, IN)</fullName>
+        <default>false</default>
+        <label>Valparaiso University (Valparaiso, IN)</label>
+    </customValue>
+    <customValue>
+        <fullName>William &amp; Mary (Williamsburg, VA)</fullName>
+        <default>false</default>
+        <label>William &amp; Mary (Williamsburg, VA)</label>
+    </customValue>
+    <customValue>
+        <fullName>College of Idaho (Caldwell, ID)</fullName>
+        <default>false</default>
+        <label>College of Idaho (Caldwell, ID)</label>
+    </customValue>
+    <customValue>
+        <fullName>Loyola University Maryland (Baltimore, MD)</fullName>
+        <default>false</default>
+        <label>Loyola University Maryland (Baltimore, MD)</label>
+    </customValue>
+    <customValue>
+        <fullName>University of Dayton (Dayton, OH)</fullName>
+        <default>false</default>
+        <label>University of Dayton (Dayton, OH)</label>
+    </customValue>
+    <description>NOT MANAGED ANYMORE. This picklist includes all schools Verto is partnered with.</description>
+    <masterLabel>Verto Partner Schools</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

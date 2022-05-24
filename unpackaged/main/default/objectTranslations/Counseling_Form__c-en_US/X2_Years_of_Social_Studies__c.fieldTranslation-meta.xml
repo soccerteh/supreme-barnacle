@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- 2 Years of Social Studies --></label>
+        <name>X2_Years_of_Social_Studies__c</name>
+    </CustomFieldTranslation>

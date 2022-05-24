@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requested_Formal_Accommodations</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Request_Formal_Accommodations__c</field>
+        <operation>equals</operation>
+        <value>Yes</value>
+    </filters>
+    <label>Requested Formal Accommodations</label>
+</ListView>

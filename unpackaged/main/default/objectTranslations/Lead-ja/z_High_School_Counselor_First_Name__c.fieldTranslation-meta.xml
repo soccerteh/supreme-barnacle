@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- z_High School Counselor First Name --></label>
+        <name>z_High_School_Counselor_First_Name__c</name>
+    </CustomFieldTranslation>

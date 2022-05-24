@@ -1,0 +1,63 @@
+{
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "bc31f085-3edc-45bf-8c6f-129f71644efc",
+  "label" : "AlumniSurvey",
+  "regions" : [ {
+    "id" : "92d60363-7739-45d8-828f-758e2325b2d1",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"studentId\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!sid}\"}]",
+        "flowLayout" : "oneColumn",
+        "flowName" : "Alumni_Survey"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "59de73ea-4650-469b-b8d0-4408a13663e1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "545875cb-f925-4cfa-a741-09e2423373f5",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "cacheAge" : 1440,
+        "filterName" : "",
+        "reportId" : "00O6S000007sof3",
+        "showRefreshButton" : true,
+        "showTitle" : false
+      },
+      "componentName" : "forceCommunity:reportChart",
+      "id" : "c78a11f3-4485-49bd-b768-900573f21753",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6692f274-9444-459a-970d-03932724682f",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "AlumniSurvey"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6f5a4649-cd3e-40ee-a949-35471dd649c9",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "69acc5c3-3fff-43db-b062-96ddaf416107",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-alumnisurvey"
+}

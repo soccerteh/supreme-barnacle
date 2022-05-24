@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Verto_Semester__c</fullName>
+    <externalId>false</externalId>
+    <label>Verto Semester</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fall 2020</fullName>
+                <default>false</default>
+                <label>Fall 2020</label>
+            </value>
+            <value>
+                <fullName>Spring 2021</fullName>
+                <default>false</default>
+                <label>Spring 2021</label>
+            </value>
+            <value>
+                <fullName>Fall 2021</fullName>
+                <default>false</default>
+                <label>Fall 2021</label>
+            </value>
+            <value>
+                <fullName>Spring 2022</fullName>
+                <default>false</default>
+                <label>Spring 2022</label>
+            </value>
+            <value>
+                <fullName>Fall 2022</fullName>
+                <default>false</default>
+                <label>Fall 2022</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

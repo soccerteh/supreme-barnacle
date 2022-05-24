@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Unqualified Reason --></label>
+        <name>Unqualified_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Behavior</masterLabel>
+            <translation><!-- Behavior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Geographic Red Flags</masterLabel>
+            <translation><!-- Geographic Red Flags --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hard Request for No Contact</masterLabel>
+            <translation><!-- Hard Request for No Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low GPA</masterLabel>
+            <translation><!-- Low GPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs Academic Accommodations</masterLabel>
+            <translation><!-- Needs Academic Accommodations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personality Red Flags</masterLabel>
+            <translation><!-- Personality Red Flags --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety Reasons</masterLabel>
+            <translation><!-- Safety Reasons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Too Old</masterLabel>
+            <translation><!-- Too Old --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Too Young</masterLabel>
+            <translation><!-- Too Young --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

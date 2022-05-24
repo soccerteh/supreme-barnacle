@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Z_College Planning Process --></label>
+        <name>Z_College_Planning_Process__c</name>
+        <picklistValues>
+            <masterLabel>Confident in my decision: I know where I will be attending college after my Verto semester(s). I&#39;ve been accepted to the institution and feel confident in my choice.</masterLabel>
+            <translation><!-- Confident in my decision: I know where I will be attending college after my Verto semester(s). I&apos;ve been accepted to the institution and feel confident in my choice. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I don&#39;t plan to attend college after my Verto semester(s).</masterLabel>
+            <translation><!-- I don&apos;t plan to attend college after my Verto semester(s). --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need guidance: I don&#39;t know where to start or what to look for in potential colleges or universities.</masterLabel>
+            <translation><!-- Need guidance: I don&apos;t know where to start or what to look for in potential colleges or universities. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open to options: I have a few institutions in mind, or have received some college acceptances, but I am open to exploring my college options further.</masterLabel>
+            <translation><!-- Open to options: I have a few institutions in mind, or have received some college acceptances, but I am open to exploring my college options further. --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

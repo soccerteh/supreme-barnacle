@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Alumni Survey</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Alumni Surveys</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Alumni Survey Layout</layout>
+        <sections>
+            <label><!-- Achieving my College and Career Goals --></label>
+            <section>Achieving my College and Career Goals</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Demographic Information --></label>
+            <section>Demographic Information</section>
+        </sections>
+        <sections>
+            <label><!-- Nomination Information --></label>
+            <section>Nomination Information</section>
+        </sections>
+        <sections>
+            <label><!-- Ongoing Support and Engagement with Verto --></label>
+            <section>Ongoing Support and Engagement with Verto</section>
+        </sections>
+        <sections>
+            <label><!-- Post Verto Experience --></label>
+            <section>Post Verto Experience</section>
+        </sections>
+        <sections>
+            <label><!-- Preparing for College --></label>
+            <section>Preparing for College</section>
+        </sections>
+        <sections>
+            <label><!-- Transitioning to College --></label>
+            <section>Transitioning to College</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- I feel comfortable living with --></label>
+        <name>I_feel_comfortable_living_with__c</name>
+        <picklistValues>
+            <masterLabel>Family with older children (children aged 27+)(1 or 2 parent households)</masterLabel>
+            <translation><!-- Family with older children (children aged 27+)(1 or 2 parent households) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family with young children (children aged 0-26) (1 or 2 parent households)</masterLabel>
+            <translation><!-- Family with young children (children aged 0-26) (1 or 2 parent households) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family without children living at home</masterLabel>
+            <translation><!-- Family without children living at home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGBTQ+ couple</masterLabel>
+            <translation><!-- LGBTQ+ couple --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGBTQ+ family with children</masterLabel>
+            <translation><!-- LGBTQ+ family with children --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single host (man)</masterLabel>
+            <translation><!-- Single host (man) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single host (woman)</masterLabel>
+            <translation><!-- Single host (woman) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

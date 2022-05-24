@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Status__c</fullName>
+    <defaultValue>&quot;New&quot;</defaultValue>
+    <externalId>false</externalId>
+    <label>Application Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Pending Review</fullName>
+                <default>false</default>
+                <label>Pending Review</label>
+            </value>
+            <value>
+                <fullName>Student Action Needed</fullName>
+                <default>false</default>
+                <label>Student Action Needed</label>
+            </value>
+            <value>
+                <fullName>Review Complete</fullName>
+                <default>false</default>
+                <label>Review Complete</label>
+            </value>
+            <value>
+                <fullName>Sent to University</fullName>
+                <default>false</default>
+                <label>Sent to University</label>
+            </value>
+            <value>
+                <fullName>Student Applied Pre-Verto</fullName>
+                <default>false</default>
+                <label>Student Applied Pre-Verto</label>
+            </value>
+            <value>
+                <fullName>Withdrawn</fullName>
+                <default>false</default>
+                <label>Withdrawn</label>
+            </value>
+            <value>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+                <label>On Hold</label>
+            </value>
+            <value>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+                <label>Cancel</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

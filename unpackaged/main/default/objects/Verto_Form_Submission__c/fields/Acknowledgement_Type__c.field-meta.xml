@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acknowledgement_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Specific details about what the submitter acknowledged.</inlineHelpText>
+    <label>Acknowledgement Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>It is my responsibility to have a valid travel document to travel by air to Hawaii.</fullName>
+                <default>false</default>
+                <label>It is my responsibility to have a valid travel document to travel by air to Hawaii.</label>
+            </value>
+            <value>
+                <fullName>It is my responsibility to obtain legal documentation required for travel.</fullName>
+                <default>false</default>
+                <label>It is my responsibility to obtain legal documentation required for travel.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

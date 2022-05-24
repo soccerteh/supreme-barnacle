@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flight_Arrival_Window_Start__c</fullName>
+    <description>Tracks period in which a student can arrive in order to be picked up from the airport
+Example: Cost Rica will only pick you up if you arrive between 12pm-8pm local time</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Tracks period in which a student can arrive in order to be picked up from the airport</inlineHelpText>
+    <label>Flight Arrival Window Start</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

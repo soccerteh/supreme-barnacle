@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Roommate Wakes Early --></label>
+        <name>Roommate_Wakes_Early__c</name>
+        <picklistValues>
+            <masterLabel>No Preference.</masterLabel>
+            <translation><!-- No Preference. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No, I don’t get up early and prefer to live with someone who doesn’t get up early.</masterLabel>
+            <translation><!-- No, I don’t get up early and prefer to live with someone who doesn’t get up early. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, I get up early (before 8am) and/or am comfortable living with someone who does.</masterLabel>
+            <translation><!-- Yes, I get up early (before 8am) and/or am comfortable living with someone who does. --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Aid Type --></label>
+        <name>Aid_Type__c</name>
+        <picklistValues>
+            <masterLabel>Federal Pell Grant</masterLabel>
+            <translation><!-- Federal Pell Grant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outside Scholarship</masterLabel>
+            <translation><!-- Outside Scholarship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent Plus Loan</masterLabel>
+            <translation><!-- Parent Plus Loan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Alternative Loan</masterLabel>
+            <translation><!-- Private Alternative Loan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student Loan - LEGACY</masterLabel>
+            <translation><!-- Student Loan - LEGACY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subsidized Student Loan</masterLabel>
+            <translation><!-- Subsidized Student Loan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsubsidized Student Loan</masterLabel>
+            <translation><!-- Unsubsidized Student Loan --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

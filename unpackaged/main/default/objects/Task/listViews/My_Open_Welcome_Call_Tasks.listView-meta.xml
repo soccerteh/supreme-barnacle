@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Open_Welcome_Call_Tasks</fullName>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>SUBJECT</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>STATUS</columns>
+    <columns>DUE_DATE</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>SUBJECT</field>
+        <operation>equals</operation>
+        <value>Welcome Call</value>
+    </filters>
+    <filters>
+        <field>STATUS</field>
+        <operation>equals</operation>
+        <value>Open,In Progress</value>
+    </filters>
+    <filters>
+        <field>WHO_NAME</field>
+        <operation>equals</operation>
+    </filters>
+    <label>My Open Welcome Call Tasks</label>
+    <sharedTo>
+        <role>Revenue_Operations</role>
+        <role>Student_Success</role>
+    </sharedTo>
+</ListView>

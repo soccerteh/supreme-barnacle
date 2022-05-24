@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <isExposed>true</isExposed>
+  <masterLabel>Flow File Upload</masterLabel>
+  <description>An alternative flow file upload component which maps functionally to lighting:fileUpload.</description>
+  <targets>
+      <target>lightning__FlowScreen</target>
+  </targets>
+  <targetConfigs>
+    <targetConfig targets="lightning__FlowScreen">
+        
+        <property name="accept" label="Accepted Formats" type="String[]" description="Comma-separated list of file extensions that can be uploaded in the format .ext, such as .pdf, .jpg, or .png."/>
+
+        <property name="disabled" label="Disabled" type="Boolean" default="false" description="Specifies whether this component should be displayed in a disabled state. Disabled components can't be clicked. The default is false."/>
+
+        <property name="fileFieldName" label="File Field Name" type="String" role="inputOnly" description="Name of a custom field on the ContentVersion object. Set its value with the file-field-value attribute."/>
+
+        <property name="fileFieldValue" label="File Field Value" type="String" role="inputOnly" description="Value to store in the custom field specified by file-field-name for the uploaded file."/>
+
+        <property name="label" label="Label" type="String" description="The text label for the file uploader."/>
+
+        <property name="multiple" label="Allow Multiple Files" type="Boolean" default="false" description="Specifies whether a user can upload more than one file simultaneously. The default is false."/>
+
+        <property name="name" label="Name" type="String" role="inputOnly" description="Specifies the name of the input element."/>
+
+        <property name="recordId" label="Record Id" type="String" description="The record Id of the record that the uploaded file is associated to."/>
+
+        <property name="hoverText" label="Hover Text" type="String" description="The hover text for the file upload component."/>
+
+        <property name="autoNavigateToNextStep" label="Automatically Navigate to Next Step Upon File Upload Completion" type="Boolean" default="false" description="If true, once the file upload completes, the flow will automatically navigate to the next step. The default is false."/>
+
+        <property name="contentDocumentIds" label="Content Document IDs" type="String[]" role="outputOnly" description="The IDs of the uploaded files. Store this value in a text collection variable."/>
+
+        <property name="fileNames" label="File Names" type="String[]" role="outputOnly" description="The Names of the uploaded files. Store this value in a text collection variable."/>
+
+
+    </targetConfig>
+</targetConfigs>
+</LightningComponentBundle>

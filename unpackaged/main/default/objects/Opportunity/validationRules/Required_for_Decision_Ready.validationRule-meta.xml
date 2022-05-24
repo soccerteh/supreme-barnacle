@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_for_Decision_Ready</fullName>
+    <active>true</active>
+    <errorConditionFormula>and(
+$User.Bypass_Validation__c = false,
+
+left( RecordTypeId , 15) = left( $Label.RT_Opp_TraditionalEnrollment , 15),
+
+or(
+ispickval(StageName, &quot;Decision Ready&quot;),
+ispickval(StageName, &quot;Admitted&quot;),
+ispickval(StageName, &quot;Deposit Received&quot;),
+ispickval(StageName, &quot;Closed Won&quot;)
+),
+
+or(
+Check_500_Word_Writing_Sample__c = false,
+Check_High_School_Transcript__c = false
+),
+
+or(
+ischanged(StageName),
+ischanged(Check_500_Word_Writing_Sample__c),
+ischanged(Check_High_School_Transcript__c)
+)
+)</errorConditionFormula>
+    <errorMessage>To be in this stage, the student must submit their writing sample and high school transcript.</errorMessage>
+</ValidationRule>

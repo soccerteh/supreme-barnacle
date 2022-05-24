@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What brought you to Verto? Why did you decide to join this particular program? What are you most excited to experience this semester, and why? What are you most concerned/unsure about, and why? --></help>
+        <label><!-- What brought you to Verto? --></label>
+        <name>What_brought_you_to_Verto__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Submit_Applications__c</fullName>
+    <externalId>false</externalId>
+    <label>Submit Applications?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes, please send my application to these schools.</fullName>
+                <default>false</default>
+                <label>Yes, please send my application to these schools.</label>
+            </value>
+            <value>
+                <fullName>Maybe - I would like my list reviewed by a college counselor before confirming.</fullName>
+                <default>false</default>
+                <label>Maybe - I would like my list reviewed by a college counselor before confirming.</label>
+            </value>
+            <value>
+                <fullName>Maybe - I would like additional feedback and guidance on my selections before confirming</fullName>
+                <default>false</default>
+                <label>Maybe - I would like additional feedback and guidance on my selections before confirming</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

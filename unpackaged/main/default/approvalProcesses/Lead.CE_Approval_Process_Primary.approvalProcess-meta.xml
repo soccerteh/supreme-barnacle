@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <submitter>Revenue_Operations</submitter>
+        <type>role</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>Status</field>
+        <field>Associated_Application__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <approvalActions>
+            <action>
+                <name>Approval_Process_Completion_Date</name>
+                <type>FieldUpdate</type>
+            </action>
+        </approvalActions>
+        <assignedApprover>
+            <approver>
+                <name>catherine@vertoeducation.org</name>
+                <type>user</type>
+            </approver>
+            <approver>
+                <name>daniel@vertoeducation.org</name>
+                <type>user</type>
+            </approver>
+            <approver>
+                <name>hillevi@vertoeducation.org</name>
+                <type>user</type>
+            </approver>
+            <approver>
+                <name>oronde@vertoeducation.org</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Qualify the Lead</label>
+        <name>Qualify_the_Lead</name>
+    </approvalStep>
+    <emailTemplate>System_Administrator_Templates/CE_Lead_Approval_Primary</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <formula>and(
+$User.Override_Workflow__c = false,
+
+left(RecordType.Id, 15) = left($Label.RT_Lead_ChannelEnrollment, 15),
+
+ispickval(Status, &quot;In Review&quot;)
+)</formula>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Approval_Process_Active_False</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Approval_Process_Completion_Date</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Approval_Process_Active_False</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Approval_Process_Completion_Date</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Approval_Process_Active_True</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>CE Approval Process - Primary</label>
+    <processOrder>2</processOrder>
+    <recallActions>
+        <action>
+            <name>Approval_Process_Active_False</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

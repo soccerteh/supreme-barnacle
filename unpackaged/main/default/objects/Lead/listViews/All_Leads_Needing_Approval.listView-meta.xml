@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Leads_Needing_Approval</fullName>
+    <booleanFilter>1 AND 4 AND (2 OR 3)</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Associated_Application_Date_Time__c</columns>
+    <columns>Associated_Application__c</columns>
+    <columns>LEAD.RECORDTYPE</columns>
+    <columns>Approval_Process_Active__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Channel_Enrollment,Lead.Traditional_Enrollment</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>In Review</value>
+    </filters>
+    <filters>
+        <field>Approval_Process_Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>LEAD.EMAIL</field>
+        <operation>notContain</operation>
+        <value>@vertoeducation.org</value>
+    </filters>
+    <label>All Leads Needing Approval</label>
+    <sharedTo>
+        <role>Program_Operations</role>
+    </sharedTo>
+</ListView>

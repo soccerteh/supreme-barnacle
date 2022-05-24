@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>number</bucketType>
+        <developerName>BucketField_90281538</developerName>
+        <masterLabel>GPA</masterLabel>
+        <nullTreatment>z</nullTreatment>
+        <sourceColumnName>Account.High_School_GPA__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <to>2.5</to>
+            </sourceValues>
+            <value>Less than 2.5 or blank</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>2.5</from>
+                <to>3.4</to>
+            </sourceValues>
+            <value>2.5 to 3.4</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>3.4</from>
+            </sourceValues>
+            <value>more than 3.4</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>ACCOUNT_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Average</aggregateTypes>
+        <field>Account.High_School_GPA__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>(4 OR 2) AND (3 OR 1)</booleanFilter>
+        <criteriaItems>
+            <column>FK_$Enrollment_Record__c.Program__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Fall 2021</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Most_Recent_Admitted_Date_Time__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Original_Program__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Fall 2021</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Deposit_Date__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.Enrollment_Status__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_90281538</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Fall 2021 students with GPA</name>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity@Opportunity.Enrollment_Record__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>ACCOUNT_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

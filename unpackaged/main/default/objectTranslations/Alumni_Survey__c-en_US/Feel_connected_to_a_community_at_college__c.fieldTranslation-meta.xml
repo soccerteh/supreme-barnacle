@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Feel connected to a community at college --></label>
+        <name>Feel_connected_to_a_community_at_college__c</name>
+    </CustomFieldTranslation>

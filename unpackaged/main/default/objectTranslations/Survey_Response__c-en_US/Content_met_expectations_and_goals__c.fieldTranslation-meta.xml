@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Content met expectations and goals --></label>
+        <name>Content_met_expectations_and_goals__c</name>
+        <picklistValues>
+            <masterLabel>Agree</masterLabel>
+            <translation><!-- Agree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disagree</masterLabel>
+            <translation><!-- Disagree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neutral</masterLabel>
+            <translation><!-- Neutral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strongly Agree</masterLabel>
+            <translation><!-- Strongly Agree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strongly Disagree</masterLabel>
+            <translation><!-- Strongly Disagree --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

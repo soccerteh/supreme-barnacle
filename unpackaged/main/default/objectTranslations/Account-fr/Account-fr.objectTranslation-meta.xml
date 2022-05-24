@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>High School Accounts</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- System Fields --></label>
+            <section>System Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Student Layout</layout>
+        <sections>
+            <label><!-- Additional Student Information --></label>
+            <section>Additional Student Information</section>
+        </sections>
+        <sections>
+            <label><!-- Campus Groups Information --></label>
+            <section>Campus Groups Information</section>
+        </sections>
+        <sections>
+            <label><!-- Form Links --></label>
+            <section>Form Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Student Contact Information --></label>
+            <section>Student Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Submitted Document Information --></label>
+            <section>Submitted Document Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>University</layout>
+        <sections>
+            <label><!-- Applications --></label>
+            <section>Applications</section>
+        </sections>
+        <sections>
+            <label><!-- College Application Stats --></label>
+            <section>College Application Stats</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Essays &amp; Letters --></label>
+            <section>Essays &amp; Letters</section>
+        </sections>
+        <sections>
+            <label><!-- Financing --></label>
+            <section>Financing</section>
+        </sections>
+        <sections>
+            <label><!-- Grades &amp; Test Scores --></label>
+            <section>Grades &amp; Test Scores</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Other Requirements --></label>
+            <section>Other Requirements</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Verto</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Account for CE --></label>
+        <name>Account_for_CE</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Account for Counseling --></label>
+        <name>Account_for_Counseling</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Account for TE --></label>
+        <name>Account_for_TE</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Enrollment Record Layout - Contact --></label>
+        <name>Enrollment_Record_Layout</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Address Details --></label>
+        <name>Address_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Event Layout - High School Accounts --></label>
+        <name>Event_Layout_High_School_Accounts</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Passport Information --></label>
+        <name>Passport_Information</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- University - College App --></label>
+        <name>University_College_App</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- This Account record type is used for High School or other educational institution Accounts. --></description>
+        <label><!-- High School Account --></label>
+        <name>High_School_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- The default record type for all Universities and Colleges --></description>
+        <label><!-- University --></label>
+        <name>University</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type is used for student accounts --></description>
+        <label><!-- Student Account --></label>
+        <name>Verto_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This account record type is for Verto&apos;s only. --></description>
+        <label><!-- Verto Company --></label>
+        <name>Verto_Company</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- The original source can&apos;t be edited. --></errorMessage>
+        <name>Original_Source_Cannot_be_Changed</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

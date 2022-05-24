@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Problem</fullName>
+        <default>false</default>
+        <label>Problem</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Feature Request</fullName>
+        <default>false</default>
+        <label>Feature Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technology_Question</fullName>
+        <default>false</default>
+        <label>Technology Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Student Deposit</fullName>
+        <default>false</default>
+        <label>Student Deposit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Withdrawal Request</fullName>
+        <default>false</default>
+        <label>Withdrawal Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Financial Appeal</fullName>
+        <default>false</default>
+        <label>Financial Appeal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Revenue Ops Bug</fullName>
+        <default>false</default>
+        <label>Revenue Ops Bug</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Change the World Application</fullName>
+        <default>false</default>
+        <label>Change the World Application</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opportunity Grant Application</fullName>
+        <default>false</default>
+        <label>Opportunity Grant Application</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Revenue Ops Question</fullName>
+        <default>false</default>
+        <label>Revenue Ops Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Upcoming Sprint Request</fullName>
+        <default>false</default>
+        <label>Upcoming Sprint Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Hire Request</fullName>
+        <default>false</default>
+        <label>New Hire Request</label>
+    </standardValue>
+</StandardValueSet>

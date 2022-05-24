@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is an urgent request to complete the health information form or else.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SRB Health Form URGENT REQUEST</name>
+    <relatedEntityType>Enrollment_Record__c</relatedEntityType>
+    <style>none</style>
+    <subject>VERTO: Health Information Form PAST DUE</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

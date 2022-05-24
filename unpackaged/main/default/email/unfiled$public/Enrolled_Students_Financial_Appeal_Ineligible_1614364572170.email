@@ -1,0 +1,20 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Enrollment_Record__c.First_Name__c}}},&nbsp;<br />
+<br />
+Thank you for submitting your Financial Appeal. At this time, our Financial Services team has reviewed your appeal and found your case ineligible for appeal, based on the information submitted.&nbsp;<br />
+<br />
+The withdrawal and refund schedule as presented on the <a href="https://vertoeducation.org/payment-cancellation-policy/">Payment &amp; Cancellation Policy</a> and the <a href="https://vertoeducation.org/withdrawal-financial-appeal-policies/">Withdrawal &amp; Financial Appeal Policy</a> ensures that Verto Education is able to pay non-refundable student costs for programs, including, but not limited to, accommodation, food, travel, instructors, and included activities. Due to these costs being unrecoverable after 60 days, refunds are partially issued between 60 and 30 days and not able to be issued within 30 days of the program start date. Deposits are non-refundable.&nbsp;<br />
+<br />
+With that being said, it is always our first priority to ensure student wellbeing and to abide by our mission to develop valuable experiential programming for students. In order to qualify for financial appeal, students must demonstrate one of the following:&nbsp;
+<ul>
+	<li aria-level="1">Loss of income due to involuntary loss of employment that is a direct cause of financial hardship</li>
+	<li aria-level="1">Death of an immediate family member that is the direct cause of financial hardship</li>
+	<li aria-level="1">Unforeseen change in student and/or immediate family member’s health status / high medical costs not covered by insurance</li>
+	<li aria-level="1">Unforeseen financial hardship</li>
+</ul>
+Based on the supporting details and documentation submitted, you have not qualified for financial appeal. If you believe that this appeal was submitted in error, or need to make amendments to your appeal, please reply to this email and our team will serve you as quickly as possible.&nbsp;<br />
+<br />
+We wish you the best in your college career and beyond.&nbsp;<br />
+&nbsp;</body></html>

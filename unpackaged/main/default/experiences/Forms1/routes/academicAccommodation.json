@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "235c2561-2d92-4220-8ede-491422a2ae0f",
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "configurationTags" : [ ],
+  "id" : "b1550913-b6ad-446e-9b08-47d6a2295107",
+  "label" : "AcademicAccommodation",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-academicaccommodation",
+  "type" : "route",
+  "urlPrefix" : "AcademicAccommodation"
+}

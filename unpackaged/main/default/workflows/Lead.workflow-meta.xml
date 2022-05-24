@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Approval_Process_Active_False</fullName>
+        <field>Approval_Process_Active__c</field>
+        <literalValue>0</literalValue>
+        <name>Approval Process Active = False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approval_Process_Active_True</fullName>
+        <field>Approval_Process_Active__c</field>
+        <literalValue>1</literalValue>
+        <name>Approval Process Active = True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approval_Process_Completion_Date</fullName>
+        <field>Approval_Process_Completion_Date__c</field>
+        <formula>today()</formula>
+        <name>Approval Process Completion Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Company_Update</fullName>
+        <field>Company</field>
+        <formula>FirstName +&quot; &quot;+ LastName</formula>
+        <name>Company Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Owner_Channel</fullName>
+        <field>OwnerId</field>
+        <lookupValue>Channel_Enrollments</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Owner_Channel</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Queue_Admissions</fullName>
+        <field>OwnerId</field>
+        <lookupValue>Admissions_Lead_Queue</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Queue_Admissions</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Assign to Admissions Queue</fullName>
+        <actions>
+            <name>Queue_Admissions</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( $User.Override_Workflow__c = FALSE,  not(left( RecordTypeId , 15) = left( $Label.RT_Lead_ChannelEnrollment , 15)),  OR( LEFT( CreatedBy.Id , 15 ) = LEFT($Label.User_MattRedmond, 15), LEFT(CreatedBy.Id, 15 ) = LEFT($Label.User_DanielMarion, 15), LEFT( CreatedBy.Id , 15 ) = LEFT( $Label.UserId_FormstackUser, 15), LEFT( CreatedBy.Id , 15 ) = LEFT( $Label.User_Unbounce_Integration , 15) ) )</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Assign to Channel Enrollments</fullName>
+        <actions>
+            <name>Owner_Channel</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(
+(ISPICKVAL( LeadSource , &quot;Channel Enrollment&quot;)), 
+ LEFT($Label.User_Joe, 15) = LEFT( CreatedById  , 15 ))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Company Naming Convention</fullName>
+        <actions>
+            <name>Company_Update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>and(
+ $User.Override_Workflow__c = false,
+
+or(
+left( RecordTypeId , 15) = left( $Label.RT_Lead_TraditionalEnrollment , 15),
+left( RecordTypeId , 15) = left( $Label.RT_Lead_ChannelEnrollment , 15)
+),
+
+or(
+isnew(),
+ischanged(FirstName),
+ischanged(LastName),
+ischanged ( Company )
+)
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Course Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Course Mappings</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Course Mapping Layout</layout>
+        <sections>
+            <label><!-- Additional information --></label>
+            <section>Additional information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Direct Transfer</layout>
+        <sections>
+            <label><!-- Additional information --></label>
+            <section>Additional information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Does Not Transfer</layout>
+        <sections>
+            <label><!-- Additional information --></label>
+            <section>Additional information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Elective Credit</layout>
+        <sections>
+            <label><!-- Additional information --></label>
+            <section>Additional information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>General Ed Credit</layout>
+        <sections>
+            <label><!-- Additional information --></label>
+            <section>Additional information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Partner Layout</layout>
+        <sections>
+            <label><!-- Additional information --></label>
+            <section>Additional information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Direct Transfer --></label>
+        <name>Direct_Transfer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Does Not Transfer --></label>
+        <name>Does_Not_Transfer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Elective Credit --></label>
+        <name>Elective_Credit</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- General Ed Credit --></label>
+        <name>General_Ed_Credit</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Application_Completed</label>
+    <protected>false</protected>
+    <values>
+        <field>Endpoint_Extension__c</field>
+        <value xsi:type="xsd:string">/events</value>
+    </values>
+    <values>
+        <field>Endpoint_Method__c</field>
+        <value xsi:type="xsd:string">POST</value>
+    </values>
+    <values>
+        <field>Fields_To_Query__c</field>
+        <value xsi:type="xsd:string">Id, Account__c, Applicant_Email__c, Applicant_First_Name__c, Applicant_Last_Name__c, Applicant_Mobile_Phone__c, Citizen_Status__c, City__c, College_Previously_Attended__c, Country__c, Criminal_Conviction__c, Date_Of_Birth__c, Disciplinary_Violation__c, Dual_Citizenship_Country__c, Enrollment_Status__c, First_Generation_College_Student__c, GPA__c, GPA_Scale__c, High_School__c, High_School_Counselor_Email__c, High_School_Counselor_First_Name__c, High_School_Counselor_Last_Name__c, High_School_Counselor_Phone__c, High_School_Name__c, Hispanic_or_Latino_a_x__c, Interested_In_Opportunity_Grant__c, International_Student__c, Lead__c, Lead_Source__c, Location_Interest__c, Opted_Into_Marketing__c, Parent_Email__c, Parent_First_Name__c, Parent_Last_Name__c, Parent_Phone_Number__c, Parent_Guardian_2_Email__c, Parent_Guardian_2_First_Name__c, Parent_Guardian_2_Last_Name__c, Parent_Guardian_2_Phone__c, Parents_Guardians_Marital_Status__c, Partner__c, Post_Verto_Plans__c, Postal_Code__c, Race_Ethnicity__c, Referral_Source__c, Semester_Interest__c, Sex__c, Source__c, State_Province__c, Student_s_Permanent_Home__c, University__r.Name, Using_FAFSA_Toward_Tuition__c, UTM_Campaign_Last_Touch__c, UTM_Content_Last_Touch__c, UTM_Medium_Last_Touch__c, UTM_Source_Last_Touch__c, UTM_Term_Last_Touch__c, Visa_Status__c, Year_of_High_School_Graduation__c, CreatedDate, RecordType.Name</value>
+    </values>
+    <values>
+        <field>SObject__c</field>
+        <value xsi:type="xsd:string">Application__c</value>
+    </values>
+    <values>
+        <field>Type__c</field>
+        <value xsi:type="xsd:string">Event</value>
+    </values>
+    <values>
+        <field>Watch_Fields__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

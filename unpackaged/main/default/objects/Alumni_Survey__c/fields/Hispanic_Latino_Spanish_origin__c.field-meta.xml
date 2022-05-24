@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hispanic_Latino_Spanish_origin__c</fullName>
+    <externalId>false</externalId>
+    <label>Hispanic/Latino/Spanish origin</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No, not of Hispanic, Latino or Spanish origin</fullName>
+                <default>false</default>
+                <label>No, not of Hispanic, Latino or Spanish origin</label>
+            </value>
+            <value>
+                <fullName>Yes, Mexican, Mexican Am, Chicano</fullName>
+                <default>false</default>
+                <label>Yes, Mexican, Mexican Am, Chicano</label>
+            </value>
+            <value>
+                <fullName>Yes, Puerto Rican</fullName>
+                <default>false</default>
+                <label>Yes, Puerto Rican</label>
+            </value>
+            <value>
+                <fullName>Yes, Cuban</fullName>
+                <default>false</default>
+                <label>Yes, Cuban</label>
+            </value>
+            <value>
+                <fullName>Yes, another Hispanic, Latino or Spanish origin</fullName>
+                <default>false</default>
+                <label>Yes, another Hispanic, Latino or Spanish origin</label>
+            </value>
+            <value>
+                <fullName>Prefer not to say</fullName>
+                <default>false</default>
+                <label>Prefer not to say</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

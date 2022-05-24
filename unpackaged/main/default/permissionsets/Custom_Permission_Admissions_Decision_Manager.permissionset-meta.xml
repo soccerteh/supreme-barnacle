@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Admissions_Decision_Manager</name>
+    </customPermissions>
+    <description>Assigns the &quot;Admissions Decision Manager&quot; custom permission, which is included in the &quot;Admissions_Decision_Restriction&quot; opportunity validation rule</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Custom Permission - Admissions Decision Manager</label>
+    <license>Salesforce</license>
+</PermissionSet>

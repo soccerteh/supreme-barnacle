@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- On Hold Reason --></label>
+        <name>On_Hold_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Financial</masterLabel>
+            <translation><!-- Financial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gap Year</masterLabel>
+            <translation><!-- Gap Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-partner decisions</masterLabel>
+            <translation><!-- Non-partner decisions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Application Not Yet Open</masterLabel>
+            <translation><!-- Partner Application Not Yet Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Onboarding</masterLabel>
+            <translation><!-- Partner Onboarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research/Decision making</masterLabel>
+            <translation><!-- Research/Decision making --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Undecided</masterLabel>
+            <translation><!-- Undecided --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verto Grades</masterLabel>
+            <translation><!-- Verto Grades --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working</masterLabel>
+            <translation><!-- Working --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

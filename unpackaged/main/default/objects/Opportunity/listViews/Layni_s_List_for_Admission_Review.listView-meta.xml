@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Layni_s_List_for_Admission_Review</fullName>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Z_Year_of_Graduation__c</columns>
+    <columns>Z_Select_your_Starting_Semester__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>z_GPA_Weighting__c</columns>
+    <columns>z_High_School_GPA__c</columns>
+    <columns>z_Disciplinary_Violation__c</columns>
+    <columns>Check_High_School_Transcript__c</columns>
+    <columns>Check_500_Word_Writing_Sample__c</columns>
+    <columns>z_Parent_Interview__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Stage - Application</value>
+    </filters>
+    <filters>
+        <field>Z_Select_your_Starting_Semester__c</field>
+        <operation>notEqual</operation>
+        <value>Fall 2020,Fall 2022,Spring 2023</value>
+    </filters>
+    <filters>
+        <field>Z_Year_of_Graduation__c</field>
+        <operation>contains</operation>
+        <value>2020,2021,2019</value>
+    </filters>
+    <filters>
+        <field>z_Disciplinary_Violation__c</field>
+        <operation>notEqual</operation>
+        <value>1</value>
+    </filters>
+    <label>Layni&#39;s List for Admission Review</label>
+</ListView>

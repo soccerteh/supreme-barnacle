@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UTM_Content_Last_Touch__c</fullName>
+    <description>Used to track UTM parameter data on inquiries that were submitted via a link on a paid ad. This is the most recent UTM parameter prior to the inquiry being submitted.</description>
+    <externalId>false</externalId>
+    <label>UTM Content Last Touch</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

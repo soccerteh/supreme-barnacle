@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NewThisWeek</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>z_Convert_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>LAST_WEEK</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notContain</operation>
+        <value>Closed Won (Enrolled),Closed Lost</value>
+    </filters>
+    <filters>
+        <field>Z_Year_of_Graduation__c</field>
+        <operation>equals</operation>
+        <value>2020,2021</value>
+    </filters>
+    <filters>
+        <field>College_Counselor__c</field>
+        <operation>equals</operation>
+        <value>erika strauss</value>
+    </filters>
+    <label>New This Week</label>
+</ListView>

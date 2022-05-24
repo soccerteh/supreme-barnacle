@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Opportunity$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity.bt_stripe__Sales_Documents__r$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity.bt_stripe__Sales_Documents__r.Verto_Fund__r$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity.bt_stripe__Sales_Documents__r.Verto_Fund__r$Id</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity$Verto_Fund_Amount__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity$Current_Program__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Fall 2022</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Fall 2022 Verto Fund Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunities_with_Invoices_and_Verto_Fund__c</reportType>
+    <roleHierarchyFilter>CEO</roleHierarchyFilter>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Opportunity$CloseDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

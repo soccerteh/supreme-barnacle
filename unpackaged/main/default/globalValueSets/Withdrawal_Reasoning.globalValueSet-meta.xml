@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>I&#39;ve made other college plans</fullName>
+        <default>false</default>
+        <label>I&#39;ve made other college plans</label>
+    </customValue>
+    <customValue>
+        <fullName>I&#39;m no longer interested</fullName>
+        <default>false</default>
+        <label>I&#39;m no longer interested</label>
+    </customValue>
+    <customValue>
+        <fullName>I had a poor experience with Verto Education</fullName>
+        <default>false</default>
+        <label>I had a poor experience with Verto Education</label>
+    </customValue>
+    <customValue>
+        <fullName>I cannot afford Verto at this time</fullName>
+        <default>false</default>
+        <label>I cannot afford Verto at this time</label>
+    </customValue>
+    <customValue>
+        <fullName>My parents are not on board with Verto Education</fullName>
+        <default>false</default>
+        <label>My parents are not on board with Verto Education</label>
+    </customValue>
+    <customValue>
+        <fullName>An unforeseen health issue has come up</fullName>
+        <default>false</default>
+        <label>An unforeseen health issue has come up</label>
+    </customValue>
+    <customValue>
+        <fullName>Verto does not seem like the right fit for me</fullName>
+        <default>false</default>
+        <label>Verto does not seem like the right fit for me</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Additional Support Required</fullName>
+        <default>false</default>
+        <label>Additional Support Required</label>
+    </customValue>
+    <customValue>
+        <fullName>Verto does not seems like the right fit for me</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Verto does not seems like the right fit for me</label>
+    </customValue>
+    <masterLabel>Withdrawal Reasoning</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Event__c.Event_Status__c</field>
+    </columns>
+    <columns>
+        <field>Event__c.High_School__c</field>
+    </columns>
+    <columns>
+        <field>Event__c.Event_Start__c</field>
+    </columns>
+    <columns>
+        <field>Event__c.Event_Type__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Event__c.Virtual_Event__c</field>
+    </columns>
+    <description>All HS events grouped by Type.</description>
+    <filter>
+        <criteriaItems>
+            <column>Event__c.Event_Start__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>1/1/2022 12:00 AM</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CUST_OWNER_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Janet Currier,Kaylee Koenig,Stephanie Espina,Josh Sadagursky,Daniel Campbell,Zach Sallouha,Edward Liggett,Stephanie Kridlo,Amy Wruck,Marcelo Gomez,Chre Davis,Neal Crosson,Emma Tillman</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CUST_OWNER_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Spring 2022 RAC Events</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Event__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Event__c.Event_Start__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Event__c.Event_End__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

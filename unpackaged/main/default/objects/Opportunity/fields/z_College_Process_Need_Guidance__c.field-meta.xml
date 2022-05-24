@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>z_College_Process_Need_Guidance__c</fullName>
+    <description>This field is populated from the College Planning Form.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is populated from the College Planning Form.</inlineHelpText>
+    <label>z_College Process Need Guidance</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Choosing the right colleges</fullName>
+                <default>false</default>
+                <label>Choosing the right colleges</label>
+            </value>
+            <value>
+                <fullName>Developing my personal statement</fullName>
+                <default>false</default>
+                <label>Developing my personal statement</label>
+            </value>
+            <value>
+                <fullName>Narrowing down my major and career path</fullName>
+                <default>false</default>
+                <label>Narrowing down my major and career path</label>
+            </value>
+            <value>
+                <fullName>Understanding the Verto application process</fullName>
+                <default>false</default>
+                <label>Understanding the Verto application process</label>
+            </value>
+            <value>
+                <fullName>I do not need additional college counseling or guidance</fullName>
+                <default>false</default>
+                <label>I do not need additional college counseling or guidance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

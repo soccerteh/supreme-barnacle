@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Receiving  Treatment for (Mental Health) --></label>
+        <name>Receiving_Treatment_for_Mental_Health__c</name>
+        <picklistValues>
+            <masterLabel>ADHD</masterLabel>
+            <translation><!-- ADHD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alcohol abuse or addiction</masterLabel>
+            <translation><!-- Alcohol abuse or addiction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anxiety</masterLabel>
+            <translation><!-- Anxiety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Autism Spectrum</masterLabel>
+            <translation><!-- Autism Spectrum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bipolar disorder</masterLabel>
+            <translation><!-- Bipolar disorder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Depression</masterLabel>
+            <translation><!-- Depression --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eating disorder or disordered eating</masterLabel>
+            <translation><!-- Eating disorder or disordered eating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General emotional wellness</masterLabel>
+            <translation><!-- General emotional wellness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None of the above</masterLabel>
+            <translation><!-- None of the above --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (please specify below)</masterLabel>
+            <translation><!-- Other (please specify below) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other substance abuse or addiction</masterLabel>
+            <translation><!-- Other substance abuse or addiction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTSD</masterLabel>
+            <translation><!-- PTSD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panic attacks</masterLabel>
+            <translation><!-- Panic attacks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-harm</masterLabel>
+            <translation><!-- Self-harm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Severe anxiety or depression</masterLabel>
+            <translation><!-- Severe anxiety or depression --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specific life event</masterLabel>
+            <translation><!-- Specific life event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Substance abuse or addiction</masterLabel>
+            <translation><!-- Substance abuse or addiction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suicidal ideation or attempt</masterLabel>
+            <translation><!-- Suicidal ideation or attempt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suicidal or destructive thoughts</masterLabel>
+            <translation><!-- Suicidal or destructive thoughts --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

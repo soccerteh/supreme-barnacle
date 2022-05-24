@@ -1,0 +1,39 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+<b>HOW TO GET YOUR PASSPORT ASAP</b><br />
+<br />
+Thank you so much for taking the time to talk with me about where you are in the passport process.&nbsp;<br />
+<br />
+Because expedited passport applications are currently taking up to twelve weeks - it is important that you request congressional assistance by following the steps below.&nbsp;<br />
+<br />
+<b>ACTION ITEM:&nbsp;</b>Request Congressional Assistance
+<ol>
+	<li><b>Request assistance from your congressperson.</b>
+	<ol>
+		<li><a href="https://www.house.gov/representatives/find-your-representative">Search for your local representative</a> and then navigate to where their webpage says "assistance with a federal agency"</li>
+		<li>Follow the steps listed to request assistance.&nbsp; Some may have a web form to fill out and others may request that you email or call their office for assistance.&nbsp;</li>
+	</ol>
+	</li>
+	<li><b>Submit all documentation of your passport application that you have</b>
+	<ol>
+		<li>​​​​​​​Submit the tracking numbers and/or record locator number.&nbsp; You can check if you have a record locator number <a href="https://passportstatus.state.gov/">here</a>.&nbsp;</li>
+	</ol>
+	</li>
+	<li><b>Submit the attached letter from Verto</b>
+	<ol>
+		<li>​​​​​​​The letter attached to this email will provide proof that you need the passport on the requested timeline.</li>
+	</ol>
+	</li>
+	<li>You will be assigned a caseworker to track the application and more it along on the requested timeline.&nbsp;</li>
+</ol>
+<br />
+While we cannot guarantee that following these steps will make your passport arrive any faster, we have had many students be successful in this process.&nbsp; Please let me know if you have any questions or need further assistance!&nbsp;<br />
+<br />
+Best,&nbsp;<br />
+{{{Sender.FirstName}}}<br />
+<br />
+{{{Sender.Signature}}}
+</body></html>

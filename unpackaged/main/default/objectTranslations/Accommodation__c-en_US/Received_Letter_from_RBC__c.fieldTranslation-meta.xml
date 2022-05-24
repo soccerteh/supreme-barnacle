@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Checkbox to track whether the RBC academic accommodation letter has been received and attached. --></help>
+        <label><!-- Received Letter from RBC? --></label>
+        <name>Received_Letter_from_RBC__c</name>
+    </CustomFieldTranslation>

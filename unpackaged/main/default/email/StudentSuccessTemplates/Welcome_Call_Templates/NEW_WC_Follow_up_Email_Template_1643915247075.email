@@ -1,0 +1,87 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+Thank you again for meeting with me today for your Welcome Call.&nbsp; I'm looking forward to working with you as we prepare for your upcoming adventure with Verto!&nbsp; Please make sure to review this email for your important next steps and helpful resources!&nbsp;
+<div style="margin-left: 80px;"><br />
+<b>As we discussed during our welcome call, please reply to this email with these documents, or upload the following documents using the attached links:</b></div>
+
+<ol>
+	<li style="margin-left: 80px;"><b><a href="https://docs.google.com/forms/d/e/1FAIpQLSelz3WRAQaGpAUbSNWd6I1NCJ217ObzXF4RoBJWpqFkvivN4Q/viewform">Your Student Aid Report</a> </b></li>
+	<li style="margin-left: 80px;"><b>A scan or photo of your US passport</b></li>
+	<li style="margin-left: 80px;"><b>Your Covid-19 vaccination card</b></li>
+</ol>
+
+<div style="margin-left: 40px;">
+<div><a href="https://vertoeducation.campusgroups.com/login_only"><b>VERTO STUDENT PORTAL</b></a>&nbsp;<b>:</b>&nbsp;the&nbsp;<b>Student Portal&nbsp;</b>is going to be your hub for all important information and action items leading up to your semester!&nbsp; Be sure to&nbsp;<b>bookmark it now</b>&nbsp;and spend sometime exploring it.&nbsp; Here, you will complete your important action items, connect with other students, and sign up for important pre-departure events.&nbsp;<br />
+&nbsp;</div>
+
+<div><b>SET UP YOUR PORTAL ACCOUNT AND DOWNLOAD THE APP</b><br />
+<br />
+You should have received an email from Campus Groups inviting you to set up your account in the Student Portal.&nbsp; Sometimes this email goes to spam folders, so if you don't see it in your inbox, check your spam (if you still don't see it, let me know)!&nbsp; Once you've set up your account, you will be able to start working on your action items, signing up for events, and meeting other students in your program!<br />
+<br />
+<b>ACCESS YOUR CHECKLIST</b><br />
+<br />
+The checklist section of the student portal is going to be the most important place for you to prepare for your semester.&nbsp; Keep in mind that&nbsp;<b>you must complete all checklist items to be able to go on your semester!</b><br />
+<b>Access from a web browser:&nbsp;</b></div>
+
+<ol>
+	<li>
+	<div>Sign in to the&nbsp;<a href="https://vertoeducation.campusgroups.com/login_only">Student Portal</a></div>
+	</li>
+	<li>
+	<div>From the home page, scroll down to&nbsp;<b>My Activity&nbsp;</b>or select&nbsp;<b>My Activity&nbsp;</b>in the left sidebar</div>
+	</li>
+	<li>
+	<div>Click on&nbsp;<b>My Checklists</b></div>
+	</li>
+	<li>
+	<div>Start working on each section in the checklist.&nbsp; Unless an item is marked&nbsp;<i>optional,&nbsp;</i><b>it is mandatory to complete all items in the portal before your semester!</b></div>
+	</li>
+</ol>
+
+<div><b>Access from the app (</b>To&nbsp;<b>download the app</b>, go to your app store and search&nbsp;<b>Verto Education Student Portal.&nbsp;</b>Once you've downloaded the app, login and start working on your action items!):</div>
+
+<ol>
+	<li>
+	<div>Open and sign in to the app</div>
+	</li>
+	<li>
+	<div>&nbsp;In the bottom right corner of the screen, click<b>&nbsp;More</b></div>
+	</li>
+	<li>
+	<div>Under&nbsp;<b>Activity,&nbsp;</b>select&nbsp;<b>Checklists</b></div>
+	</li>
+	<li>
+	<div>Start working on each section in the checklist.&nbsp; Unless an item is marked&nbsp;<i>optional,&nbsp;</i><b>it is mandatory to complete all items in the portal before your semester!&nbsp;</b></div>
+	</li>
+</ol>
+
+<div><b>Checklist Tip:&nbsp;</b>Some&nbsp;sections need to be completed in chronological order.&nbsp; If items are grayed out, you will need to complete the first item in the list in order to move on to the subsequent items.<br />
+<br />
+<b>REMINDER:</b>&nbsp;{{{Enrollment_Record__c.College_Counselor__c}}} is your Verto College Counselor (and is CCed on this email). You can expect to hear from them soon regarding your post-Verto plans. If you have questions in the meantime, please feel free to contact them directly.</div>
+</div>
+
+<div style="margin-left: 80px;">&nbsp;</div>
+
+<div><b>RESOURCES</b></div>
+
+<ul>
+	<li><a href="https://vertoeducation.org/safety/">Safety at Verto Education</a></li>
+	<li><a href="https://vertoeducation.org/covid-vaccination-policy/?utm_source=sfmc&amp;utm_medium=email&amp;utm_campaign=11.30.21VaxUpdate&amp;utm_term=https%3a%2f%2fvertoeducation.org%2fcovid-vaccination-policy%2f&amp;utm_id=192688&amp;sfmc_id=74858065">Vaccination Policy</a></li>
+	<li><a href="https://vertoeducation.org/payment-cancellation-policy/">Payment and Cancellation Policy</a></li>
+	<li><a href="https://vertoeducation.org/testimonials/">Testimonials from Verto Students, Parents, and Educational Professionals</a></li>
+	<li><a href="https://vertoeducation.org/academic-overview">Academic Overview</a></li>
+	<li><a href="https://richardblandcollege.formstack.com/forms/disability_services_application">Academic Accommodations</a></li>
+	<li><a href="https://vertoeducation.org/student-faqs/">FAQs for Students and Parents</a></li>
+</ul>
+<br />
+As I mentioned on our call, I will be your Student Onboarding Advisor (SOA) and am here to support and empower you during the onboarding process before your semester.&nbsp; Please always feel free to reach out with any questions or concerns!&nbsp;<br />
+<br />
+Have an amazing day,&nbsp;<br />
+{{{Sender.FirstName}}}<br />
+<br />
+{{{Sender.Signature}}}
+</body></html>

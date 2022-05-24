@@ -1,0 +1,142 @@
+{
+  "activeBrandingSetId" : "0946ffad-3f8f-4be8-b4b0-e889f69faaaf",
+  "customCSS" : "/* .slds-card {\n    background: transparent;\n    margin-left: 30px;\n} */\n/* commenting out base button style override\n .slds-button {\n    border-color: #efac08;\n} */\n/* .slds-button {\n    position: relative;\n    display: inline-flex;\n    align-items: center;\n    padding-top: var(--slds-c-button-spacing-block-start, var(--sds-c-button-spacing-block-start, 0));\n    padding-right: var(--slds-c-button-spacing-inline-end, var(--sds-c-button-spacing-inline-end, 0));\n    padding-bottom: var(--slds-c-button-spacing-block-end, var(--sds-c-button-spacing-block-end, 0));\n    padding-left: var(--slds-c-button-spacing-inline-start, var(--sds-c-button-spacing-inline-start, 0));\n    background: none;\n    background-color: var(--slds-c-button-color-background, var(--sds-c-button-color-background, transparent));\n    background-clip: border-box;\n    border-color: #efac08;\n    border-style: solid;\n    border-width: var(--slds-c-button-sizing-border, var(--sds-c-button-sizing-border, var(--lwc-borderWidthThin,1px)));\n    border-radius: var(--slds-c-button-radius-border, var(--sds-c-button-radius-border, var(--lwc-buttonBorderRadius,.25rem)));\n    box-shadow: var(--slds-c-button-shadow, var(--sds-c-button-shadow));\n    line-height: var(--slds-c-button-line-height, var(--sds-c-button-line-height, var(--lwc-lineHeightButton,1.875rem)));\n    text-decoration: none;\n    color: var(--slds-c-button-text-color, var(--sds-c-button-text-color, var(--lwc-brandAccessible,rgb(239, 172, 6))));\n    -webkit-appearance: none;\n    white-space: normal;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n}\n.slds-button_stateful .slds-button_stateful:hover, .slds-button_stateful .slds-text-selected-focus {\n    background-color: var(--slds-c-button-color-background, var(--sds-c-button-color-background, #ffa5a5));\n    color: #cf0000;\n    border-color: #cf0000;\n    padding-top: var(--slds-c-button-spacing-block-start, var(--sds-c-button-spacing-block-start, 0));\n    padding-right: var(--slds-c-button-spacing-inline-end, var(--sds-c-button-spacing-inline-end, 0));\n    padding-bottom: var(--slds-c-button-spacing-block-end, var(--sds-c-button-spacing-block-end, 0));\n    padding-left: var(--slds-c-button-spacing-inline-start, var(--sds-c-button-spacing-inline-start, 0));\n    background: #ffa5a5;\n    border-width: var(--slds-c-button-sizing-border, var(--sds-c-button-sizing-border, var(--lwc-borderWidthThin,1px)));\n    border-radius: var(--slds-c-button-radius-border, var(--sds-c-button-radius-border, var(--lwc-buttonBorderRadius,.25rem)));\n    box-shadow: var(--slds-c-button-shadow, var(--sds-c-button-shadow));\n    line-height: var(--slds-c-button-line-height, var(--sds-c-button-line-height, var(--lwc-lineHeightButton,1.875rem)));\n    text-decoration: none;\n    -webkit-appearance: none;\n    white-space: normal;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n} */\n/* .slds-button_neutral.slds-is-selected, .slds-button--neutral.slds-is-selected {\n    border-color: forestgreen;\n    background-color: #b0ffb0;\n} */\n.slds-button_brand-outline {\n    border-color: rgb(239, 172, 6);\n}\n.slds-button_stateful .slds-button_stateful:hover, .slds-button_stateful .slds-text-selected-focus {\n    background-color: #b0ffb0;\n    color: forestgreen;\n    border-color: forestgreen;\n}\n.slds-button_stateful .slds-text-selected {\n    color: forestgreen;\n}\n.slds-button_stateful .slds-text-not-selected-focus {\n    color: forestgreen;\n    border-color: forestgreen;\n}\n.slds-button_neutral.slds-is-selected,\n.slds-button--neutral.slds-is-selected {\n  border-color: forestgreen;\n  background-color: #b0ffb0; \n}\n.slds-button_stateful .slds-text-selected-focus {\n    color: red;\n}\n.course-name {\n    color: #1e7891;\n    font-size: 16px;\n    font-weight: bold;\n}\n/* .slds-icon .slds-icon-text-default .slds-icon_large {\n    fill: #efac08;\n} */\n.slds-icon_large, .slds-icon--large {\n    fill: #143f56;\n}\n\n/* button {\n--slds-c-button-stateful-color-background-selected: #b0ffb0;\n--slds-c-button-stateful-color-background-selected-active: #b0ffb0;\n--slds-c-button-stateful-color-background-selected-hover: red;\n--slds-c-button-stateful-color-border-selected: forestgreen;\n--slds-c-button-stateful-color-border-selected-hover: forestgreen;\n} */\n\n/*.forceCommunityThemeProfileMenu{\n display:none !important;\n} */\n/*.selfServiceUserProfileMenu {\n display: none;\n} */\n.profile.uiMenuItem {\n    display: none;  \n}\n.myAccount.uiMenuItem {\n    display: none;\n}",
+  "developerName" : "cpt",
+  "id" : "832d022b-97d5-4d53-a715-b03ae4e6cc46",
+  "label" : "Customer Account Portal",
+  "layouts" : {
+    "Inner" : "fa73d16b-ba9d-4740-86a3-371750769bd3",
+    "Login" : "1e99b59d-be92-447c-9562-a23317548692",
+    "ServiceNotAvailable" : "6e2a05c5-d4f2-404a-a1ef-a8e6404f245e"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "1e99b59d-be92-447c-9562-a23317548692",
+    "label" : "Login",
+    "regions" : [ {
+      "id" : "ec8facaa-2241-4918-9e63-8371284422f9",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "75b50b20-8eaf-4c66-8533-9915f4362780",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "id" : "124bcc40-3179-482b-b6d0-533bd3a72f15",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "IsDefaultHeaderHidden" : false,
+      "IsDefaultHeaderPositionFixed" : false,
+      "IsDefaultNotificationsHidden" : false,
+      "IsSearchBarHidden" : true,
+      "fixedPageWidth" : 1400,
+      "isPageWidthFixed" : true
+    },
+    "componentName" : "siteforce:cptBody",
+    "id" : "fa73d16b-ba9d-4740-86a3-371750769bd3",
+    "label" : "Default",
+    "regions" : [ {
+      "id" : "a7459431-767b-4306-b819-04ac28d6b349",
+      "regionName" : "customHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "maxAutoCompleteResults" : 5,
+          "searchLabel" : "Search...",
+          "searchObjects" : [ {
+            "isPublic" : true,
+            "name" : "KnowledgeArticleVersion"
+          } ]
+        },
+        "componentName" : "forceCommunity:globalSearchInput",
+        "id" : "bf2fb9d9-ba49-4a0b-8a2a-19ceabd0338e",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "c6c2e8af-3d6a-41e4-b111-4dfdd81ea706",
+      "regionName" : "search",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "accountManagementLabel" : "Account Management",
+          "communityBuilderLabel" : "Experience Builder",
+          "communitySetupLabel" : "Salesforce Setup",
+          "contactSupportLabel" : "Contact Support",
+          "filterName" : "MyCases",
+          "homeLabel" : "Home",
+          "includeContactSupport" : false,
+          "includeMessages" : false,
+          "loginLabel" : "Login",
+          "logoutLabel" : "Logout",
+          "myAccountLabel" : "My Account",
+          "showAccountManagement" : true,
+          "showUserSettings" : false,
+          "userSettingsLabel" : "My Settings",
+          "viewProfileLabel" : "My Profile"
+        },
+        "componentName" : "selfService:userProfileMenu",
+        "id" : "d5a9f634-2d09-4417-bac9-9e9d7398ae13",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "096216cb-6409-44ea-b3d0-c79c07b2a1fd",
+      "regionName" : "profileMenu",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "NavigationMenuEditorRefresh" : "Default_Navigation9",
+          "hideAppLauncher" : true,
+          "hideHomeText" : false
+        },
+        "componentName" : "forceCommunity:globalNavigation",
+        "id" : "49c27bc5-4ee3-461f-9b19-8b1c27b89a25",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "4f0bde7c-b9e2-490b-bf5f-996c5f91d459",
+      "regionName" : "navBar",
+      "type" : "region"
+    }, {
+      "id" : "2c093222-98cf-49d9-8c9f-c3e20c50ee62",
+      "regionName" : "customRegion",
+      "type" : "region"
+    }, {
+      "id" : "a339a293-c636-4b9c-bee1-4202ac6bba65",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "6e2a05c5-d4f2-404a-a1ef-a8e6404f245e",
+    "label" : "ServiceNotAvailable",
+    "regions" : [ {
+      "id" : "4a842987-8637-49b9-831d-5e26093e8b51",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "88da531f-c252-447e-b72e-4e4dd083c671",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

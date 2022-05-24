@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Describe_yourself_as_a_learner__c</fullName>
+    <description>Please describe yourself as a learner. What are your favorite subjects, and why? What helps you to learn, and why? What makes it harder for you to learn, and why?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please describe yourself as a learner. What are your favorite subjects, and why? What helps you to learn, and why? What makes it harder for you to learn, and why?</inlineHelpText>
+    <label>Describe yourself as a learner</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Withdrawal_Reason_Requirements</fullName>
+    <active>true</active>
+    <description>Requires a Withdrawal Reason when setting the Enrollment Status to &#39;Withdrew&#39; for any user that does not bypass validations.</description>
+    <errorConditionFormula>AND(
+    !$User.Bypass_Validation__c,
+    ISCHANGED(Enrollment_Status__c),
+    ISPICKVAL(Enrollment_Status__c, &#39;Withdrew&#39;),
+    ISBLANK(TEXT(Withdrawal_Reason__c))
+)</errorConditionFormula>
+    <errorDisplayField>Withdrawal_Reason__c</errorDisplayField>
+    <errorMessage>A withdrawal reason is needed if the student has withdrawn.</errorMessage>
+</ValidationRule>

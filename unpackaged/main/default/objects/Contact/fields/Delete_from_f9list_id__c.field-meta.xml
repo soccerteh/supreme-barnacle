@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delete_from_f9list_id__c</fullName>
+    <description>Entering a Five9 List id into this field triggers the deletion of the Five9 List Item related to the contact record, removing the record&#39;s sync from Five9</description>
+    <externalId>false</externalId>
+    <label>Delete from Five9 List</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

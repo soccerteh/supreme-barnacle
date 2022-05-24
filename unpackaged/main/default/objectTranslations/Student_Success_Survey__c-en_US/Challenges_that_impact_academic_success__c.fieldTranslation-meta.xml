@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Challenges that impact academic success --></label>
+        <name>Challenges_that_impact_academic_success__c</name>
+        <picklistValues>
+            <masterLabel>Concerns about &quot;hidden curriculum&quot; (staff expectations, access to resources, etc.)</masterLabel>
+            <translation><!-- Concerns about &quot;hidden curriculum&quot; (staff expectations, access to resources, etc.) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concerns about educational preparedness (reading and writing skills, etc.)</masterLabel>
+            <translation><!-- Concerns about educational preparedness (reading and writing skills, etc.) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily self-care (sleep, diet, screen time, exercise, breaks, etc.)</masterLabel>
+            <translation><!-- Daily self-care (sleep, diet, screen time, exercise, breaks, etc.) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Difficulty staying organized</masterLabel>
+            <translation><!-- Difficulty staying organized --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distractions (social media, texting, video games, YouTube, etc.)</masterLabel>
+            <translation><!-- Distractions (social media, texting, video games, YouTube, etc.) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feeling discriminated against (due to race, gender identity, sexual orientation, nationality, etc.)</masterLabel>
+            <translation><!-- Feeling discriminated against (due to race, gender identity, sexual orientation, nationality, etc.) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Issues with social life / extracurriculars</masterLabel>
+            <translation><!-- Issues with social life / extracurriculars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lack of motivation</masterLabel>
+            <translation><!-- Lack of motivation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Learning differences and/or learning styles</masterLabel>
+            <translation><!-- Learning differences and/or learning styles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mental health challenges (homesickness, chronic stress, anxiety, etc.)</masterLabel>
+            <translation><!-- Mental health challenges (homesickness, chronic stress, anxiety, etc.) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not enjoying classes and/or activities</masterLabel>
+            <translation><!-- Not enjoying classes and/or activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not feeling a sense of belonging and/or feeling socially isolated or excluded</masterLabel>
+            <translation><!-- Not feeling a sense of belonging and/or feeling socially isolated or excluded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not feeling respected, heard or understood</masterLabel>
+            <translation><!-- Not feeling respected, heard or understood --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal/familial obligations and responsibilities</masterLabel>
+            <translation><!-- Personal/familial obligations and responsibilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical illness, hospital stays, doctor&#39;s appointments, etc.</masterLabel>
+            <translation><!-- Physical illness, hospital stays, doctor&apos;s appointments, etc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problems with technology (computer, internet access/wifi, online platforms, email, etc.)</masterLabel>
+            <translation><!-- Problems with technology (computer, internet access/wifi, online platforms, email, etc.) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problems with workspace</masterLabel>
+            <translation><!-- Problems with workspace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Procrastination / issues with time management</masterLabel>
+            <translation><!-- Procrastination / issues with time management --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

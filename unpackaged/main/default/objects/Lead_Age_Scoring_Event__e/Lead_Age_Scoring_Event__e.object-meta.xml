@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>The daily scheduled Lead Age Scoring flow creates a Lead Age Scoring platform event record which subsequently triggers the Lead Age Scoring Event flow. There is a field on this platform event labeled &#39;Lead Count&#39; which is set to &#39;0&#39; each morning via the scheduled flow. This essentially resets the counter daily.</description>
+    <eventType>HighVolume</eventType>
+    <label>Lead Age Scoring Event</label>
+    <pluralLabel>Lead Age Scoring Event</pluralLabel>
+    <publishBehavior>PublishAfterCommit</publishBehavior>
+</CustomObject>

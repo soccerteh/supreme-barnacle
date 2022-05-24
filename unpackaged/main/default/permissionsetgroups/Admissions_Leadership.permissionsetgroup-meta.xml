@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Employees in Admissions leadership and people management positions, including directors, associate directors, and managers</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Admissions Leadership</label>
+    <mutingPermissionSets>Admissions_Leadership_Muted</mutingPermissionSets>
+    <permissionSets>Manage_Dashboards_in_Public_Folders</permissionSets>
+    <permissionSets>Manage_Public_Email_Templates</permissionSets>
+    <permissionSets>Manage_Public_List_Views</permissionSets>
+    <permissionSets>Manage_Reports_in_Public_Folders</permissionSets>
+    <permissionSets>n2de__Distribution_Engine_Manager</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

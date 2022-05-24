@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Grant_Request_Legacy__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This field was populated for submissions prior to 11-17-2020.</inlineHelpText>
+    <label>z_Reason for Grant Request (Legacy)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

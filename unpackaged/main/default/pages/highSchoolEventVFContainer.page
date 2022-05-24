@@ -1,0 +1,54 @@
+<!--
+  @description       : 
+  @author            : Thomas E. Hamilton
+  @group             : 
+  @last modified on  : 11-19-2021
+  @last modified by  : Thomas E. Hamilton
+-->
+<apex:page showHeader="false" sidebar="false">
+    <head>
+        <title>Request Information</title>
+        <style>
+            body {
+                background-color: #1d7891;
+                font-family: 'Helvetica Neue', Arial, 'Lucida Grande', Tahoma, Verdana, sans-serif;
+                font-size: 14px;
+                color: #595d64;
+                float: center;
+                -moz-border-radius: 6px;
+                -webkit-border-radius: 6px;
+                border-radius: 6px;
+                padding: 20px;
+                margin: 20px auto;
+            }
+        </style>
+    </head>
+    <apex:includeLightning />
+    <div id="LightningComponentid" />
+    <script>
+        document.addEventListener("dosearch", function(event){
+            console.log('vf event data window listener => ', event.detail);
+            window.location.href = 'https://www.vertoeducation.org/apply';
+        });
+
+        $Lightning.use("c:highSchoolEventAuraContainer", function() {
+            $Lightning.createComponent("c:highSchoolEvent", {
+                message : 'Starting highSchoolEvent lwc',
+                recordId : '{!$CurrentPage.parameters.id}'
+            },
+            "LightningComponentid",
+            function(cmp){
+                console.log('Calling the LWC Component');
+            });
+        });
+        /*$Lightning.use("c:highSchoolEventAuraContainer", function() {
+            $Lightning.createComponent("c:customLookup", {
+                message : 'Starting Custom Lookup component'
+            },
+            "LightningComponentid",
+            function(cmp){
+                console.log('Calling the Lookup LWC Component');
+            });
+        });*/
+    </script>
+</apex:page>

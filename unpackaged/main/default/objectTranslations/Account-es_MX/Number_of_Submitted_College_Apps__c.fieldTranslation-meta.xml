@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Number of Submitted College Apps --></label>
+        <name>Number_of_Submitted_College_Apps__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <description>Sets the opportunity name</description>
+    <formulas>
+        <name>OppNameFormula</name>
+        <dataType>String</dataType>
+        <expression>if(left({!Loop_through_Opps.RecordTypeId}, 15) = left({!$Label.RT_Opp_ChannelEnrollment}, 15),
+{!AccountName} + &quot; - Channel&quot;, 
+if(left({!Loop_through_Opps.RecordTypeId}, 15) = left({!$Label.RT_Opp_Additional_Semester}, 15),
+{!AccountName} + &quot; - Additional Semester&quot;, 
+{!AccountName} + &quot; - Traditional&quot;
+)
+)</expression>
+    </formulas>
+    <interviewLabel>OppNamingConvention {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>OppNamingConvention</label>
+    <loops>
+        <name>Loop_through_Opps</name>
+        <label>Loop through Opps</label>
+        <locationX>176</locationX>
+        <locationY>278</locationY>
+        <collectionReference>GetRelatedOpps</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>UpdateOppName</targetReference>
+        </nextValueConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>GetRelatedOpps</name>
+        <label>GetRelatedOpps</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Loop_through_Opps</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>AccountId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Opportunity</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>UpdateOppName</name>
+        <label>UpdateOppName</label>
+        <locationX>264</locationX>
+        <locationY>398</locationY>
+        <connector>
+            <targetReference>Loop_through_Opps</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Loop_through_Opps.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>OppNameFormula</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>GetRelatedOpps</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>AccountId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>AccountName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

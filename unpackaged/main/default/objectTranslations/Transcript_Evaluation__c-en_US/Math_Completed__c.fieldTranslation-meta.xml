@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Math Completed --></label>
+        <name>Math_Completed__c</name>
+        <picklistValues>
+            <masterLabel>Algebra II</masterLabel>
+            <translation><!-- Algebra II --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calculus</masterLabel>
+            <translation><!-- Calculus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Calculus</masterLabel>
+            <translation><!-- Pre-Calculus --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

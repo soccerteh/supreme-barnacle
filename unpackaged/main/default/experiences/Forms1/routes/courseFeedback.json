@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "af283f5d-338e-49cb-a78d-178ef3f01a0a",
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "configurationTags" : [ ],
+  "id" : "82e0bb35-2084-449d-964c-4fdf314eb5bc",
+  "label" : "Course Feedback",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-course-feedback",
+  "type" : "route",
+  "urlPrefix" : "course-feedback"
+}

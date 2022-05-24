@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Why did you give yourself that particular writing score? --></help>
+        <label><!-- Writing Score Explanation --></label>
+        <name>Writing_Score_Explanation__c</name>
+    </CustomFieldTranslation>

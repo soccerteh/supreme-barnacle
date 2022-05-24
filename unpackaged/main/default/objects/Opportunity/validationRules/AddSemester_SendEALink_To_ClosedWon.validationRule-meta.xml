@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AddSemester_SendEALink_To_ClosedWon</fullName>
+    <active>true</active>
+    <description>In order to move to Closed Won, a user must move through Send EA Link first.</description>
+    <errorConditionFormula>AND(
+$User.Bypass_Validation__c = false,
+
+left( RecordTypeId , 15) = left( $Label.RT_Opp_Additional_Semester , 15),
+
+ISCHANGED(StageName),
+
+AND(NOT(ISPICKVAL(PRIORVALUE(StageName), &#39;Send EA Link&#39;)),  ISPICKVAL(StageName, &#39;Closed Won&#39;) )
+
+)</errorConditionFormula>
+    <errorMessage>You must move this Opportunity through the Send EA Link stage before moving to Closed Won.</errorMessage>
+</ValidationRule>

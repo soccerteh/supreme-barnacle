@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What are the partner university&apos;s requirements with regards to minimum/maximum number of credits or courses a student may take during a semester. --></help>
+        <label><!-- Course Requirements --></label>
+        <name>Course_Requirements__c</name>
+    </CustomFieldTranslation>

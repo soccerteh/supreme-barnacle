@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Semester</fullName>
+    <active>true</active>
+    <description>Default Record Type for the First Semester</description>
+    <label>First Semester</label>
+    <picklistValues>
+        <picklist>Accepted_By_School_of_Record__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Accepted_to_Non_Partner_School_Already__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Begun_Passport_Process__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CTW_Student__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Channel_Enrollment__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Consulate__c</picklist>
+        <values>
+            <fullName>Consulate General of Czech Republic %E2%80%93 Chicago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Czech Republic %E2%80%93 Los Angeles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Czech Republic %E2%80%93 New York</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Czech Republic %E2%80%93 Ottawa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Czech Republic %E2%80%93 Toronto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Czech Republic %E2%80%93 Washington DC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Italy %E2%80%93 Boston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Italy %E2%80%93 Chicago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Italy %E2%80%93 Detroit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Italy %E2%80%93 Houston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Italy %E2%80%93 Los Angeles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Italy %E2%80%93 Miami</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Italy %E2%80%93 Montreal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Italy %E2%80%93 New York</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Italy %E2%80%93 Ottawa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Italy %E2%80%93 Philadelphia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Italy %E2%80%93 San Francisco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Italy %E2%80%93 Toronto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Italy %E2%80%93 Vancouver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Italy %E2%80%93 Washington DC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Spain %E2%80%93 Boston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Spain %E2%80%93 Chicago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Spain %E2%80%93 Houston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Spain %E2%80%93 Los Angeles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Spain %E2%80%93 Miami</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Spain %E2%80%93 Montreal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Spain %E2%80%93 New York</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Spain %E2%80%93 Ontario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Spain %E2%80%93 San Francisco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Spain %E2%80%93 San Jose %28PR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Spain %E2%80%93 Toronto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulate General of Spain %E2%80%93 Washington DC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Criminal_Conviction__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Disciplinary_Violation__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Enrollment_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dismissed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enrolled</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Graduated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Withdrawal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verto Cancel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Withdrew</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FAFSA_Completed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>First_Generation_College_Student__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Generate_Second_Semester_Deposit_Case__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Group_Packet_Complete__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Have_Enough_Info_on_Partner_Schools__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Insurance_Approved__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uploaded</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interest_Level__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Passport_Status__c</picklist>
+        <values>
+            <fullName>Applied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uploaded</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Planning_on_using_FAFSA__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Retention_Challenges__c</picklist>
+        <values>
+            <fullName>Academic Concern%3A Accommodations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Academic Concern%3A GPA%2FSupport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Academic Concern%3A General %28see notes%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Counseling%3A General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Counseling%3A Special Advisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Concern%3A FAFSA-dependent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Concern%3A General %28see notes%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Concern%3A General %28see notes%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Concern%3A Mental Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Concern%3A Pre-Existing%2FChronic Condition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Student</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Location-dependent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-responsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Passport Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reluctant Parent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety Concern%3A COVID related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety Concern%3A General %28see notes%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Retention_Status__c</picklist>
+        <values>
+            <fullName>Shaky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unlikely</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unresponsive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rqst_Info_on_Deferral_Transfer_Credit__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Valid_Passport_Confirmed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Valid_Passport__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Visa_Appointment_Needed__c</picklist>
+        <values>
+            <fullName>Mail-In</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Visa_Appointment_Type__c</picklist>
+        <values>
+            <fullName>Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Visa_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documentation Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needs Documentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required - Approved Int%27l Passport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required for Program - US Passport Holder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Withdrawal_Reason__c</picklist>
+        <values>
+            <fullName>Code of Conduct Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Covid%3A Concerned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance%3A Misunderstanding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fit Issue%3A Academics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fit Issue%3A Age</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Melt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Student Access Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Partner College</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-responsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not going to Channel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Channel Waitlist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner College</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Passport Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post-Arrival</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top Choice School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verto Decision</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visa Issue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Z_Any_Dietary_Restrictions__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Z_Any_Medical_Conditions__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Z_College_Planning_Process__c</picklist>
+        <values>
+            <fullName>Confident in my decision%3A I know where I will be attending college after my Verto semester%28s%29%2E I%27ve been accepted to the institution and feel confident in my choice%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I don%27t plan to attend college after my Verto semester%28s%29%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Need guidance%3A I don%27t know where to start or what to look for in potential colleges or universities%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open to options%3A I have a few institutions in mind%2C or have received some college acceptances%2C but I am open to exploring my college options further%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Z_College_Process_Need_Guidance__c</picklist>
+        <values>
+            <fullName>Choosing the right colleges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Developing my personal statement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I do not need additional college counseling or guidance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Narrowing down my major and career path</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Understanding the Verto application process</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_Academic_Interests_Disciplines__c</picklist>
+        <values>
+            <fullName>Arts and Humanities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health and Medicine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi-%2FInterdisciplinary Studies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public and Social Sciences</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Science%2C Math%2C and Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Sciences and Education</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_HospitalizedMental_Health_Substance__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_Important_Factors_in_College_Selection__c</picklist>
+        <values>
+            <fullName>Affordability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Availability of intended major%28s%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public vs%2E Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ranking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resources %26 Support available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Size %28small or large institution%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_Include_Test_Scores_in_Applications__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_Interested_in_Non_Partner_Schools__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_Is_GPA_Accurate_Reflection__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_Life_threatening_Allergies__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes allergies%2C but not life-threatening%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_Move_Forward_With_Applications__c</picklist>
+        <values>
+            <fullName>Maybe - I would like additional feedback and guidance on my selections before confirming%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maybe - I would like my list reviewed by a College Counselor before confirming%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes%2C please send my application to these schools%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_Number_of_Verto_Semesters__c</picklist>
+        <values>
+            <fullName>1 Semester Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 Semesters %28full academic year%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not sure yet%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_Payment_Plan_Second_Semester__c</picklist>
+        <values>
+            <fullName>Needs Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_Payment_Plan__c</picklist>
+        <values>
+            <fullName>Needs Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_Payment_Status_Second_Semester__c</picklist>
+        <values>
+            <fullName>Cancelled%2FRefunded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deposit Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid%2FGraduated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Payment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_Payment_Status__c</picklist>
+        <values>
+            <fullName>Cancelled%2FRefunded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deposit Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid%2FGraduated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Payment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_Plan_to_Use_Outside_Scholarships__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_T_shirt_Size__c</picklist>
+        <values>
+            <fullName>Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X-Large</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_Welcome_Packet_Sent__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_Why_no_semester_location_confirmed__c</picklist>
+        <values>
+            <fullName>Major dependent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>More than one destination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Need more information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_Withdrawal_Intent_Stated_to_Staff__c</picklist>
+        <values>
+            <fullName>Academic Success Coach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Admissions Counselor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Counselor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No%2C I have not spoken with anyone about my intent to withdraw</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professor%28s%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Leader</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Life Coordinator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Onboarding Advisor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>z_Withdrawal_Reasoning__c</picklist>
+        <values>
+            <fullName>An unforeseen health issue has come up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I cannot afford Verto at this time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I had a poor experience with Verto Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%27m no longer interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%27ve made other college plans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>My parents are not on board with Verto Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verto does not seem like the right fit for me</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

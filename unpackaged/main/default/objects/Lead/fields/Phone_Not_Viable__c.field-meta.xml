@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_Not_Viable__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field originally created for use within Five9 campaigns. Indicates that the number listed for the student is the wrong number, or the number has been disconnected</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box if the number listed for the student is the wrong number, or the number has been disconnected.</inlineHelpText>
+    <label>Phone Not Viable</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

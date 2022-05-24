@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_$Enrollment_Record__c.Student_Account__c</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_ID</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Flight__c.First_Leg_Airport_Code__c</field>
+    </columns>
+    <columns>
+        <field>Flight__c.First_Leg_Flight_Number__c</field>
+    </columns>
+    <columns>
+        <field>Flight__c.First_Leg_Arrival_Date_Time__c</field>
+    </columns>
+    <columns>
+        <field>Flight__c.Return_Second_Leg_Airport_Code__c</field>
+    </columns>
+    <columns>
+        <field>Flight__c.Return_Second_Leg_Flight_Number__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>FK_$Enrollment_Record__c.Program__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Latin America</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>CR Flights (MM)</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Flight__c@Flight__c.Enrollment_Record__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

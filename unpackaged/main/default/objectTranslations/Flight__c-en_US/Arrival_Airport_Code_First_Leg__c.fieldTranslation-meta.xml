@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Arrival Airport Code - First Leg --></label>
+        <name>Arrival_Airport_Code_First_Leg__c</name>
+        <relationshipLabel><!-- Flights (Arrival Airport Code - First Leg) --></relationshipLabel>
+    </CustomFieldTranslation>

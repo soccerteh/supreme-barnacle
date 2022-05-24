@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>VisualAntidote__Form_Submission__c.VisualAntidote__Form__c</field>
+    </columns>
+    <columns>
+        <field>CUST_ID</field>
+    </columns>
+    <columns>
+        <field>VisualAntidote__Form_Submission__c.VisualAntidote__Submitted_Data_XML__c</field>
+    </columns>
+    <columns>
+        <field>VisualAntidote__Form_Submission__c.VisualAntidote__Submission_Date__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>VisualAntidote__Form_Submission__c.VisualAntidote__Form__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Verto Student Application - Page 2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>VisualAntidote__Form_Submission__c.VisualAntidote__Submission_Date__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>LAST_WEEK</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Completed Part 2 Last Week</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$VisualAntidote__Form_Submission__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>VisualAntidote__Form_Submission__c.VisualAntidote__Submission_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

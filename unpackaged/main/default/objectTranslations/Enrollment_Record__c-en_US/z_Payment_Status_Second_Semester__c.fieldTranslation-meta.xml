@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- z_Payment Status (Second Semester) --></label>
+        <name>z_Payment_Status_Second_Semester__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled/Refunded</masterLabel>
+            <translation><!-- Cancelled/Refunded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit Only</masterLabel>
+            <translation><!-- Deposit Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid</masterLabel>
+            <translation><!-- Paid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid/Graduated</masterLabel>
+            <translation><!-- Paid/Graduated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial Payment</masterLabel>
+            <translation><!-- Partial Payment --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Final Student Decision Type --></label>
+        <name>Final_Student_Decision_Type__c</name>
+        <picklistValues>
+            <masterLabel>CC Followed by Partner</masterLabel>
+            <translation><!-- CC Followed by Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Channel</masterLabel>
+            <translation><!-- Channel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community College</masterLabel>
+            <translation><!-- Community College --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gap Year</masterLabel>
+            <translation><!-- Gap Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Partner</masterLabel>
+            <translation><!-- Non-Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation><!-- Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working</masterLabel>
+            <translation><!-- Working --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

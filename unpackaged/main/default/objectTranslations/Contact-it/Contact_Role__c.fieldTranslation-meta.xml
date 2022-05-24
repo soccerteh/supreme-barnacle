@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Contact Role --></label>
+        <name>Contact_Role__c</name>
+        <picklistValues>
+            <masterLabel>Admissions Decisions</masterLabel>
+            <translation><!-- Admissions Decisions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Channel Enrollment Contact</masterLabel>
+            <translation><!-- Channel Enrollment Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact for Students</masterLabel>
+            <translation><!-- Contact for Students --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations/Processing</masterLabel>
+            <translation><!-- Operations/Processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partnership Decisions</masterLabel>
+            <translation><!-- Partnership Decisions --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

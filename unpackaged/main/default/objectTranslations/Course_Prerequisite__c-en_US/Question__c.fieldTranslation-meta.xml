@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Question --></label>
+        <name>Question__c</name>
+        <picklistValues>
+            <masterLabel>How many years of High School Spanish has the student completed with a C or greater?</masterLabel>
+            <translation><!-- How many years of High School Spanish has the student completed with a C or greater? --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>What is the students highest level of math completed with a C or greater?</masterLabel>
+            <translation><!-- What is the students highest level of math completed with a C or greater? --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>What was the students Junior year English grade?</masterLabel>
+            <translation><!-- What was the students Junior year English grade? --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

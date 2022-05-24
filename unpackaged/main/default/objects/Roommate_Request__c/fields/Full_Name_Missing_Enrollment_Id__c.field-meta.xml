@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Full_Name_Missing_Enrollment_Id__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This field contains the First &amp; Last Names for students whose Enrollment Id was not connected to the Roommate Request record</inlineHelpText>
+    <label>Full Name Missing Enrollment Id</label>
+    <length>100</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

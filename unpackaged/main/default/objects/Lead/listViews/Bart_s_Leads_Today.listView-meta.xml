@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bart_s_Leads_Today</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE_CODE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Year_of_Graduation__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>z_Round_Robin__c</field>
+        <operation>equals</operation>
+        <value>3</value>
+    </filters>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>2/17/2021 12:00 AM</value>
+    </filters>
+    <label>Bart&#39;s Leads Today</label>
+    <sharedTo>
+        <role>COO</role>
+        <role>Head_of_Enrollment_Services</role>
+    </sharedTo>
+</ListView>

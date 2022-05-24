@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Participation_Enrollment_Agreement__c</fullName>
+    <description>A program-specific link to the standalone Participation Enrollment Agreement. This is the version of the PEA intended for use by students whose opportunity was closed won prior to September 2021. In Sept. 2021, the PEA was incorporated into the deposit form.</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&#39;https://Vertoeducation.formstack.com/forms/participant_enrollment_agreement_fall_2021?aid=[netid2]&amp;program=&#39; + Id + &#39;&amp;semester=&#39; + SUBSTITUTE(Semester__r.Name, &quot; &quot;,&quot;%20&quot;),
+
+&#39;https://Vertoeducation.formstack.com/forms/participant_enrollment_agreement_fall_2021?aid=[netid2]&amp;program=&#39; + Id + &#39;&amp;semester=&#39; + SUBSTITUTE(Semester__r.Name, &quot; &quot;,&quot;%20&quot;)
+)</formula>
+    <inlineHelpText>A program-specific link to the standalone Participation Enrollment Agreement. This is the version of the PEA intended for use by students whose opportunity was closed won prior to September 2021. In Sept. 2021, the PEA was incorporated into the deposit form.</inlineHelpText>
+    <label>Participation Enrollment Agreement</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

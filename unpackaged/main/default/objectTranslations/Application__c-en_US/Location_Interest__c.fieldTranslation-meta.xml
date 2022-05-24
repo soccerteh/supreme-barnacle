@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Location Interest --></label>
+        <name>Location_Interest__c</name>
+        <picklistValues>
+            <masterLabel>Africa</masterLabel>
+            <translation><!-- Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antarctica</masterLabel>
+            <translation><!-- Antarctica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia</masterLabel>
+            <translation><!-- Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia, New Zealand &amp; Pacific Islands</masterLabel>
+            <translation><!-- Australia, New Zealand &amp; Pacific Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR/DR</masterLabel>
+            <translation><!-- CR/DR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campus STEM Semester in Costa Rica</masterLabel>
+            <translation><!-- Campus STEM Semester in Costa Rica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campus Semester in  Costa Rica &amp; The Dominican Republic</masterLabel>
+            <translation><!-- Campus Semester in  Costa Rica &amp; The Dominican Republic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campus Semester in England</masterLabel>
+            <translation><!-- Campus Semester in England --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campus Semester in England, Italy, Spain</masterLabel>
+            <translation><!-- Campus Semester in England, Italy, Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campus Semester in Italy</masterLabel>
+            <translation><!-- Campus Semester in Italy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campus Semester in Italy (Fall 2021+)</masterLabel>
+            <translation><!-- Campus Semester in Italy (Fall 2021+) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campus Semester in London</masterLabel>
+            <translation><!-- Campus Semester in London --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campus Semester in Spain</masterLabel>
+            <translation><!-- Campus Semester in Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change The World</masterLabel>
+            <translation><!-- Change The World --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China, Thailand, &amp; Laos</masterLabel>
+            <translation><!-- China, Thailand, &amp; Laos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costa Rica</masterLabel>
+            <translation><!-- Costa Rica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Semester in CR/Hawaii</masterLabel>
+            <translation><!-- Field Semester in CR/Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Semester in China, Laos &amp; Thailand</masterLabel>
+            <translation><!-- Field Semester in China, Laos &amp; Thailand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Semester in Costa Rica</masterLabel>
+            <translation><!-- Field Semester in Costa Rica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Semester in Costa Rica	&amp; The Dominican Republic</masterLabel>
+            <translation><!-- Field Semester in Costa Rica	&amp; The Dominican Republic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Semester in Costa Rica/Hawaii</masterLabel>
+            <translation><!-- Field Semester in Costa Rica/Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Semester in Fiji</masterLabel>
+            <translation><!-- Field Semester in Fiji --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Semester in Fiji, New Zealand, &amp; Australia</masterLabel>
+            <translation><!-- Field Semester in Fiji, New Zealand, &amp; Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Semester in Hawaii</masterLabel>
+            <translation><!-- Field Semester in Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Semester in Latin America</masterLabel>
+            <translation><!-- Field Semester in Latin America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field semester in the South Pacific (Fiji, New Zealand, &amp; Australia)</masterLabel>
+            <translation><!-- Field semester in the South Pacific (Fiji, New Zealand, &amp; Australia) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Impact Semester (Fall 2020 Only)</masterLabel>
+            <translation><!-- Global Impact Semester (Fall 2020 Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Impact Year (Fall 2020 &amp; Spring 2021)</masterLabel>
+            <translation><!-- Global Impact Year (Fall 2020 &amp; Spring 2021) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii</masterLabel>
+            <translation><!-- Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hybrid Virtual Only</masterLabel>
+            <translation><!-- Hybrid Virtual Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hybrid w/ Summit</masterLabel>
+            <translation><!-- Hybrid w/ Summit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation><!-- Italy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latin America</masterLabel>
+            <translation><!-- Latin America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latin America Honors Program</masterLabel>
+            <translation><!-- Latin America Honors Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madrid</masterLabel>
+            <translation><!-- Madrid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milan</masterLabel>
+            <translation><!-- Milan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North America</masterLabel>
+            <translation><!-- North America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Campus Programs</masterLabel>
+            <translation><!-- On Campus Programs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online</masterLabel>
+            <translation><!-- Online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South America</masterLabel>
+            <translation><!-- South America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Pacific</masterLabel>
+            <translation><!-- South Pacific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeast Asia</masterLabel>
+            <translation><!-- Southeast Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation><!-- Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VOLS Costa Rica</masterLabel>
+            <translation><!-- VOLS Costa Rica --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

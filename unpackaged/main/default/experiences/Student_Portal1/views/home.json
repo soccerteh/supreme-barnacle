@@ -1,0 +1,51 @@
+{
+  "appPageId" : "f8f8f5fe-a794-41ab-88e0-6bf8d49cc606",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "5611f9c0-c2e1-4b9b-8b1d-c8aad3530041",
+  "label" : "Home",
+  "regions" : [ {
+    "id" : "5db81ae0-fefd-4327-a07f-d30d9ac27279",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1 style=\"text-align: center;\">Welcome to Course Registration for Fall 2022!</h1><p style=\"text-align: center;\"><br></p><p><b>Please carefully read the instructions for course registration, which can be found in your Student Portal.</b></p><h2><br></h2><p>Course registration happens in 3 phases.</p><ol><li>Today you will input your preferred courses. You will see the courses that you qualify for based on an audit of your initial high school transcript.</li><li>Once you submit your final high school transcript we will reconfirm your eligibility for the courses you selected. You may also be asked to complete an online assessment as a placement exam for certain courses.</li><li>&nbsp;After confirming your eligibility, we will do our best to place you in your preferred courses. Note that today’s registration does not guarantee the courses you select.&nbsp;</li></ol><p><br></p><p>Take some time to review the course selection guides and consider which ones will be best for your academic path and personal interests. We will do our very best to place you into your top choices. It is important to note that this registration does not guarantee you will be placed in your top course choices. There will also be an add/drop period at the start of the semester where you can change your course schedule if necessary. All Verto participants must maintain a minimum of 12 academic credits at all times.</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "2bb1319a-54d8-4160-b67c-946043e45e80",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "39ec2a66-6f08-4428-adca-9c012a397257",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "2b8fffb4-c548-49e6-9a46-9d74ea1c0e9d",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "44fcae39-624e-4087-a3d7-03ba2076d9fa",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "61b6189c-cbe6-4f1f-b587-2ab47a2a3b79",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "adc7835e-a8b5-4c2e-957b-4519afe12f12",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

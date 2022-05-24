@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_ID</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>bt_stripe__Transaction__c.bt_stripe__Amount__c</field>
+    </columns>
+    <columns>
+        <field>bt_stripe__Transaction__c.bt_stripe__Description__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>bt_stripe__Transaction__c.bt_stripe__Sales_Document__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CUST_RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>bt_stripe__Transaction__c.bt_stripe__Charge</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>bt_stripe__Transaction__c.bt_stripe__Description__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Order Details: Deposit - 1 pcs.</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Orphaned Transactions</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$bt_stripe__Transaction__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>bt_stripe__Transaction__c.bt_stripe__Available_On__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

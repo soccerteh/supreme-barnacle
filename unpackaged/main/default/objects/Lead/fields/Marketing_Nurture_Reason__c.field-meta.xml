@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_Nurture_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Marketing Nurture Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cost</fullName>
+                <default>false</default>
+                <label>Cost</label>
+            </value>
+            <value>
+                <fullName>Geographic Misalignment</fullName>
+                <default>false</default>
+                <label>Geographic Misalignment</label>
+            </value>
+            <value>
+                <fullName>Bad Year of HS Graduation</fullName>
+                <default>false</default>
+                <label>Bad Year of HS Graduation</label>
+            </value>
+            <value>
+                <fullName>Needs Education on Product</fullName>
+                <default>false</default>
+                <label>Needs Education on Product</label>
+            </value>
+            <value>
+                <fullName>Parents Unsupportive</fullName>
+                <default>false</default>
+                <label>Parents Unsupportive</label>
+            </value>
+            <value>
+                <fullName>Product Misalignment</fullName>
+                <default>false</default>
+                <label>Product Misalignment</label>
+            </value>
+            <value>
+                <fullName>Too Young</fullName>
+                <default>false</default>
+                <label>Too Young</label>
+            </value>
+            <value>
+                <fullName>Undocumented</fullName>
+                <default>false</default>
+                <label>Undocumented</label>
+            </value>
+            <value>
+                <fullName>Non-Responsive</fullName>
+                <default>false</default>
+                <label>Non-Responsive</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Marketing Nurture</controllingFieldValue>
+            <valueName>Cost</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Nurture</controllingFieldValue>
+            <valueName>Geographic Misalignment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Nurture</controllingFieldValue>
+            <valueName>Bad Year of HS Graduation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Nurture</controllingFieldValue>
+            <valueName>Needs Education on Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Nurture</controllingFieldValue>
+            <valueName>Parents Unsupportive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Nurture</controllingFieldValue>
+            <valueName>Product Misalignment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Nurture</controllingFieldValue>
+            <valueName>Too Young</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Nurture</controllingFieldValue>
+            <valueName>Undocumented</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing Nurture</controllingFieldValue>
+            <valueName>Non-Responsive</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

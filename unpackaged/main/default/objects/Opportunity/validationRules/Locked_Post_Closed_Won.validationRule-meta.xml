@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Locked_Post_Closed_Won</fullName>
+    <active>true</active>
+    <description>Once the opportunity is closed won, it can&#39;t be edited.</description>
+    <errorConditionFormula>and(
+$User.Bypass_Validation__c = false,
+
+or(
+left( RecordTypeId , 15) = left( $Label.RT_Opp_TraditionalEnrollment , 15),
+left( RecordTypeId , 15) = left( $Label.RT_Opp_ChannelEnrollment , 15),
+left( RecordTypeId , 15) = left( $Label.RT_Opp_Additional_Semester , 15)
+),
+
+ISPICKVAL(StageName, &quot;Closed Won&quot;),
+or(
+ischanged( CloseDate ),
+ischanged( RecordTypeId ),
+ischanged( OwnerId ),
+ischanged( Original_Program__c ),
+ischanged( Current_Program__c ),
+ischanged( Tier_1_Owner__c ),
+ischanged( z_Family_Interview_Completed__c ),
+ischanged( Deposit_Date__c ),
+ischanged( Deposit_Amount__c ),
+ischanged( Stripe_Email__c ),
+ischanged( Enrollment_Agreement_Signed_Date_Time__c )
+),
+
+not(ischanged(Current_Program_Automation_Run_Time__c))
+)</errorConditionFormula>
+    <errorMessage>Once the opportunity is Closed Won, it can&#39;t be edited. Please submit a case if you need support.</errorMessage>
+</ValidationRule>

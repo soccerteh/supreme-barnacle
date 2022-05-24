@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AP Art History</fullName>
+        <default>false</default>
+        <label>AP Art History</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Art History &amp; Design</fullName>
+        <default>false</default>
+        <label>AP Art History &amp; Design</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Biology</fullName>
+        <default>false</default>
+        <label>AP Biology</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Calc AB</fullName>
+        <default>false</default>
+        <label>AP Calc AB</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Calc BC</fullName>
+        <default>false</default>
+        <label>AP Calc BC</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Chemistry</fullName>
+        <default>false</default>
+        <label>AP Chemistry</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Chinese Language and Culture</fullName>
+        <default>false</default>
+        <label>AP Chinese Language and Culture</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Comparative Government and Politics</fullName>
+        <default>false</default>
+        <label>AP Comparative Government and Politics</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Computer Science</fullName>
+        <default>false</default>
+        <label>AP Computer Science</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Computer Science Principles</fullName>
+        <default>false</default>
+        <label>AP Computer Science Principles</label>
+    </customValue>
+    <customValue>
+        <fullName>AP English Language and Composition</fullName>
+        <default>false</default>
+        <label>AP English Language and Composition</label>
+    </customValue>
+    <customValue>
+        <fullName>AP English Literature and Composition</fullName>
+        <default>false</default>
+        <label>AP English Literature and Composition</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Environmental Science</fullName>
+        <default>false</default>
+        <label>AP Environmental Science</label>
+    </customValue>
+    <customValue>
+        <fullName>AP European History</fullName>
+        <default>false</default>
+        <label>AP European History</label>
+    </customValue>
+    <customValue>
+        <fullName>AP French Language and Culture</fullName>
+        <default>false</default>
+        <label>AP French Language and Culture</label>
+    </customValue>
+    <customValue>
+        <fullName>AP German Language and Culture</fullName>
+        <default>false</default>
+        <label>AP German Language and Culture</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Human Geography</fullName>
+        <default>false</default>
+        <label>AP Human Geography</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Italian Language and Culture</fullName>
+        <default>false</default>
+        <label>AP Italian Language and Culture</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Japanese Language and Culture</fullName>
+        <default>false</default>
+        <label>AP Japanese Language and Culture</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Latin</fullName>
+        <default>false</default>
+        <label>AP Latin</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Macroeconomics</fullName>
+        <default>false</default>
+        <label>AP Macroeconomics</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Microeconomics</fullName>
+        <default>false</default>
+        <label>AP Microeconomics</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Modern World History</fullName>
+        <default>false</default>
+        <label>AP Modern World History</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Music History</fullName>
+        <default>false</default>
+        <label>AP Music History</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Physics 1</fullName>
+        <default>false</default>
+        <label>AP Physics 1</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Physics 2</fullName>
+        <default>false</default>
+        <label>AP Physics 2</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Physics C: Electricity and Magnetism</fullName>
+        <default>false</default>
+        <label>AP Physics C: Electricity and Magnetism</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Physics C: Mechanics</fullName>
+        <default>false</default>
+        <label>AP Physics C: Mechanics</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Psychology</fullName>
+        <default>false</default>
+        <label>AP Psychology</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Spanish Language and Culture</fullName>
+        <default>false</default>
+        <label>AP Spanish Language and Culture</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Spanish Literature and Culture</fullName>
+        <default>false</default>
+        <label>AP Spanish Literature and Culture</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Statistics</fullName>
+        <default>false</default>
+        <label>AP Statistics</label>
+    </customValue>
+    <customValue>
+        <fullName>AP US Government and Politics</fullName>
+        <default>false</default>
+        <label>AP US Government and Politics</label>
+    </customValue>
+    <customValue>
+        <fullName>AP US History</fullName>
+        <default>false</default>
+        <label>AP US History</label>
+    </customValue>
+    <masterLabel>AP Courses List</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

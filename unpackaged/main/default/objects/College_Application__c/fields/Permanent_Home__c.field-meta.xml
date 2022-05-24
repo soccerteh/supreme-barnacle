@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Permanent_Home__c</fullName>
+    <externalId>false</externalId>
+    <label>Permanent Home</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Parent 1</fullName>
+                <default>false</default>
+                <label>Parent 1</label>
+            </value>
+            <value>
+                <fullName>Parent 2</fullName>
+                <default>false</default>
+                <label>Parent 2</label>
+            </value>
+            <value>
+                <fullName>Both Parents</fullName>
+                <default>false</default>
+                <label>Both Parents</label>
+            </value>
+            <value>
+                <fullName>Legal Guardian</fullName>
+                <default>false</default>
+                <label>Legal Guardian</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Ward of the Court/State</fullName>
+                <default>false</default>
+                <label>Ward of the Court/State</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

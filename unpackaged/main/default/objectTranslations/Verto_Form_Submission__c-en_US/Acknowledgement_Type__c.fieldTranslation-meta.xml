@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Specific details about what the submitter acknowledged. --></help>
+        <label><!-- Acknowledgement Type --></label>
+        <name>Acknowledgement_Type__c</name>
+        <picklistValues>
+            <masterLabel>It is my responsibility to have a valid travel document to travel by air to Hawaii.</masterLabel>
+            <translation><!-- It is my responsibility to have a valid travel document to travel by air to Hawaii. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>It is my responsibility to obtain legal documentation required for travel.</masterLabel>
+            <translation><!-- It is my responsibility to obtain legal documentation required for travel. --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

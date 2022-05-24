@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Receiving_Treatment_for_Medical_Cond__c</fullName>
+    <externalId>false</externalId>
+    <label>Receiving  Treatment for (Medical Cond)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Respiratory issues (such as asthma)</fullName>
+                <default>false</default>
+                <label>Respiratory issues (such as asthma)</label>
+            </value>
+            <value>
+                <fullName>Diabetes (Type 1 or 2)</fullName>
+                <default>false</default>
+                <label>Diabetes (Type 1 or 2)</label>
+            </value>
+            <value>
+                <fullName>Neurological problems (such as seizures or epilepsy)</fullName>
+                <default>false</default>
+                <label>Neurological problems (such as seizures or epilepsy)</label>
+            </value>
+            <value>
+                <fullName>Chronic or reoccurring illness</fullName>
+                <default>false</default>
+                <label>Chronic or reoccurring illness</label>
+            </value>
+            <value>
+                <fullName>Head injury or concussion (within the past 12 months)</fullName>
+                <default>false</default>
+                <label>Head injury or concussion (within the past 12 months)</label>
+            </value>
+            <value>
+                <fullName>None of the above</fullName>
+                <default>false</default>
+                <label>None of the above</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

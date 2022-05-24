@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Transfer_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>No Transfer Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Equivalent partner course is at a higher level than the Verto course</fullName>
+                <default>false</default>
+                <label>Equivalent partner course is at a higher level than the Verto course</label>
+            </value>
+            <value>
+                <fullName>Equivalent partner course has higher level prerequisites</fullName>
+                <default>false</default>
+                <label>Equivalent partner course has higher level prerequisites</label>
+            </value>
+            <value>
+                <fullName>Verto course is part of a 2-semester sequence while partner course is just one</fullName>
+                <default>false</default>
+                <label>Verto course is part of a 2-semester sequence while partner course is just one</label>
+            </value>
+            <value>
+                <fullName>Partner course is part of a 2-semester sequence while Verto course is just one</fullName>
+                <default>false</default>
+                <label>Partner course is part of a 2-semester sequence while Verto course is just one</label>
+            </value>
+            <value>
+                <fullName>Partner has no equivalent department</fullName>
+                <default>false</default>
+                <label>Partner has no equivalent department</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

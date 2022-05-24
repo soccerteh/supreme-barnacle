@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- LGBTQ Roommate --></label>
+        <name>LGBTQ_Roommate__c</name>
+        <picklistValues>
+            <masterLabel>No, I would not feel very comfortable living with someone who identifies as LGBTQ+.</masterLabel>
+            <translation><!-- No, I would not feel very comfortable living with someone who identifies as LGBTQ+. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, I would feel very comfortable living with someone who identifies as LGBTQ+.</masterLabel>
+            <translation><!-- Yes, I would feel very comfortable living with someone who identifies as LGBTQ+. --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

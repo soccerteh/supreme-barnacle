@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllOpportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <columns>Deposit_Date__c</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <columns>College_Counselor__c</columns>
+    <columns>Phone_Number__c</columns>
+    <columns>Current_Program__c</columns>
+    <columns>Student_Success_Coach__c</columns>
+    <columns>Created_Date_Time__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <label>1.1 All Opportunities</label>
+</ListView>

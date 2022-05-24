@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Family_Interview_Booked_Date__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>The date that the Family Admissions Call is booked. This is not the date that the call takes place on.</inlineHelpText>
+    <label>Family Admissions Call Booked Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

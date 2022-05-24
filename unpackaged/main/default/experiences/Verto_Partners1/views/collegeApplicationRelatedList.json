@@ -1,0 +1,38 @@
+{
+  "appPageId" : "de408c33-b15c-4263-a366-fefa60038b5f",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "76031165-3504-4ecc-bdd6-911ebf199205",
+  "label" : "College Application Related List",
+  "regions" : [ {
+    "id" : "1b121cea-4b0f-42b9-a9e9-4a348539d47e",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "6ed89b4c-9af5-46ed-8fd7-da6540d2bbc6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d125e39c-6dc4-4aa8-8309-0df84da2389c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "6e6435c4-ea43-4588-bb4c-01694ddc71e6",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-a1K"
+}

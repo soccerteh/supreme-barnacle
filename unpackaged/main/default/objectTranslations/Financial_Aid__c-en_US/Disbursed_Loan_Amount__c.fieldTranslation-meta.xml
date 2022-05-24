@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Loan amount disbursed to the student via schools of record. --></help>
+        <label><!-- Disbursed Aid Amount --></label>
+        <name>Disbursed_Loan_Amount__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,231 @@
+<br><br>
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Course Registration Welcome Email</title>
+  <style media="all" type="text/css">
+    /* @media only screen and (max-width: 620px) {
+
+      table[class=body] h1,
+      table[class=body] h2,
+      table[class=body] h3,
+      table[class=body] h4 {
+        font-weight: 600 !important;
+      }
+
+      table[class=body] h1 {
+        font-size: 22px !important;
+      }
+
+      table[class=body] h2 {
+        font-size: 18px !important;
+      }
+
+      table[class=body] h3 {
+        font-size: 16px !important;
+      }
+
+      table[class=body] .content,
+      table[class=body] .wrapper {
+        padding: 10px !important;
+      }
+
+      table[class=body] .container {
+        padding: 0 !important;
+        width: 100% !important;
+      }
+
+      table[class=body] .btn table,
+      table[class=body] .btn a {
+        width: 100% !important;
+      }
+    } */
+
+    p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-weight: 410;
+      margin: 0;
+      margin-bottom: 15px;
+      letter-spacing: 0.03em;
+    }
+
+    /* h1 {
+      color: #212121;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 500;
+      line-height: 1.333334;
+      margin: 0;
+      text-transform: capitalize;
+    } */
+
+    h1 {
+      font-family: 'Oswald', sans-serif;
+      font-weight: 600;
+      color: #1e7891;
+      line-height: 1.333334;
+      margin: 0;
+      margin-bottom: 20px;
+      font-size: 36px;
+    } 
+    .subheadline {
+	font-family: 'Oswald';
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 1.4;
+}
+    
+    h3 {
+      color: #1e7891;
+      font-weight: 600;
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+
+    .verto-darkblue {
+      color: #143f56;
+    }
+
+    .verto-lightblue {
+      color: #1e7891;
+    }
+
+    .verto-yellow {
+      color: #efac06;
+    }
+
+    .verto-lightgray {
+      color: #a0a0a0;
+    }
+
+    .verto-darkgray {
+      color: #696969;
+    }
+
+    .verto-lightgreen {
+      color: #a8c661;
+    }
+
+    .verto-darkgreen {
+      color: #639e05;
+    }
+
+    .my-button {
+      border-color: #efac06;
+      text-decoration: none;
+      background-color: #1e7891;
+      border: solid 1px #1e7891;
+      border-radius: 5px;
+      cursor: pointer;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0;
+      padding: 12px 25px;
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body style="margin: 0; 
+             font-family: 'Oswald', 'Roboto', 'Josefin Sans', sans-serif; 
+             font-size: 14px;
+             -webkit-text-size-adjust: 100%; 
+             line-height: 1.6em; 
+             -webkit-font-smoothing: antialiased; 
+             padding: 0; 
+             -ms-text-size-adjust: 100%; 
+             background-color: #f6f6f6;
+             color: #4d4d4d;
+             height: 100% !important; 
+             width: 100% !important;">
+
+  <table class="body" style="box-sizing: border-box; width: 100%; background-color: #f6f6f6; border-collapse: separate !important;" width="100%" bgcolor="#f6f6f6">
+    <tbody>
+      <tr>
+        <td style="box-sizing: border-box;" valign="top"></td>
+        <td class="container" style="box-sizing: border-box; vertical-align: top; display: block; max-width: 580px; padding: 10px; width: 580px; Margin: 0 auto !important;" width="580" valign="top">
+          <div class="content" style="box-sizing: border-box; display: block; margin: 0 auto; max-width: 580px; padding: 10px;">
+            <span class="preheader" style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;">Default preheader text to show as a preview.</span>
+            <table class="main" style="width: 100%; background: #ffffff; border: 1px solid #e9e9e9; border-radius: 5px; border-collapse: separate !important;" width="100%">
+              <tbody>
+                <tr>
+                  <td class="wrapper" style="box-sizing: border-box; padding: 30px;" valign="top">
+                    <table style="box-sizing: border-box; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; border-collapse: separate !important;" width="100%">
+                      <tbody>
+                        <tr>
+                          <td style="box-sizing: border-box;" valign="top">
+
+                            
+                            <h1 align="center">Course Registration is Open!</h1>
+                            <hr style="height: 2px; border-width: 0; background-color: #efac06;">
+                            <h3>Hi {!Receiving_User.FirstName},</h3>
+                            <p class="verto-darkgray">Welcome to the Course Registration portal!</p>
+                            <p class="verto-darkgray">You are now eligible for open enrollment. To get started, please activate your account by logging into the course registration site with the username provided below. Once you click on the "Activate My Account" button, enter your username on the "Forgot my Password" page to set up your account.</p>
+                            <p class="verto-lightblue" style="margin-bottom: 20px;"><strong class="verto-yellow" style="font-size: 15px;">Username: </strong> {!Receiving_User.Username}</p>
+                            <!-- <p class="verto-yellow" style="font-size: 15px;"><strong> Login URL: </strong><a href="https://vertoeducation.force.com/StudentPortal/s/login" style="font-weight: 400;">https://vertoeducation.force.com/StudentPortal/s/login</a></p> -->
+                            <br>
+
+                            <table class="btn btn-primary" cellpadding="0" cellspacing="0" style="box-sizing: border-box; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; border-collapse: separate !important;" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td align="center" style="box-sizing: border-box; padding-bottom: 15px;" valign="top">
+                                    <table cellpadding="0" cellspacing="0" style="box-sizing: border-box; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto; border-collapse: separate !important;">
+                                      <tbody>
+                                        <tr>
+
+                                          <!-- BUTTON -->
+                                          <td style="box-sizing: border-box; background-color: #348eda; border-radius: 5px; text-align: center;" valign="top" bgcolor="#348eda" align="center">
+                                            <a href="https://vertoeducation.force.com/StudentPortal/secur/forgotpassword.jsp" class="my-button">Activate Your Account</a>
+                                          </td>
+
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <br>
+
+                            <!-- <p>If you have any questions, please <a href="mailto:registrar@vertoeducation.org" style="color: #348eda;">Contact the Admissions Team</a>.</p> <br> -->
+                            <p class="verto-darkblue" style="margin-bottom: 0px;">Thank you,</p>
+                            <p class="verto-darkblue" style="margin-bottom: 0px;">Verto Education</p>
+
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- FOOTER -->
+            <div class="footer" style="box-sizing: border-box; clear: both; width: 100%;">
+              <table style="box-sizing: border-box; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; color: #999999; font-size: 12px; border-collapse: separate !important;" width="100%">
+                <tbody>
+                  <tr style="color: #999999; font-size: 12px;">
+                    <td class="align-center" style="padding: 20px 0;" valign="top" align="center">
+                      <p style="color: #999999; font-size: 14px;">3055 NW Yeon Ave, #8822 Portland, OR 97210 <br>
+                        &#169 2022 Verto Education</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>

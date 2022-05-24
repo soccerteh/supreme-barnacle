@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financial_Info_Traditional_Opps</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>z_Confirmed_Program__c</columns>
+    <columns>z_Confirmed_Semester__c</columns>
+    <columns>Deposit_Date__c</columns>
+    <columns>Tuition__c</columns>
+    <columns>Early_Enrollment_Discount_Amount__c</columns>
+    <columns>Opportunity_Grant_Amount__c</columns>
+    <columns>Leadership_Award_Amount__c</columns>
+    <columns>FAFSA_Filed__c</columns>
+    <columns>Tentative_Pell_Grant_Amount__c</columns>
+    <columns>Tentative_Student_Loan_Amount__c</columns>
+    <columns>Amount_Paid__c</columns>
+    <columns>Actual_Amount_Due__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Traditional_Enrollment</value>
+    </filters>
+    <filters>
+        <field>Deposit_Amount__c</field>
+        <operation>greaterThan</operation>
+        <value>1</value>
+    </filters>
+    <label>Financial Info - Traditional Opps</label>
+    <sharedTo>
+        <roleAndSubordinates>Student_Success</roleAndSubordinates>
+    </sharedTo>
+</ListView>

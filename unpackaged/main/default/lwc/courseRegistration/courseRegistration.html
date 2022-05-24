@@ -1,0 +1,218 @@
+<template>
+    <template if:true={showNotEligibleModal}>
+      <!-- Ineligible Modal Pop-up -->
+    </template>
+    <template if:true={showConfirmationModal}>
+      <!-- Confirmation Modal Pop-up -->
+      <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open slds-modal_medium" aria-labelledby="modal-heading-01" aria-modal="true">
+        <div class="slds-modal__container">
+          <button class="slds-button slds-button_icon slds-button_icon-inverse slds-modal__close">
+            <lightning-icon icon-name="utility:close" alternative-text="Cancel and close" title="Close" onclick={toggleShowConfirmationModal}></lightning-icon>
+            <span class="slds-assistive-text">Cancel and close</span>
+          </button>
+          <div class="slds-modal__header">
+            <h1 id="modal-heading-01" class="slds-modal__title slds-hyphenate">Confirm Selection</h1>
+          </div>
+          <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+            <div>
+              <lightning-layout multiple-rows="true" class="slds-grid_align-center">
+                <lightning-layout-item padding="around-small" size="12">
+                  <lightning-formatted-text
+                    value="Please confirm that your selection and rank of choices is correct."
+                    class="slds-text-heading_small slds-align_absolute-center"
+                  ></lightning-formatted-text>
+                </lightning-layout-item>
+                <lightning-layout-item flexibility="auto" padding="around-small" size="10">
+                  <lightning-formatted-text
+                    value="Primary Choices:"
+                    class="slds-text-heading_small slds-align_absolute-center slds-m-bottom_small"
+                  ></lightning-formatted-text>
+                  <lightning-datatable
+                    key-field="name"
+                    data={primary}
+                    column-widths-mode="auto"
+                    show-row-number-column
+                    hide-checkbox-column
+                    columns={columns}
+                  ></lightning-datatable>
+                </lightning-layout-item>
+                <lightning-layout-item flexibility="auto" padding="around-small" size="10">
+                  <lightning-formatted-text
+                    value="Alternatives:"
+                    class="slds-text-heading_small slds-align_absolute-center slds-m-bottom_small"
+                  ></lightning-formatted-text>
+                  <lightning-datatable
+                    key-field="name"
+                    data={alternative}
+                    column-widths-mode="auto"
+                    show-row-number-column
+                    hide-checkbox-column
+                    columns={columns}
+                  ></lightning-datatable>
+                </lightning-layout-item>
+              </lightning-layout>
+            </div>
+          </div>
+          <div class="slds-modal__footer">
+            <button 
+              class="slds-button slds-button_neutral" aria-label="Cancel and close" onclick={toggleShowConfirmationModal}>Cancel</button>
+            <button class="slds-button slds-button_brand" onclick={save}>Save</button>
+          </div>
+        </div>
+      </section>
+      <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+    </template>
+    <div class="slds-grid slds-wrap slds-gutters_direct" aria-hidden={showModal}>
+      <div class="slds-col slds-medium-size_8-of-12 slds-small-size_1-of-1">
+        <!-- Markup for Selection -->
+        <lightning-card>
+          <div class="slds-grid slds-gutters slds-var-m-horizontal_small">
+            <div class="slds-col_bump-left slds-size_1-of-3">
+              <lightning-combobox
+                id="subject"
+                name="subject"
+                label="Subject"
+                options={subjects}
+                onchange={handleFilterChange}
+              ></lightning-combobox>
+            </div>
+          </div>
+          <lightning-tabset class="slds-tabs_default slds-tabs_medium">
+            <!-- - - - ELIGIBLE COURSES - - -  -->
+            <lightning-tab label="Eligible Courses" class="slds-tabs_medium slds-theme_shade">
+              <div class="slds-m-around_small">
+                <lightning-formatted-text 
+                  value="Courses Available:"
+                  class="slds-text-heading_medium"
+                ></lightning-formatted-text>
+              </div>
+              <div class="container">
+                <template if:true={loading}>
+                  <div class="loading-spinner">
+                    <lightning-spinner alternative-text="Loading"></lightning-spinner>
+                  </div>
+                </template>
+                <template if:false={loading}>
+                  <div class="container-content slds-m-horizontal_small">
+                    <template for:each={filteredCourses} for:item="courseEligibility">
+                      <c-course-card 
+                        key={courseEligibility.course.id}
+                        name={courseEligibility.course.name}
+                        course={courseEligibility.course}
+                        primary={courseEligibility.primary}
+                        alternative={courseEligibility.alternative}
+                        onselection={handleCourseSelected}
+                        show-add-button
+                      ></c-course-card>
+                    </template>
+                  </div>
+                </template>
+              </div>
+            </lightning-tab>
+            <!-- - - - INELIGIBLE COURSES - - - -->
+            <lightning-tab label="Ineligible Courses" title="2nd tab extended title">
+              <div class="slds-m-around_small">
+                <!-- <lightning-formatted-text 
+                  value="Ineligible Courses:"
+                  class="slds-text-heading_medium"
+                ></lightning-formatted-text> -->
+              </div>
+              <div class="slds-m-horizontal_small">
+                <lightning-formatted-text
+                  value="You are ineligible to register for the courses below, based on prerequisites or other eligibility requirements set by our Academic Providers. If you have additional documentation that may qualify you for these courses, please reach out to our Registrar at registrar@vertoeducation.org."
+                  class="slds-text-body_medium"
+                  linkify
+                ></lightning-formatted-text>
+              </div>
+              <div class="container">
+                <div class="container-content slds-m-horizontal_small">
+                  <template for:each={ineligibleCourses} for:item="courseEligibility">
+                    <c-course-card 
+                      key={courseEligibility.course.id}
+                      name={courseEligibility.course.name}
+                      course={courseEligibility.course}
+                    ></c-course-card>
+                  </template>
+                </div>
+              </div>
+            </lightning-tab>
+          </lightning-tabset>
+        </lightning-card>
+      </div>
+      <div class="slds-col slds-medium-size_4-of-12 slds-small-size_1-of-1">
+        <!-- Markup for Ordering -->
+        <lightning-card>
+          <div class="slds-grid slds-grid_vertical">
+            <div class="slds-p-around_small slds-m-horizontal_small">
+              <lightning-formatted-text 
+                value="Rank By Preference:"
+                class="slds-text-heading_medium"
+              ></lightning-formatted-text>
+            </div>
+            <div class="slds-p-around_small slds-m-horizontal_small">
+              <lightning-formatted-text 
+                value="All students will be enrolled in Social Problems, which is placed as your top course by default."
+                class="slds-text-body_medium"
+              ></lightning-formatted-text>
+            </div>
+            <div class="slds-p-around_small slds-m-horizontal_small">
+              <lightning-formatted-text 
+                value="Please rank up to 4 additional courses from most to least preferred. You must have between 12 and 17 credits total to submit your course preferences. This could mean registering for three or four courses in addition to Social Problems."
+                class="slds-text-body_medium"
+              ></lightning-formatted-text>
+            </div>
+            <div class="slds-p-around_small slds-m-horizontal_small">
+              <lightning-formatted-text 
+                value="Select two alternate courses as backups in case your top choices are not available."
+                class="slds-text-body_medium"
+              ></lightning-formatted-text>
+            </div>
+            <div class="slds-p-vertical_large slds-p-around_small slds-m-horizontal_small">
+              <lightning-formatted-text 
+                value="Primary:"
+                class="slds-text-heading_medium slds-text-color_weak"
+              ></lightning-formatted-text>
+              <c-cart
+                limit=5
+                cart-name="primary"
+                class="cart primary"
+              ></c-cart>
+            </div>
+            <div class="slds-p-vertical_large slds-p-around_small slds-m-horizontal_small">
+              <lightning-formatted-text 
+                value="Alternatives:"
+                class="slds-text-heading_medium slds-text-color_weak"
+              ></lightning-formatted-text>
+              <c-cart
+                limit=2
+                cart-name="alternative"
+                class="cart alternative"
+              ></c-cart>
+            </div>
+            <div class="slds-p-around_small">
+              <div class="slds-grid slds-grid_align-spread">
+                <div class="slds-col-size_1-of-2 slds-align-left">
+                  <!-- Include counter for credit hours -->
+                  <lightning-formatted-text 
+                    value="Credits:"
+                    class="slds-text-heading_medium slds-text-color_weak slds-p-around_small"
+                  ></lightning-formatted-text>
+                  <lightning-formatted-number
+                    value={creditHourTotal}
+                    class="slds-text-heading_medium"
+                  ></lightning-formatted-number>
+                </div>
+                <div class="slds-col-size_1-of-2 slds-align-right">
+                  <lightning-button 
+                    variant="Brand" 
+                    label="Submit" 
+                    onclick={validateSubmit}
+                  ></lightning-button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </lightning-card>
+      </div>
+    </div>
+</template>

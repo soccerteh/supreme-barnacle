@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_the_World_Application</fullName>
+    <active>true</active>
+    <businessProcess>Standard Cases</businessProcess>
+    <label>Change the World Application</label>
+    <picklistValues>
+        <picklist>Cohort_Added__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deposit_Made__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Disciplinary_Actions_Needed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Emergency_Contacts_Notified__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes - by Verto staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes - by local partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes - by student</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Escalate_to_Revenue_Operations__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Follow_up_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_Master_Case__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>New_Hire_Role__c</picklist>
+        <values>
+            <fullName>Admissions%3A Leadership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Admissions%3A Sr%2E Admissions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Admissions%3A Tier 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Admissions%3A Tier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Planning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Success</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>New_or_Update_Form__c</picklist>
+        <values>
+            <fullName>New Form Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Update an Existing Form</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System Automation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_ROI_Type__c</picklist>
+        <values>
+            <fullName>Cost Savings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revenue Generating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time Savings</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Second deposit needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Related_to_Specific_Record__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Revenue_Ops_Case_Topic__c</picklist>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subtype_of_Incident__c</picklist>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Change the World Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Appeal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revenue Ops Bug</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Deposit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology_Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Withdrawal Request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Incident__c</picklist>
+        <values>
+            <fullName>Behavior Concern</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Care Team Concern</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Code of Conduct Violation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Concern</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Housing Concerns</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety Concern</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Want_to_provide_ROI__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Where_in_Journey__c</picklist>
+        <values>
+            <fullName>Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Transit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Departure</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Which_FormStack_Form__c</picklist>
+        <values>
+            <fullName>Change the World Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Planning Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enrollment Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Appeals Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunity Grant Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Application %28Page 1 and 2%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submit Your Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Withdrawal Form</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Which_Salesforce_Objects__c</picklist>
+        <values>
+            <fullName>Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cohort</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dashboard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enrollment Record</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semester</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Which_Technology_System__c</picklist>
+        <values>
+            <fullName>AirCall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FormStack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HeyMarket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Withdrawal_Intent_Stated_to_Staff__c</picklist>
+        <values>
+            <fullName>Academic Success Coach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Admissions Counselor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Counselor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No%2C I have not spoken with anyone about my intent to withdraw</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professor%28s%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Leader</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Life Coordinator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Onboarding Advisor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Withdrawal_Reasoning__c</picklist>
+        <values>
+            <fullName>An unforeseen health issue has come up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I cannot afford Verto at this time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I had a poor experience with Verto Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%27m no longer interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%27ve made other college plans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>My parents are not on board with Verto Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verto does not seem like the right fit for me</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Your_Department__c</picklist>
+        <values>
+            <fullName>Admissions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Planning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Success</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>n2de__Action__c</picklist>
+        <values>
+            <fullName>Contacted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,49 @@
+<template>
+  <div class="slds-card slds-card_boundary slds-p-vertical_medium slds-m-top_medium" style="border: 1px solid rgba(0, 0, 0, .1); background-color: white;">
+    <div class="slds-grid slds-grid_align-center">
+      <div class="slds-col slds-small-size_2-of-3">
+        <div class="slds-grid slds-grid_vertical">
+          <lightning-formatted-text
+            value={itemName}
+            class="slds-text-heading_small slds-m-around_small slds-col"
+          ></lightning-formatted-text>
+          <template if:true={subItemName}>
+            <div class="slds-col slds-text-body_small slds-m-horizontal_small slds-text-color_weak">
+              <p>Corequisite: {subItemName}</p>
+            </div>
+          </template>
+        </div>
+      </div>
+      <div class="slds-col slds-small-size_1-of-3">
+        <div class="slds-grid">
+            <div class="slds-col slds-size_1-of-2">
+              <template if:false={first}>
+                <lightning-button-icon 
+                  title="Move Up"
+                  alternative-text="Move Preference Up"
+                  name="decrement"
+                  icon-name="utility:chevronup" 
+                  variant="container"
+                  class="shadowless-button"
+                  onclick={handleOnClick}
+                ></lightning-button-icon>
+              </template>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+              <template if:false={last}>
+                <lightning-button-icon 
+                  title="Move Down"
+                  alternative-text="Move Preference Down" 
+                  name="increment"
+                  icon-name="utility:chevrondown" 
+                  variant="container"
+                  class="shadowless-button"
+                  onclick={handleOnClick}
+                ></lightning-button-icon>
+              </template>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

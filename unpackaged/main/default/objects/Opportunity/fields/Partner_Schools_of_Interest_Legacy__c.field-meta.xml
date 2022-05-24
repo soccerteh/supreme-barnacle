@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Schools_of_Interest_Legacy__c</fullName>
+    <description>This field is populated from the College Planning Form.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is a legacy field from submissions prior to 11-13-2020.</inlineHelpText>
+    <label>z_Partner Schools of Interest (Legacy)</label>
+    <length>400</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>2</visibleLines>
+</CustomField>

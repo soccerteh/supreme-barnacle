@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QR_Code_Fieldset</fullName>
+    <description>This is used on the Event page to display only the QR Code.</description>
+    <displayedFields>
+        <field>Event_QR_Code__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>QR Code Fieldset</label>
+</FieldSet>

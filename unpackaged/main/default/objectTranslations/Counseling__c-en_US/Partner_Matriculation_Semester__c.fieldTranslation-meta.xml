@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Represents the first semester that the student will be enrolled at the partner school. --></help>
+        <label><!-- Partner Matriculation Semester --></label>
+        <name>Partner_Matriculation_Semester__c</name>
+        <picklistValues>
+            <masterLabel>Fall 2022</masterLabel>
+            <translation><!-- Fall 2022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fall 2023</masterLabel>
+            <translation><!-- Fall 2023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spring 2022</masterLabel>
+            <translation><!-- Spring 2022 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spring 2023</masterLabel>
+            <translation><!-- Spring 2023 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Assigns the &quot;Hide Option to Switch to Salesforce Classic&quot; system permission, which forces the user to always use Lightning Experience; removes the Switcher so it&#39;s not possible to switch to Salesforce Classic.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Hide Option to Switch to Salesforce Classic</label>
+    <license>Salesforce</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LightningExperienceUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>PreventClassicExperience</name>
+    </userPermissions>
+</PermissionSet>

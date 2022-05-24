@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "b01e9b3a-d156-4418-b9d3-e444eba8bd5a",
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "configurationTags" : [ ],
+  "id" : "f9d94b97-42a1-472c-adad-59ba121d0cd4",
+  "label" : "Dietary Accommodation",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-dietary-accommodation",
+  "type" : "route",
+  "urlPrefix" : "DietaryAccommodation"
+}

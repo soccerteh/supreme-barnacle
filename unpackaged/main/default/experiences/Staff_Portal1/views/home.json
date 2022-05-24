@@ -1,0 +1,73 @@
+{
+  "appPageId" : "343e1c50-9b03-4e63-98c9-c932e5e44c31",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "b174d360-2ca5-472d-be36-8e59ef667ecc",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[]",
+        "flowLayout" : "oneColumn",
+        "flowName" : "Student_Concern_Case_Creation"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "90c710c7-547c-446e-9d87-70bec51f84a8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p> </p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "a3073245-7b4e-44cb-92c9-a913712ea61e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "60d51e3c-c25d-488b-a68f-e765f1c08e6d",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "height" : "485",
+        "recordId" : "01Z6S000001Df9IUAS"
+      },
+      "componentName" : "forceCommunity:dashboard",
+      "id" : "a5132d7d-9aa3-4c2b-b6e2-45822130465a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a32ac962-0611-4f6f-884c-0759e12eb183",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "45453338-2660-4f63-a3f8-c416bcd9b745",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "ca1f0ddb-8e17-4801-9f11-60b38603c1f2",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ab8b3f25-9d2e-4542-b94f-6580c2f53727",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "febd89f6-2f28-474d-9a59-a14b18e9caca",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

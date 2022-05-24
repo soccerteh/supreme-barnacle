@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Loyola University Maryland Partner User</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Loyola University Maryland Partner User</name>
+    <opportunityAccessLevel>None</opportunityAccessLevel>
+    <parentRole>Revenue_Operations</parentRole>
+</Role>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What supports or strategies might you like to try this semester? (Check all that apply.) --></help>
+        <label><!-- Support strategies you may try --></label>
+        <name>Support_strategies_you_may_try__c</name>
+        <picklistValues>
+            <masterLabel>Addressing technology issues</masterLabel>
+            <translation><!-- Addressing technology issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creating a self-care/mental health routine and/or practice (a) new habit(s)</masterLabel>
+            <translation><!-- Creating a self-care/mental health routine and/or practice (a) new habit(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creating a social calendar to connect regularly with friends and family</masterLabel>
+            <translation><!-- Creating a social calendar to connect regularly with friends and family --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting with staff (e.g. Academic Provider faculty at the Verto locations, ASC, SLC, or College Counselor) to discuss experience</masterLabel>
+            <translation><!-- Meeting with staff (e.g. Academic Provider faculty at the Verto locations, ASC, SLC, or College Counselor) to discuss experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rearranging and/or relocating workspace</masterLabel>
+            <translation><!-- Rearranging and/or relocating workspace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular meeting(s) with peers, study group and/or attend study hall with ASC</masterLabel>
+            <translation><!-- Regular meeting(s) with peers, study group and/or attend study hall with ASC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular meeting(s) with staff (e.g. Academic Provider faculty at the Verto locations, ASC, SLC) to practice skills, discuss work and/or goals</masterLabel>
+            <translation><!-- Regular meeting(s) with staff (e.g. Academic Provider faculty at the Verto locations, ASC, SLC) to practice skills, discuss work and/or goals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Time tracking/time boxing (using a calendar, timer or app to monitor focus/time spent on a task)</masterLabel>
+            <translation><!-- Time tracking/time boxing (using a calendar, timer or app to monitor focus/time spent on a task) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tracking distractions and creating plan to limit them</masterLabel>
+            <translation><!-- Tracking distractions and creating plan to limit them --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Using a reward system or goal-setting journal</masterLabel>
+            <translation><!-- Using a reward system or goal-setting journal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Using task lists and calendars to organize and schedule specific tasks</masterLabel>
+            <translation><!-- Using task lists and calendars to organize and schedule specific tasks --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_must_be_added</fullName>
+    <active>true</active>
+    <description>This rule is to make sure an account is added to all contacts that are not an IEC/Counselor</description>
+    <errorConditionFormula>AND(
+ $User.Bypass_Validation__c = False,
+ NOT(ISPICKVAL( Persona__c , &#39;Independent Educational Consultant&#39;)),
+AND(
+ ISNEW(),
+ ISBLANK( AccountId)))</errorConditionFormula>
+    <errorDisplayField>AccountId</errorDisplayField>
+    <errorMessage>You must enter an account record in order to create a contact.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Transcript_Evaluations__r$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Transcript_Evaluations__r$Math_Completed__c</field>
+    </columns>
+    <crossFilters>
+        <criteriaItems>
+            <column>Program_Name__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>contains</operator>
+            <value>Italy</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Enrollment_Status__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Enrolled</value>
+        </criteriaItems>
+        <operation>with</operation>
+        <primaryTableColumn>Account$Id</primaryTableColumn>
+        <relatedTable>Enrollment_Record__c</relatedTable>
+        <relatedTableJoinColumn>Student_Account__c</relatedTableJoinColumn>
+    </crossFilters>
+    <description>Math Transcript Evaluation Answers</description>
+    <format>Tabular</format>
+    <name>Math Transcript Evaluation Answers</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Transcript_Evaluations__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

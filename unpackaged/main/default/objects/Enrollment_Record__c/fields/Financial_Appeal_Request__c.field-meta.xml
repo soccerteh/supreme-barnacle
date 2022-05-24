@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financial_Appeal_Request__c</fullName>
+    <externalId>false</externalId>
+    <formula>hyperlink(&#39;https://Vertoeducation.formstack.com/forms/financial_appeal_form_1?aid=&#39;&amp;Student_Account__c&amp;&#39;&amp;program=&#39;&amp;Program__c, &#39;Financial Appeal Form Link&#39;)</formula>
+    <label>Financial Appeal Request</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

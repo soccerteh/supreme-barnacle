@@ -1,0 +1,49 @@
+{
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "39efc281-6648-4859-85d9-503cf6489896",
+  "label" : "FlightSubmission",
+  "regions" : [ {
+    "id" : "6436cd93-6476-499e-a920-57d1c34e9e03",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"Account_Id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!aid}\"},{\"label\":\"Program_Id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!program}\"}]",
+        "flowLayout" : "oneColumn",
+        "flowName" : "Flight_Submission_Form"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "de1d2b9c-322e-4dcb-823d-e324bfe09a07",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "eef2cf91-1538-45a6-a79f-8d0307170867",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "7890e10d-c8de-477a-ad50-5bc2f1c878ae",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "FlightSubmission"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c805990f-d62c-4136-b0d2-e8d5f1f89ca3",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "67a7d043-b707-4e80-a5e4-f25c5d842584",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-flightsubmission"
+}

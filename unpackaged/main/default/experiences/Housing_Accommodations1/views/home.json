@@ -1,0 +1,69 @@
+{
+  "appPageId" : "7ba20641-1137-4e0a-a0d7-5b4326f4c588",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "39643144-0f37-4e0c-9872-a490e9875151",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div id=\"header-image\" style=\"text-align: center;\">\n    <img src=\"https://s3.amazonaws.com/files.formstack.com/public/922754/549833_tmpl_head_5ebecac4de0dd.\" alt=\"Verto Education Logo\" style=\"width: 390px; height: 390px;\" />\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "86cebc84-1a5d-4aba-b8ed-93353fb69d8b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4f2b4509-9cea-41d0-8561-b48efa7c9b31",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"Enrollment_Id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!Enrollment_Id}\"}]",
+        "flowLayout" : "oneColumn",
+        "flowName" : "Housing_Accommodation_Form"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "ebdb0b00-f100-40c9-bb5b-0c32e6864577",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e27c9568-1c2d-426e-a92f-93c73889cebc",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"text-align:center\">\n\t<p>&#169 2021 Verto Education.</p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "329f40da-1f7b-4de7-88ac-d784b806c284",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fb09b918-0354-4411-810f-a9b159148649",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "a1c4e87e-c313-4290-a9d0-1a507ee9701a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "06d2042f-0ff0-4cee-a935-4cab496df75a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}

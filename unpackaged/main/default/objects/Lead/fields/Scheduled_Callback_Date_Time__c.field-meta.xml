@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scheduled_Callback_Date_Time__c</fullName>
+    <description>Field created for Five9 outbound autodial campaigns. Allows the user to set a date and time for a lead to receive a callback via a campaign</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the date and time that you would like the student to receive a callback via a Five9 campaign. To cancel a scheduled callback, empty this field.</inlineHelpText>
+    <label>Scheduled Callback Date/Time</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>DateTime</type>
+</CustomField>

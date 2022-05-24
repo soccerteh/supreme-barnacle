@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_or_Update_Form__c</fullName>
+    <externalId>false</externalId>
+    <label>New or Update Form</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Form Needed</fullName>
+                <default>false</default>
+                <label>New Form Needed</label>
+            </value>
+            <value>
+                <fullName>Update an Existing Form</fullName>
+                <default>false</default>
+                <label>Update an Existing Form</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

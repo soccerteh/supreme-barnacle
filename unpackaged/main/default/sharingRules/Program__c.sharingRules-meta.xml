@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Staff_Portal_Argentina</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Staff Portal - Argentina</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>ArgentinaPartnerUser</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>Argentina</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Staff_Portal_Costa_Rica</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Staff Portal - Costa Rica</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>CostaRicaPartnerManager</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>Costa Rica</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Staff_Portal_England</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Staff Portal - England</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>EnglandPartnerManager</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>England</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Staff_Portal_Italy</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Staff Portal - Italy</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>ItalyPartnerManager</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>Italy</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Staff_Portal_Spain</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Staff Portal - Spain</label>
+        <sharedTo>
+            <portalRoleAndSubordinates>SpainPartnerManager</portalRoleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>Spain</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

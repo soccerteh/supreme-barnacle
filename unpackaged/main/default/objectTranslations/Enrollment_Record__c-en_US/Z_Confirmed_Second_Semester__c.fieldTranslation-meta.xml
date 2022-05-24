@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Z_Confirmed Second Semester --></label>
+        <name>Z_Confirmed_Second_Semester__c</name>
+        <relationshipLabel><!-- Enrollment Records (Confirmed Second Semester) --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SRB - Italian Student Visa Info - SP22</name>
+    <relatedEntityType>Enrollment_Record__c</relatedEntityType>
+    <style>none</style>
+    <subject>IMPORTANT: Italian Student Visa information for spring 2022</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

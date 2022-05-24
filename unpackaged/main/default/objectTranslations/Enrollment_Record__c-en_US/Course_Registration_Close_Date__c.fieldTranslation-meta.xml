@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The last day the student can register for courses. Usually determined by when an evaluation was completed or the program&apos;s registration open date. --></help>
+        <label><!-- Course Registration Close Date --></label>
+        <name>Course_Registration_Close_Date__c</name>
+    </CustomFieldTranslation>

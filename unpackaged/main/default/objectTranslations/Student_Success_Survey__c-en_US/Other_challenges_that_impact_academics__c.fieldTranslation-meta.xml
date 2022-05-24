@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If a student selected Other, their answer appears here --></help>
+        <label><!-- Other challenges that impact academics --></label>
+        <name>Other_challenges_that_impact_academics__c</name>
+    </CustomFieldTranslation>

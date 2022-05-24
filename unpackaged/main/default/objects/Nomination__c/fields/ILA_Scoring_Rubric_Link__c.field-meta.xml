@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ILA_Scoring_Rubric_Link__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;https://vertoeducation.formstack.com/forms/ila_rubric?students_first_name=&quot;&amp;Students_First_Name__c &amp;&quot;&amp;students_last_name=&quot;&amp; Students_Last_Name__c&amp;&quot; &amp;nomination_id=&quot;&amp; Id, &quot;ILA Scoring Rubric&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ILA Scoring Rubric Link</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Members of the regional Admissions team</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Admissions Regional Team</label>
+    <permissionSets>Apex_Class_Visualforce_Page_Access_High_School_Event</permissionSets>
+    <permissionSets>Create_Account_with_RT_High_School</permissionSets>
+    <permissionSets>Create_Contact_with_RT_Student_Parent_Guardian_Counselor</permissionSets>
+    <permissionSets>Create_Edit_Event_Custom_Object</permissionSets>
+    <permissionSets>Create_Inquiry</permissionSets>
+    <permissionSets>Edit_Lead_RACS</permissionSets>
+    <permissionSets>Heymarket_View_Message_Object_Template_Tab</permissionSets>
+    <permissionSets>Mass_Edits_from_Lists</permissionSets>
+    <permissionSets>Transfer_Record</permissionSets>
+    <permissionSets>VisualAntidote__Utility_Permissions</permissionSets>
+    <permissionSets>heymarket__Heymarket_User</permissionSets>
+    <permissionSets>n2de__Distribution_Engine_User</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

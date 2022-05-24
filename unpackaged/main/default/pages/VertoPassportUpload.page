@@ -1,0 +1,474 @@
+<apex:page docType="html-5.0" id="page" title="Verto Education Request for Information" applyBodyTag="false" showheader="false" standardStylesheets="false" standardController="Verto_Form_Submission__c" extensions="VertoPassportUploadController">
+<!-- Begin Default Content REMOVE THIS -->
+    <!-- <apex:includeLightning />
+
+    <div id="lightningvf" />
+
+    <script>
+        $Lightning.use("c:VertoPassportUpload", function() {
+        $Lightning.createComponent("c:passportUpload",
+            { label : "Passport Upload Form" },
+            "lightningvf",
+        );
+        });
+    </script> -->
+<!-- End Default Content REMOVE THIS -->
+    <html>
+        <head>
+        <title>Passport Upload</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <apex:includeScript value="{!$Resource.VertoFormScripts}" /> 
+        <script>
+            window.onload = function() {
+                let aid = '{!$CurrentPage.parameters.aid}';
+                let program = '{!$CurrentPage.parameters.program}'
+                let status = '{!$CurrentPage.parameters.status}'; 
+                if ((!aid || aid.toLowerCase() == '[netid2]' || !program) && !status) {
+                    document.querySelector('#basic-information').style.display = 'block';
+                    document.querySelector('#program-info').style.display = 'none';
+                }
+            }
+        </script>
+        </head>
+    </html>
+    <style>
+        body {
+            background-color: #1d7891;
+            font-family: 'Helvetica Neue', Arial, 'Lucida Grande', Tahoma, Verdana, sans-serif;
+            font-size: 14px;
+            color: #595d64;
+            float: center;
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px;
+            padding: 20px;
+            margin: 20px auto;
+        }
+        div {
+            display: block;
+        }
+        .form-body {
+            float: center;
+            border: 1px solid #efac06;
+            background-color: #fff;
+            margin: 20px auto;
+            -webkit-text-size-adjust: 100%;
+            border-radius: 6px;
+            width: 700px;
+        }
+        .form-header {
+            color: #1d7891;
+            font-weight: bold;
+            /* text-align: center; */
+        }
+        .form-header-section {
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            padding: 1em;
+            background-color: #edeff0;
+            text-align: center;
+        }
+        .warning-section {
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            padding: 1em;
+        }
+        .section-block {
+            padding: 30px 0;
+            display: block;
+        }
+        .row-label {
+            text-align: left !important;
+            font-weight: normal !important;
+            font-style: normal !important;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .flex-safari-initial {
+            -webkit-flex-wrap: initial;
+        }
+        .smallest-padding {
+            padding: 0.5em;
+        }
+        .smaller-padding {
+            padding: 0.75em;
+        }
+        .small-padding {
+            padding: 1em;
+        }
+        .required-submission {
+            border: 1px solid red;
+        }
+        .submission-button, .cancel-button {
+            color: #fff !important;
+            border-radius: 3px;
+            border: 0px solid transparent !important;
+            cursor: pointer;
+            text-align: center;
+            font-size: 14px;
+            padding: 10px;
+            line-height: 14px !important;
+            margin: 0 10px;
+        }
+        .center-block {
+            margin: auto;
+            display: block;
+            text-align: center;
+            padding: 3%;
+        }
+        .submission-button {
+            background-color: #efac06;
+        }
+        .cancel-button {
+            background-color: #a7a7a7;
+        }
+        .avoid-clicks {
+            pointer-events: none !important;
+            background-color: #a7a7a7 !important;
+        }
+        #header-image img {
+            width: 390px;
+            height: 390px;
+        }
+        #header-image {
+            text-align: center;
+        }
+    </style>
+    <body id="page-body">
+        <div id="header-image">
+            <img src="https://s3.amazonaws.com/files.formstack.com/public/922754/549833_tmpl_head_5ebecac4de0dd." alt="Verto Education Logo" />
+        </div>
+        <div class="form-body">
+            <apex:form id="student-information" forceSSL="true">
+                <apex:pageBlock id="form-block" rendered="{!!showThankYou && !showError}">
+                    <div class="small-padding">
+                        <div class="form-header-section">
+                            <h3 class="form-header">Passport Upload</h3>
+                        </div>
+                        <div class="form-header-section">
+                        </div>
+                        <div class="small-padding">
+                            <div id="basic-information" style="display: none;">
+                                <section class="section-block">
+                                    <div class="row flex-safari-initial">
+                                        <div class="col-md-6">
+                                            <div>
+                                                <label class="row-label">* First Name</label>
+                                            </div>
+                                            <div>
+                                                <apex:inputField id="first-name"
+                                                    value="{!record.First_Name__c}"
+                                                    styleClass="form-control"
+                                                    onblur="validateInput(this)" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div>
+                                                <label class="row-label">* Last Name</label>
+                                            </div>
+                                            <div>
+                                                <apex:inputField id="last-name"
+                                                    value="{!record.Last_Name__c}"
+                                                    styleClass="form-control"
+                                                    onblur="validateInput(this)" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div>
+                                                <label class="row-label">* Email address</label>
+                                            </div>
+                                            <div>
+                                                <apex:inputField id="email"
+                                                    value="{!record.Email_Address__c}"
+                                                    styleClass="form-control"
+                                                    type="email" 
+                                                    onblur="validateInput(this)" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="proceed">
+                                        <div class="row flex-safari-initial">
+                                            <div class="form-group">
+                                                <div class="center-block">
+                                                    <button type="button" 
+                                                        onclick="validateBasicInfo()"
+                                                        class="submission-button">
+                                                    Next
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <apex:outputPanel >
+                                <section class="section-block" id="program-info">
+                                    <div class="row flex-safari-initial">
+                                        <div class="col-md-12">
+                                            <div>
+                                                <label class="row-label">* Please select your Verto study abroad experience</label>
+                                            </div>
+                                            <div>
+                                                <apex:selectList id="program" value="{!program}" styleClass="form-control" size="1" multiselect="false" onchange="handleProgramChange()" >
+                                                    <apex:selectOptions value="{!Programs}" />
+                                                </apex:selectList>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="international-travel-options" style="display:none;">
+                                        <div class="row flex-safari-initial">
+                                            <div class="col-md-12">
+                                                <div>
+                                                    <label class="row-label">* Do you currently have a valid passport with validity of 6-12 months beyond the program end date?</label>
+                                                </div>
+                                                <div>
+                                                    <apex:selectList id="valid-passport" value="{!validPassport}" styleClass="form-control" size="1" multiselect="false" onchange="handleValidPassportChange()">
+                                                        <apex:selectOptions value="{!YesOrNo}" />
+                                                    </apex:selectList>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="valid-passport-questions" style="display:none;">
+                                            <div class="row flex-safari-initial">
+                                                <div class="col-md-12">
+                                                    <div>
+                                                        <label class="row-label">* Legal Name (as listed on Passport)</label>
+                                                    </div>
+                                                    <div>
+                                                        <apex:inputField id="legal-name" 
+                                                            value="{!record.Legal_Full_Name__c}" 
+                                                            styleClass="form-control" 
+                                                            onblur="validateInput(this)" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row flex-safari-initial">
+                                                <div class="col-md-12">
+                                                    <div>
+                                                        <label class="row-label">* Passport Number</label>
+                                                    </div>
+                                                    <div>
+                                                        <apex:inputField id="passport-number" 
+                                                            value="{!record.Passport_Number__c}" 
+                                                            styleClass="form-control" 
+                                                            onblur="validateInput(this)" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row flex-safari-initial">
+                                                <div class="col-md-12">
+                                                    <div>
+                                                        <label class="row-label">* Passport Issuing Country</label>
+                                                    </div>
+                                                    <div>
+                                                        <apex:selectList id="issuing-country" 
+                                                            value="{!record.Legal_Document_Issuing_Country__c}" 
+                                                            styleClass="form-control" 
+                                                            size="1" 
+                                                            multiselect="false" 
+                                                            onblur="validateInput(this)"
+                                                            >
+                                                            <apex:selectOptions value="{!Countries}" />
+                                                        </apex:selectList>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row flex-safari-initial">
+                                                <div class="col-md-12">
+                                                    <div>
+                                                        <label class="row-label">* Passport Sex</label>
+                                                    </div>
+                                                    <div>
+                                                        <apex:selectList id="passport-sex" 
+                                                            value="{!record.Legal_Document_Sex__c}" 
+                                                            styleClass="form-control" 
+                                                            size="1" 
+                                                            multiselect="false" 
+                                                            onblur="validateInput(this)"
+                                                            >
+                                                            <apex:selectOptions value="{!PassportSex}" />
+                                                        </apex:selectList>
+                                                    </div>
+                                                    <div>
+                                                        <label class="row-label"><span style="font-size: smaller;">Please identify the sex listed on your passport</span></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row flex-safari-initial">
+                                                <div class="col-md-12">
+                                                    <div>
+                                                        <label class="row-label">* Passport Issue Date</label>
+                                                    </div>
+                                                    <div>
+                                                        <apex:inputField id="issue-date"
+                                                            value="{!record.Legal_Document_Issue_Date__c}" 
+                                                            styleClass="form-control" 
+                                                            type="date"
+                                                            html-maxlength="8"
+                                                            onchange="validateInput(this)" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row flex-safari-initial">
+                                                <div class="col-md-12">
+                                                    <div>
+                                                        <label class="row-label">* Passport Expiration Date</label>
+                                                    </div>
+                                                    <div>
+                                                        <apex:inputField id="expiration-date"
+                                                            value="{!record.Legal_Document_Expiration_Date__c}" 
+                                                            styleClass="form-control" 
+                                                            type="date" 
+                                                            html-maxlength="8"
+                                                            onchange="validateInput(this)" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="invalid-passport-questions" style="display:none;">
+                                            <div class="row flex-safari-initial">
+                                                <div class="col-md-12">
+                                                    <div>
+                                                        <label class="row-label">* Have you submitted your passport application?</label>
+                                                    </div>
+                                                    <div>
+                                                        <apex:selectList id="passport-application-submitted" 
+                                                            value="{!record.Legal_Document_Application_Submitted__c}" 
+                                                            styleClass="form-control" 
+                                                            size="1" 
+                                                            multiselect="false" 
+                                                            onchange="handleValidPassportChange()">
+                                                            <apex:selectOptions value="{!YesOrNo}" />
+                                                        </apex:selectList>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="passport-application-submission-questions" style="display:none;">
+                                                <div class="row flex-safari-initial">
+                                                    <div class="col-md-12">
+                                                        <div>
+                                                            <label class="row-label">* Are you getting a new passport or renewing your passport?</label>
+                                                        </div>
+                                                        <div>
+                                                            <apex:selectList id="new-or-renewing"
+                                                                value="{!record.New_or_Renewing_Passport__c}"
+                                                                styleClass="form-control" 
+                                                                size="1" 
+                                                                multiselect="false" 
+                                                                onblur="validateInput(this)">
+                                                                <apex:selectOptions value="{!NewOrRenewing}" />
+                                                            </apex:selectList>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row flex-safari-initial">
+                                                    <div class="col-md-12">
+                                                        <div>
+                                                            <label class="row-label">* Did you pay to expedite your passport application?</label>
+                                                        </div>
+                                                        <div>
+                                                            <apex:selectList id="expedited" 
+                                                                value="{!record.Legal_Document_Application_Expedited__c}" 
+                                                                styleClass="form-control" 
+                                                                size="1" 
+                                                                multiselect="false" 
+                                                                onblur="validateInput(this)">
+                                                                <apex:selectOptions value="{!YesOrNo}" />
+                                                            </apex:selectList>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row flex-safari-initial">
+                                                    <div class="col-md-12">
+                                                        <div>
+                                                            <label class="row-label">* Please enter the date you submitted your application</label>
+                                                        </div>
+                                                        <div>
+                                                            <apex:inputField id="submitted-date"
+                                                                value="{!record.Legal_Document_Application_Date__c}" 
+                                                                styleClass="form-control" 
+                                                                type="date" 
+                                                                html-maxlength="8"
+                                                                onchange="validateInput(this)" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="contact-student-success-coach" style="display:none;">
+                                                <div class="row flex-safari-initial">
+                                                    <div class="form-group">
+                                                        <div class="center-block">
+                                                            <apex:commandButton id="contact-onboarding-advisor" 
+                                                            alt="Contact Onboarding Advisor" 
+                                                            action="{!notifyRecordOwner}" 
+                                                            value="Contact Onboarding Advisor"
+                                                            styleClass="submission-button"
+                                                            />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="form-upload" style="display:none">
+                                        <div>
+                                            <div>
+                                                <label class="row-label" id="file-label">* <span id="file-inner-text"></span></label>
+                                            </div>
+                                            <div>
+                                                <apex:inputFile id="file-upload"
+                                                value="{!fileData}" 
+                                                accept="image/jpeg,image/png,image/gif,image/bmp,application/pdf"
+                                                fileName="{!fileName}"
+                                                contentType="{!fileContentType}" 
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="acknowledgement" style="display:none;">
+                                        <div class="col-sm-12">
+                                            <div class="row-label" />
+                                            <div class="col-sm-1 row-label">
+                                                <apex:inputField value="{!record.Acknowledgement__c}" 
+                                                    id="acknowledgement" 
+                                                    onchange="validateConsent(this, '{!$Component.submit}', 'Passport')" />
+                                            </div>
+                                            <div>
+                                                <label class="row-label col-sm-11">* <span id="acknowledgement-inner-text"></span> </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="submit-form" style="display:none">
+                                        <div class="row flex-safari-initial">
+                                            <div class="form-group">
+                                                <div class="center-block">
+                                                    <apex:commandButton id="cancel" 
+                                                    alt="Cancel submission." 
+                                                    action="{!cancelSubmission}" 
+                                                    value="Cancel" 
+                                                    styleClass="cancel-button" 
+                                                    />
+                                                    <apex:commandButton id="submit" 
+                                                    alt="Submit request for information." 
+                                                    action="{!submitInformation}" 
+                                                    value="Submit Form"
+                                                    onclick="lockSubmit(this)"
+                                                    styleClass="submission-button avoid-clicks"
+                                                    />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </apex:outputPanel>
+                        </div>
+                    </div>
+                </apex:pageBlock>
+                <c:ThankYou origin="{!ref}"  rendered="{!showThankYou}" />
+                <c:Error rendered="{!showError}" />
+            </apex:form>
+        </div>
+    </body>
+</apex:page>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>1 Week Check-In</masterLabel>
+            <translation><!-- 1 Week Check-In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Week Check-In</masterLabel>
+            <translation><!-- 3 Week Check-In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 Week Check-In</masterLabel>
+            <translation><!-- 6 Week Check-In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Academic Success Plan</masterLabel>
+            <translation><!-- Academic Success Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>College &amp; Career Plan</masterLabel>
+            <translation><!-- College &amp; Career Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final 1:1</masterLabel>
+            <translation><!-- Final 1:1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial 1:1</masterLabel>
+            <translation><!-- Initial 1:1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-Semester 1:1</masterLabel>
+            <translation><!-- Mid-Semester 1:1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent 1 Week Check-in</masterLabel>
+            <translation><!-- Parent 1 Week Check-in --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent 4 Week Check-in</masterLabel>
+            <translation><!-- Parent 4 Week Check-in --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLC Meeting Notes</masterLabel>
+            <translation><!-- SLC Meeting Notes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Welcome Call</masterLabel>
+            <translation><!-- Welcome Call --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

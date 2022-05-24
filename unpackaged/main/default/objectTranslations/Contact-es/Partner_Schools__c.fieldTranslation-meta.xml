@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Partner Schools --></label>
+        <name>Partner_Schools__c</name>
+        <picklistValues>
+            <masterLabel>Adelphi University</masterLabel>
+            <translation><!-- Adelphi University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belhaven U</masterLabel>
+            <translation><!-- Belhaven U --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Berry College</masterLabel>
+            <translation><!-- Berry College --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bucknell University</masterLabel>
+            <translation><!-- Bucknell University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Butler University</masterLabel>
+            <translation><!-- Butler University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Western Reserve</masterLabel>
+            <translation><!-- Case Western Reserve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catholic University</masterLabel>
+            <translation><!-- Catholic University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chatham University</masterLabel>
+            <translation><!-- Chatham University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clark University</masterLabel>
+            <translation><!-- Clark University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>College of Wooster</masterLabel>
+            <translation><!-- College of Wooster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cornell College</masterLabel>
+            <translation><!-- Cornell College --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DePauw University</masterLabel>
+            <translation><!-- DePauw University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goucher College</masterLabel>
+            <translation><!-- Goucher College --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grinnell College</masterLabel>
+            <translation><!-- Grinnell College --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hanover College</masterLabel>
+            <translation><!-- Hanover College --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Point University</masterLabel>
+            <translation><!-- High Point University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Illinois Institute of Technology</masterLabel>
+            <translation><!-- Illinois Institute of Technology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>James Madison University</masterLabel>
+            <translation><!-- James Madison University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lewis &amp; Clark College</masterLabel>
+            <translation><!-- Lewis &amp; Clark College --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lynn University</masterLabel>
+            <translation><!-- Lynn University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macquarie University</masterLabel>
+            <translation><!-- Macquarie University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merrimack College</masterLabel>
+            <translation><!-- Merrimack College --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mills College</masterLabel>
+            <translation><!-- Mills College --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Muhlenberg College</masterLabel>
+            <translation><!-- Muhlenberg College --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Naropa University</masterLabel>
+            <translation><!-- Naropa University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ohio Wesleyan U</masterLabel>
+            <translation><!-- Ohio Wesleyan U --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pace University</masterLabel>
+            <translation><!-- Pace University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portland State University</masterLabel>
+            <translation><!-- Portland State University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prescott College</masterLabel>
+            <translation><!-- Prescott College --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regis University</masterLabel>
+            <translation><!-- Regis University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rhodes College</masterLabel>
+            <translation><!-- Rhodes College --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Richard Bland CollegeForeign University Partners</masterLabel>
+            <translation><!-- Richard Bland CollegeForeign University Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Michael&#39;s College of Vermont</masterLabel>
+            <translation><!-- Saint Michael&apos;s College of Vermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Springfield College</masterLabel>
+            <translation><!-- Springfield College --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temple University</masterLabel>
+            <translation><!-- Temple University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>University College of Dublin</masterLabel>
+            <translation><!-- University College of Dublin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>University of Auckland</masterLabel>
+            <translation><!-- University of Auckland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>University of Bristol</masterLabel>
+            <translation><!-- University of Bristol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>University of Oregon</masterLabel>
+            <translation><!-- University of Oregon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>University of South Florida</masterLabel>
+            <translation><!-- University of South Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>University of Southern Maine</masterLabel>
+            <translation><!-- University of Southern Maine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>University of Tennessee</masterLabel>
+            <translation><!-- University of Tennessee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>University of Vermont</masterLabel>
+            <translation><!-- University of Vermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valparaiso University</masterLabel>
+            <translation><!-- Valparaiso University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>William &amp; Mary</masterLabel>
+            <translation><!-- William &amp; Mary --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Z_College_Planning_Process__c</fullName>
+    <externalId>false</externalId>
+    <label>Z_College Planning Process</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Confident in my decision: I know where I will be attending college after my Verto semester(s). I&#39;ve been accepted to the institution and feel confident in my choice.</fullName>
+                <default>false</default>
+                <label>Confident in my decision: I know where I will be attending college after my Verto semester(s). I&#39;ve been accepted to the institution and feel confident in my choice.</label>
+            </value>
+            <value>
+                <fullName>I don&#39;t plan to attend college after my Verto semester(s).</fullName>
+                <default>false</default>
+                <label>I don&#39;t plan to attend college after my Verto semester(s).</label>
+            </value>
+            <value>
+                <fullName>Need guidance: I don&#39;t know where to start or what to look for in potential colleges or universities.</fullName>
+                <default>false</default>
+                <label>Need guidance: I don&#39;t know where to start or what to look for in potential colleges or universities.</label>
+            </value>
+            <value>
+                <fullName>Open to options: I have a few institutions in mind, or have received some college acceptances, but I am open to exploring my college options further.</fullName>
+                <default>false</default>
+                <label>Open to options: I have a few institutions in mind, or have received some college acceptances, but I am open to exploring my college options further.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

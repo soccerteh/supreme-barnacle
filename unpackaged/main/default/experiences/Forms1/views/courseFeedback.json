@@ -1,0 +1,49 @@
+{
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "af283f5d-338e-49cb-a78d-178ef3f01a0a",
+  "label" : "Course Feedback",
+  "regions" : [ {
+    "id" : "7fad5772-87af-4b8f-a250-618378e7dfc4",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "",
+        "flowLayout" : "oneColumn",
+        "flowName" : "Course_Feedback_Survey"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "0599ee76-8057-444b-9a0b-c7780b21342c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7b539189-64d0-4e2c-b997-dbd54db0ea62",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "9c612113-c3f6-44ba-b654-7c0fb4e61934",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Course Feedback"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "99dd34ba-886e-4e27-9ed9-87271840c464",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bcfd5cf9-13e7-4aa2-8652-c15b8adc79c2",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-course-feedback"
+}

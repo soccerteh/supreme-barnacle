@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+I wanted to get in touch with you today because you still have outstanding housing forms in the Student Portal.&nbsp; <b>You must complete the items listed below by the end of the day TODAY, December 10th</b>!&nbsp; After today there is absolutely no more wiggle room for submitting housing information, so please ensure that these items are completed ASAP!&nbsp; We will not continue extending deadlines past December 10th and you will be placed in random housing at the discretion of our programming team if we do not receive this information.<br />
+<br />
+<b>Your Outstanding Items:&nbsp;</b>
+<ul>
+	<li>Housing Form</li>
+	<li>Roommate Request</li>
+</ul>
+<br />
+Thank you for taking the time today to complete these items.&nbsp; If you have any questions, please let me know by emailing me at katlyn.maloney@vertoeducation.org or calling me at 503-822-7384.&nbsp;<br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}<br />
+<br />
+{{{Sender.Signature}}}
+</body></html>

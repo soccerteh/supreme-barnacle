@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field contains the student&apos;s email if their Roommate Request was not connected to their enrollment record --></help>
+        <label><!-- Email Missing Enrollment Id --></label>
+        <name>Email_Missing_Enrollment_Id__c</name>
+    </CustomFieldTranslation>

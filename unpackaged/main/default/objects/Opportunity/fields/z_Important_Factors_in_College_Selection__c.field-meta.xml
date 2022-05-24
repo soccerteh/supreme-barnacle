@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>z_Important_Factors_in_College_Selection__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is populated from the College Planning Form.</inlineHelpText>
+    <label>z_Important Factors in College Selection</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Affordability</fullName>
+                <default>false</default>
+                <label>Affordability</label>
+            </value>
+            <value>
+                <fullName>Availability of intended major(s)</fullName>
+                <default>false</default>
+                <label>Availability of intended major(s)</label>
+            </value>
+            <value>
+                <fullName>Location</fullName>
+                <default>false</default>
+                <label>Location</label>
+            </value>
+            <value>
+                <fullName>Public vs. Private</fullName>
+                <default>false</default>
+                <label>Public vs. Private</label>
+            </value>
+            <value>
+                <fullName>Ranking</fullName>
+                <default>false</default>
+                <label>Ranking</label>
+            </value>
+            <value>
+                <fullName>Resources &amp; Support available</fullName>
+                <default>false</default>
+                <label>Resources &amp; Support available</label>
+            </value>
+            <value>
+                <fullName>Size (small or large institution)</fullName>
+                <default>false</default>
+                <label>Size (small or large institution)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

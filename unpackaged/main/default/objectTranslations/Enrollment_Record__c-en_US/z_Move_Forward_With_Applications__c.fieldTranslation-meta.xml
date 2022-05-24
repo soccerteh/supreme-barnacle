@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- z_Move Forward With Applications? --></label>
+        <name>z_Move_Forward_With_Applications__c</name>
+        <picklistValues>
+            <masterLabel>Maybe - I would like additional feedback and guidance on my selections before confirming.</masterLabel>
+            <translation><!-- Maybe - I would like additional feedback and guidance on my selections before confirming. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maybe - I would like my list reviewed by a College Counselor before confirming.</masterLabel>
+            <translation><!-- Maybe - I would like my list reviewed by a College Counselor before confirming. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, please send my application to these schools.</masterLabel>
+            <translation><!-- Yes, please send my application to these schools. --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

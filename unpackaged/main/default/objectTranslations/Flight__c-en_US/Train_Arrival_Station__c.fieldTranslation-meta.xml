@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Train Arrival Station --></label>
+        <name>Train_Arrival_Station__c</name>
+        <picklistValues>
+            <masterLabel>Santa Justa Train Station</masterLabel>
+            <translation><!-- Santa Justa Train Station --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

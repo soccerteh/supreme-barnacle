@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Form Question: &quot;Are you planning to use the Free Application for Federal Student Aid (FAFSA) toward your Verto tuition?&quot; --></help>
+        <label><!-- Using FAFSA Toward Tuition --></label>
+        <name>Using_FAFSA_Toward_Tuition__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_would_ve_helped_overcome_challenges__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What would have helped you overcome those challenges</inlineHelpText>
+    <label>Would&#39;ve helped you overcome challenges</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

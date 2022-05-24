@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Admissions_Competition_Team__c</fullName>
+    <description>This field is used for when Admissions has competitions and needs to put counselors on teams so that reports and dashboards can report off this field.</description>
+    <externalId>false</externalId>
+    <label>Admissions Competition Team</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

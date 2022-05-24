@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consulate__c</fullName>
+    <externalId>false</externalId>
+    <label>Consulate</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Consulate General of Italy – Boston</fullName>
+                <default>false</default>
+                <label>Consulate General of Italy – Boston</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Italy – Chicago</fullName>
+                <default>false</default>
+                <label>Consulate General of Italy – Chicago</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Italy – Detroit</fullName>
+                <default>false</default>
+                <label>Consulate General of Italy – Detroit</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Italy – Houston</fullName>
+                <default>false</default>
+                <label>Consulate General of Italy – Houston</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Italy – Los Angeles</fullName>
+                <default>false</default>
+                <label>Consulate General of Italy – Los Angeles</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Italy – Miami</fullName>
+                <default>false</default>
+                <label>Consulate General of Italy – Miami</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Italy – Montreal</fullName>
+                <default>false</default>
+                <label>Consulate General of Italy – Montreal</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Italy – New York</fullName>
+                <default>false</default>
+                <label>Consulate General of Italy – New York</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Italy – Ottawa</fullName>
+                <default>false</default>
+                <label>Consulate General of Italy – Ottawa</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Italy – Philadelphia</fullName>
+                <default>false</default>
+                <label>Consulate General of Italy – Philadelphia</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Italy – San Francisco</fullName>
+                <default>false</default>
+                <label>Consulate General of Italy – San Francisco</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Italy – Toronto</fullName>
+                <default>false</default>
+                <label>Consulate General of Italy – Toronto</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Italy – Vancouver</fullName>
+                <default>false</default>
+                <label>Consulate General of Italy – Vancouver</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Italy – Washington DC</fullName>
+                <default>false</default>
+                <label>Consulate General of Italy – Washington DC</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Spain – Boston</fullName>
+                <default>false</default>
+                <label>Consulate General of Spain – Boston</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Spain – Chicago</fullName>
+                <default>false</default>
+                <label>Consulate General of Spain – Chicago</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Spain – Houston</fullName>
+                <default>false</default>
+                <label>Consulate General of Spain – Houston</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Spain – Los Angeles</fullName>
+                <default>false</default>
+                <label>Consulate General of Spain – Los Angeles</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Spain – Miami</fullName>
+                <default>false</default>
+                <label>Consulate General of Spain – Miami</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Spain – Montreal</fullName>
+                <default>false</default>
+                <label>Consulate General of Spain – Montreal</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Spain – New York</fullName>
+                <default>false</default>
+                <label>Consulate General of Spain – New York</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Spain – Ontario</fullName>
+                <default>false</default>
+                <label>Consulate General of Spain – Ontario</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Spain – San Jose (PR)</fullName>
+                <default>false</default>
+                <label>Consulate General of Spain – San Jose (PR)</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Spain – San Francisco</fullName>
+                <default>false</default>
+                <label>Consulate General of Spain – San Francisco</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Spain – Toronto</fullName>
+                <default>false</default>
+                <label>Consulate General of Spain – Toronto</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Spain – Washington DC</fullName>
+                <default>false</default>
+                <label>Consulate General of Spain – Washington DC</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Czech Republic – Chicago</fullName>
+                <default>false</default>
+                <label>Consulate General of Czech Republic – Chicago</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Czech Republic – Los Angeles</fullName>
+                <default>false</default>
+                <label>Consulate General of Czech Republic – Los Angeles</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Czech Republic – New York</fullName>
+                <default>false</default>
+                <label>Consulate General of Czech Republic – New York</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Czech Republic – Ottawa</fullName>
+                <default>false</default>
+                <label>Consulate General of Czech Republic – Ottawa</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Czech Republic – Toronto</fullName>
+                <default>false</default>
+                <label>Consulate General of Czech Republic – Toronto</label>
+            </value>
+            <value>
+                <fullName>Consulate General of Czech Republic – Washington DC</fullName>
+                <default>false</default>
+                <label>Consulate General of Czech Republic – Washington DC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

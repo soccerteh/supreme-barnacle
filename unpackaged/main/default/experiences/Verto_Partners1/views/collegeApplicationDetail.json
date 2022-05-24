@@ -1,0 +1,84 @@
+{
+  "appPageId" : "de408c33-b15c-4263-a366-fefa60038b5f",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "7e03a4dc-20b6-49c9-9463-72f85bed1b60",
+  "label" : "College Application Detail",
+  "regions" : [ {
+    "id" : "7ce54a13-e250-4ed5-8c20-0b18827c59fe",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"recordId\",\"dataType\":\"String\",\"supportsRecordId\":true,\"value\":\"{!Record.Id}\"}]",
+        "flowLayout" : "oneColumn",
+        "flowName" : "Partner_Accept_or_Reject_Decision"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "978dd597-eb46-4a0d-89df-ca2ed1a70195",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: right;\">Use the Follow feature to get notifications about this application.</p><p style=\"text-align: right;\">If you have any questions you can Post and use @Lakota for help.</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "2b741bc0-7d9a-442f-b3e9-a428446a3a3f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "893b7abc-d149-49ee-a67c-0a3fb7733742",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "detailsTabLabel" : "Details",
+        "discussionsTabLabel" : "Feed",
+        "recordId" : "{!recordId}",
+        "relatedTabLabel" : "Related",
+        "tab1Type" : "details",
+        "tab2Type" : "related",
+        "tab3Type" : "chatter",
+        "tab4Type" : "none",
+        "timelineTabLabel" : "Activity"
+      },
+      "componentName" : "forceCommunity:recordHomeTabs",
+      "id" : "891210fb-226e-4299-8d0b-4b7746aa487b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d2eeb9e8-17c1-45dd-88ff-4199feef0323",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "09f0b378-10a5-4427-a99d-125b18e6038b",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "43674469-62b2-4cd5-9ca2-c2cf44444d15",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a45256af-dac6-4c15-af6a-c9e8b659f141",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "EkvsvGg4mJGWYhwHY4vBteDLDJLTl4",
+  "type" : "view",
+  "viewType" : "detail-a1K"
+}

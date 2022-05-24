@@ -1,0 +1,91 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+Thank you again so much for taking the time to speak with me today! I am looking forward to working with you as we prepare for your adventure with Verto.&nbsp; To get started with the pre-departure process, please review the next steps and resources included in this email.&nbsp;<br />
+<br />
+<a href="https://vertoeducation.org/community-events/"><b>VERTO VIRTUAL EVENTS</b></a> <b>: </b>this is a link to all of our virtual events.&nbsp; These events will provide you with important information leading up to your semester and <b>some are mandatory</b>! Make sure you are checking this page or the event section of your student portal to register for these important events!<br />
+<br />
+<b>YOUR VERTO COLLEGE COUNSELOR</b>&nbsp;<b>:&nbsp;</b>your college counselor is&nbsp;{{{Enrollment_Record__c.College_Counselor__c}}}.&nbsp; They will be in touch with you soon and will help you with your post-Verto plans!<br />
+<br />
+<a href="https://vertoeducation.campusgroups.com/login_only"><b>VERTO STUDENT PORTAL</b></a> <b>:</b> the <b>Student Portal&nbsp;</b>is going to be your hub for all important information and action items leading up to your semester!&nbsp; Be sure to <b>bookmark it now</b> and spend sometime exploring it.&nbsp; Here, you will complete your important action items, connect with other students, and sign up for important pre-departure events.&nbsp;
+<div style="margin-left: 40px;"><br />
+<b>SET UP YOUR PORTAL ACCOUNT AND DOWNLOAD THE APP</b><br />
+<br />
+You should have received an email from Campus Groups inviting you to set up your account in the Student Portal.&nbsp; Sometimes this email goes to spam folders, so if you don't see it in your inbox, check your spam (if you still don't see it, let me know)!&nbsp; Once you've set up your account, you will be able to start working on your action items, signing up for events, and meeting other students in your program!<br />
+<br />
+You can also&nbsp;use the portal through our Student Portal app.&nbsp; To <b>download the app</b>, go to your app store and search&nbsp;<b>Verto Education Student Portal.&nbsp;</b>Once you've downloaded the app, login and start working on your action items!&nbsp;<br />
+<br />
+<b>ACCESS YOUR CHECKLIST</b><br />
+<br />
+The checklist section of the student portal is going to be the most important place for you to prepare for your semester.&nbsp; Keep in mind that&nbsp;<b>you must complete all checklist items to be able to go on your semester!</b></div>
+
+<div style="margin-left: 80px;"><br />
+<b>Access from a web browser:&nbsp;</b></div>
+
+<ol>
+	<li style="margin-left: 120px;">Sign in to the <a href="https://vertoeducation.campusgroups.com/login_only">Student Portal</a></li>
+	<li style="margin-left: 120px;">From the home page, scroll down to <b>My Activity&nbsp;</b>or select&nbsp;<b>My Activity&nbsp;</b>in the left sidebar</li>
+	<li style="margin-left: 120px;">Click on&nbsp;<b>My Checklists</b></li>
+	<li style="margin-left: 120px;">Start working on each section in the checklist.&nbsp; Unless an item is marked <i>optional, </i><b>it is mandatory to complete all items in the portal before your semester!</b></li>
+</ol>
+
+<div style="margin-left: 80px;"><b>Access from the app:&nbsp;</b></div>
+
+<ol style="margin-left: 40px;">
+	<li style="margin-left: 80px;">Open and sign in to the app</li>
+	<li style="margin-left: 80px;">&nbsp;In the bottom right corner of the screen, click<b> More</b></li>
+	<li style="margin-left: 80px;">Under&nbsp;<b>Activity,&nbsp;</b>select&nbsp;<b>Checklists</b></li>
+	<li style="margin-left: 80px;">Start working on each section in the checklist.&nbsp; Unless an item is marked&nbsp;<i>optional,&nbsp;</i><b>it is mandatory to complete all items in the portal before your semester!&nbsp;</b></li>
+</ol>
+
+<div style="margin-left: 80px;"><b>Checklist Tip: </b>Some&nbsp;sections need to be completed in chronological order.&nbsp; If items are grayed out, you will need to complete the first item in the list in order to move on to the subsequent items.&nbsp;</div>
+
+<div style="margin-left: 40px;">&nbsp;</div>
+
+<div><br />
+<b>OTHER ACTION ITEMS</b></div>
+
+<ol>
+	<li><b>Send me these important documents</b>:&nbsp;
+
+	<ol>
+		<li>Your final high school transcript</li>
+		<li>Any AP, SAT, or ACT scores</li>
+	</ol>
+	</li>
+</ol>
+<br />
+<b>YOUR SEMESTER DATES</b>
+
+<ul>
+	<li>Arrival Date: January 24, 2022</li>
+	<li>Orientation: January 25-30, 2022</li>
+	<li>Classes Start: January 31, 2022</li>
+	<li>Classes End: May 6, 2022</li>
+	<li>Departure Date: May 7, 2022</li>
+</ul>
+
+<div><br />
+<b>RESOURCES</b></div>
+
+<ul>
+	<li><a href="https://vertoeducation.org/enrolled-students">Enrolled Student Page</a></li>
+	<li><a href="https://vertoeducation.org/covid-vaccination-policy/?utm_source=sfmc&amp;utm_medium=email&amp;utm_campaign=11.30.21VaxUpdate&amp;utm_term=https%3a%2f%2fvertoeducation.org%2fcovid-vaccination-policy%2f&amp;utm_id=192688&amp;sfmc_id=74858065">Vaccination Policy</a></li>
+	<li><a href="https://vertoeducation.org/safety/">Safety at Verto Education</a></li>
+	<li><a href="https://vertoeducation.org/payment-cancellation-policy/">Payment and Cancellation Policy</a></li>
+	<li><a href="https://vertoeducation.org/testimonials/">Testimonials from Verto Students, Parents, &amp; Educational Professionals</a></li>
+	<li><a href="https://vertoeducation.org/academic-overview">Academic Overview</a></li>
+	<li><a href="https://vertoeducation.org/student-faqs/">FAQs for Students and Parents</a></li>
+	<li><a href="https://richardblandcollege.formstack.com/forms/disability_services_application">Academic Accommodations</a></li>
+</ul>
+<br />
+As I mentioned on the call, I will be your Student Onboarding Advisor and am here to support and empower you during the onboarding process.&nbsp; Please feel free to reach out any time with questions!&nbsp;<br />
+<br />
+Have an awesome day,&nbsp;<br />
+{{{Sender.FirstName}}}<br />
+<br />
+{{{Sender.Signature}}}
+</body></html>

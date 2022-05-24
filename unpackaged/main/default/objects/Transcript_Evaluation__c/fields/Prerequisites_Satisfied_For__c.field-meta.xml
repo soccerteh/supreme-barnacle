@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prerequisites_Satisfied_For__c</fullName>
+    <externalId>false</externalId>
+    <label>Prerequisites Satisfied For:</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>British Literature II</fullName>
+                <default>false</default>
+                <label>British Literature II</label>
+            </value>
+            <value>
+                <fullName>Introductory Spanish II</fullName>
+                <default>false</default>
+                <label>Introductory Spanish II</label>
+            </value>
+            <value>
+                <fullName>Intermediate Spanish I</fullName>
+                <default>false</default>
+                <label>Intermediate Spanish I</label>
+            </value>
+            <value>
+                <fullName>Intermediate Spanish II</fullName>
+                <default>false</default>
+                <label>Intermediate Spanish II</label>
+            </value>
+            <value>
+                <fullName>Introduction to Biology I</fullName>
+                <default>false</default>
+                <label>Introduction to Biology I</label>
+            </value>
+            <value>
+                <fullName>General Chemistry I</fullName>
+                <default>false</default>
+                <label>General Chemistry I</label>
+            </value>
+            <value>
+                <fullName>Introduction to Statistics</fullName>
+                <default>false</default>
+                <label>Introduction to Statistics</label>
+            </value>
+            <value>
+                <fullName>Pre-Calculus I</fullName>
+                <default>false</default>
+                <label>Pre-Calculus I</label>
+            </value>
+            <value>
+                <fullName>Calculus I</fullName>
+                <default>false</default>
+                <label>Calculus I</label>
+            </value>
+            <value>
+                <fullName>Principles of Microeconomics</fullName>
+                <default>false</default>
+                <label>Principles of Microeconomics</label>
+            </value>
+            <value>
+                <fullName>Environmental Science</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Environmental Science</label>
+            </value>
+            <value>
+                <fullName>Rhetoric &amp; Research I</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rhetoric &amp; Research I</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

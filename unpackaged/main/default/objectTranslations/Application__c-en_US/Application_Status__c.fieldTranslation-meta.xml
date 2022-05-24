@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Application Status --></label>
+        <name>Application_Status__c</name>
+        <picklistValues>
+            <masterLabel>Admitted</masterLabel>
+            <translation><!-- Admitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Applied</masterLabel>
+            <translation><!-- Applied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Lost</masterLabel>
+            <translation><!-- Closed Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Won</masterLabel>
+            <translation><!-- Closed Won --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decision Ready</masterLabel>
+            <translation><!-- Decision Ready --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit Received</masterLabel>
+            <translation><!-- Deposit Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engaged</masterLabel>
+            <translation><!-- Engaged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family Admissions Call</masterLabel>
+            <translation><!-- Family Admissions Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation><!-- In Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Nurture</masterLabel>
+            <translation><!-- Marketing Nurture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified</masterLabel>
+            <translation><!-- Qualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requirements Gathering</masterLabel>
+            <translation><!-- Requirements Gathering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send Student Acceptance</masterLabel>
+            <translation><!-- Send Student Acceptance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student Declined Channel Partner</masterLabel>
+            <translation><!-- Student Declined Channel Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unqualified</masterLabel>
+            <translation><!-- Unqualified --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

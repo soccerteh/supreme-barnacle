@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unqualified_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Unqualified Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Low GPA</fullName>
+                <default>false</default>
+                <label>Low GPA</label>
+            </value>
+            <value>
+                <fullName>Behavior</fullName>
+                <default>false</default>
+                <label>Behavior</label>
+            </value>
+            <value>
+                <fullName>Safety Reasons</fullName>
+                <default>false</default>
+                <label>Safety Reasons</label>
+            </value>
+            <value>
+                <fullName>Too Young</fullName>
+                <default>false</default>
+                <label>Too Young</label>
+            </value>
+            <value>
+                <fullName>Too Old</fullName>
+                <default>false</default>
+                <label>Too Old</label>
+            </value>
+            <value>
+                <fullName>Hard Request for No Contact</fullName>
+                <default>false</default>
+                <label>Hard Request for No Contact</label>
+            </value>
+            <value>
+                <fullName>Personality Red Flags</fullName>
+                <default>false</default>
+                <label>Personality Red Flags</label>
+            </value>
+            <value>
+                <fullName>Geographic Red Flags</fullName>
+                <default>false</default>
+                <label>Geographic Red Flags</label>
+            </value>
+            <value>
+                <fullName>Needs Academic Accommodations</fullName>
+                <default>false</default>
+                <label>Needs Academic Accommodations</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>Interested after 6 Months</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Interested after 6 Months</label>
+            </value>
+            <value>
+                <fullName>Interested within the next 6 Months</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Interested within the next 6 Months</label>
+            </value>
+            <value>
+                <fullName>International Student</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>International Student</label>
+            </value>
+            <value>
+                <fullName>Not Interested At All</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Interested At All</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Low GPA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Behavior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Safety Reasons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Too Young</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Too Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Hard Request for No Contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Personality Red Flags</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Geographic Red Flags</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unqualified</controllingFieldValue>
+            <valueName>Needs Academic Accommodations</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

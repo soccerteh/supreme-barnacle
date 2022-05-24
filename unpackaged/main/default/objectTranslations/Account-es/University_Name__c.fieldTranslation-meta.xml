@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- z_University Name --></label>
+        <name>University_Name__c</name>
+        <relationshipLabel><!-- Enrolled Students --></relationshipLabel>
+    </CustomFieldTranslation>

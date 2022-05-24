@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="scaleLimit" type="Integer" label="Scale Range" description="The maximum number of options for the scale." />
+            <property name="value" type="Integer" label="Radio Value" description="The currently selected value of the radio selection." />
+            <property name="label" type="String" label="Scale label." description="The label that should appear above the radio scale." />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

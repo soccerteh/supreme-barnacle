@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_4s_and_5s_Leads</fullName>
+    <columns>LEAD.STATUS</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.MOBILE_PHONE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATE_CODE</columns>
+    <columns>Year_of_Graduation__c</columns>
+    <columns>High_School_GPA__c</columns>
+    <columns>z_New_Lead_Date__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.LAST_ACTIVITY</columns>
+    <columns>Source__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Year_of_Graduation__c</field>
+        <operation>notEqual</operation>
+        <value>2022,2023,2024,2025,2013,2014,2015,2016,2017,2018</value>
+    </filters>
+    <filters>
+        <field>z_Interest_Level__c</field>
+        <operation>equals</operation>
+        <value>4,5</value>
+    </filters>
+    <label>My 4s and 5s Leads</label>
+</ListView>

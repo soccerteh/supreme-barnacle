@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Send invoice manually based on Email on Sales Document</description>
+    <flowDefinition>Send_Invoice_via_Button</flowDefinition>
+    <label>Send Invoice</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "72d1cbd5-d963-475e-8d4f-c0532b515b6d",
+  "appPageId" : "f8f8f5fe-a794-41ab-88e0-6bf8d49cc606",
+  "configurationTags" : [ ],
+  "id" : "6e4d3e15-3435-42e1-8e19-17f8bf183d19",
+  "label" : "Course Registration Error",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-course-registration-error",
+  "type" : "route",
+  "urlPrefix" : "course-registration-error"
+}

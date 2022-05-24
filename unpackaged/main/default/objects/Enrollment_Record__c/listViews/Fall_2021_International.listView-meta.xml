@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fall_2021_International</fullName>
+    <columns>NAME</columns>
+    <columns>Students_Name__c</columns>
+    <columns>Program__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Enrollment_Status__c</field>
+        <operation>equals</operation>
+        <value>Enrolled</value>
+    </filters>
+    <filters>
+        <field>Program__c</field>
+        <operation>contains</operation>
+        <value>Fall 2021</value>
+    </filters>
+    <filters>
+        <field>Program__c</field>
+        <operation>notContain</operation>
+        <value>Hawaii</value>
+    </filters>
+    <label>Fall 2021 International</label>
+</ListView>

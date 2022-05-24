@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Use this email when a student didn&#39;t fill out the application on your call</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>T1: Post-call, No Application</name>
+    <style>none</style>
+    <subject>Following up on our call, and next steps</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

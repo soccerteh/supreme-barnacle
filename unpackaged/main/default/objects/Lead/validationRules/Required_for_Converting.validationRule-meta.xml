@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_for_Converting</fullName>
+    <active>true</active>
+    <description>Persona must filled in prior to converting a traditional or channel lead.</description>
+    <errorConditionFormula>AND(
+$User.Bypass_Validation__c = FALSE,
+
+or(
+left( RecordTypeId , 15) = left( $Label.RT_Lead_TraditionalEnrollment , 15),
+left( RecordTypeId , 15) = left( $Label.RT_Lead_ChannelEnrollment , 15)
+),
+
+IsConverted = TRUE,
+ISBLANK(text(Persona__c)),
+
+or(
+ischanged(IsConverted),
+ischanged(Persona__c)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Persona__c</errorDisplayField>
+    <errorMessage>Please select the Persona before converting the lead.</errorMessage>
+</ValidationRule>

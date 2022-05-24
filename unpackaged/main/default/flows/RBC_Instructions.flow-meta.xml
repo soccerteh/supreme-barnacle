@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>53.0</apiVersion>
+    <choices>
+        <name>Yes</name>
+        <choiceText>Yes, I have read and followed the above instructions.</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>true</stringValue>
+        </value>
+    </choices>
+    <decisions>
+        <name>Academic_Accommodation_Required</name>
+        <label>Academic Accommodation Required?</label>
+        <locationX>182</locationX>
+        <locationY>158</locationY>
+        <defaultConnector>
+            <targetReference>End</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>To End</defaultConnectorLabel>
+        <rules>
+            <name>Form_Needed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ReleaseForm_Required_Input</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Display_RBC_Instructions</targetReference>
+            </connector>
+            <label>Form Needed</label>
+        </rules>
+    </decisions>
+    <description>4/27 - Updated Display RBC instruction to remove references to students and &quot;Academics&quot;
+
+Modified end flow screen UI</description>
+    <interviewLabel>RBC Instructions {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>RBC Instructions</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <runInMode>SystemModeWithoutSharing</runInMode>
+    <screens>
+        <name>Display_RBC_Instructions</name>
+        <label>Display RBC Instructions</label>
+        <locationX>50</locationX>
+        <locationY>278</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>End</targetReference>
+        </connector>
+        <fields>
+            <name>Display_RBCInstructions_Screen</name>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;All Verto participants who qualify for and require accommodations will need to do the following:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11pt; background-color: transparent;&quot;&gt;If participants are in need of accommodations they must do the following:&lt;/span&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11pt; background-color: transparent;&quot;&gt;Apply for services though their college of record (through Richard Bland College* (RBC) (see &lt;/span&gt;&lt;a href=&quot;https://richardblandcollege.formstack.com/forms/disability_services_application&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 11pt; color: rgb(17, 85, 204);&quot;&gt;&lt;u&gt;Richard Bland College Disability Services Application&lt;/u&gt;&lt;/a&gt;&lt;span style=&quot;font-size: 11pt; background-color: transparent;&quot;&gt;) &lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11pt; background-color: transparent;&quot;&gt;Submit supporting disability documentation to their Academic Provider&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11pt; background-color: transparent;&quot;&gt;Schedule an intake meeting with their &lt;/span&gt;&lt;span style=&quot;font-size: 14.6667px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;Academic Provider&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11pt; background-color: transparent;&quot;&gt;Participants will complete the intake meeting with a disability services staff member from their &lt;/span&gt;&lt;span style=&quot;font-size: 14.6667px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;Academic Provider&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; background-color: transparent;&quot;&gt;.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14.6667px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;Academic Provider&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt; disability services staff will send letters of accommodations directly to &lt;/span&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;participants&lt;/span&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt; and to Verto’s HWA Manager. The HWA Manager will send participants a follow up communication that lists/verifies their accommodations.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11pt; background-color: transparent;&quot;&gt;Participants will then be responsible for sharing documentation and meeting 1:1 with their Academic Success Coordinator (ASC) and each of their instructors.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 11pt; background-color: transparent;&quot;&gt;Throughout the study abroad experience, participants will be expected to connect with their ASC,&amp;nbsp;instructors and/or the HWA Manager to discuss any questions or concerns regarding accommodations. Participants will also be expected to remind instructors about their required accommodations as needed (i.e. ahead of major assignments and tests, etc.).&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;*When applying for accommodations at RBC, participants will need their R# and RBC email address. Participants can contact their ASC or the HWA Manager for help getting this information. Participants need to create RBC email accounts by following &lt;/span&gt;&lt;a href=&quot;https://docs.google.com/document/d/1Sn2ZFKp28qGgpZX2_bGNDQIjUl2wveQ7JPtqtcVAhcM/edit&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 11pt; font-family: Arial; color: rgb(17, 85, 204);&quot;&gt;&lt;u&gt;these instructions&lt;/u&gt;&lt;/a&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;. &lt;/span&gt;&lt;span style=&quot;font-size: 14.6667px; font-family: Arial; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;Participants&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt; may also inquire about RBC email accounts by reaching out to &lt;/span&gt;&lt;a href=&quot;mailto:stac@rbc.edu&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 11pt; font-family: Arial; color: rgb(17, 85, 204);&quot;&gt;&lt;u&gt;stac@rbc.edu&lt;/u&gt;&lt;/a&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;. &lt;/span&gt;&lt;span style=&quot;font-size: 14.6667px; font-family: Arial; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;Participants&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt; can also see the &lt;/span&gt;&lt;a href=&quot;https://www.rbc.edu/academics/student-support-team/disability-services/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 11pt; font-family: Arial; color: rgb(17, 85, 204);&quot;&gt;&lt;u&gt;Richard Bland College Disability Services&lt;/u&gt;&lt;/a&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt; page for more information.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent;&quot;&gt;Note: &lt;/span&gt;&lt;span style=&quot;font-size: 14.6667px; font-family: Arial; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;Participants &lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0);&quot;&gt;can apply for accommodations at any time. However, this process will take time and accommodations cannot be applied retroactively (to past assignments or other course requirements).&amp;nbsp;&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Acknowledge</name>
+            <choiceReferences>Yes</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Please acknowledge that you have followed the above instructions. Your accommodation is not considered complete until all of the above steps are complete.</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>End</name>
+        <label>End</label>
+        <locationX>182</locationX>
+        <locationY>494</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>End_Display</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;font-size: 26px; background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;&lt;img src=&quot;https://vertoeducation--qa--c.documentforce.com/sfc/servlet.shepherd/version/download/0688M000000DlDA?asPdf=false&amp;amp;operationContext=CHATTER&quot;&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;Your form has been submitted!&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;You may now close this window.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;https://vertoeducation.campusgroups.com/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Back to Participant Portal&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>false</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Academic_Accommodation_Required</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>ReleaseForm_Required_Input</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

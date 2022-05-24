@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Special Circumstances that impact high s --></label>
+        <name>Special_Circumstances_that_impact_high_s__c</name>
+    </CustomFieldTranslation>

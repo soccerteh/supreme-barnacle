@@ -1,0 +1,49 @@
+{
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "74fcd7cb-af8c-4ccd-a95d-989c8b9f5918",
+  "label" : "Roommate Preference",
+  "regions" : [ {
+    "id" : "54dde4aa-a0b1-48da-86bb-2bd7fca11065",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"Account_Id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!aid}\"},{\"label\":\"Program_Id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!program}\"}]",
+        "flowLayout" : "oneColumn",
+        "flowName" : "Roommate_Request"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "cb32bc3d-d409-4f75-9410-935c2fb89f6b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "dd6f3231-4337-43ad-8e6e-2680bda508ca",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "8fdce91d-e59e-4763-82cf-40ca65343ae7",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Roommate Preference"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "43e186b9-636d-493b-b8ec-0377b3fc4249",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "05b861ee-4e90-452e-ac57-ffd873f3df66",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-roommate-preference"
+}

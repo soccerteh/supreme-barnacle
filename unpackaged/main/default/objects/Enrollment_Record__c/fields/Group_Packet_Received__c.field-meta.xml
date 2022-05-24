@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_Packet_Received__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Student has mailed in the documents required for the Verto group appointment but the packet has not yet been reviewed by the group leader as complete. When a group packet is received at Verto Headquarters, Visa Group Leader will check this box to indicate that the packet has been received.
+
+When the box is checked email notification will be sent to the ENR record owner and an email will be sent to the student and to all contacts on the student account</description>
+    <externalId>false</externalId>
+    <label>Group Packet Received</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

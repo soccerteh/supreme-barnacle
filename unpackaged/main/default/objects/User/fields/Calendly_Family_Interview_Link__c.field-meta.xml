@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calendly_Family_Interview_Link__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Input the specific URL to schedule a Family Interview with you.</inlineHelpText>
+    <label>Calendly Family Interview Link</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Url</type>
+</CustomField>

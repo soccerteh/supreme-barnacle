@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "7c90083d-56d1-495a-bbb9-64983ac6b7df",
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "configurationTags" : [ ],
+  "id" : "39455218-71de-4369-a857-d36bad1fd385",
+  "label" : "Student Success Survey",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-student-success-survey",
+  "type" : "route",
+  "urlPrefix" : "StudentSuccessSurvey"
+}

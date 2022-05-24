@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+Congratulations on joining the Verto family!&nbsp; My name is&nbsp;{{{Sender.FirstName}}} and I will be your Student Onboarding Advisor.&nbsp; This means that from now until you depart for your semester, I am going to be your primary point of contact and guide as we prepare for your semester.&nbsp;<br />
+<br />
+<b>YOUR FIRST ACTION ITEM:&nbsp;</b><br />
+<br />
+To get started, please <a href="https://calendly.com/layni/meet"><b>schedule a Welcome Call</b></a>&nbsp;with me! This call is a great opportunity for us to get to know each other a bit better. We will discuss the onboarding process, your goals for the semester, and go over any questions that you may have.&nbsp; Please make sure that you have a notebook or laptop on hand to take notes during this meeting.&nbsp;<br />
+<br />
+<br />
+<b>LOGGING INTO YOUR STUDENT PORTAL:&nbsp;</b><br />
+<br />
+You should have received an email from our student portal, <a href="https://vertoeducation.campusgroups.com/login_only?email=katlyn.maloney%40vertoeducation.org&amp;utm_source=new_user&amp;utm_medium=email_notification"><b>Campus Groups</b></a>, inviting you to set up your account.&nbsp;
+<ul>
+	<li>The student portal will be your hub for all important information and action items leading up to your semester. You can access it via the link above or by downloading our app&nbsp;<b>Verto Education Student Portal</b> from the app store.</li>
+	<li><b>Please set up your account and begin looking through your Checklists and Event sections to begin preparing for the semester.&nbsp;</b>
+	<ul>
+		<li>To access your&nbsp;<b>Checklist</b>, go to&nbsp;<b>My Activity&nbsp;</b>and click on&nbsp;<b>Checklists</b></li>
+	</ul>
+	</li>
+	<li>If you did not receive an email from Campus Groups in your inbox and don't see it in your spam folder, please let me know!</li>
+</ul>
+<br />
+I am excited to start working with you and look forward to speaking with you soon!&nbsp;<br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}<br />
+<br />
+{{{Sender.Signature}}}
+</body></html>

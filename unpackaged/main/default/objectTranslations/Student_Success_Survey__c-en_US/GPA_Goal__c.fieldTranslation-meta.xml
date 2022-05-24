@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- GPA Goal --></label>
+        <name>GPA_Goal__c</name>
+        <picklistValues>
+            <masterLabel>2.5 or higher</masterLabel>
+            <translation><!-- 2.5 or higher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.0 or higher</masterLabel>
+            <translation><!-- 3.0 or higher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5 or higher</masterLabel>
+            <translation><!-- 3.5 or higher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.0</masterLabel>
+            <translation><!-- 4.0 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

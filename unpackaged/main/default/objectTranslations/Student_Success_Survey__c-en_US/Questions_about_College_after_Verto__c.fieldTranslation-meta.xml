@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What questions do you have regarding college and/or college transfer after Verto? What would you like to learn more about? --></help>
+        <label><!-- Questions about College after Verto --></label>
+        <name>Questions_about_College_after_Verto__c</name>
+    </CustomFieldTranslation>

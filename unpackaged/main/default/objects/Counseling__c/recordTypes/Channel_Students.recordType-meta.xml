@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel_Students</fullName>
+    <active>true</active>
+    <description>Default Record Type for Channel Students</description>
+    <label>Channel Students</label>
+    <picklistValues>
+        <picklist>Counseling_Status__c</picklist>
+        <values>
+            <fullName>Applications Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Committing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Counselor Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decisions Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dismissed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outreached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Decision-making</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Research %26 Docs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waived</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welcome Call Scheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Withdrew</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Decision_Call_Status__c</picklist>
+        <values>
+            <fullName>Cancel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No-Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Scheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waived</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Final_Student_Decision_Status__c</picklist>
+        <values>
+            <fullName>Committed - Channel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deposited</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matriculated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Deposited</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Commitment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unresponsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Withdrew</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Final_Student_Decision_Type__c</picklist>
+        <values>
+            <fullName>CC Followed by Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Channel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community College</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gap Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Working</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Matriculation_Semester__c</picklist>
+        <values>
+            <fullName>Spring 2022</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Post_Verto_Plans__c</picklist>
+        <values>
+            <fullName>Already Committed To Plans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needs Decision to Deposit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wants College Counseling</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Unresponsive_Stage__c</picklist>
+        <values>
+            <fullName>Pre-departure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Returned</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Welcome_Call_Status__c</picklist>
+        <values>
+            <fullName>Cancel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No-Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Scheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

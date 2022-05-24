@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Channel Enrollment Layout</layout>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Cloud Information --></label>
+            <section>Marketing Cloud Information</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Partner Information --></label>
+            <section>Partner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Score Testing --></label>
+            <section>Score Testing</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Traditional Enrollment Layout</layout>
+        <sections>
+            <label><!-- Activity Tracking Information --></label>
+            <section>Activity Tracking Information</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Notes --></label>
+            <section>Additional Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- High School Information --></label>
+            <section>High School Information</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Information --></label>
+            <section>Marketing Information</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Parent Contact Information --></label>
+            <section>Parent Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Student Contact Information --></label>
+            <section>Student Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Student Interview Notes --></label>
+            <section>Student Interview Notes</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- The record type for students sent to Verto from a University partner --></description>
+        <label><!-- Channel Enrollment --></label>
+        <name>Channel_Enrollment</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- The record type for the parents or legal guardians of students following Verto&apos;s enrollment process --></description>
+        <label><!-- Parent/Guardian --></label>
+        <name>Parent_Guardian</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- The record type for students following Verto&apos;s traditional enrollment process --></description>
+        <label><!-- Traditional Enrollment --></label>
+        <name>Traditional_Enrollment</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- The student&apos;s application must be submitted in full prior to converting a lead. --></errorMessage>
+        <name>Application_Complete_Prior_to_Converting</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter a Marketing Nurture Reason. --></errorMessage>
+        <name>Marketing_Nurture_Reason_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The original source can&apos;t be edited. --></errorMessage>
+        <name>Original_Source_Cannot_be_Changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select the Persona. --></errorMessage>
+        <name>Persona_cannot_be_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The phone number cannot be deleted. Please consider using the Phone Not Viable checkbox instead. --></errorMessage>
+        <name>Phone_Cannot_Be_Deleted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select the Persona before converting the lead. --></errorMessage>
+        <name>Required_for_Converting</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- There must be an Associated Application prior to converting the lead. --></errorMessage>
+        <name>Required_for_Converting_TE</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure that First and Last Name, Persona, Lead Source, and Email or Phone are filled in. --></errorMessage>
+        <name>Required_for_Creation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please input the Tier 1 Owner prior to converting the lead. --></errorMessage>
+        <name>Tier_1_Owner_Cannot_be_empty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter an Unqualified Reason to save this record in the Unqualified status. --></errorMessage>
+        <name>Unqualified_Reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter an Unqualified Reason. --></errorMessage>
+        <name>Unqualified_Reason_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

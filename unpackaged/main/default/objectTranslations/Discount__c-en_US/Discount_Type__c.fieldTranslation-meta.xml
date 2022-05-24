@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Discount Type --></label>
+        <name>Discount_Type__c</name>
+        <picklistValues>
+            <masterLabel>CTW</masterLabel>
+            <translation><!-- CTW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Early Enrollment Discount</masterLabel>
+            <translation><!-- Early Enrollment Discount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ILA</masterLabel>
+            <translation><!-- ILA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merit Award</masterLabel>
+            <translation><!-- Merit Award --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity Grant</masterLabel>
+            <translation><!-- Opportunity Grant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prior Pricing Discount</masterLabel>
+            <translation><!-- Prior Pricing Discount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promise Grant 1</masterLabel>
+            <translation><!-- Promise Grant 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promise Grant 2</masterLabel>
+            <translation><!-- Promise Grant 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USF Scholarship</masterLabel>
+            <translation><!-- USF Scholarship --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

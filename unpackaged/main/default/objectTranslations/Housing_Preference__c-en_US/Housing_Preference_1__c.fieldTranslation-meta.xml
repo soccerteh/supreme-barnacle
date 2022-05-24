@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Housing Preference 1 --></label>
+        <name>Housing_Preference_1__c</name>
+        <picklistValues>
+            <masterLabel>Homestay</masterLabel>
+            <translation><!-- Homestay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residencia</masterLabel>
+            <translation><!-- Residencia --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

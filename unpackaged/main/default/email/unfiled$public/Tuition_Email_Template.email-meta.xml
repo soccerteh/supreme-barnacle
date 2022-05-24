@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Tuition Email Template</name>
+    <style>none</style>
+    <subject>Invoice [Invoice No.] from Verto Education - Fall 2022 Semester</subject>
+    <textOnly>Thank you for choosing to launch your college career with Verto Education! Below, you&#39;ll find an outline of your Verto Experience tuition &amp; fees for the Fall 2022 semester. Please note that balances are due in full by August 1, 2022 or you must request a formal payment plan by July 30, 2022.
+
+Payment Methods:
+
+1) Pay in Full (easiest and most common): Click the yellow “Pay Now” button for a free, fast, and secure ACH bank transfer or Credit Card payment through our partner Blackthorn Payments (powered by Stripe). When you click &quot;Pay Now&quot; below, it will open a new tab in your web browser. Select your desired payment method by toggling between tabs in the payment window. Once payment information is entered, click “Pay”. You will receive a confirmation email from Stripe and Verto Education once your payment processes.
+
+2) Installment Payment Plan: Reach out to billing@vertoeducation.org to discuss your options for a payment arrangement. Payment plans range from 3-5 months depending on when the plan is started.
+
+3) Mail checks to the address below:
+
+Verto Education
+3055 NW Yeon Ave #8822
+Portland, OR 97210
+
+PAY NOW
+
+Questions? Please email billing@vertoeducation.org and a member of the Billing Team will assist you.
+
+We&#39;re looking forward to traveling with you!
+
+Thank you,
+Verto Education, Inc
+
+3055 NW Yeon Ave, #8822 Portland, OR 97210
+© 2022 Verto Education.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

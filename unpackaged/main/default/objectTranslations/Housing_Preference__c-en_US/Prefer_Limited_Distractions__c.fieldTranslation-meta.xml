@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Prefer Limited Distractions? --></label>
+        <name>Prefer_Limited_Distractions__c</name>
+        <picklistValues>
+            <masterLabel>No preference, I will likely find a space to study outside of my room if I am being disturbed by others.</masterLabel>
+            <translation><!-- No preference, I will likely find a space to study outside of my room if I am being disturbed by others. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No, I am not distracted by visitors or music when studying in my room.</masterLabel>
+            <translation><!-- No, I am not distracted by visitors or music when studying in my room. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, I typically prefer to study primarily in my room with limited distractions in a quiet atmosphere.</masterLabel>
+            <translation><!-- Yes, I typically prefer to study primarily in my room with limited distractions in a quiet atmosphere. --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

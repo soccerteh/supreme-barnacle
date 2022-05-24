@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Interests --></label>
+        <name>Interests__c</name>
+        <picklistValues>
+            <masterLabel>Arts and Humanities</masterLabel>
+            <translation><!-- Arts and Humanities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business</masterLabel>
+            <translation><!-- Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health and Medicine</masterLabel>
+            <translation><!-- Health and Medicine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-/Interdisciplinary Studies</masterLabel>
+            <translation><!-- Multi-/Interdisciplinary Studies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public and Social Sciences</masterLabel>
+            <translation><!-- Public and Social Sciences --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Science, Math, and Technology</masterLabel>
+            <translation><!-- Science, Math, and Technology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Sciences and Education</masterLabel>
+            <translation><!-- Social Sciences and Education --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

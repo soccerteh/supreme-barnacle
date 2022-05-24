@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Erika_s_College_Counseling_Opportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>College_Counselor__c</field>
+        <operation>contains</operation>
+        <value>Erika</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Closed Won (Enrolled)</value>
+    </filters>
+    <filters>
+        <field>z_Have_Enough_Info_on_Partner_Schools__c</field>
+        <operation>equals</operation>
+        <value>No</value>
+    </filters>
+    <label>Erika&#39;s College Counseling Opportunities</label>
+</ListView>

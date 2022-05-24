@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- z_Pipeline --></label>
+        <name>z_Pipeline__c</name>
+        <picklistValues>
+            <masterLabel>2019-2020 Admissions Pipeline</masterLabel>
+            <translation><!-- 2019-2020 Admissions Pipeline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2020-2021 Admissions Pipeline</masterLabel>
+            <translation><!-- 2020-2021 Admissions Pipeline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2021-2022 Season and After</masterLabel>
+            <translation><!-- 2021-2022 Season and After --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

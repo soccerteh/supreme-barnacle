@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Lead$Name</field>
+    </columns>
+    <columns>
+        <field>Lead$Status</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Lead$LastActivityDate</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Lead$Owner</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Emma Herrick,Annie Dawson,Abigail Kaiser,Alexis LaRegina,Allie Yu,Anna Nobel,Abigail King,Charlotte Schiller,Allie Hidy-Lukas,Katelyn Kochukas,Jazmine Velazquez,Diana Castillo Acala,Caitlin Sweeney,Cari Peck,Soulei Oceguida,Antonio Upson,Tessa Takash,Madeline Filutze</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Lead$Owner</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Leads with Activities</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Leads_with_or_without_Activities__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Lead$CreatedDate</dateColumn>
+        <endDate>2021-07-31</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2021-06-01</startDate>
+    </timeFrameFilter>
+</Report>

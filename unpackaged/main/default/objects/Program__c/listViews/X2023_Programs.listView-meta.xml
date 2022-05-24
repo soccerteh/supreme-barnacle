@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2023_Programs</fullName>
+    <columns>NAME</columns>
+    <columns>Location__c</columns>
+    <columns>Semester__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Semester__c</field>
+        <operation>contains</operation>
+        <value>2023</value>
+    </filters>
+    <label>2023 Programs</label>
+</ListView>

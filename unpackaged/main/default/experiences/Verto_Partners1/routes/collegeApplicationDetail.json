@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "7e03a4dc-20b6-49c9-9463-72f85bed1b60",
+  "appPageId" : "de408c33-b15c-4263-a366-fefa60038b5f",
+  "configurationTags" : [ ],
+  "id" : "3642c73d-1f04-473c-9726-c77f5dafed91",
+  "label" : "College Application Detail",
+  "objectApiName" : "College_Application__c",
+  "routeType" : "detail-a1K",
+  "type" : "route",
+  "urlPrefix" : "college-application"
+}

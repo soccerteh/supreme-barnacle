@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>VisualAntidote__Form_Submission__c.VisualAntidote__Submission__c</field>
+    </columns>
+    <columns>
+        <field>VisualAntidote__Form_Submission__c.VisualAntidote__Form__c</field>
+    </columns>
+    <columns>
+        <field>VisualAntidote__Form_Submission__c.VisualAntidote__Status__c</field>
+    </columns>
+    <columns>
+        <field>VisualAntidote__Form_Submission__c.VisualAntidote__Submitted_Data_XML__c</field>
+    </columns>
+    <columns>
+        <field>VisualAntidote__Form_Submission__c.VisualAntidote__Submission_Date__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>VisualAntidote__Form_Submission__c.VisualAntidote__Form__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Request</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>FormStack - RFI (All Time)</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$VisualAntidote__Form_Submission__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>VisualAntidote__Form_Submission__c.VisualAntidote__Submission_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

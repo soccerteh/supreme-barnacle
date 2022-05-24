@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Disability Category --></label>
+        <name>Disability_Category__c</name>
+        <picklistValues>
+            <masterLabel>ADHD</masterLabel>
+            <translation><!-- ADHD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Autism Spectrum Disorder</masterLabel>
+            <translation><!-- Autism Spectrum Disorder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chronic/ medical condition</masterLabel>
+            <translation><!-- Chronic/ medical condition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hard of Hearing/ Deaf</masterLabel>
+            <translation><!-- Hard of Hearing/ Deaf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intellectual disability</masterLabel>
+            <translation><!-- Intellectual disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Learning Disability</masterLabel>
+            <translation><!-- Learning Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low vision/ Blind</masterLabel>
+            <translation><!-- Low vision/ Blind --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mental Health</masterLabel>
+            <translation><!-- Mental Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical disabilities</masterLabel>
+            <translation><!-- Physical disabilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traumatic Brain Injury</masterLabel>
+            <translation><!-- Traumatic Brain Injury --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

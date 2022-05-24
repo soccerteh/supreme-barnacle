@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Consulate --></label>
+        <name>Consulate__c</name>
+        <picklistValues>
+            <masterLabel>Consulate General of Czech Republic – Chicago</masterLabel>
+            <translation><!-- Consulate General of Czech Republic – Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Czech Republic – Los Angeles</masterLabel>
+            <translation><!-- Consulate General of Czech Republic – Los Angeles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Czech Republic – New York</masterLabel>
+            <translation><!-- Consulate General of Czech Republic – New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Czech Republic – Ottawa</masterLabel>
+            <translation><!-- Consulate General of Czech Republic – Ottawa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Czech Republic – Toronto</masterLabel>
+            <translation><!-- Consulate General of Czech Republic – Toronto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Czech Republic – Washington DC</masterLabel>
+            <translation><!-- Consulate General of Czech Republic – Washington DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Italy – Boston</masterLabel>
+            <translation><!-- Consulate General of Italy – Boston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Italy – Chicago</masterLabel>
+            <translation><!-- Consulate General of Italy – Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Italy – Detroit</masterLabel>
+            <translation><!-- Consulate General of Italy – Detroit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Italy – Houston</masterLabel>
+            <translation><!-- Consulate General of Italy – Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Italy – Los Angeles</masterLabel>
+            <translation><!-- Consulate General of Italy – Los Angeles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Italy – Miami</masterLabel>
+            <translation><!-- Consulate General of Italy – Miami --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Italy – Montreal</masterLabel>
+            <translation><!-- Consulate General of Italy – Montreal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Italy – New York</masterLabel>
+            <translation><!-- Consulate General of Italy – New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Italy – Ottawa</masterLabel>
+            <translation><!-- Consulate General of Italy – Ottawa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Italy – Philadelphia</masterLabel>
+            <translation><!-- Consulate General of Italy – Philadelphia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Italy – San Francisco</masterLabel>
+            <translation><!-- Consulate General of Italy – San Francisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Italy – Toronto</masterLabel>
+            <translation><!-- Consulate General of Italy – Toronto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Italy – Vancouver</masterLabel>
+            <translation><!-- Consulate General of Italy – Vancouver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Italy – Washington DC</masterLabel>
+            <translation><!-- Consulate General of Italy – Washington DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Spain – Boston</masterLabel>
+            <translation><!-- Consulate General of Spain – Boston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Spain – Chicago</masterLabel>
+            <translation><!-- Consulate General of Spain – Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Spain – Houston</masterLabel>
+            <translation><!-- Consulate General of Spain – Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Spain – Los Angeles</masterLabel>
+            <translation><!-- Consulate General of Spain – Los Angeles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Spain – Miami</masterLabel>
+            <translation><!-- Consulate General of Spain – Miami --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Spain – Montreal</masterLabel>
+            <translation><!-- Consulate General of Spain – Montreal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Spain – New York</masterLabel>
+            <translation><!-- Consulate General of Spain – New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Spain – Ontario</masterLabel>
+            <translation><!-- Consulate General of Spain – Ontario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Spain – San Francisco</masterLabel>
+            <translation><!-- Consulate General of Spain – San Francisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Spain – San Jose (PR)</masterLabel>
+            <translation><!-- Consulate General of Spain – San Jose (PR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Spain – Toronto</masterLabel>
+            <translation><!-- Consulate General of Spain – Toronto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulate General of Spain – Washington DC</masterLabel>
+            <translation><!-- Consulate General of Spain – Washington DC --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

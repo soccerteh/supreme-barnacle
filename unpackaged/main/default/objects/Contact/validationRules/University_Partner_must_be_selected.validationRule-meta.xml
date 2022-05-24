@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>University_Partner_must_be_selected</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+Enrolled_in_Partner_School__c  = TRUE,
+   ISPICKVAL(Partner_Schools__c , &quot;None&quot;)
+ )</errorConditionFormula>
+    <errorDisplayField>Partner_Schools__c</errorDisplayField>
+    <errorMessage>University Partner must be selected</errorMessage>
+</ValidationRule>

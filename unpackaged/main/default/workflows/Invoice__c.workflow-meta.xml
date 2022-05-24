@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <outboundMessages>
+        <fullName>New_Deposit_Invoice</fullName>
+        <apiVersion>52.0</apiVersion>
+        <endpointUrl>https://hooks.zapier.com/hooks/catch/9928313/bb1oiq0/</endpointUrl>
+        <fields>First_Name__c</fields>
+        <fields>Id</fields>
+        <fields>Last_Name__c</fields>
+        <fields>Name</fields>
+        <fields>Opportunity__c</fields>
+        <fields>Program_Name__c</fields>
+        <fields>Tier_1_Owner__c</fields>
+        <fields>Tier_2_Owner__c</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>generalsalesforceadmin@vertoeducation.org</integrationUser>
+        <name>New Deposit Invoice</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+    <rules>
+        <fullName>Zapier%3A New Invoice Outbound Message</fullName>
+        <actions>
+            <name>New_Deposit_Invoice</name>
+            <type>OutboundMessage</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Invoice__c.Is_Deposit__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.Override_Workflow__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

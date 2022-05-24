@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Use after student interview, if appropriate to reach out to parent.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>T2: Parent Initial Outreach</name>
+    <style>none</style>
+    <subject>It was great connecting with {!Opportunity.First_Name__c} about Verto Education!</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

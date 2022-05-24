@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X00_My_New_College_Applications</fullName>
+    <columns>NAME</columns>
+    <columns>Student_Account__c</columns>
+    <columns>University__c</columns>
+    <columns>Application_Status__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>00 - My New College Applications</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

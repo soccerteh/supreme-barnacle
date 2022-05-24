@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incomplete_Applications</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>z_New_Lead_Date__c</columns>
+    <columns>LEAD.LAST_ACTIVITY</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>Year_of_Graduation__c</columns>
+    <columns>LEAD.STATE_CODE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>z_App_Page_1_Completed__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>z_App_Page_2_Completed__c</field>
+        <operation>notEqual</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Year_of_Graduation__c</field>
+        <operation>notEqual</operation>
+        <value>2022,2023,2024,2025,2013,2014,2015,2016</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Unqualified,Converted,Unengaged</value>
+    </filters>
+    <label>All Incomplete Applications</label>
+</ListView>

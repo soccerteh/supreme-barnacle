@@ -1,0 +1,76 @@
+<!--
+  @description       : 
+  @author            : michael.warren@vertoeducation.org
+  @group             : 
+  @last modified on  : 12-03-2021
+  @last modified by  : michael.warren@vertoeducation.org
+-->
+<apex:page standardController="Case" renderAs="pdf" standardStylesheets="false">
+  <html>
+    <head>
+      <div style="text-align:center;">
+        <apex:image url="{!$Resource.logo}" width="100" height="100"/>
+      </div>
+    </head>
+    <body style="font-family:sans-serif;white-space:pre;">
+      <apex:pageBlock title="Incident Information">
+        <apex:pageBlockSection >
+            <apex:outputText label="Type of Incident"/>
+            <apex:outputText label="        Date Incident Reported to Verto"/>
+            <apex:outputText label="" value="{!Case.Type_of_Incident__c},"/>
+            <apex:outputText label="" value="        {0, date,MM/d/YYYY}">
+              <apex:param value="{!Case.Date_Incident_Reported_to_Verto__c}" /> 
+            </apex:outputText>
+            <apex:outputText label="" value="{!Case.Subtype_of_Incident__c}"/>
+            <apex:pageBlockSectionItem />
+            <apex:pageBlockSectionItem />
+            <apex:pageBlockSectionItem />
+            <apex:outputText label="Where Incident Occured"/>
+            <apex:outputText label="        When the Incident Occurred"/>
+            <apex:outputText label="" value="{!Case.Where_did_the_incident_concern_occur__c}"/>
+            <apex:outputText label="" value="        {0, date,MM/d/YYYY}">
+              <apex:param value="{!Case.When_Incident_Occured__c}" /> 
+            </apex:outputText>
+            <apex:pageBlockSectionItem />
+            <apex:pageBlockSectionItem />
+            <apex:outputText label="Actions Taken"/>
+            <apex:outputText label="        Disciplinary Actions Needed"/>
+            <apex:outputText label="" value="{!Case.Actions_Taken__c}"/>
+            <apex:outputText label="" value="        {!Case.Disciplinary_Actions_Needed__c}"/>
+            <apex:pageBlockSectionItem />
+            <apex:pageBlockSectionItem />
+            <apex:outputText label="Follow Up Required"/>
+            <apex:outputText label="        What Type of Follow Up Needed"/>
+            <apex:outputText label="" value="{!Case.Follow_up_Required__c}"/>
+            <apex:outputText label="" value="        {!Case.What_type_of_follow_needed__c}"/>
+            <apex:pageBlockSectionItem />
+            <apex:pageBlockSectionItem />
+            <apex:outputText label="Next Follow Up Date"/>
+            <apex:outputText label="        Person Involved"/>
+            <apex:outputText label="" value="{0, date,MM/d/YYYY}">
+              <apex:param value="{!Case.Next_Follow_up_Date__c}" /> 
+            </apex:outputText>
+            <apex:outputText label="" value="        {!Case.Person_Involved__c}"/>
+            <apex:pageBlockSectionItem />
+            <apex:pageBlockSectionItem />
+            <apex:outputText label="Witness"/>
+            <apex:outputText label="        Who Responded to Incident"/>
+            <apex:outputText label="" value="{!Case.Witness__c}"/>
+            <apex:outputText label="" value="        {!Case.Who_responded_to_incident__c}"/>
+            <apex:pageBlockSectionItem />
+            <apex:pageBlockSectionItem />
+            <apex:outputText label="Medical Treatment"/>
+            <apex:outputText label="        Medical Cost Covered"/>
+            <apex:outputText label="" value="{!Case.Medical_Treatment__c}"/>
+            <apex:outputText label="" value="        {!Case.Medical_Cost_Covered__c}"/>
+            <apex:pageBlockSectionItem />
+            <apex:pageBlockSectionItem />
+            <apex:outputText label="CISI/AXA Case #"/>
+            <apex:outputText label="        Full Description"/>
+            <apex:outputText label="" value="{!Case.Travel_Assist_Case__c}"/>
+            <apex:outputText label="" value="        {!Case.Full_Description__c}"/>
+          </apex:pageBlockSection>
+      </apex:pageBlock>
+    </body>
+  </html>
+</apex:page>

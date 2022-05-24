@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- How the requested accommodation supports a student&apos;s needs. --></help>
+        <label><!-- How Accommodation Supports Student --></label>
+        <name>How_Accommodation_Supports_Student__c</name>
+    </CustomFieldTranslation>

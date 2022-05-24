@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_for_Family_Call_Complete</fullName>
+    <active>true</active>
+    <errorConditionFormula>and(
+$User.Bypass_Validation__c = FALSE,
+
+left( RecordTypeId , 15) = left( $Label.RT_Opp_TraditionalEnrollment , 15),
+
+ispickval( Family_Admissions_Call_Status__c , &quot;Completed&quot;),
+
+or(
+isblank(text(Post_Verto_Plans__c)),
+isblank( Family_Interview_Booked_Date__c ),
+isblank( Family_Admissions_Call_Date_Time__c )
+),
+
+or(
+ischanged(Post_Verto_Plans__c),
+ischanged(Family_Admissions_Call_Status__c),
+ischanged(Family_Interview_Booked_Date__c),
+ischanged(Family_Admissions_Call_Date_Time__c)
+)
+)</errorConditionFormula>
+    <errorMessage>To set the Family Admissions Call Status as Completed, please enter the Family Admissions Call Booked Date and Family Admissions Call Date/Time, and select the Post-Verto Plans.</errorMessage>
+</ValidationRule>

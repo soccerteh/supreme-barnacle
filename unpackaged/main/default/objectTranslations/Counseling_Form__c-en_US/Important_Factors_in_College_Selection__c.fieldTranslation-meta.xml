@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Important Factors in College Selection --></label>
+        <name>Important_Factors_in_College_Selection__c</name>
+        <picklistValues>
+            <masterLabel>Affordability</masterLabel>
+            <translation><!-- Affordability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Availability of intended major(s)</masterLabel>
+            <translation><!-- Availability of intended major(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location</masterLabel>
+            <translation><!-- Location --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public vs. Private</masterLabel>
+            <translation><!-- Public vs. Private --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ranking</masterLabel>
+            <translation><!-- Ranking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resources &amp; Support available</masterLabel>
+            <translation><!-- Resources &amp; Support available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Size (small or large institution)</masterLabel>
+            <translation><!-- Size (small or large institution) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

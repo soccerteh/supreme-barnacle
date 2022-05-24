@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>It&#39;s a RBC Zoom Call request email for me.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>URGENT RBC ID Zoom Call</name>
+    <relatedEntityType>Enrollment_Record__c</relatedEntityType>
+    <style>none</style>
+    <subject>URGENT: Zoom call for RBC student ID &amp; Italian student visa</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

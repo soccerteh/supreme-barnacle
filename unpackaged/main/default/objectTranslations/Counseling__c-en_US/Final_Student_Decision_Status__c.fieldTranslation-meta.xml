@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Final Student Decision Status --></label>
+        <name>Final_Student_Decision_Status__c</name>
+        <picklistValues>
+            <masterLabel>Committed - Channel</masterLabel>
+            <translation><!-- Committed - Channel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposited</masterLabel>
+            <translation><!-- Deposited --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matriculated</masterLabel>
+            <translation><!-- Matriculated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Deposited</masterLabel>
+            <translation><!-- Not Deposited --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Commitment</masterLabel>
+            <translation><!-- Other Commitment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unresponsive</masterLabel>
+            <translation><!-- Unresponsive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrew</masterLabel>
+            <translation><!-- Withdrew --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_Zone__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>To update the time zone make sure the Country is United States and simply update the zip code in the Billing Address and the time zone will update too.</inlineHelpText>
+    <label>Time Zone</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Time_Zone</valueSetName>
+    </valueSet>
+</CustomField>

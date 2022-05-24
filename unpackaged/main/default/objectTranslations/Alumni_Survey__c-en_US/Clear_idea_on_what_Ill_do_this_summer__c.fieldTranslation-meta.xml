@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Clear idea on what I&apos;ll do this summer --></label>
+        <name>Clear_idea_on_what_Ill_do_this_summer__c</name>
+    </CustomFieldTranslation>

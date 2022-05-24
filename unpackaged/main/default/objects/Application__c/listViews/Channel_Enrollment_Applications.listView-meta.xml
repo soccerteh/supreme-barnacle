@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel_Enrollment_Applications</fullName>
+    <columns>NAME</columns>
+    <columns>Applicant_Email__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Lead__c</columns>
+    <columns>Account__c</columns>
+    <columns>University__c</columns>
+    <columns>Source__c</columns>
+    <columns>Channel_Subtype__c</columns>
+    <columns>External_ID__c</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Application__c.Channel_Enrollment</value>
+    </filters>
+    <label>Channel Enrollment Applications</label>
+</ListView>

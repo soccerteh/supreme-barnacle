@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- z_Why no semester location confirmed? --></label>
+        <name>z_Why_no_semester_location_confirmed__c</name>
+        <picklistValues>
+            <masterLabel>Major dependent</masterLabel>
+            <translation><!-- Major dependent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>More than one destination</masterLabel>
+            <translation><!-- More than one destination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need more information</masterLabel>
+            <translation><!-- Need more information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

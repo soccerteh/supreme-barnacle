@@ -1,0 +1,1977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <assignments>
+        <name>Assign_Number_of_Calls_for_Lead</name>
+        <label>Assign Number of Calls for Lead</label>
+        <locationX>446</locationX>
+        <locationY>1334</locationY>
+        <assignmentItems>
+            <assignToReference>NumberofCalls</assignToReference>
+            <operator>AssignCount</operator>
+            <value>
+                <elementReference>Get_All_Call_Tasks_on_Lead</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Lead</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Number_of_Calls_for_Opp</name>
+        <label>Assign Number of Calls for Opp</label>
+        <locationX>50</locationX>
+        <locationY>878</locationY>
+        <assignmentItems>
+            <assignToReference>NumberofCalls</assignToReference>
+            <operator>AssignCount</operator>
+            <value>
+                <elementReference>Get_All_Call_Tasks_on_Opp</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Opp</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Number_of_Messages_for_Account</name>
+        <label>Assign Number of Messages for Account</label>
+        <locationX>1150</locationX>
+        <locationY>1574</locationY>
+        <assignmentItems>
+            <assignToReference>NumberOfMessages</assignToReference>
+            <operator>AssignCount</operator>
+            <value>
+                <elementReference>Get_All_Messages_on_Account_HEYMARKET</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Get_All_SMS_Tasks_on_Account</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Number_of_Messages_for_Account_0</name>
+        <label>Assign Number of Messages for Account</label>
+        <locationX>2294</locationX>
+        <locationY>2054</locationY>
+        <assignmentItems>
+            <assignToReference>NumberOfMessages</assignToReference>
+            <operator>AssignCount</operator>
+            <value>
+                <elementReference>Get_All_Messages_on_Account_HEYMARKET</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Get_All_SMS_Tasks_on_Account_HEYMARKET</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Number_of_SMS_Tasks_for_Account</name>
+        <label>Assign Number of SMS Tasks for Account</label>
+        <locationX>1150</locationX>
+        <locationY>1814</locationY>
+        <assignmentItems>
+            <assignToReference>NumberOfSmsTasks</assignToReference>
+            <operator>AssignCount</operator>
+            <value>
+                <elementReference>Get_All_SMS_Tasks_on_Account</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Account_0</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Number_of_SMS_Tasks_for_Account_0</name>
+        <label>Assign Number of SMS Tasks for Account</label>
+        <locationX>2294</locationX>
+        <locationY>2294</locationY>
+        <assignmentItems>
+            <assignToReference>NumberOfSmsTasks</assignToReference>
+            <operator>AssignCount</operator>
+            <value>
+                <elementReference>Get_All_SMS_Tasks_on_Account_HEYMARKET</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Account</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Number_of_SMS_Tasks_for_Lead</name>
+        <label>Assign Number of SMS Tasks for Lead</label>
+        <locationX>2734</locationX>
+        <locationY>2174</locationY>
+        <assignmentItems>
+            <assignToReference>NumberOfSmsTasks</assignToReference>
+            <operator>AssignCount</operator>
+            <value>
+                <elementReference>Get_All_SMS_Tasks_on_Lead_HEYMARKET</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Lead1</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Number_of_SMS_Tasks_for_Lead_0</name>
+        <label>Assign Number of SMS Tasks for Lead</label>
+        <locationX>1590</locationX>
+        <locationY>1694</locationY>
+        <assignmentItems>
+            <assignToReference>NumberOfSmsTasks</assignToReference>
+            <operator>AssignCount</operator>
+            <value>
+                <elementReference>Get_All_SMS_Tasks_on_Lead</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Lead1_0</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Number_of_Texts_for_Lead</name>
+        <label>Assign Number of Texts for Lead</label>
+        <locationX>2734</locationX>
+        <locationY>1934</locationY>
+        <assignmentItems>
+            <assignToReference>NumberOfMessages</assignToReference>
+            <operator>AssignCount</operator>
+            <value>
+                <elementReference>Get_All_Messages_on_Lead_HEYMARKET</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Get_All_SMS_Tasks_on_Lead_HEYMARKET</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Number_of_Texts_for_Lead_0</name>
+        <label>Assign Number of Texts for Lead</label>
+        <locationX>1590</locationX>
+        <locationY>1454</locationY>
+        <assignmentItems>
+            <assignToReference>NumberOfMessages</assignToReference>
+            <operator>AssignCount</operator>
+            <value>
+                <elementReference>Get_All_Messages_on_Lead</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Get_All_SMS_Tasks_on_Lead</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Account_First_Text_Empty</name>
+        <label>Account First Text Empty?</label>
+        <locationX>1150</locationX>
+        <locationY>878</locationY>
+        <defaultConnector>
+            <targetReference>Get_All_Messages_on_Account_0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Empty2_0</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Account.First_Text_Message_Date_Time__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Oldest_Message_on_Account</targetReference>
+            </connector>
+            <label>Empty</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Account_or_Unconverted_Lead</name>
+        <label>Account or Unconverted Lead?</label>
+        <locationX>2668</locationX>
+        <locationY>1118</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Account</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>AccountOnSms</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Message</targetReference>
+            </connector>
+            <label>Account</label>
+        </rules>
+        <rules>
+            <name>Unconverted_Lead1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Lead_on_Message.IsConverted</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LeadOnSms</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Is_First_Text_Empty</targetReference>
+            </connector>
+            <label>Unconverted Lead</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Call_or_SMS</name>
+        <label>Call or SMS?</label>
+        <locationX>1854</locationX>
+        <locationY>278</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Call</name>
+            <conditionLogic>1 AND (2 OR 3 OR 4)</conditionLogic>
+            <conditions>
+                <leftValueReference>WhoID</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Task.Five9__Five9TaskType__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Call</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Task.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Call</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Task.TaskSubtype</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Call</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Lead_on_Call_Task</targetReference>
+            </connector>
+            <label>Call</label>
+        </rules>
+        <rules>
+            <name>SMS_Task</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Task.Five9__Five9TaskType__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Chat</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Lead_on_SMS_Task</targetReference>
+            </connector>
+            <label>SMS Task</label>
+        </rules>
+        <rules>
+            <name>SMS_Message</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>MessageID</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Message</targetReference>
+            </connector>
+            <label>SMS Message</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Contact_or_Unconverted_Lead</name>
+        <label>Contact or Unconverted Lead?</label>
+        <locationX>1524</locationX>
+        <locationY>638</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Contact</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Contact_on_SMS_Task.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Account</targetReference>
+            </connector>
+            <label>Contact</label>
+        </rules>
+        <rules>
+            <name>Unconverted_Lead1_0</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Lead_on_SMS_Task.IsConverted</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Lead_on_SMS_Task.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Is_First_Text_Empty_0</targetReference>
+            </connector>
+            <label>Unconverted Lead</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_First_Call_Empty</name>
+        <label>Is First Call Empty?</label>
+        <locationX>446</locationX>
+        <locationY>758</locationY>
+        <defaultConnector>
+            <targetReference>Get_All_Call_Tasks_on_Lead</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Empty</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Lead_on_Call_Task.First_Call_Date_Time__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Oldest_Call_Task</targetReference>
+            </connector>
+            <label>Empty</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_First_Text_Empty</name>
+        <label>Is First Text Empty?</label>
+        <locationX>2734</locationX>
+        <locationY>1238</locationY>
+        <defaultConnector>
+            <targetReference>Get_All_Messages_on_Lead_HEYMARKET</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Empty1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Lead_on_Message.First_Text_Message_Date_Time__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Oldest_Message_on_Lead_HEYMARKET</targetReference>
+            </connector>
+            <label>Empty</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_First_Text_Empty1</name>
+        <label>Is First Text Empty?</label>
+        <locationX>2294</locationX>
+        <locationY>1358</locationY>
+        <defaultConnector>
+            <targetReference>Get_All_Messages_on_Account_HEYMARKET</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Empty2</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Account_on_Message.First_Text_Message_Date_Time__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Oldest_Message_on_Account_HEYMARKET</targetReference>
+            </connector>
+            <label>Empty</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_First_Text_Empty_0</name>
+        <label>Is First Text Empty?</label>
+        <locationX>1590</locationX>
+        <locationY>758</locationY>
+        <defaultConnector>
+            <targetReference>Get_All_Messages_on_Lead</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Empty1_0</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Lead_on_SMS_Task.First_Text_Message_Date_Time__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Oldest_Message_on_Lead</targetReference>
+            </connector>
+            <label>Empty</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Opp_or_Unconverted_Lead</name>
+        <label>Opp or Unconverted Lead?</label>
+        <locationX>402</locationX>
+        <locationY>638</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Opp</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Opp_on_Call_Task.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_All_Call_Tasks_on_Opp</targetReference>
+            </connector>
+            <label>Opp</label>
+        </rules>
+        <rules>
+            <name>Unconverted_Lead</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Opp_on_Call_Task.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Lead_on_Call_Task.IsConverted</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Is_First_Call_Empty</targetReference>
+            </connector>
+            <label>Unconverted Lead</label>
+        </rules>
+    </decisions>
+    <description>Stamp the first and most recent call/text/activity date fields</description>
+    <formulas>
+        <name>FirstCallDateTimeFormula</name>
+        <dataType>DateTime</dataType>
+        <expression>if(isblank({!Get_Oldest_Call_Task.CreatedDate}), {!Get_Task.CreatedDate}, {!Get_Oldest_Call_Task.CreatedDate})</expression>
+    </formulas>
+    <formulas>
+        <name>FirstTextDateOnAccount</name>
+        <dataType>DateTime</dataType>
+        <expression>IF( 
+AND(
+NOT( ISBLANK(  {!Get_Oldest_Message_on_Account.heymarket__Created_On_Heymarket__c} )),
+NOT( ISBLANK( {!Get_Oldest_SMS_Task_on_Account.CreatedDate} )),
+{!Get_Oldest_Message_on_Account.heymarket__Created_On_Heymarket__c} &lt; {!Get_Oldest_SMS_Task_on_Account.CreatedDate}
+),
+{!Get_Oldest_Message_on_Account.heymarket__Created_On_Heymarket__c},
+IF( 
+AND(
+NOT( ISBLANK( {!Get_Oldest_Message_on_Account.heymarket__Created_On_Heymarket__c} )),
+NOT( ISBLANK( {!Get_Oldest_SMS_Task_on_Account.CreatedDate} )),
+{!Get_Oldest_Message_on_Account.heymarket__Created_On_Heymarket__c} &gt; {!Get_Oldest_SMS_Task_on_Account.CreatedDate}
+),
+{!Get_Oldest_SMS_Task_on_Account.CreatedDate},
+IF(
+AND(
+NOT( ISBLANK( {!Get_Oldest_Message_on_Account.heymarket__Created_On_Heymarket__c} )),
+ISBLANK( {!Get_Oldest_SMS_Task_on_Account.CreatedDate} )
+),
+{!Get_Oldest_Message_on_Account.heymarket__Created_On_Heymarket__c},
+IF(
+AND(
+ISBLANK( {!Get_Oldest_Message_on_Account.heymarket__Created_On_Heymarket__c} ),
+NOT( ISBLANK( {!Get_Oldest_SMS_Task_on_Account.CreatedDate} ))
+),
+{!Get_Oldest_SMS_Task_on_Account.CreatedDate},
+{!Get_Task.CreatedDate}
+))))</expression>
+    </formulas>
+    <formulas>
+        <description>To be deleted once heymarket is phased out</description>
+        <name>FirstTextDateOnAccountFormulaHEYMARKET</name>
+        <dataType>DateTime</dataType>
+        <expression>IF( 
+AND(
+NOT( ISBLANK( {!Get_Oldest_Message_on_Account_HEYMARKET.heymarket__Created_On_Heymarket__c} )),
+NOT( ISBLANK( {!Get_Oldest_SMS_Task_on_Account_HEYMARKET.CreatedDate} )),
+{!Get_Oldest_Message_on_Account_HEYMARKET.heymarket__Created_On_Heymarket__c} &lt; {!Get_Oldest_SMS_Task_on_Account_HEYMARKET.CreatedDate}
+),
+{!Get_Oldest_Message_on_Account_HEYMARKET.heymarket__Created_On_Heymarket__c},
+IF( 
+AND(
+NOT( ISBLANK( {!Get_Oldest_Message_on_Account_HEYMARKET.heymarket__Created_On_Heymarket__c} )),
+NOT( ISBLANK( {!Get_Oldest_SMS_Task_on_Account_HEYMARKET.CreatedDate} )),
+{!Get_Oldest_Message_on_Account_HEYMARKET.heymarket__Created_On_Heymarket__c} &gt; {!Get_Oldest_SMS_Task_on_Account_HEYMARKET.CreatedDate}
+),
+{!Get_Oldest_SMS_Task_on_Account_HEYMARKET.CreatedDate},
+IF(
+AND(
+NOT( ISBLANK( {!Get_Oldest_Message_on_Account_HEYMARKET.heymarket__Created_On_Heymarket__c} )),
+ISBLANK( {!Get_Oldest_SMS_Task_on_Account_HEYMARKET.CreatedDate} )
+),
+{!Get_Oldest_Message_on_Account_HEYMARKET.heymarket__Created_On_Heymarket__c},
+IF(
+AND(
+ISBLANK( {!Get_Oldest_Message_on_Account_HEYMARKET.heymarket__Created_On_Heymarket__c} ),
+NOT( ISBLANK( {!Get_Oldest_SMS_Task_on_Account_HEYMARKET.CreatedDate} ))
+),
+{!Get_Oldest_SMS_Task_on_Account_HEYMARKET.CreatedDate},
+{!Get_Message.heymarket__Created_On_Heymarket__c}
+))))</expression>
+    </formulas>
+    <formulas>
+        <name>FirstTextDateOnLead</name>
+        <dataType>DateTime</dataType>
+        <expression>IF( 
+AND(
+NOT( ISBLANK( {!Get_Oldest_Message_on_Lead.heymarket__Created_On_Heymarket__c} )),
+NOT( ISBLANK( {!Get_Oldest_SMS_Task_on_Lead.CreatedDate} )),
+{!Get_Oldest_Message_on_Lead.heymarket__Created_On_Heymarket__c} &lt; {!Get_Oldest_SMS_Task_on_Lead.CreatedDate}
+),
+{!Get_Oldest_Message_on_Lead.heymarket__Created_On_Heymarket__c},
+IF( 
+AND(
+NOT( ISBLANK( {!Get_Oldest_Message_on_Lead.heymarket__Created_On_Heymarket__c} )),
+NOT( ISBLANK( {!Get_Oldest_SMS_Task_on_Lead.CreatedDate} )),
+{!Get_Oldest_Message_on_Lead.heymarket__Created_On_Heymarket__c} &gt; {!Get_Oldest_SMS_Task_on_Lead.CreatedDate}
+),
+{!Get_Oldest_SMS_Task_on_Lead.CreatedDate},
+IF(
+AND(
+NOT( ISBLANK( {!Get_Oldest_Message_on_Lead.heymarket__Created_On_Heymarket__c} )),
+ISBLANK( {!Get_Oldest_SMS_Task_on_Lead.CreatedDate} )
+),
+{!Get_Oldest_Message_on_Lead.heymarket__Created_On_Heymarket__c},
+IF(
+AND(
+ISBLANK( {!Get_Oldest_Message_on_Lead.heymarket__Created_On_Heymarket__c} ),
+NOT( ISBLANK( {!Get_Oldest_SMS_Task_on_Lead.CreatedDate} ))
+),
+{!Get_Oldest_SMS_Task_on_Lead.CreatedDate},
+{!Get_Task.CreatedDate}
+))))</expression>
+    </formulas>
+    <formulas>
+        <description>To be deleted once heymarket is phased out</description>
+        <name>FirstTextDateOnLeadFormulaHEYMARKET</name>
+        <dataType>DateTime</dataType>
+        <expression>IF( 
+AND(
+NOT( ISBLANK( {!Get_Oldest_Message_on_Lead_HEYMARKET.heymarket__Created_On_Heymarket__c} )),
+NOT( ISBLANK( {!Get_Oldest_SMS_Task_on_Lead_HEYMARKET.CreatedDate} )),
+{!Get_Oldest_Message_on_Lead_HEYMARKET.heymarket__Created_On_Heymarket__c} &lt; {!Get_Oldest_SMS_Task_on_Lead_HEYMARKET.CreatedDate}
+),
+{!Get_Oldest_Message_on_Lead_HEYMARKET.heymarket__Created_On_Heymarket__c},
+IF( 
+AND(
+NOT( ISBLANK( {!Get_Oldest_Message_on_Lead_HEYMARKET.heymarket__Created_On_Heymarket__c} )),
+NOT( ISBLANK( {!Get_Oldest_SMS_Task_on_Lead_HEYMARKET.CreatedDate} )),
+{!Get_Oldest_Message_on_Lead_HEYMARKET.heymarket__Created_On_Heymarket__c} &gt; {!Get_Oldest_SMS_Task_on_Lead_HEYMARKET.CreatedDate}
+),
+{!Get_Oldest_SMS_Task_on_Lead_HEYMARKET.CreatedDate},
+IF(
+AND(
+NOT( ISBLANK( {!Get_Oldest_Message_on_Lead_HEYMARKET.heymarket__Created_On_Heymarket__c} )),
+ISBLANK( {!Get_Oldest_SMS_Task_on_Lead_HEYMARKET.CreatedDate} )
+),
+{!Get_Oldest_Message_on_Lead_HEYMARKET.heymarket__Created_On_Heymarket__c},
+IF(
+AND(
+ISBLANK( {!Get_Oldest_Message_on_Lead_HEYMARKET.heymarket__Created_On_Heymarket__c} ),
+NOT( ISBLANK( {!Get_Oldest_SMS_Task_on_Lead_HEYMARKET.CreatedDate} ))
+),
+{!Get_Oldest_SMS_Task_on_Lead_HEYMARKET.CreatedDate},
+{!Get_Message.heymarket__Created_On_Heymarket__c}
+))))</expression>
+    </formulas>
+    <formulas>
+        <description>Total combined amount messages and SMS tasks</description>
+        <name>MessagesPlusSmsTasks</name>
+        <dataType>Number</dataType>
+        <expression>{!NumberOfMessages} + {!NumberOfSmsTasks}</expression>
+        <scale>0</scale>
+    </formulas>
+    <interviewLabel>timestampActivity {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Timestamp Activity</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Account</name>
+        <label>Get Account</label>
+        <locationX>1150</locationX>
+        <locationY>758</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Account_First_Text_Empty</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Contact_on_SMS_Task.AccountId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Account</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Account_on_Message</name>
+        <label>Get Account on Message</label>
+        <locationX>2668</locationX>
+        <locationY>998</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Account_or_Unconverted_Lead</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>AccountOnSms</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Account</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_All_Call_Tasks_on_Lead</name>
+        <label>Get All Call Tasks on Lead</label>
+        <locationX>446</locationX>
+        <locationY>1214</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Number_of_Calls_for_Lead</targetReference>
+        </connector>
+        <filterLogic>1 AND 2 AND (3 or 4 or 5)</filterLogic>
+        <filters>
+            <field>WhoId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Lead_on_Call_Task.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Completed</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Type</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Call</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>TaskSubtype</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Call</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Five9__Five9TaskType__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Call</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_All_Call_Tasks_on_Opp</name>
+        <label>Get All Call Tasks on Opp</label>
+        <locationX>50</locationX>
+        <locationY>758</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Number_of_Calls_for_Opp</targetReference>
+        </connector>
+        <filterLogic>1 AND 2 AND (3 or 4 or 5)</filterLogic>
+        <filters>
+            <field>WhatId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Opp_on_Call_Task.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Completed</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Type</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Call</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>TaskSubtype</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Call</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Five9__Five9TaskType__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Call</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_All_Messages_on_Account_0</name>
+        <label>Get All Messages on Account</label>
+        <locationX>1150</locationX>
+        <locationY>1454</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Number_of_Messages_for_Account</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>heymarket__Account__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Account.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>heymarket__Message__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>To be deleted once heymarket is phased out</description>
+        <name>Get_All_Messages_on_Account_HEYMARKET</name>
+        <label>Get All Messages on Account HEYMARKET</label>
+        <locationX>2294</locationX>
+        <locationY>1934</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Number_of_Messages_for_Account_0</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>heymarket__Account__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>AccountOnSms</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>heymarket__Message__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>To be deleted once heymarket is phased out</description>
+        <name>Get_All_Messages_on_Lead</name>
+        <label>Get All Messages on Lead</label>
+        <locationX>1590</locationX>
+        <locationY>1334</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Number_of_Texts_for_Lead_0</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>heymarket__Lead__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Lead_on_SMS_Task.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>heymarket__Message__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>To be deleted once heymarket is phased out</description>
+        <name>Get_All_Messages_on_Lead_HEYMARKET</name>
+        <label>Get All Messages on Lead HEYMARKET</label>
+        <locationX>2734</locationX>
+        <locationY>1814</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Number_of_Texts_for_Lead</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>heymarket__Lead__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>LeadOnSms</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>heymarket__Message__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_All_SMS_Tasks_on_Account</name>
+        <label>Get All SMS Tasks on Account</label>
+        <locationX>1150</locationX>
+        <locationY>1694</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Number_of_SMS_Tasks_for_Account</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Account.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Five9__Five9TaskType__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Chat</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>To be deleted once heymarket is phased out</description>
+        <name>Get_All_SMS_Tasks_on_Account_HEYMARKET</name>
+        <label>Get All SMS Tasks on Account HEYMARKET</label>
+        <locationX>2294</locationX>
+        <locationY>2174</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Number_of_SMS_Tasks_for_Account_0</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>AccountOnSms</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Five9__Five9TaskType__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Chat</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_All_SMS_Tasks_on_Lead</name>
+        <label>Get All SMS Tasks on Lead</label>
+        <locationX>1590</locationX>
+        <locationY>1574</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Number_of_SMS_Tasks_for_Lead_0</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>WhoId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Lead_on_SMS_Task.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Five9__Five9TaskType__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Chat</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>To be deleted once heymarket is phased out</description>
+        <name>Get_All_SMS_Tasks_on_Lead_HEYMARKET</name>
+        <label>Get All SMS Tasks on Lead HEYMARKET</label>
+        <locationX>2734</locationX>
+        <locationY>2054</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Number_of_SMS_Tasks_for_Lead</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>WhoId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>LeadOnSms</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Five9__Five9TaskType__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Chat</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Contact_on_Message</name>
+        <label>Get Contact on Message</label>
+        <locationX>2668</locationX>
+        <locationY>638</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Opp_on_Message</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>ContactOnSms</elementReference>
+            </value>
+        </filters>
+        <object>Contact</object>
+        <outputAssignments>
+            <assignToReference>AccountOnSms</assignToReference>
+            <field>AccountId</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Contact_on_SMS_Task</name>
+        <label>Get Contact on SMS Task</label>
+        <locationX>1524</locationX>
+        <locationY>518</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Contact_or_Unconverted_Lead</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>WhoID</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Contact</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Enrollment_on_Message</name>
+        <label>Get Enrollment on Message</label>
+        <locationX>2668</locationX>
+        <locationY>878</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Account_on_Message</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>EnrollmentOnSms</elementReference>
+            </value>
+        </filters>
+        <object>Enrollment_Record__c</object>
+        <outputAssignments>
+            <assignToReference>AccountOnSms</assignToReference>
+            <field>Student_Account__c</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Lead_on_Call_Task</name>
+        <label>Get Lead on Call Task</label>
+        <locationX>402</locationX>
+        <locationY>398</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Opp_on_Call_Task</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>WhoID</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Lead</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Lead_on_Message</name>
+        <label>Get Lead on Message</label>
+        <locationX>2668</locationX>
+        <locationY>518</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Contact_on_Message</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>LeadOnSms</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Lead</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Lead_on_SMS_Task</name>
+        <label>Get Lead on SMS Task</label>
+        <locationX>1524</locationX>
+        <locationY>398</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Contact_on_SMS_Task</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>WhoID</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Lead</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Message</name>
+        <label>Get Message</label>
+        <locationX>2668</locationX>
+        <locationY>398</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Lead_on_Message</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>MessageID</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>heymarket__Message__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Oldest_Call_Task</name>
+        <label>Get Oldest Call Task</label>
+        <locationX>314</locationX>
+        <locationY>878</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Stamp_First_Call</targetReference>
+        </connector>
+        <filterLogic>1 AND 2 AND (3 or 4 or 5) and 6</filterLogic>
+        <filters>
+            <field>WhoId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Lead_on_Call_Task.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Completed</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Type</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Call</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>TaskSubtype</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Call</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Five9__Five9TaskType__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Call</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>ActivityDate</field>
+            <operator>LessThan</operator>
+            <value>
+                <elementReference>Get_Task.ActivityDate</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Task</object>
+        <sortField>ActivityDate</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Oldest_Message_on_Account</name>
+        <label>Get Oldest Message on Account</label>
+        <locationX>1018</locationX>
+        <locationY>998</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Oldest_SMS_Task_on_Account</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>heymarket__Account__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Account.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>heymarket__Created_On_Heymarket__c</field>
+            <operator>LessThan</operator>
+            <value>
+                <elementReference>Get_Task.ActivityDate</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>heymarket__Message__c</object>
+        <sortField>heymarket__Created_On_Heymarket__c</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>To be deleted once heymarket is phased out</description>
+        <name>Get_Oldest_Message_on_Account_HEYMARKET</name>
+        <label>Get Oldest Message on Account HEYMARKET</label>
+        <locationX>2162</locationX>
+        <locationY>1478</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Oldest_SMS_Task_on_Account_HEYMARKET</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>heymarket__Account__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>AccountOnSms</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>heymarket__Created_On_Heymarket__c</field>
+            <operator>LessThan</operator>
+            <value>
+                <elementReference>Get_Message.heymarket__Created_On_Heymarket__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>heymarket__Message__c</object>
+        <sortField>heymarket__Created_On_Heymarket__c</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Oldest_Message_on_Lead</name>
+        <label>Get Oldest Message on Lead</label>
+        <locationX>1458</locationX>
+        <locationY>878</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Oldest_SMS_Task_on_Lead</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>heymarket__Lead__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Lead_on_SMS_Task.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>heymarket__Created_On_Heymarket__c</field>
+            <operator>LessThan</operator>
+            <value>
+                <elementReference>Get_Task.ActivityDate</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>heymarket__Message__c</object>
+        <sortField>heymarket__Created_On_Heymarket__c</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>To be deleted once heymarket is phased out</description>
+        <name>Get_Oldest_Message_on_Lead_HEYMARKET</name>
+        <label>Get Oldest Message on Lead HEYMARKET</label>
+        <locationX>2602</locationX>
+        <locationY>1358</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Oldest_SMS_Task_on_Lead_HEYMARKET</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>heymarket__Lead__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>LeadOnSms</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>heymarket__Created_On_Heymarket__c</field>
+            <operator>LessThan</operator>
+            <value>
+                <elementReference>Get_Message.heymarket__Created_On_Heymarket__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>heymarket__Message__c</object>
+        <sortField>heymarket__Created_On_Heymarket__c</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Oldest_SMS_Task_on_Account</name>
+        <label>Get Oldest SMS Task on Account</label>
+        <locationX>1018</locationX>
+        <locationY>1118</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Stamp_First_Text_on_Account_0</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Account.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>CreatedDate</field>
+            <operator>LessThan</operator>
+            <value>
+                <elementReference>Get_Task.CreatedDate</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Task</object>
+        <sortField>CreatedDate</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>To be deleted once heymarket is phased out</description>
+        <name>Get_Oldest_SMS_Task_on_Account_HEYMARKET</name>
+        <label>Get Oldest SMS Task on Account HEYMARKET</label>
+        <locationX>2162</locationX>
+        <locationY>1598</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Stamp_First_Text_on_Account</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>AccountOnSms</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>CreatedDate</field>
+            <operator>LessThan</operator>
+            <value>
+                <elementReference>Get_Message.heymarket__Created_On_Heymarket__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Task</object>
+        <sortField>CreatedDate</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Oldest_SMS_Task_on_Lead</name>
+        <label>Get Oldest SMS Task on Lead</label>
+        <locationX>1458</locationX>
+        <locationY>998</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Stamp_First_Text_on_Lead_0</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>WhoId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Lead_on_SMS_Task.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>CreatedDate</field>
+            <operator>LessThan</operator>
+            <value>
+                <elementReference>Get_Task.CreatedDate</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Task</object>
+        <sortField>CreatedDate</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>To be deleted once heymarket is phased out</description>
+        <name>Get_Oldest_SMS_Task_on_Lead_HEYMARKET</name>
+        <label>Get Oldest SMS Task on Lead HEYMARKET</label>
+        <locationX>2602</locationX>
+        <locationY>1478</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Stamp_First_Text_on_Lead</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>WhoId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>LeadOnSms</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>CreatedDate</field>
+            <operator>LessThan</operator>
+            <value>
+                <elementReference>Get_Message.heymarket__Created_On_Heymarket__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Task</object>
+        <sortField>CreatedDate</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Opp_on_Call_Task</name>
+        <label>Get Opp on Call Task</label>
+        <locationX>402</locationX>
+        <locationY>518</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Opp_or_Unconverted_Lead</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>WhatID</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Opportunity</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Opp_on_Message</name>
+        <label>Get Opp on Message</label>
+        <locationX>2668</locationX>
+        <locationY>758</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Enrollment_on_Message</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>OppOnSms</elementReference>
+            </value>
+        </filters>
+        <object>Opportunity</object>
+        <outputAssignments>
+            <assignToReference>AccountOnSms</assignToReference>
+            <field>AccountId</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Task</name>
+        <label>Get Task</label>
+        <locationX>1854</locationX>
+        <locationY>158</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Call_or_SMS</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>TaskID</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Stamp_First_Call</name>
+        <label>Stamp First Call</label>
+        <locationX>314</locationX>
+        <locationY>998</locationY>
+        <connector>
+            <targetReference>Get_All_Call_Tasks_on_Lead</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Lead_on_Call_Task.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>First_Call_Date_Time__c</field>
+            <value>
+                <elementReference>FirstCallDateTimeFormula</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Lead</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Stamp_First_Text_on_Account</name>
+        <label>Stamp First Text on Account</label>
+        <locationX>2162</locationX>
+        <locationY>1718</locationY>
+        <connector>
+            <targetReference>Get_All_Messages_on_Account_HEYMARKET</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>AccountOnSms</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>First_Text_Message_Date_Time__c</field>
+            <value>
+                <elementReference>FirstTextDateOnAccountFormulaHEYMARKET</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Stamp_First_Text_on_Account_0</name>
+        <label>Stamp First Text on Account</label>
+        <locationX>1018</locationX>
+        <locationY>1238</locationY>
+        <connector>
+            <targetReference>Get_All_Messages_on_Account_0</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Account.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>First_Text_Message_Date_Time__c</field>
+            <value>
+                <elementReference>FirstTextDateOnAccount</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Stamp_First_Text_on_Lead</name>
+        <label>Stamp First Text on Lead</label>
+        <locationX>2602</locationX>
+        <locationY>1598</locationY>
+        <connector>
+            <targetReference>Get_All_Messages_on_Lead_HEYMARKET</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>LeadOnSms</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>First_Text_Message_Date_Time__c</field>
+            <value>
+                <elementReference>FirstTextDateOnLeadFormulaHEYMARKET</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Lead</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Stamp_First_Text_on_Lead_0</name>
+        <label>Stamp First Text on Lead</label>
+        <locationX>1458</locationX>
+        <locationY>1118</locationY>
+        <connector>
+            <targetReference>Get_All_Messages_on_Lead</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Lead_on_SMS_Task.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>First_Text_Message_Date_Time__c</field>
+            <value>
+                <elementReference>FirstTextDateOnLead</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Lead</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Account</name>
+        <label>Update Account</label>
+        <locationX>2294</locationX>
+        <locationY>2414</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>AccountOnSms</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Most_Recent_Text_Message_Date_Time__c</field>
+            <value>
+                <elementReference>Get_Message.heymarket__Created_On_Heymarket__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Number_of_Text_Messages__c</field>
+            <value>
+                <elementReference>MessagesPlusSmsTasks</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Account_0</name>
+        <label>Update Account</label>
+        <locationX>1150</locationX>
+        <locationY>1934</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>AccountOnSms</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Most_Recent_Text_Message_Date_Time__c</field>
+            <value>
+                <elementReference>Get_Task.CreatedDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Number_of_Text_Messages__c</field>
+            <value>
+                <elementReference>MessagesPlusSmsTasks</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Lead</name>
+        <label>Update Lead</label>
+        <locationX>446</locationX>
+        <locationY>1454</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Lead_on_Call_Task.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Most_Recent_Activity_Date__c</field>
+            <value>
+                <elementReference>Get_Task.ActivityDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Most_Recent_Call_Date__c</field>
+            <value>
+                <elementReference>Get_Task.ActivityDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Number_of_Calls__c</field>
+            <value>
+                <elementReference>NumberofCalls</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Lead</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Lead1</name>
+        <label>Update Lead</label>
+        <locationX>2734</locationX>
+        <locationY>2294</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>LeadOnSms</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Most_Recent_Activity_Date__c</field>
+            <value>
+                <elementReference>Get_Message.heymarket__Created_On_Heymarket__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Most_Recent_Text_Message_Date_Time__c</field>
+            <value>
+                <elementReference>Get_Message.heymarket__Created_On_Heymarket__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Number_of_Text_Messages__c</field>
+            <value>
+                <elementReference>MessagesPlusSmsTasks</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Lead</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Lead1_0</name>
+        <label>Update Lead</label>
+        <locationX>1590</locationX>
+        <locationY>1814</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>LeadOnSms</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Most_Recent_Activity_Date__c</field>
+            <value>
+                <elementReference>Get_Task.CreatedDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Most_Recent_Text_Message_Date_Time__c</field>
+            <value>
+                <elementReference>Get_Task.CreatedDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Number_of_Text_Messages__c</field>
+            <value>
+                <elementReference>MessagesPlusSmsTasks</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Lead</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Message</name>
+        <label>Update Message</label>
+        <locationX>2294</locationX>
+        <locationY>1238</locationY>
+        <connector>
+            <targetReference>Is_First_Text_Empty1</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>MessageID</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>heymarket__Account__c</field>
+            <value>
+                <elementReference>AccountOnSms</elementReference>
+            </value>
+        </inputAssignments>
+        <object>heymarket__Message__c</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Opp</name>
+        <label>Update Opp</label>
+        <locationX>50</locationX>
+        <locationY>998</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Opp_on_Call_Task.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Most_Recent_Call_Date__c</field>
+            <value>
+                <elementReference>Get_Task.ActivityDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Number_of_Calls__c</field>
+            <value>
+                <elementReference>NumberofCalls</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordUpdates>
+    <start>
+        <locationX>1728</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Task</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>AccountOnSms</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>AttachedToAccount</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>AttachedToLead</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>ContactOnSms</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>EnrollmentOnSms</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>LeadOnSms</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>MessageID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>NumberofCalls</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+    </variables>
+    <variables>
+        <name>NumberOfMessages</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+    </variables>
+    <variables>
+        <name>NumberOfSmsTasks</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+    </variables>
+    <variables>
+        <name>OppOnSms</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>TaskID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>WhatID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>WhoID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+</Flow>

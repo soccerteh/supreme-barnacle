@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_strategies_you_may_try__c</fullName>
+    <description>What supports or strategies might you like to try this semester? (Check all that apply.)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What supports or strategies might you like to try this semester? (Check all that apply.)</inlineHelpText>
+    <label>Support strategies you may try</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Time tracking/time boxing (using a calendar, timer or app to monitor focus/time spent on a task)</fullName>
+                <default>false</default>
+                <label>Time tracking/time boxing (using a calendar, timer or app to monitor focus/time spent on a task)</label>
+            </value>
+            <value>
+                <fullName>Using task lists and calendars to organize and schedule specific tasks</fullName>
+                <default>false</default>
+                <label>Using task lists and calendars to organize and schedule specific tasks</label>
+            </value>
+            <value>
+                <fullName>Using a reward system or goal-setting journal</fullName>
+                <default>false</default>
+                <label>Using a reward system or goal-setting journal</label>
+            </value>
+            <value>
+                <fullName>Tracking distractions and creating plan to limit them</fullName>
+                <default>false</default>
+                <label>Tracking distractions and creating plan to limit them</label>
+            </value>
+            <value>
+                <fullName>Rearranging and/or relocating workspace</fullName>
+                <default>false</default>
+                <label>Rearranging and/or relocating workspace</label>
+            </value>
+            <value>
+                <fullName>Addressing technology issues</fullName>
+                <default>false</default>
+                <label>Addressing technology issues</label>
+            </value>
+            <value>
+                <fullName>Creating a social calendar to connect regularly with friends and family</fullName>
+                <default>false</default>
+                <label>Creating a social calendar to connect regularly with friends and family</label>
+            </value>
+            <value>
+                <fullName>Meeting with staff (e.g. Academic Provider faculty at the Verto locations, ASC, SLC, or College Counselor) to discuss experience</fullName>
+                <default>false</default>
+                <label>Meeting with staff (e.g. Academic Provider faculty at the Verto locations, ASC, SLC, or College Counselor) to discuss experience</label>
+            </value>
+            <value>
+                <fullName>Regular meeting(s) with staff (e.g. Academic Provider faculty at the Verto locations, ASC, SLC) to practice skills, discuss work and/or goals</fullName>
+                <default>false</default>
+                <label>Regular meeting(s) with staff (e.g. Academic Provider faculty at the Verto locations, ASC, SLC) to practice skills, discuss work and/or goals</label>
+            </value>
+            <value>
+                <fullName>Regular meeting(s) with peers, study group and/or attend study hall with ASC</fullName>
+                <default>false</default>
+                <label>Regular meeting(s) with peers, study group and/or attend study hall with ASC</label>
+            </value>
+            <value>
+                <fullName>Creating a self-care/mental health routine and/or practice (a) new habit(s)</fullName>
+                <default>false</default>
+                <label>Creating a self-care/mental health routine and/or practice (a) new habit(s)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Meeting with staff (e.g. faculty, ASC, SLC, or College Counselor) to discuss experience</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Meeting with staff (e.g. faculty, ASC, SLC, or College Counselor) to discuss experience</label>
+            </value>
+            <value>
+                <fullName>Regular meeting(s) with staff (e.g. faculty, ASC, SLC) to practice skills, discuss work and/or goals</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Regular meeting(s) with staff (e.g. faculty, ASC, SLC) to practice skills, discuss work and/or goals</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

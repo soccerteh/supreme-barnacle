@@ -1,0 +1,7 @@
+.shadowless-button {
+    --slds-c-button-shadow-focus: none;
+    --slds-c-button-color-border-active: transparent;
+    --slds-c-button-text-color: rgb(239, 172, 6);
+    --slds-c-button-text-color-active: rgb(239, 172, 6);
+    --slds-c-button-text-color-hover: rgb(239, 172, 6);
+}

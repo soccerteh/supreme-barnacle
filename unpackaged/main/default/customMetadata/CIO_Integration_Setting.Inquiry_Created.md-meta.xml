@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Inquiry_Created</label>
+    <protected>false</protected>
+    <values>
+        <field>Endpoint_Extension__c</field>
+        <value xsi:type="xsd:string">/events</value>
+    </values>
+    <values>
+        <field>Endpoint_Method__c</field>
+        <value xsi:type="xsd:string">POST</value>
+    </values>
+    <values>
+        <field>Fields_To_Query__c</field>
+        <value xsi:type="xsd:string">Id, Country__c, Email__c, First_Name__c, High_School__r.Name, Last_Name__c, Lead__c, Opted_Into_Marketing__c, Parent_Email__c, Parent_First_Name__c, Parent_Last_Name__c, Parent_Phone_Number__c, Persona__c, Phone__c, RecordType.Name, Source__c, UTM_Campaign_First_Touch__c, UTM_Content_First_Touch__c, UTM_Medium_First_Touch__c, UTM_Source_First_Touch__c, UTM_Term_First_Touch__c, Year_Of_Graduation__c, Zip_Postal_Code__c</value>
+    </values>
+    <values>
+        <field>SObject__c</field>
+        <value xsi:type="xsd:string">Inquiry__c</value>
+    </values>
+    <values>
+        <field>Type__c</field>
+        <value xsi:type="xsd:string">Event</value>
+    </values>
+    <values>
+        <field>Watch_Fields__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

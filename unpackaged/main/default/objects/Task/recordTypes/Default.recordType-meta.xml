@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default</fullName>
+    <active>true</active>
+    <description>This is a default record type that is not specified for anything or department.</description>
+    <label>Default</label>
+    <picklistValues>
+        <picklist>Five9__Five9TaskType__c</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Purpose__c</picklist>
+        <values>
+            <fullName>Check in</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Counseling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow up second outreach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial%2Fintro</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Scheduled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Assembly Presentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bridge Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Classroom Presentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Counseling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference%2FFair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drop-off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family Admissions Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High School Counselor Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lunch Visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunity Grant Submission</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parent Interview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Letter%2FQuote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Interview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Success Coaching</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welcome Call</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Counseling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Appeal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow Up Reminder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parent Interview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Interview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Success Coaching</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welcome Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Withdrawal Request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

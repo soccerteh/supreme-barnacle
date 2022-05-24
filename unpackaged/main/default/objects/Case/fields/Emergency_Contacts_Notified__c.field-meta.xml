@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Emergency_Contacts_Notified__c</fullName>
+    <externalId>false</externalId>
+    <label>Emergency Contacts Notified</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes - by Verto staff</fullName>
+                <default>false</default>
+                <label>Yes - by Verto staff</label>
+            </value>
+            <value>
+                <fullName>Yes - by local partner</fullName>
+                <default>false</default>
+                <label>Yes - by local partner</label>
+            </value>
+            <value>
+                <fullName>Yes - by student</fullName>
+                <default>false</default>
+                <label>Yes - by student</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Unsure</fullName>
+                <default>false</default>
+                <label>Unsure</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

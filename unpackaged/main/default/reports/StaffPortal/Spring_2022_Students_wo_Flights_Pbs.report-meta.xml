@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Enrollment_Record__c$Name</field>
+    </columns>
+    <columns>
+        <field>Enrollment_Record__c$Students_Name__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Enrollment_Record__c$Flights_Booked__c</field>
+    </columns>
+    <columns>
+        <field>Enrollment_Record__c$Program__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Enrollment_Record__c$Flights_Booked__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Enrollment_Record__c$Program_Semester_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Spring 2022</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Spring 2022 - Students w/o Flights</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Enrollment_Records_Custom__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Enrollment_Record__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

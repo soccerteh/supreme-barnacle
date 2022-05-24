@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Quiet Person? --></label>
+        <name>Quiet_Person__c</name>
+        <picklistValues>
+            <masterLabel>No Preference.</masterLabel>
+            <translation><!-- No Preference. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No, I like to have people over, share my space, and play music without headphones/earbuds.</masterLabel>
+            <translation><!-- No, I like to have people over, share my space, and play music without headphones/earbuds. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, I would like a roommate who prefers a quiet environment with fewer people hanging around.</masterLabel>
+            <translation><!-- Yes, I would like a roommate who prefers a quiet environment with fewer people hanging around. --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- A program-specific link to the standalone Participation Enrollment Agreement. This is the version of the PEA intended for use by students whose opportunity was closed won prior to September 2021. In Sept. 2021, the PEA was incorporated into the deposit form. --></help>
+        <label><!-- Participation Enrollment Agreement --></label>
+        <name>Participation_Enrollment_Agreement__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Members of the tier 2 / senior Admissions team</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Admissions Tier 2 Team</label>
+    <permissionSets>Create_Contact_with_RT_Student_Parent_Guardian_Counselor</permissionSets>
+    <permissionSets>Create_Edit_Account</permissionSets>
+    <permissionSets>Create_Edit_Contact</permissionSets>
+    <permissionSets>Create_Edit_Opportunity</permissionSets>
+    <permissionSets>Edit_Event_Fields_Standard_Object_Edit_Events_System_Permission</permissionSets>
+    <permissionSets>Edit_User_Fields</permissionSets>
+    <permissionSets>Five9_CTI_Adapter_Apex_Class_Access</permissionSets>
+    <permissionSets>Heymarket_View_Message_Object_Template_Tab</permissionSets>
+    <permissionSets>Mass_Edits_from_Lists</permissionSets>
+    <permissionSets>Transfer_Record</permissionSets>
+    <permissionSets>VisualAntidote__Utility_Permissions</permissionSets>
+    <permissionSets>heymarket__Heymarket_User</permissionSets>
+    <permissionSets>n2de__Distribution_Engine_User</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

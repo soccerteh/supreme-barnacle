@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Set_App_Name</fullName>
+        <field>Name</field>
+        <formula>if(
+left(RecordTypeId, 15) = left( $Label.RT_Application_ChannelEnrollment , 15),
+
+Applicant_First_Name__c + &quot; &quot; + Applicant_Last_Name__c + &quot; - &quot; + text(datevalue( CreatedDate )) + &quot; - Channel - &quot; + University__r.Name ,
+
+Applicant_First_Name__c + &quot; &quot; + Applicant_Last_Name__c + &quot; - &quot; + text(datevalue(CreatedDate)) + &quot; - Traditional&quot;
+)</formula>
+        <name>Set App Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Application Naming Convention</fullName>
+        <actions>
+            <name>Set_App_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Sets the name of the application</description>
+        <formula>and(
+ $User.Override_Workflow__c = false,
+
+or(
+left( RecordTypeId , 15) = left( $Label.RT_Application_ChannelEnrollment , 15),
+left( RecordTypeId , 15) = left( $Label.RT_Application_TraditionalEnrollment , 15)
+),
+
+
+or(
+ischanged(Name),
+ischanged(RecordTypeId),
+ischanged( Applicant_First_Name__c ),
+ischanged( Applicant_Last_Name__c ),
+ischanged( z_Application_Date_Time__c ),
+ischanged( University__c )
+)
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

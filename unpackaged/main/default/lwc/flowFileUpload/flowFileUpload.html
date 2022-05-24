@@ -1,0 +1,23 @@
+<!--
+  @description       : 
+  @author            : Thomas E. Hamilton
+  @group             : 
+  @last modified on  : 12-09-2021
+  @last modified by  : Thomas E. Hamilton
+-->
+<template>
+    <lightning-file-upload
+        title={hoverText}
+        accept={accept}
+        disabled={disabled}
+        file-field-name="Guest_Site_fileupload__c"
+        file-field-value={fileFieldValue}
+        label="Please upload supporting documentation:"
+        multiple={multiple}
+        name={name}
+        record-id={recordId}
+        onuploadfinished={createContentVersion}
+    >
+
+    </lightning-file-upload>
+</template>

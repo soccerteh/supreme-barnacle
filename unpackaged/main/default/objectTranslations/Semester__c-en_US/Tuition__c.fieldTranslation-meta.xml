@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Price of the Semester --></help>
+        <label><!-- Tuition --></label>
+        <name>Tuition__c</name>
+    </CustomFieldTranslation>

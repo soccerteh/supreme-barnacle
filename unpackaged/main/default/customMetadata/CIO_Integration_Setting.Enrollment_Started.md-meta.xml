@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Enrollment_Started</label>
+    <protected>false</protected>
+    <values>
+        <field>Endpoint_Extension__c</field>
+        <value xsi:type="xsd:string">/events</value>
+    </values>
+    <values>
+        <field>Endpoint_Method__c</field>
+        <value xsi:type="xsd:string">POST</value>
+    </values>
+    <values>
+        <field>Fields_To_Query__c</field>
+        <value xsi:type="xsd:string">Id, X90_Day_Semester__c, Academic_Success_Coordinator__c, Accepted_By_School_Of_Record__c, Accepted_to_Non_Partner_School_Already__c, Acknowledgement_of_Risk_Signed__c, Channel_Enrollment__c, Channel_Partner__r.Name, Code_of_Conduct_Signed__c, College_Counselor__c, College_Planning_Form_Link__c, Course_Score__c, Covid_Signed__c, CreatedBy.Name, Date_Active__c, Date_Cancel__c, Date_Dismissed__c, Date_Enrolled__c, Date_Enrollment_Form_Submitted__c, Date_Financial_Appeal_Form_Submitted__c, Date_Graduated__c, Date_Withdrawal_Form_Submitted__c, Date_Withdrew__c, E164_Phone__c, E_Email__c, Enrolled_With_SOR__c, Enrollment_Form_Completed__c, Enrollment_Form_Link__c, Name, Enrollment_Status__c, FAFSA_Completed__c, Financial_Appeal_Form_Submitted__c, First_Enrollment_Record__c, Flights_Booked__c, Flights_Score__c, Generate_Second_Semester_Deposit_Case__c, GPA__c, Have_Enough_Info_On_Partner_Schools__c, HHF_Completed__c, Housing_Preference__c, Insurance_Approved__c, Interest_Level__c, isMyStudent__c, LastModifiedBy.Name, Last_Retention_Status_Updater__c, Matriculated__c, Mobile__c, Opportunity__r.Name, Owner__r.Name, Passport_Score__c, Passport_Status__c, Passport_Upload_Form_Link__c, Payment_Cancellation_Signed__c, Payment_Score__c, PEA_Signed__c, Phone__c, Planning_On_Using_FAFSA__c, Program__r.Name, Program__r.Location__r.Name, Program__r.Semester__r.Name, Program__r.Program_Start_Date__c, RecordType.Name, Retention_Challenges__c, Retention_Challenges_Notes__c, Retention_Score__c, Retention_Status__c, Rqst_Info_On_Deferral_Transfer_Credit__c, School_Of_Record__c, School_Of_Record_Email__c, Semester_Withdrawal_Form_Link__c, Semester_Withdrawal_Form_Submitted__c, Student_Account__r.Name, Student_Account__r.Email__c, Student_Account__r.First_Name__c, Student_Account__r.Last_Name__c, Student_Account__r.Phone, Student_ID_SoR__c, Student_Life_Coordinator__c, Vaccination_Form_Submitted__c, Vaccination_Score__c, Valid_Passport_Confirmed__c, Valid_Passport__c, Visa_Appointment_Date_Mail_In_Date__c, Visa_Appointment_Needed__c, Visa_Appointment_Type__c, Visa_Documents_Sent_Date__c, Visa_Recieved__c, Visa_Score__c, Visa_Status__c, Welcome_Call_Completed_On__c, Welcome_Package_Sent__c, Welcome_Packet_Sent_Date__c, Withdrawal_Reason__c, Withdrawal_Request_Link__c</value>
+    </values>
+    <values>
+        <field>SObject__c</field>
+        <value xsi:type="xsd:string">Enrollment_Record__c</value>
+    </values>
+    <values>
+        <field>Type__c</field>
+        <value xsi:type="xsd:string">Event</value>
+    </values>
+    <values>
+        <field>Watch_Fields__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

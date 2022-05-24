@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Roomate Preference 2 (prefer to not live --></label>
+        <name>Roomate_Preference_2_prefer_to_not_live__c</name>
+    </CustomFieldTranslation>

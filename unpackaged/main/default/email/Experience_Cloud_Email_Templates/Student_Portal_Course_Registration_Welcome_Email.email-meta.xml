@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification that student has been added to the Course Registration Student Portal.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Student Portal: Course Registration Welcome Email</name>
+    <style>none</style>
+    <subject>Welcome to Course Registration!</subject>
+    <textOnly>Hi {!Receiving_User.FirstName},
+
+Welcome to the Course Registration portal!
+
+You are now eligible for open enrollment. To get started, please activate your account by logging into the course registration site with the username provided below. Once you click on the &quot;Activate My Account&quot; button, click the &quot;Forgot my Password&quot; link to set up your account.
+
+Username:  {!Receiving_User.Username}
+
+Login URL: {!Community_Url}
+
+
+Thank you,
+Verto Education</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permissions granted to Student Life Coordinators in order to utilize the external Staff Portal (experience cloud site)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Staff Portal - Student Life Coordinator</label>
+    <mutingPermissionSets>Mute_Create_Accommodation_SLC</mutingPermissionSets>
+    <permissionSets>Account_Access_Read_Only</permissionSets>
+    <permissionSets>Airport_Read</permissionSets>
+    <permissionSets>Application_Access_Read_Only</permissionSets>
+    <permissionSets>Case_Create_Edit</permissionSets>
+    <permissionSets>Checkpoints_Read_Write</permissionSets>
+    <permissionSets>Contact_Access_Read_Only</permissionSets>
+    <permissionSets>Create_Housing_Preference</permissionSets>
+    <permissionSets>Create_Roommate_Request</permissionSets>
+    <permissionSets>Enrollment_Record_Access_Read_Only</permissionSets>
+    <permissionSets>Flights_Read_Write</permissionSets>
+    <permissionSets>Health_Form_Access_Read_Only</permissionSets>
+    <permissionSets>Location_Access_Read_Only</permissionSets>
+    <permissionSets>Opportunity_Access_Read_Only</permissionSets>
+    <permissionSets>Program_Access_Read_Only</permissionSets>
+    <permissionSets>Read_Write_Accommodations</permissionSets>
+    <permissionSets>Semester_Read_Only</permissionSets>
+    <permissionSets>StudentConcernCasePDF</permissionSets>
+    <permissionSets>Student_Success_Survey_Read</permissionSets>
+    <permissionSets>User_Read_Only</permissionSets>
+    <permissionSets>View_Reports_Dashboards</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Marketing Nurture Reason --></label>
+        <name>Marketing_Nurture_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Bad Year of HS Graduation</masterLabel>
+            <translation><!-- Bad Year of HS Graduation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation><!-- Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Geographic Misalignment</masterLabel>
+            <translation><!-- Geographic Misalignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs Education on Product</masterLabel>
+            <translation><!-- Needs Education on Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Responsive</masterLabel>
+            <translation><!-- Non-Responsive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parents Unsupportive</masterLabel>
+            <translation><!-- Parents Unsupportive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Misalignment</masterLabel>
+            <translation><!-- Product Misalignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Too Young</masterLabel>
+            <translation><!-- Too Young --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Undocumented</masterLabel>
+            <translation><!-- Undocumented --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

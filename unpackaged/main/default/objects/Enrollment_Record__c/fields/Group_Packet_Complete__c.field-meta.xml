@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_Packet_Complete__c</fullName>
+    <description>After the student’s group packet has been reviewed by the group leader, the group leader will select Yes or No to indicate whether the packet is complete and accurate and ready to go to the appointment.
+
+When ‘Yes’ is selected an email will be sent to the student and all student contacts and cc: ENR Record owner that documents are complete. When ‘No’ is selected, a task will be set on the ENR Record for &lt;today&gt; for the SOA to follow up with the student to obtain the missing information/document and email notification will be sent to the SOA.  Notes on the information that is missing can be seen in the ‘reviewer comments’ field on the ENR Record.</description>
+    <externalId>false</externalId>
+    <label>Group Packet Complete</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Yes_No</valueSetName>
+    </valueSet>
+</CustomField>

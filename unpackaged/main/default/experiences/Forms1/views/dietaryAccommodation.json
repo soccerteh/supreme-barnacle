@@ -1,0 +1,49 @@
+{
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "b01e9b3a-d156-4418-b9d3-e444eba8bd5a",
+  "label" : "Dietary Accommodation",
+  "regions" : [ {
+    "id" : "398399b4-5d7a-44ae-bc8e-cc38d105dbaa",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"Account_Id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!aid}\"},{\"label\":\"Program_Id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!program}\"}]",
+        "flowLayout" : "oneColumn",
+        "flowName" : "Dietary_Accommodation_Form"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "154f6a4f-0574-4242-94ee-313f1747a6f4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "14b9aac8-5335-49aa-86e1-b8dd4a6604b7",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "0d77c787-2171-45a9-baf1-3289d2c244cd",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Dietary Accommodation"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5f0570e5-aca3-4031-a727-6f30d1e59884",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "029fe7f7-414d-4bb9-8e61-633397517dd3",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-dietary-accommodation"
+}

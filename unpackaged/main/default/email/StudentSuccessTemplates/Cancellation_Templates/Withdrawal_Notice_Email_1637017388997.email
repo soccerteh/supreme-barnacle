@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hello&nbsp;{{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+I am writing to let you know that you have been withdrawn from your Verto Education semester due to your failure to respond to outreach and engage in the pre-departure onboarding process.&nbsp;<br />
+<br />
+Please note that your $500 deposit is nonrefundable.&nbsp; I encourage you to review our <a href="https://vertoeducation.org/payment-cancellation-policy/#gref">payment and cancellation policy here</a>.<br />
+<br />
+If you have any questions or concerns about your withdrawal from the program, please feel free to reach out via email or the phone number listed in my signature below.<br />
+<br />
+Best,&nbsp;<br />
+{{{Sender.FirstName}}}<br />
+<br />
+{{{Sender.Signature}}}
+</body></html>

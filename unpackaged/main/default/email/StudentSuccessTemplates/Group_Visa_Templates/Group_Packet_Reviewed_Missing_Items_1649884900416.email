@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+We have reviewed your student visa packet, and your student visa application is incomplete.<br />
+<br />
+<b>You are missing the following items:&nbsp;</b>
+<ul>
+	<li>Incomplete Item</li>
+	<li>Incomplete Item&nbsp;</li>
+	<li>Incomplete Item&nbsp;</li>
+</ul>
+These items are due back to Verto by: <b><span style="color:#e74c3c;">DATE</span></b><br />
+<br />
+If you have any question, please let me know.&nbsp;<br />
+<br />
+Best,&nbsp;<br />
+<b>{{{Sender.Signature}}}</b>
+</body></html>

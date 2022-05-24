@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Account Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Student</fullName>
+                <default>false</default>
+                <label>Student</label>
+            </value>
+            <value>
+                <fullName>University</fullName>
+                <default>false</default>
+                <label>University</label>
+            </value>
+            <value>
+                <fullName>High School</fullName>
+                <default>false</default>
+                <label>High School</label>
+            </value>
+            <value>
+                <fullName>International High School Student</fullName>
+                <default>false</default>
+                <label>International High School Student</label>
+            </value>
+            <value>
+                <fullName>High School Guidance Counselor</fullName>
+                <default>false</default>
+                <label>High School Guidance Counselor</label>
+            </value>
+            <value>
+                <fullName>Alumni</fullName>
+                <default>false</default>
+                <label>Alumni</label>
+            </value>
+            <value>
+                <fullName>Community College Advisor</fullName>
+                <default>false</default>
+                <label>Community College Advisor</label>
+            </value>
+            <value>
+                <fullName>High School Administrator</fullName>
+                <default>false</default>
+                <label>High School Administrator</label>
+            </value>
+            <value>
+                <fullName>Independent Educational Consultant</fullName>
+                <default>false</default>
+                <label>Independent Educational Consultant</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location_Interest__c</fullName>
+    <description>Field created to migrate data from the &quot;Which Semesters Interest You Most&quot; field on the old version of the channel enrollment application (May 2021) and from the &quot;Which Verto Semesters Interest You Most?&quot; field on the lead and opportunity (July 2021)</description>
+    <externalId>false</externalId>
+    <label>Location Interest</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Africa</fullName>
+                <default>false</default>
+                <label>Africa</label>
+            </value>
+            <value>
+                <fullName>Antarctica</fullName>
+                <default>false</default>
+                <label>Antarctica</label>
+            </value>
+            <value>
+                <fullName>Asia</fullName>
+                <default>false</default>
+                <label>Asia</label>
+            </value>
+            <value>
+                <fullName>Australia, New Zealand &amp; Pacific Islands</fullName>
+                <default>false</default>
+                <label>Australia, New Zealand &amp; Pacific Islands</label>
+            </value>
+            <value>
+                <fullName>Campus Semester in  Costa Rica &amp; The Dominican Republic</fullName>
+                <default>false</default>
+                <label>Campus Semester in  Costa Rica &amp; The Dominican Republic</label>
+            </value>
+            <value>
+                <fullName>Campus Semester in England</fullName>
+                <default>false</default>
+                <label>Campus Semester in England</label>
+            </value>
+            <value>
+                <fullName>Campus Semester in England, Italy, Spain</fullName>
+                <default>false</default>
+                <label>Campus Semester in England, Italy, Spain</label>
+            </value>
+            <value>
+                <fullName>Campus Semester in Italy</fullName>
+                <default>false</default>
+                <label>Campus Semester in Italy</label>
+            </value>
+            <value>
+                <fullName>Campus Semester in Italy (Fall 2021+)</fullName>
+                <default>false</default>
+                <label>Campus Semester in Italy (Fall 2021+)</label>
+            </value>
+            <value>
+                <fullName>Campus Semester in London</fullName>
+                <default>false</default>
+                <label>Campus Semester in London</label>
+            </value>
+            <value>
+                <fullName>Campus Semester in Spain</fullName>
+                <default>false</default>
+                <label>Campus Semester in Spain</label>
+            </value>
+            <value>
+                <fullName>Campus STEM Semester in Costa Rica</fullName>
+                <default>false</default>
+                <label>Campus STEM Semester in Costa Rica</label>
+            </value>
+            <value>
+                <fullName>Change The World</fullName>
+                <default>false</default>
+                <label>Change The World</label>
+            </value>
+            <value>
+                <fullName>China, Thailand, &amp; Laos</fullName>
+                <default>false</default>
+                <label>China, Thailand, &amp; Laos</label>
+            </value>
+            <value>
+                <fullName>Costa Rica</fullName>
+                <default>false</default>
+                <label>Costa Rica</label>
+            </value>
+            <value>
+                <fullName>CR/DR</fullName>
+                <default>false</default>
+                <label>CR/DR</label>
+            </value>
+            <value>
+                <fullName>Europe</fullName>
+                <default>false</default>
+                <label>Europe</label>
+            </value>
+            <value>
+                <fullName>Field Semester in China, Laos &amp; Thailand</fullName>
+                <default>false</default>
+                <label>Field Semester in China, Laos &amp; Thailand</label>
+            </value>
+            <value>
+                <fullName>Field Semester in Costa Rica</fullName>
+                <default>false</default>
+                <label>Field Semester in Costa Rica</label>
+            </value>
+            <value>
+                <fullName>Field Semester in Costa Rica/Hawaii</fullName>
+                <default>false</default>
+                <label>Field Semester in Costa Rica/Hawaii</label>
+            </value>
+            <value>
+                <fullName>Field Semester in Costa Rica	&amp; The Dominican Republic</fullName>
+                <default>false</default>
+                <label>Field Semester in Costa Rica	&amp; The Dominican Republic</label>
+            </value>
+            <value>
+                <fullName>Field Semester in CR/Hawaii</fullName>
+                <default>false</default>
+                <label>Field Semester in CR/Hawaii</label>
+            </value>
+            <value>
+                <fullName>Field Semester in Fiji</fullName>
+                <default>false</default>
+                <label>Field Semester in Fiji</label>
+            </value>
+            <value>
+                <fullName>Field Semester in Fiji, New Zealand, &amp; Australia</fullName>
+                <default>false</default>
+                <label>Field Semester in Fiji, New Zealand, &amp; Australia</label>
+            </value>
+            <value>
+                <fullName>Field Semester in Hawaii</fullName>
+                <default>false</default>
+                <label>Field Semester in Hawaii</label>
+            </value>
+            <value>
+                <fullName>Field Semester in Latin America</fullName>
+                <default>false</default>
+                <label>Field Semester in Latin America</label>
+            </value>
+            <value>
+                <fullName>Field semester in the South Pacific (Fiji, New Zealand, &amp; Australia)</fullName>
+                <default>false</default>
+                <label>Field semester in the South Pacific (Fiji, New Zealand, &amp; Australia)</label>
+            </value>
+            <value>
+                <fullName>Global Impact Semester (Fall 2020 Only)</fullName>
+                <default>false</default>
+                <label>Global Impact Semester (Fall 2020 Only)</label>
+            </value>
+            <value>
+                <fullName>Global Impact Year (Fall 2020 &amp; Spring 2021)</fullName>
+                <default>false</default>
+                <label>Global Impact Year (Fall 2020 &amp; Spring 2021)</label>
+            </value>
+            <value>
+                <fullName>Hawaii</fullName>
+                <default>false</default>
+                <label>Hawaii</label>
+            </value>
+            <value>
+                <fullName>Latin America</fullName>
+                <default>false</default>
+                <label>Latin America</label>
+            </value>
+            <value>
+                <fullName>North America</fullName>
+                <default>false</default>
+                <label>North America</label>
+            </value>
+            <value>
+                <fullName>On Campus Programs</fullName>
+                <default>false</default>
+                <label>On Campus Programs</label>
+            </value>
+            <value>
+                <fullName>Online</fullName>
+                <default>false</default>
+                <label>Online</label>
+            </value>
+            <value>
+                <fullName>South America</fullName>
+                <default>false</default>
+                <label>South America</label>
+            </value>
+            <value>
+                <fullName>Southeast Asia</fullName>
+                <default>false</default>
+                <label>Southeast Asia</label>
+            </value>
+            <value>
+                <fullName>South Pacific</fullName>
+                <default>false</default>
+                <label>South Pacific</label>
+            </value>
+            <value>
+                <fullName>Spain</fullName>
+                <default>false</default>
+                <label>Spain</label>
+            </value>
+            <value>
+                <fullName>VOLS Costa Rica</fullName>
+                <default>false</default>
+                <label>VOLS Costa Rica</label>
+            </value>
+            <value>
+                <fullName>Milan</fullName>
+                <default>false</default>
+                <label>Milan</label>
+            </value>
+            <value>
+                <fullName>Madrid</fullName>
+                <default>false</default>
+                <label>Madrid</label>
+            </value>
+            <value>
+                <fullName>Latin America Honors Program</fullName>
+                <default>false</default>
+                <label>Latin America Honors Program</label>
+            </value>
+            <value>
+                <fullName>Italy</fullName>
+                <default>false</default>
+                <label>Italy</label>
+            </value>
+            <value>
+                <fullName>Hybrid w/ Summit</fullName>
+                <default>false</default>
+                <label>Hybrid w/ Summit</label>
+            </value>
+            <value>
+                <fullName>Hybrid Virtual Only</fullName>
+                <default>false</default>
+                <label>Hybrid Virtual Only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

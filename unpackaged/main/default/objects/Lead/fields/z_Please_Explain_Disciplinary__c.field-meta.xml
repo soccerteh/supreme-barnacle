@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>z_Please_Explain_Disciplinary__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is populated from the student application if the student answer yes to previous disciplinary instances.</inlineHelpText>
+    <label>z_Please Explain (Disciplinary)</label>
+    <length>10000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

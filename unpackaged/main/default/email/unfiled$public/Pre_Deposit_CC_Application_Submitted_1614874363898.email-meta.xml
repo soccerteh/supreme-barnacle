@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>For College Counselor Use only: To alert Pre-Deposit Students that their Verto partner application has been submitted</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Pre-Deposit: CC Application Submitted</name>
+    <relatedEntityType>Opportunity</relatedEntityType>
+    <style>none</style>
+    <subject>Your Verto Partner Application has been Submitted</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

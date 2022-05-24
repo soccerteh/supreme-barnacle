@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- z_Hispanic or Latino/a/x --></label>
+        <name>z_Hispanic_or_Latino_a_x__c</name>
+    </CustomFieldTranslation>

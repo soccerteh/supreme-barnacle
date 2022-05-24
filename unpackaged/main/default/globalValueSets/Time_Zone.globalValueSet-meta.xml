@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Eastern Time</fullName>
+        <default>false</default>
+        <label>Eastern Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Central Time</fullName>
+        <default>false</default>
+        <label>Central Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Mountain Time</fullName>
+        <default>false</default>
+        <label>Mountain Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Pacific Time</fullName>
+        <default>false</default>
+        <label>Pacific Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Alaska Time</fullName>
+        <default>false</default>
+        <label>Alaska Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Hawaii Time</fullName>
+        <default>false</default>
+        <label>Hawaii Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Samoa Time (ET +17 hrs)</fullName>
+        <default>false</default>
+        <label>Samoa Time (ET +17 hrs)</label>
+    </customValue>
+    <customValue>
+        <fullName>Chamorro Time (ET + 14 hrs)</fullName>
+        <default>false</default>
+        <label>Chamorro Time (ET + 14 hrs)</label>
+    </customValue>
+    <customValue>
+        <fullName>Mountain Time - No DST</fullName>
+        <default>false</default>
+        <label>Mountain Time - No DST</label>
+    </customValue>
+    <description>List of time zones currently used.</description>
+    <masterLabel>Time Zone</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

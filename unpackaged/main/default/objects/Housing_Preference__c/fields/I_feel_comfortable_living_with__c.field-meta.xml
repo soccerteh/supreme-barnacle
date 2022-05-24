@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>I_feel_comfortable_living_with__c</fullName>
+    <externalId>false</externalId>
+    <label>I feel comfortable living with</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Single host (man)</fullName>
+                <default>false</default>
+                <label>Single host (man)</label>
+            </value>
+            <value>
+                <fullName>Single host (woman)</fullName>
+                <default>false</default>
+                <label>Single host (woman)</label>
+            </value>
+            <value>
+                <fullName>Family with young children (children aged 0-26) (1 or 2 parent households)</fullName>
+                <default>false</default>
+                <label>Family with young children (children aged 0-26) (1 or 2 parent households)</label>
+            </value>
+            <value>
+                <fullName>Family with older children (children aged 27+)(1 or 2 parent households)</fullName>
+                <default>false</default>
+                <label>Family with older children (children aged 27+)(1 or 2 parent households)</label>
+            </value>
+            <value>
+                <fullName>Family without children living at home</fullName>
+                <default>false</default>
+                <label>Family without children living at home</label>
+            </value>
+            <value>
+                <fullName>LGBTQ+ couple</fullName>
+                <default>false</default>
+                <label>LGBTQ+ couple</label>
+            </value>
+            <value>
+                <fullName>LGBTQ+ family with children</fullName>
+                <default>false</default>
+                <label>LGBTQ+ family with children</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>7</visibleLines>
+</CustomField>

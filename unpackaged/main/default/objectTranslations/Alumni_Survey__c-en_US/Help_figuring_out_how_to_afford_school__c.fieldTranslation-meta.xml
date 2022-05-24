@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- I’d like help with figuring out how to afford school.\ --></help>
+        <label><!-- Help figuring out how to afford school --></label>
+        <name>Help_figuring_out_how_to_afford_school__c</name>
+    </CustomFieldTranslation>

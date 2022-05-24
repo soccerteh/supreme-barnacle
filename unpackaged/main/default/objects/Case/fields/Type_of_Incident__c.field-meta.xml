@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Incident__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of Incident</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Health Concern</fullName>
+                <default>false</default>
+                <label>Health Concern</label>
+            </value>
+            <value>
+                <fullName>Behavior Concern</fullName>
+                <default>false</default>
+                <label>Behavior Concern</label>
+            </value>
+            <value>
+                <fullName>Code of Conduct Violation</fullName>
+                <default>false</default>
+                <label>Code of Conduct Violation</label>
+            </value>
+            <value>
+                <fullName>Safety Concern</fullName>
+                <default>false</default>
+                <label>Safety Concern</label>
+            </value>
+            <value>
+                <fullName>Housing Concerns</fullName>
+                <default>false</default>
+                <label>Housing Concerns</label>
+            </value>
+            <value>
+                <fullName>Care Team Concern</fullName>
+                <default>false</default>
+                <label>Care Team Concern</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Classroom Accommodation(s)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Classroom Accommodation(s)</label>
+            </value>
+            <value>
+                <fullName>Housing Accommodation(s)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Housing Accommodation(s)</label>
+            </value>
+            <value>
+                <fullName>Testing Accommodation(s)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Testing Accommodation(s)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

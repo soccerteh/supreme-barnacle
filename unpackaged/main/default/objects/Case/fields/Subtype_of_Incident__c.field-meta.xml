@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subtype_of_Incident__c</fullName>
+    <externalId>false</externalId>
+    <label>Subtype of Incident</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type_of_Incident__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Allergic Reaction</fullName>
+                <default>false</default>
+                <label>Allergic Reaction</label>
+            </value>
+            <value>
+                <fullName>Pre-existing Condition</fullName>
+                <default>false</default>
+                <label>Pre-existing Condition</label>
+            </value>
+            <value>
+                <fullName>Medication (lost, refill, change)</fullName>
+                <default>false</default>
+                <label>Medication (lost, refill, change)</label>
+            </value>
+            <value>
+                <fullName>Hospitalization</fullName>
+                <default>false</default>
+                <label>Hospitalization</label>
+            </value>
+            <value>
+                <fullName>Doctor’s Appt.</fullName>
+                <default>false</default>
+                <label>Doctor’s Appt.</label>
+            </value>
+            <value>
+                <fullName>Illness</fullName>
+                <default>false</default>
+                <label>Illness</label>
+            </value>
+            <value>
+                <fullName>Injury</fullName>
+                <default>false</default>
+                <label>Injury</label>
+            </value>
+            <value>
+                <fullName>Lab Testing</fullName>
+                <default>false</default>
+                <label>Lab/Testing</label>
+            </value>
+            <value>
+                <fullName>Request for Counseling</fullName>
+                <default>false</default>
+                <label>Request for Counseling</label>
+            </value>
+            <value>
+                <fullName>Mental Health</fullName>
+                <default>false</default>
+                <label>Mental Health</label>
+            </value>
+            <value>
+                <fullName>Student Death</fullName>
+                <default>false</default>
+                <label>Student Death</label>
+            </value>
+            <value>
+                <fullName>Roommate issue (self report)</fullName>
+                <default>false</default>
+                <label>Roommate issue (self report)</label>
+            </value>
+            <value>
+                <fullName>Personal issue (self report)</fullName>
+                <default>false</default>
+                <label>Personal issue (self report)</label>
+            </value>
+            <value>
+                <fullName>Student of Concern (3rd party report)</fullName>
+                <default>false</default>
+                <label>Student of Concern (3rd party report)</label>
+            </value>
+            <value>
+                <fullName>Reckless/unsafe behavior</fullName>
+                <default>false</default>
+                <label>Reckless/unsafe behavior</label>
+            </value>
+            <value>
+                <fullName>Threatening behavior</fullName>
+                <default>false</default>
+                <label>Threatening behavior</label>
+            </value>
+            <value>
+                <fullName>Suicidal ideation</fullName>
+                <default>false</default>
+                <label>Suicidal ideation</label>
+            </value>
+            <value>
+                <fullName>Suicide attempt</fullName>
+                <default>false</default>
+                <label>Suicide attempt</label>
+            </value>
+            <value>
+                <fullName>Homesickness</fullName>
+                <default>false</default>
+                <label>Homesickness</label>
+            </value>
+            <value>
+                <fullName>Freedom of Expression</fullName>
+                <default>false</default>
+                <label>Freedom of Expression</label>
+            </value>
+            <value>
+                <fullName>Religious Expression</fullName>
+                <default>false</default>
+                <label>Religious Expression</label>
+            </value>
+            <value>
+                <fullName>Health &amp; Wellbeing</fullName>
+                <default>false</default>
+                <label>Health &amp; Wellbeing</label>
+            </value>
+            <value>
+                <fullName>Alcohol and other substances</fullName>
+                <default>false</default>
+                <label>Alcohol and other substances</label>
+            </value>
+            <value>
+                <fullName>Assault</fullName>
+                <default>false</default>
+                <label>Assault</label>
+            </value>
+            <value>
+                <fullName>Bullying/Harassment/Discrimination</fullName>
+                <default>false</default>
+                <label>Bullying/Harassment/Discrimination</label>
+            </value>
+            <value>
+                <fullName>Respect and Inclusion</fullName>
+                <default>false</default>
+                <label>Respect and Inclusion</label>
+            </value>
+            <value>
+                <fullName>Sexual Misconduct/Assault/Exploitation</fullName>
+                <default>false</default>
+                <label>Sexual Misconduct/Assault/Exploitation</label>
+            </value>
+            <value>
+                <fullName>Smoking/Vaping</fullName>
+                <default>false</default>
+                <label>Smoking/Vaping</label>
+            </value>
+            <value>
+                <fullName>Surreptitious Recording</fullName>
+                <default>false</default>
+                <label>Surreptitious Recording</label>
+            </value>
+            <value>
+                <fullName>Theft</fullName>
+                <default>false</default>
+                <label>Theft</label>
+            </value>
+            <value>
+                <fullName>Trespassing/Vandalism</fullName>
+                <default>false</default>
+                <label>Trespassing/Vandalism</label>
+            </value>
+            <value>
+                <fullName>Weapons</fullName>
+                <default>false</default>
+                <label>Weapons</label>
+            </value>
+            <value>
+                <fullName>Willful Misconduct/Negligence</fullName>
+                <default>false</default>
+                <label>Willful Misconduct/Negligence</label>
+            </value>
+            <value>
+                <fullName>Academic Violations</fullName>
+                <default>false</default>
+                <label>Academic Violations</label>
+            </value>
+            <value>
+                <fullName>Academic Violations - Plagiarism</fullName>
+                <default>false</default>
+                <label>Academic Violations - Plagiarism</label>
+            </value>
+            <value>
+                <fullName>Academic Violations - Unauthorized Assistance/Collaboration</fullName>
+                <default>false</default>
+                <label>Academic Violations - Unauthorized Assistance/Collaboration</label>
+            </value>
+            <value>
+                <fullName>Academic Violations - Use of Unauthorized Materials</fullName>
+                <default>false</default>
+                <label>Academic Violations - Use of Unauthorized Materials</label>
+            </value>
+            <value>
+                <fullName>Academic Violations - Unauthorized Dual Submission of Previous Academic Work</fullName>
+                <default>false</default>
+                <label>Academic Violations - Unauthorized Dual Submission of Previous Academic Work</label>
+            </value>
+            <value>
+                <fullName>Academic Violations - Directions Violation</fullName>
+                <default>false</default>
+                <label>Academic Violations - Directions Violation</label>
+            </value>
+            <value>
+                <fullName>Academic Violations - Failing to disclose Verto Disciplinary Process</fullName>
+                <default>false</default>
+                <label>Academic Violations - Failing to disclose Verto Disciplinary Process</label>
+            </value>
+            <value>
+                <fullName>No Emergency Contact</fullName>
+                <default>false</default>
+                <label>No Emergency Contact</label>
+            </value>
+            <value>
+                <fullName>No Onsite phone number</fullName>
+                <default>false</default>
+                <label>No Onsite phone number</label>
+            </value>
+            <value>
+                <fullName>Missing student</fullName>
+                <default>false</default>
+                <label>Missing student</label>
+            </value>
+            <value>
+                <fullName>Lost Passport</fullName>
+                <default>false</default>
+                <label>Lost Passport</label>
+            </value>
+            <value>
+                <fullName>Property Damage</fullName>
+                <default>false</default>
+                <label>Property Damage</label>
+            </value>
+            <value>
+                <fullName>Lost Keys</fullName>
+                <default>false</default>
+                <label>Lost Keys</label>
+            </value>
+            <value>
+                <fullName>Housekeeping</fullName>
+                <default>false</default>
+                <label>Housekeeping</label>
+            </value>
+            <value>
+                <fullName>Homestay issue</fullName>
+                <default>false</default>
+                <label>Homestay issue</label>
+            </value>
+            <value>
+                <fullName>Damages</fullName>
+                <default>false</default>
+                <label>Damages</label>
+            </value>
+            <value>
+                <fullName>Repair requested</fullName>
+                <default>false</default>
+                <label>Repair requested</label>
+            </value>
+            <value>
+                <fullName>Bedbugs</fullName>
+                <default>false</default>
+                <label>Bedbugs</label>
+            </value>
+            <value>
+                <fullName>Pests/Rodents</fullName>
+                <default>false</default>
+                <label>Pests/Rodents</label>
+            </value>
+            <value>
+                <fullName>Academic probation</fullName>
+                <default>false</default>
+                <label>Academic probation</label>
+            </value>
+            <value>
+                <fullName>ADA accommodations</fullName>
+                <default>false</default>
+                <label>ADA accommodations</label>
+            </value>
+            <value>
+                <fullName>Academic Advising</fullName>
+                <default>false</default>
+                <label>Academic Advising</label>
+            </value>
+            <value>
+                <fullName>Attendance/Classroom</fullName>
+                <default>false</default>
+                <label>Attendance/Classroom</label>
+            </value>
+            <value>
+                <fullName>Attendance Excursion</fullName>
+                <default>false</default>
+                <label>Attendance Excursion</label>
+            </value>
+            <value>
+                <fullName>Channel College Issues &amp; Mapping</fullName>
+                <default>false</default>
+                <label>Channel College Issues &amp; Mapping</label>
+            </value>
+            <value>
+                <fullName>Course Withdrawal</fullName>
+                <default>false</default>
+                <label>Course Withdrawal</label>
+            </value>
+            <value>
+                <fullName>External needs</fullName>
+                <default>false</default>
+                <label>External needs</label>
+            </value>
+            <value>
+                <fullName>Faculty Concern Reported</fullName>
+                <default>false</default>
+                <label>Faculty Concern Reported</label>
+            </value>
+            <value>
+                <fullName>Financial Aid Concerns</fullName>
+                <default>false</default>
+                <label>Financial Aid Concerns</label>
+            </value>
+            <value>
+                <fullName>Incomplete assignments</fullName>
+                <default>false</default>
+                <label>Incomplete assignments</label>
+            </value>
+            <value>
+                <fullName>Laptop Need/Onsite Checkout</fullName>
+                <default>false</default>
+                <label>Laptop Need/Onsite Checkout</label>
+            </value>
+            <value>
+                <fullName>Life events</fullName>
+                <default>false</default>
+                <label>Life events</label>
+            </value>
+            <value>
+                <fullName>Mid-term Grade Submissions</fullName>
+                <default>false</default>
+                <label>Mid-term Grade Submissions</label>
+            </value>
+            <value>
+                <fullName>No Show for Scheduled ASC Meeting</fullName>
+                <default>false</default>
+                <label>No Show for Scheduled ASC Meeting</label>
+            </value>
+            <value>
+                <fullName>Onsite Semester Withdrawal/Program Dismissal</fullName>
+                <default>false</default>
+                <label>Onsite Semester Withdrawal/Program Dismissal</label>
+            </value>
+            <value>
+                <fullName>Parent Inquiry/FERPA</fullName>
+                <default>false</default>
+                <label>Parent Inquiry/FERPA</label>
+            </value>
+            <value>
+                <fullName>Plagiarism or Academic Integrity or Academic Honesty Violation</fullName>
+                <default>false</default>
+                <label>Plagiarism or Academic Integrity or Academic Honesty Violation</label>
+            </value>
+            <value>
+                <fullName>Probation</fullName>
+                <default>false</default>
+                <label>Probation</label>
+            </value>
+            <value>
+                <fullName>School of Record Issues</fullName>
+                <default>false</default>
+                <label>School of Record Issues</label>
+            </value>
+            <value>
+                <fullName>Student of Concern</fullName>
+                <default>false</default>
+                <label>Student of Concern</label>
+            </value>
+            <value>
+                <fullName>Transcript Submissions</fullName>
+                <default>false</default>
+                <label>Transcript Submissions</label>
+            </value>
+            <value>
+                <fullName>Tutoring request</fullName>
+                <default>false</default>
+                <label>Tutoring request</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Health Concern</controllingFieldValue>
+            <valueName>Allergic Reaction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health Concern</controllingFieldValue>
+            <valueName>Pre-existing Condition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health Concern</controllingFieldValue>
+            <valueName>Medication (lost, refill, change)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health Concern</controllingFieldValue>
+            <valueName>Hospitalization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health Concern</controllingFieldValue>
+            <valueName>Doctor’s Appt.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health Concern</controllingFieldValue>
+            <valueName>Illness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health Concern</controllingFieldValue>
+            <valueName>Injury</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health Concern</controllingFieldValue>
+            <valueName>Request for Counseling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health Concern</controllingFieldValue>
+            <valueName>Mental Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health Concern</controllingFieldValue>
+            <valueName>Student Death</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health Concern</controllingFieldValue>
+            <controllingFieldValue>Behavior Concern</controllingFieldValue>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <controllingFieldValue>Safety Concern</controllingFieldValue>
+            <controllingFieldValue>Housing Concerns</controllingFieldValue>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Behavior Concern</controllingFieldValue>
+            <valueName>Roommate issue (self report)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Behavior Concern</controllingFieldValue>
+            <valueName>Personal issue (self report)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Behavior Concern</controllingFieldValue>
+            <valueName>Student of Concern (3rd party report)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Behavior Concern</controllingFieldValue>
+            <valueName>Reckless/unsafe behavior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Behavior Concern</controllingFieldValue>
+            <valueName>Threatening behavior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Behavior Concern</controllingFieldValue>
+            <valueName>Suicidal ideation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Behavior Concern</controllingFieldValue>
+            <valueName>Suicide attempt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Behavior Concern</controllingFieldValue>
+            <valueName>Homesickness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Freedom of Expression</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Religious Expression</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Health &amp; Wellbeing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Alcohol and other substances</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Assault</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Bullying/Harassment/Discrimination</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Respect and Inclusion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Sexual Misconduct/Assault/Exploitation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Smoking/Vaping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Surreptitious Recording</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Theft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Trespassing/Vandalism</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Weapons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Willful Misconduct/Negligence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Academic Violations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Academic Violations - Plagiarism</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Academic Violations - Unauthorized Assistance/Collaboration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Academic Violations - Use of Unauthorized Materials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Academic Violations - Unauthorized Dual Submission of Previous Academic Work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Academic Violations - Directions Violation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Code of Conduct Violation</controllingFieldValue>
+            <valueName>Academic Violations - Failing to disclose Verto Disciplinary Process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Concern</controllingFieldValue>
+            <valueName>No Emergency Contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Concern</controllingFieldValue>
+            <valueName>No Onsite phone number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Concern</controllingFieldValue>
+            <valueName>Missing student</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Concern</controllingFieldValue>
+            <valueName>Lost Passport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Concern</controllingFieldValue>
+            <valueName>Property Damage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Housing Concerns</controllingFieldValue>
+            <valueName>Lost Keys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Housing Concerns</controllingFieldValue>
+            <valueName>Housekeeping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Housing Concerns</controllingFieldValue>
+            <valueName>Homestay issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Housing Concerns</controllingFieldValue>
+            <valueName>Damages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Housing Concerns</controllingFieldValue>
+            <valueName>Repair requested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Housing Concerns</controllingFieldValue>
+            <valueName>Bedbugs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Housing Concerns</controllingFieldValue>
+            <valueName>Pests/Rodents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Academic probation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>ADA accommodations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Academic Advising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Attendance/Classroom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Attendance Excursion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Channel College Issues &amp; Mapping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Course Withdrawal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>External needs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Faculty Concern Reported</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Financial Aid Concerns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Incomplete assignments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Laptop Need/Onsite Checkout</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Life events</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Mid-term Grade Submissions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>No Show for Scheduled ASC Meeting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Onsite Semester Withdrawal/Program Dismissal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Parent Inquiry/FERPA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Plagiarism or Academic Integrity or Academic Honesty Violation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Probation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>School of Record Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Student of Concern</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Transcript Submissions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Care Team Concern</controllingFieldValue>
+            <valueName>Tutoring request</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

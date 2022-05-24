@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "2b942b7d-f731-490a-8f64-2b77aee0f13e",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "4452b9bf-8c9e-4262-ad70-fc7d73b5dbff",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "FAQ_and_Training_HTML_Editor_1_Component",
+  "id" : "9f101013-0e6c-4115-93bc-612f06439f99",
+  "type" : "experienceVariation"
+}

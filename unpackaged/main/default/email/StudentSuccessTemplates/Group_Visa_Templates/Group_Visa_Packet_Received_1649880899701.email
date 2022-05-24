@@ -1,0 +1,12 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+Congratulations! We have received your Visa Packet today! You will receive an email from me in 7-10 business days once your packet is reviewed. If we are missing any items, we will be sure to reach out as soon as possible.&nbsp;<br />
+<br />
+Best,&nbsp;<br />
+<br />
+<b>{{{Sender.Signature}}}</b>
+</body></html>

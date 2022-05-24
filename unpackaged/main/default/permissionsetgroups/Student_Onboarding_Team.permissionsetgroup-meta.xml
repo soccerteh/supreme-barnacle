@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Members of the Student Onboarding Operations team, including Student Onboarding Advisors and Student Onboarding leadership</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Student Onboarding Team</label>
+    <permissionSets>Create_Contact_with_RT_Student_Parent_Guardian_Counselor</permissionSets>
+    <permissionSets>Create_Edit_Account</permissionSets>
+    <permissionSets>Create_Edit_Contact</permissionSets>
+    <permissionSets>Edit_Checkpoint</permissionSets>
+    <permissionSets>Edit_Enrollment_Record</permissionSets>
+    <permissionSets>Edit_Event_Fields_Standard_Object_Edit_Events_System_Permission</permissionSets>
+    <permissionSets>Edit_Flight_EarlyLate_Flight_Approval</permissionSets>
+    <permissionSets>Edit_Health_Form</permissionSets>
+    <permissionSets>Edit_Verto_Form_Submissions</permissionSets>
+    <permissionSets>Five9_CTI_Adapter_Apex_Class_Access</permissionSets>
+    <permissionSets>Heymarket_View_Message_Object_Template_Tab</permissionSets>
+    <permissionSets>Manage_Public_Email_Templates</permissionSets>
+    <permissionSets>Mass_Edits_from_Lists</permissionSets>
+    <permissionSets>Send_Outbound_Messages</permissionSets>
+    <permissionSets>Transcript_Evaluation_Read_Only</permissionSets>
+    <permissionSets>Transfer_Record</permissionSets>
+    <permissionSets>View_Health_Form</permissionSets>
+    <permissionSets>View_Opportunity_Financial_Fields</permissionSets>
+    <permissionSets>VisualAntidote__Utility_Permissions</permissionSets>
+    <permissionSets>box__Box_Standard</permissionSets>
+    <permissionSets>heymarket__Heymarket_User</permissionSets>
+    <permissionSets>n2de__Distribution_Engine_User</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

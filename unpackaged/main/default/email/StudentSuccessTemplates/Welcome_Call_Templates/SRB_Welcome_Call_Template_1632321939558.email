@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+Congratulations on joining the&nbsp;{{{Enrollment_Record__c.Program__c}}} program! I'm excited to speak with you and welcome you to Verto. My name is Stuart Robbins-Butcher, and I will be your Student Onboarding Adviser throughout the pre-departure period - everything from registering with our school of record, registering for classes, purchasing airfare, and preparing for your semester will come from me or the Student Onboarding Team.&nbsp;<br />
+<br />
+I look forward to meeting with you - please use the following link to schedule a time to speak that works for you. I will call you at your number on your Verto application. Please email me directly if you have any questions prior to our conversation or outstanding items you would like to discuss in detail! My meeting link is&nbsp;https://calendly.com/stuart-rb/new-student-welcome-call.<br />
+<br />
+Best,<br />
+Stuart<br />
+<br />
+--<br />
+Stuart Robbins-Butcher | he/him/his | Student Onboarding Adviser<br />
+Phone: +1 503.822.7913 | stuart@vertoeducation.org | Schedule an appointment! -&nbsp;calendly.com/stuart-rb<br />
+Verto Education | Follow us on Instagram | Resources for Enrolled Students<br />
+Freshman year abroad + Admission to partner colleges = College, but better.
+</body></html>

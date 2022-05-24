@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_Opt_in__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Student has indicated they wish to be included in the Verto group appointment. The visa group leader will check this box if the opt in email is received from the student. The visa group leader will also select the appropriate consulate from the ‘consulate’ drop down list so SOA knows which appointment they will be attending. 
+
+If checked, SOA assigned will be notified by email so they are aware their student has opted in. If box is moved from checked to unchecked, notification will be sent to StudentVisa@vertoeducation.org &amp; the SOA email. This is notification to Visa Admin to mail the visa docs to the student and to remove from group appointment.</description>
+    <externalId>false</externalId>
+    <label>Group Opt-in</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

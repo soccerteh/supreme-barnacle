@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legacy_Opportunities_Financial</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Pell_Grant_Amount_Paid__c</columns>
+    <columns>Student_Loan_Amount_Paid__c</columns>
+    <columns>Tuition__c</columns>
+    <columns>Net_Tuition_Istanbul__c</columns>
+    <columns>Net_Tuition__c</columns>
+    <columns>Actual_Amount_Due__c</columns>
+    <columns>Estimated_Amount_Due__c</columns>
+    <columns>Amount_Paid__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Current_Program__c</field>
+        <operation>contains</operation>
+        <value>Spring 2022</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Closed Won</value>
+    </filters>
+    <filters>
+        <field>Enrollment_Status__c</field>
+        <operation>equals</operation>
+        <value>Enrolled</value>
+    </filters>
+    <filters>
+        <field>Tuition__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Legacy Opportunities - Financial</label>
+</ListView>

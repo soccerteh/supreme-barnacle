@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Roommate_Stays_Up_Late__c</fullName>
+    <externalId>false</externalId>
+    <label>Roommate Stays Up Late</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes, I typically stay up until after 11:00pm and/or am comfortable living with someone who does.</fullName>
+                <default>false</default>
+                <label>Yes, I typically stay up until after 11:00pm and/or am comfortable living with someone who does.</label>
+            </value>
+            <value>
+                <fullName>No, I go to bed before 11:00pm and prefer to live with someone who also goes to bed before 11:00pm.</fullName>
+                <default>false</default>
+                <label>No, I go to bed before 11:00pm and prefer to live with someone who also goes to bed before 11:00pm.</label>
+            </value>
+            <value>
+                <fullName>No preference.</fullName>
+                <default>false</default>
+                <label>No preference.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

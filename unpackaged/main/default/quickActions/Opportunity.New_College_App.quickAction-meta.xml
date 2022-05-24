@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldOverrides>
+        <field>ACT_English_Score__c</field>
+        <formula>Value(Text( Opportunity.z_ACT_English_Score__c ))</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>ACT_Math_Score__c</field>
+        <formula>Value(Text( Opportunity.z_ACT_Math_Score__c ))</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>ACT_Science_Score__c</field>
+        <formula>value(text( Opportunity.z_ACT_Science_Score__c ))</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>ACT_Score__c</field>
+        <formula>VALUE(Opportunity.z_ACT_Score__c)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Additional_Gender_Info__c</field>
+        <formula>Opportunity.z_Gender_Info__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Are_you_an_International_Student__c</field>
+        <formula>Opportunity.z_Are_you_an_International_Student__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Biological_Sex__c</field>
+        <formula>TEXT(Opportunity.z_Biological_Sex__c)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Citizenship__c</field>
+        <formula>TEXT(Opportunity.z_Citizenship__c)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>College_Application_Owner__c</field>
+        <formula>Opportunity.College_Counselor__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Completed_2_years_of_Social_Studies__c</field>
+        <formula>TEXT(Opportunity.z_Completed_2_years_of_Social_Studies__c)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Completed_2_years_of_World_Language__c</field>
+        <formula>TEXT( Opportunity.z_Completed_2_years_of_World_Language__c )</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Completed_3_years_of_Science__c</field>
+        <formula>TEXT( Opportunity.z_Completed_3_years_of_Science__c )</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Completed_4_years_of_English__c</field>
+        <formula>TEXT( Opportunity.z_Completed_4_years_of_English__c )</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Completed_4_years_of_Math_thru_Algebra__c</field>
+        <formula>TEXT(Opportunity.z_Completed_4_years_of_Math_Algebra_2__c )</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>County_of_Residence__c</field>
+        <formula>Opportunity.z_County_of_Residence__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Criminal_Convictions__c</field>
+        <formula>IF (Opportunity.z_Criminal_Convictions__c = TRUE, &quot;Yes&quot; ,&quot;No&quot;)  +Opportunity.Z_Please_Explain_Criminal__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Date_Taken_ACT__c</field>
+        <formula>Opportunity.z_Date_Taken_ACT__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Disciplinary_Violation__c</field>
+        <formula>IF ( Opportunity.z_Disciplinary_Violation__c  = TRUE, &quot;Yes&quot; ,&quot;No&quot;) +  Opportunity.Z_Please_Explain_Disciplinary__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Dual_Citizenship__c</field>
+        <formula>Opportunity.z_Dual_Citizenship__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Dual_Enrollment_Institution__c</field>
+        <formula>Opportunity.z_Dual_Enrollment_Institution__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Enrolled_in_IB_Courses_in_HS__c</field>
+        <formula>TEXT( Opportunity.z_Enrolled_in_IB_Courses_in_HS__c )</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>First_generation__c</field>
+        <formula>Opportunity.z_First_Generation_Student__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>GPA_Scale__c</field>
+        <formula>TEXT(Opportunity.z_GPA_Scale__c)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>GPA_Weighting__c</field>
+        <formula>TEXT(Opportunity.z_GPA_Weighting__c )</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Have_you_ever_enrolled_in_AP_Courses_in__c</field>
+        <formula>TEXT(Opportunity.z_Enrolled_in_AP_Courses_in_HS__c)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Have_you_ever_enrolled_in_Dual_Enrollmen__c</field>
+        <formula>TEXT( Opportunity.z_Enrolled_in_Dual_Enrollment_Courses__c )</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Have_you_ever_enrolled_in_Early_Middle_C__c</field>
+        <formula>TEXT( Opportunity.z_Enrolled_in_Early_Middle_College_in_HS__c)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Have_you_previously_attended_college_or__c</field>
+        <formula>Opportunity.z_Previously_Attended_College__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Have_you_taken_the_ACT__c</field>
+        <formula>TEXT(Opportunity.z_Have_you_taken_the_ACT__c)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Have_you_taken_the_SAT__c</field>
+        <formula>TEXT( Opportunity.z_Have_you_taken_the_SAT__c )</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>High_School_GPA__c</field>
+        <formula>Opportunity.z_High_School_GPA__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Hispanic_or_Latino_a_x__c</field>
+        <formula>Opportunity.z_Hispanic_or_Latino_a_x__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Hobbies__c</field>
+        <formula>Opportunity.z_Hobbies_and_Activities__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Major_of_Interest_1__c</field>
+        <formula>TEXT(Opportunity.z_Major_of_Interest_1__c)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Major_of_Interest_2__c</field>
+        <formula>TEXT(Opportunity.z_Major_of_Interest_2__c)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Name</field>
+        <formula>&quot;X&quot;</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Opportunity__c</field>
+        <formula>Opportunity.Id</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Parent_1_Email__c</field>
+        <formula>Opportunity.Z_Parent_1_Email__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Parent_1_First_Name__c</field>
+        <formula>Opportunity.Z_Parent_1_First_Name__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Parent_1_Last_Name__c</field>
+        <formula>Opportunity.Z_Parent_1_Last_Name__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Parent_1_Phone_Number__c</field>
+        <formula>Opportunity.Z_Parent_1_Phone_Number__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Parent_2_Email__c</field>
+        <formula>Opportunity.Z_Parent_2_Email__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Parent_2_First_Name__c</field>
+        <formula>Opportunity.Z_Parent_2_First_Name__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Parent_2_Last_Name__c</field>
+        <formula>Opportunity.Z_Parent_2_Last_Name__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Parent_2_Phone_Number__c</field>
+        <formula>Opportunity.Z_Parent_2_Phone_Number__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Parents_Highest_Degree_Earned__c</field>
+        <formula>TEXT( Opportunity.Z_Parents_Highest_Degree_Earned__c )</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Parents_Marital_Status__c</field>
+        <formula>TEXT(Opportunity.Z_Parents_Marital_Status__c )</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Parents_State_of_Legal_Residence__c</field>
+        <formula>TEXT(Opportunity.Z_Parents_State_of_Legal_Residence__c )</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Permanent_Home__c</field>
+        <formula>TEXT(Opportunity.Z_Permanent_Home__c )</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Please_provide_the_course_s_and_grade_s__c</field>
+        <formula>Opportunity.z_Dual_Enrollment_Courses_and_Grades__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Residency_Status__c</field>
+        <formula>TEXT(Opportunity.Z_Residency_Status__c)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SAT_Date__c</field>
+        <formula>Opportunity.z_Date_Taken_SAT__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SAT_Math_Score__c</field>
+        <formula>Opportunity.z_SAT_Math_Score__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SAT_Reading_Writing__c</field>
+        <formula>Opportunity.z_SAT_Reading_Writing_Score__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SAT_Score__c</field>
+        <formula>Opportunity.z_SAT_Score__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Special_Circumstances_that_impact_high_s__c</field>
+        <formula>TEXT(Opportunity.z_Is_GPA_Accurate_Reflection__c) +&quot;; &quot; + Opportunity.z_Please_Explain_GPA__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>State_of_Legal_Residence__c</field>
+        <formula>TEXT(Opportunity.Z_State_of_Legal_Residence__c)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Statement_of_Interest__c</field>
+        <formula>Opportunity.Z_L_Partner_School_Choice_1__r.Name +&quot; : &quot;+  Opportunity.Z_Partner_School_Choice_1_Why__c +
+
+ Opportunity.Z_L_Partner_School_Choice_2__r.Name +&quot; : &quot;+    Opportunity.Z_Partner_School_Choice_2_Why__c +
+
+ Opportunity.Z_L_Partner_School_Choice_3__r.Name +&quot; : &quot;+   Opportunity.Z_Partner_School_Choice_3_Why__c  +
+
+ Opportunity.Z_L_Partner_School_Choice_4__r.Name +&quot; : &quot;+   Opportunity.Z_Partner_School_Choice_4_Why__c  +
+
+ Opportunity.Z_L_Partner_School_Choice_5__r.Name +&quot; : &quot;+  Opportunity.Z_Partner_School_Choice_5_Why__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Student_Account__c</field>
+        <formula>Opportunity.Account.Id</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Student_Date_of_Birth__c</field>
+        <formula>Opportunity.z_Date_of_Birth__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Student_Email__c</field>
+        <formula>Opportunity.Account.Email__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Student_Graduation_Year__c</field>
+        <formula>TEXT(Opportunity.Z_Year_of_Graduation__c )</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Student_Phone_Number__c</field>
+        <formula>Opportunity.Phone_Number__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Student_Plans_to_Use_Fafsa__c</field>
+        <formula>TEXT(Opportunity.Fafsa__c)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Student_Zip_Code__c</field>
+        <formula>Opportunity.Account.BillingPostalCode</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Students_Address__c</field>
+        <formula>Opportunity.Z_Street_Address__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Students_City__c</field>
+        <formula>Opportunity.z_City__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Students_First_Name__c</field>
+        <formula>Opportunity.Account.First_Name__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Students_High_School__c</field>
+        <formula>Opportunity.z_High_School_Name__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Students_Last_Name__c</field>
+        <formula>Opportunity.Account.Last_Name__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Students_State__c</field>
+        <formula>Opportunity.State__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Visa_Status__c</field>
+        <formula>TEXT(Opportunity.z_Visa_Status__c )</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>When_did_you_Start_High_School__c</field>
+        <formula>Opportunity.Z_When_did_you_start_High_School__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>When_will_you_complete_High_School__c</field>
+        <formula>Opportunity.Z_When_will_you_complete_High_School__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Which_IB_Courses__c</field>
+        <formula>Opportunity.Z_Which_IB_Courses__c</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Years_Living_in_State_of_Residence__c</field>
+        <formula>Opportunity.Z_Years_Living_in_State_of_Residence__c</formula>
+    </fieldOverrides>
+    <label>New College App</label>
+    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>University__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns />
+    </quickActionLayout>
+    <targetObject>College_Application__c</targetObject>
+    <targetParentField>Opportunity__c</targetParentField>
+    <type>Create</type>
+</QuickAction>

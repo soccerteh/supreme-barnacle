@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flights</fullName>
+    <active>true</active>
+    <description>Current RT for Flights</description>
+    <label>Flights</label>
+    <picklistValues>
+        <picklist>Early_Late_Flight_Approval__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undecided</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Train_Arrival_Station__c</picklist>
+        <values>
+            <fullName>Santa Justa Train Station</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

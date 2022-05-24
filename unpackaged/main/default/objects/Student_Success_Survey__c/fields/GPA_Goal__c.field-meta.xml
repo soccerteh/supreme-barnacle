@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GPA_Goal__c</fullName>
+    <externalId>false</externalId>
+    <label>GPA Goal</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>4.0</fullName>
+                <default>false</default>
+                <label>4.0</label>
+            </value>
+            <value>
+                <fullName>3.5 or higher</fullName>
+                <default>false</default>
+                <label>3.5 or higher</label>
+            </value>
+            <value>
+                <fullName>3.0 or higher</fullName>
+                <default>false</default>
+                <label>3.0 or higher</label>
+            </value>
+            <value>
+                <fullName>2.5 or higher</fullName>
+                <default>false</default>
+                <label>2.5 or higher</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

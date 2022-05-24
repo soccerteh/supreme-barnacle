@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicates the type of pathway a student can follow for guaranteed admission to the channel partner school. The pathway may be guaranteed no matter what (Spring Start), or guaranteed only after successful completion of a Verto semester (Scholars). --></help>
+        <label><!-- Channel Subtype --></label>
+        <name>Channel_Subtype__c</name>
+        <picklistValues>
+            <masterLabel>Scholars</masterLabel>
+            <translation><!-- Scholars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spring Start</masterLabel>
+            <translation><!-- Spring Start --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

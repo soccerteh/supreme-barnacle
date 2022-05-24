@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hello&nbsp;{{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+Thank you for taking the time to talk with me and for helping make sure that these important documents get submitted in a timely manner.&nbsp; The items that are outstanding as well as where you can find them in the student portal are listed below.&nbsp;
+<ul>
+	<li><b>COVID-19 Vaccination Card Information</b>
+	<ul>
+		<li>Located under Health and Safety Checklist</li>
+	</ul>
+	</li>
+	<li><b>COVID-19 Vaccination Upload</b>
+	<ul>
+		<li>Located under Health and Safety Checklist</li>
+	</ul>
+	</li>
+	<li><b>Course Registration</b>
+	<ul>
+		<li>Located under Academics</li>
+	</ul>
+	</li>
+	<li><b>Passport Upload</b>
+	<ul>
+		<li>Located under Flights and passport</li>
+	</ul>
+	</li>
+	<li><b>Housing Preference Form</b>
+	<ul>
+		<li>Located under Housing &amp; Roommates</li>
+	</ul>
+	</li>
+	<li><b>Roommate Request Form</b>
+	<ul>
+		<li>Located under Housing &amp; Roommates</li>
+	</ul>
+	</li>
+</ul>
+<br />
+If you need assistance accessing the Checklist, please follow the steps below:
+<ol>
+	<li>Go to the&nbsp;<a href="https://vertoeducation.campusgroups.com/login_only">Student Portal</a> and log in</li>
+	<li>Scroll down until you see <b>My Activity</b></li>
+	<li>Click on <b>My Checklists</b></li>
+</ol>
+If you have any other questions, please let me know!<br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}<br />
+<br />
+{{{Sender.Signature}}}
+</body></html>

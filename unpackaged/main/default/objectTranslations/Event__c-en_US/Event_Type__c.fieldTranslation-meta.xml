@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Event Type --></label>
+        <name>Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Assembly Presentation</masterLabel>
+            <translation><!-- Assembly Presentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Classroom Presentation</masterLabel>
+            <translation><!-- Classroom Presentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>College Fair</masterLabel>
+            <translation><!-- College Fair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Counselor Meeting</masterLabel>
+            <translation><!-- Counselor Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drop-Off</masterLabel>
+            <translation><!-- Drop-Off --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Visit/Student 1:1</masterLabel>
+            <translation><!-- Home Visit/Student 1:1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lunch Visit/High School Visit</masterLabel>
+            <translation><!-- Lunch Visit/High School Visit --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

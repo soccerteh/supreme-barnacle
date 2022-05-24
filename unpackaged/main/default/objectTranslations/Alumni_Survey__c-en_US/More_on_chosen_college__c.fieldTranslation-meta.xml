@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- More on chosen college --></label>
+        <name>More_on_chosen_college__c</name>
+    </CustomFieldTranslation>

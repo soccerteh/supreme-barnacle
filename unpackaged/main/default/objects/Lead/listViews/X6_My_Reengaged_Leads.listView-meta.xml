@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X6_My_Reengaged_Leads</fullName>
+    <booleanFilter>1 AND 2 AND (3 or 5) AND 4</booleanFilter>
+    <columns>LEAD.STATUS</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATE_CODE</columns>
+    <columns>Year_of_Graduation__c</columns>
+    <columns>Associated_Application_Date_Time__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Most_Recent_Call_Date__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Associated_Application__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Marketing Nurture,Unqualified</value>
+    </filters>
+    <filters>
+        <field>Year_of_Graduation__c</field>
+        <operation>equals</operation>
+        <value>2019,2020,2021,2022</value>
+    </filters>
+    <filters>
+        <field>Most_Recent_Call_Date__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Year_of_Graduation__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>1b. My Called Applications</label>
+</ListView>

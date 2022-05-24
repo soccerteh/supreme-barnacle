@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "c868bf91-f889-4d6f-9184-1716a6ccc55f",
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "configurationTags" : [ ],
+  "id" : "156c6622-66ae-4732-afee-90c3cb7ffda3",
+  "label" : "Transportation Accommodation",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-transportation-accommodation",
+  "type" : "route",
+  "urlPrefix" : "TransportationAccommodation"
+}

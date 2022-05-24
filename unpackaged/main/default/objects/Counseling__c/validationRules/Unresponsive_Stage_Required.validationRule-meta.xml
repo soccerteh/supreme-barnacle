@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unresponsive_Stage_Required</fullName>
+    <active>true</active>
+    <description>Requires a value for Unresponsive Stage if the Final Student Decision Status is &#39;Unresponsive&#39;.</description>
+    <errorConditionFormula>AND(
+    !$User.Bypass_Validation__c,
+    ISPICKVAL(Final_Student_Decision_Status__c, &#39;Unresponsive&#39;),
+    ISBLANK(TEXT(Unresponsive_Stage__c))
+)</errorConditionFormula>
+    <errorDisplayField>Unresponsive_Stage__c</errorDisplayField>
+    <errorMessage>An Unresponsive Stage is required.</errorMessage>
+</ValidationRule>

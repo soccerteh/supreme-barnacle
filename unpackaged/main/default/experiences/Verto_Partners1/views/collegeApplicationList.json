@@ -1,0 +1,52 @@
+{
+  "appPageId" : "de408c33-b15c-4263-a366-fefa60038b5f",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "0e7f3880-617f-4316-a598-38d3f1243449",
+  "label" : "College Application List",
+  "regions" : [ {
+    "id" : "a6206f2c-6368-44a5-8780-5c6db818c6a3",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: right;\"><span style=\"color: rgb(0, 0, 0); font-size: 13px;\">Note: Please click the Refresh button below for up to date information (not the refresh button on your browser)</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "148f48bc-69e1-4a7e-a2e9-87ac273ced34",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "height" : "900",
+        "recordId" : "01Z6S000001DfHlUAK"
+      },
+      "componentName" : "forceCommunity:dashboard",
+      "id" : "e705aaf3-e775-4a9c-96b6-aded1c3419f4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "height" : "900",
+        "recordId" : "01Z6S000001DfQAUA0"
+      },
+      "componentName" : "forceCommunity:dashboard",
+      "id" : "3718cc13-77f8-439e-b137-f182dad70763",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "586c88f3-44d1-4c1d-8812-4fe9c8d45800",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "53c80e1f-550a-42e3-9296-9eda800aaa6e",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "zIVtF9hK8W71VGSrOSkyAWssOlzAgB",
+  "type" : "view",
+  "viewType" : "list-a1K"
+}

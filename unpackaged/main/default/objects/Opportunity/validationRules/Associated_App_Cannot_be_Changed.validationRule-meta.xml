@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Associated_App_Cannot_be_Changed</fullName>
+    <active>true</active>
+    <description>The associated app cannot be edited after the opp is created</description>
+    <errorConditionFormula>and(
+$User.Bypass_Validation__c = false,
+
+left( RecordTypeId , 15) = left( $Label.RT_Opp_ChannelEnrollment , 15),
+
+ischanged(Associated_Application__c),
+
+not(isnew())
+)</errorConditionFormula>
+    <errorDisplayField>Associated_Application__c</errorDisplayField>
+    <errorMessage>The Associated Application can&#39;t be changed.</errorMessage>
+</ValidationRule>

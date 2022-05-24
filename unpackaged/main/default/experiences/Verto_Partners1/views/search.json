@@ -1,0 +1,38 @@
+{
+  "appPageId" : "de408c33-b15c-4263-a366-fefa60038b5f",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "0f164704-fb22-4e02-8e38-7c833ea31bb0",
+  "label" : "Search",
+  "regions" : [ {
+    "id" : "e8196c11-f9b6-490e-b4e5-ddf326e34ccd",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "scopes" : [ {
+          "isPublic" : false,
+          "name" : "College_Application__c"
+        } ],
+        "searchResultFiltering" : true,
+        "searchTerm" : "{!term}",
+        "showTopResults" : true
+      },
+      "componentName" : "forceCommunity:search",
+      "id" : "2a4bb777-f713-4f43-bc56-cf16d533786d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "75852de7-cd7b-4143-ac32-523484eacc8a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "ec44f68b-beea-4ee7-afb0-cc8065532d4a",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "global-search"
+}

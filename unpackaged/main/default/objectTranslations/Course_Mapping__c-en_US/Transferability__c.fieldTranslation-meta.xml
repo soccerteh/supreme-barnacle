@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Transferability --></label>
+        <name>Transferability__c</name>
+        <picklistValues>
+            <masterLabel>Does Not Transfer</masterLabel>
+            <translation><!-- Does Not Transfer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfers</masterLabel>
+            <translation><!-- Transfers --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

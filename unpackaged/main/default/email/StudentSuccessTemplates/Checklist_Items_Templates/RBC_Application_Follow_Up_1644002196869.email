@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear&nbsp;{{{Recipient.FirstName}}},&nbsp;<br />
+&nbsp;
+<p>It was great speaking to you during our welcome call. As a reminder, now that you have submitted your application to Richard Bland College (RBC), you will receive an acceptance email in about 2-3 weeks.<br />
+<br />
+Please remember that you will need to submit unofficial transcripts to them. <b>This link is available in your Student Portal under Checklists.</b> If you do not submit transcripts, they will not process your application, so this is mandatory.&nbsp;<br />
+<br />
+<b>Richard Bland College (RBC) Application:&nbsp;</b>If you have received an email with the subject&nbsp;"Richard Bland College of William &amp; Mary: Congrats On Your Acceptance" and it asks&nbsp;you to pay a $75 fee after you click the link to accept, please disregard. You will need to reply to this email and state "I am a Verto student and my advisor told me I do not need to pay this fee."<br />
+<br />
+Once you receive the updated email,&nbsp;<b>you will need to click the link and submit the form to accept your admission.&nbsp;</b></p>
+Looking forward to working with you as we prepare for your upcoming semester with Verto!&nbsp;<br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}<br />
+<br />
+{{{Sender.Signature}}}
+<p>&nbsp;</p>
+
+</body></html>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- &quot;Bridge&quot; indicates that the student must reapply to the partner after they successfully complete a Verto semester. &quot;Guaranteed&quot; indicates that the student does not need to reapply to the partner school in order to attend. --></help>
+        <label><!-- Channel Type --></label>
+        <name>Channel_Type__c</name>
+    </CustomFieldTranslation>

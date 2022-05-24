@@ -1,0 +1,22 @@
+<apex:component >
+    <apex:pageBlock id="error-message">
+        <apex:outputPanel >
+            <div class="small-padding" >
+                <div class="form-header-section">
+                    <h3 class="form-header">Uh-Oh!</h3>
+                </div>
+                <div class="form-header-section">
+                </div>
+                <div class="small-padding">
+                    <section class="section-block">
+                        <div class="row flex-safari-initial">
+                            <div class="col-md-12">
+                                <apex:outputText value="Looks like something went wrong! The site administrators have been notifed." />
+                            </div>
+                        </div>
+                    </section>
+                </div> 
+            </div>
+        </apex:outputPanel>
+    </apex:pageBlock>
+</apex:component>

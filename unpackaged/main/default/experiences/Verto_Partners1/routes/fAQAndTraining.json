@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "e39e961a-5cc9-4830-937f-a93d9d0c7ae9",
+  "appPageId" : "de408c33-b15c-4263-a366-fefa60038b5f",
+  "configurationTags" : [ ],
+  "id" : "72fcb3fe-0930-4dea-87ce-9b63f86b6ca2",
+  "label" : "FAQ and Training",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-faq-and-training",
+  "type" : "route",
+  "urlPrefix" : "faq-and-training"
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Go_Back_After_Deposit_Received</fullName>
+    <active>true</active>
+    <description>Once the opportunity is in or has passed the Deposit Received stage, it can&#39;t return to an earlier stage.</description>
+    <errorConditionFormula>and(
+$User.Bypass_Validation__c = false,
+
+or(
+left( RecordTypeId , 15) = left( $Label.RT_Opp_ChannelEnrollment , 15),
+left( RecordTypeId , 15) = left( $Label.RT_Opp_TraditionalEnrollment , 15),
+left( RecordTypeId , 15) = left( $Label.RT_Opp_Additional_Semester , 15)
+),
+
+or(
+ispickval(priorvalue(StageName), &quot;Deposit Received&quot;),
+ispickval(priorvalue(StageName), &quot;Closed Won&quot;)
+),
+
+or(
+ispickval(StageName, &quot;Admitted&quot;),
+ispickval(StageName, &quot;Decision Ready&quot;),
+ispickval(StageName, &quot;Requirements Gathering&quot;),
+ispickval(StageName, &quot;Family Admissions Call&quot;),
+ispickval(StageName, &quot;Qualified&quot;),
+ispickval(StageName, &quot;Qualification&quot;),
+ispickval(StageName, &quot;Consideration&quot;)
+),
+
+ischanged(StageName)
+)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>Once the opportunity is in or has passed the Deposit Received stage, it can&#39;t return to an earlier stage.</errorMessage>
+</ValidationRule>

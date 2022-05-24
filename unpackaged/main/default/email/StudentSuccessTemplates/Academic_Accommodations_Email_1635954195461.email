@@ -1,0 +1,19 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+To apply for academic accommodations with Richard Bland College, you will need to complete the following:&nbsp;
+<ol>
+	<li>Complete <a href="https://richardblandcollege.formstack.com/forms/disability_services_application">this form</a> <b>or</b> contact RBC's Disability Services by emailing office.ada@rbc.edu.&nbsp;&nbsp;<b>Please note: you will need your RBC student number to complete this application.</b></li>
+	<li>Check your RBC email for a notification from RBC's Disability Services asking to set up an initial meeting</li>
+	<li>Reach out to our Verto Accommodations Manger, Dr. Jennifer Mitchell to let her know you applied for accommodations with RBC.&nbsp; You can contact her by emailing jennifer.mitchell@vertoeducation.org or you can <a href="https://calendly.com/jennifer-mitchell1">schedule a meeting here</a> .&nbsp;</li>
+</ol>
+<br />
+If you have any other questions or concerns about the process, please don't hesitate to let me know!&nbsp;<br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}<br />
+<br />
+{{{Sender.Signature}}}
+</body></html>

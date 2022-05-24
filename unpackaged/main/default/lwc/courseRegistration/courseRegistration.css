@@ -1,0 +1,40 @@
+.container {
+    overflow-y: auto;
+    visibility: visible;
+    min-height: 10vh;
+    max-height: 70vh;
+    border-color: rgba(0, 0, 0, .1);
+    border-width: 1px;
+    border: 1px transparent;
+}
+.container-content, .container:hover, .container:focus { 
+    visibility: visible; 
+}
+
+.slds-card {
+    border: 1px solid #dddbda;
+    
+}
+.slds-card_body {
+    background-color: #F6F6F6;
+}
+.slds-grid, .slds-wrap, .slds-p-around_medium {
+    border: 1px;
+}
+hr {
+    margin: 20px 0;
+}
+.slds-p-around_medium {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid #dddbda;
+}
+:host {
+    background: #F6F6F6;
+  
+}
+.my-tabs {
+    color: green;
+}

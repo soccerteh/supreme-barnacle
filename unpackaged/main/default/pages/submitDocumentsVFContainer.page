@@ -1,0 +1,22 @@
+<apex:page >
+<!-- Begin Default Content REMOVE THIS -->
+<script>
+    $Lightning.use("c:submitDocumentsAuraApp",    // name of the Lightning app
+        function() {                  // Callback once framework and app loaded
+            $Lightning.createComponent(
+                "c:submitDocuments", // top-level component of your app
+                { 
+                    recordId : '{!$CurrentPage.parameters.id}'
+                },                  // attributes to set on the component when created
+                "submitDocumentsElement",   // the DOM location to insert the component
+                function(cmp) {
+                    // callback when component is created and active on the page
+                }
+            );
+        },
+        'https://nick-vertoed.cs125.force.com/SubmitYourDocuments'  // Site endpoint
+    );
+</script>
+<div id="submitDocumentsElement" />
+<!-- End Default Content REMOVE THIS -->
+</apex:page>

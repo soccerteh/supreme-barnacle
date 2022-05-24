@@ -1,0 +1,14 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">Hello&nbsp;{{{Opportunity.First_Name__c}}},&nbsp;<br />
+<br />
+This email is to notify you that an application has been sent to a Verto partner school on your behalf.&nbsp;<br />
+<br />
+Your application has been sent to <span style="color:#c0392b;">[College Counselor Enter Name of School]</span>.&nbsp;<br />
+<br />
+As a reminder, t<span style="font-variant: normal; white-space: pre-wrap;"><span style="color:#212121"><span style="background-color:#ffffff"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">he timeline for receiving an admission decision from your selected schools can vary based on the institution. Be sure to monitor your email inbox for these decisions. </span></span></span></span></span></span></span><span style="font-variant: normal; white-space: pre-wrap;"><span style="font-family:Arial"><span style="color:#212121"><span style="background-color:#ffffff"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">These admissions decisions are non-binding, but contingent on your successful completion of a Verto semester or year.<br />
+<br />
+Should you have any questions, be sure to reach out to your Verto Admissions Counselor, cc'd on this email.<br />
+<br />
+Sincerely, </span></span></span></span></span></span></span></span></body></html>

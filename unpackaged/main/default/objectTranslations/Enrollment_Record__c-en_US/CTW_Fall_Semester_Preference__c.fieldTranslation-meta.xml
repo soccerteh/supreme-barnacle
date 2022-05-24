@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is pulled from the Opportunity and updates if changed on the Opportunity. --></help>
+        <label><!-- CTW Fall Semester Preference --></label>
+        <name>CTW_Fall_Semester_Preference__c</name>
+    </CustomFieldTranslation>

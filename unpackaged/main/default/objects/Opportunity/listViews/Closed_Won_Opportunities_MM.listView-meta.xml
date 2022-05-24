@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Won_Opportunities_MM</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>z_Email__c</columns>
+    <columns>Phone_Number__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>z_Interest_Level__c</columns>
+    <columns>Source__c</columns>
+    <columns>z_Student_Success_Manager__c</columns>
+    <columns>Z_Your_College_and_Career_Goals__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>z_Student_Success_Manager__c</field>
+        <operation>equals</operation>
+        <value>Michaela McGee</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Closed Won (Enrolled)</value>
+    </filters>
+    <filters>
+        <field>Z_Select_your_Starting_Semester__c</field>
+        <operation>equals</operation>
+        <value>Fall 2020,Spring 2021,Fall 2021,Spring 2022</value>
+    </filters>
+    <label>Closed Won Opportunities (MM)</label>
+</ListView>

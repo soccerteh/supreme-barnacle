@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cant_save_view_access_without_details</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ $User.Bypass_Validation__c = False, 
+ Box_View_Access__c = TRUE, 
+OR( 
+ISBLANK(AccountId), 
+ISBLANK( Email )))</errorConditionFormula>
+    <errorMessage>You must enter an Account and an email in order to give this user box access.</errorMessage>
+</ValidationRule>

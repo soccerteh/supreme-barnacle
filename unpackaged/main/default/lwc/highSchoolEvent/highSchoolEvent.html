@@ -1,0 +1,77 @@
+<!--
+  @description       : Prospective students use this form to enter basic contact information. 
+  This is saved as an Inquiry__c object in SFA that is hooked to the related event.
+  Inside of an Aura app container: highSchoolEventAuraContainer.app and that is contained inside a VF page, highSchoolEventVFContainer.page
+  @author            : Thomas E. Hamilton
+  @group             : 
+  @last modified on  : 11-19-2021
+  @last modified by  : Thomas E. Hamilton
+-->
+<template>
+    <div class="header-image">
+        <img src="https://s3.amazonaws.com/files.formstack.com/public/922754/549833_tmpl_head_5ebecac4de0dd." alt="Verto Education Logo" />
+    </div>
+    <div class="form-body">
+        <div class="small-padding">
+            <div class="form-header-section">
+                <h3 class="form-header">Request Additional Information</h3>
+                <p>Start college abroad! This is your time to see the world, learn about yourself, and make epic memories in the
+                    process. With Verto, you'll do all that and more, while staying on track to graduate in 4 years.</p>
+            </div>
+            <div class="form-header-section">
+            </div>
+            <div class="small-padding">
+                <section class="section-block">
+                    <div class="row flex-safari-initial">
+                        <div class="col-md-12">
+                            <div>
+                                <!--Form: Input fields for user-->
+                                <lightning-record-edit-form object-api-name="Inquiry__c">
+                                    <lightning-input label="First Name" class="validate" field-name={firstNameField} onchange={enterFirstName} required="true"></lightning-input>
+                                    <lightning-input label="Last Name" class="validate" field-name={lastNameField} onchange={enterLastName} required="true"></lightning-input>
+                                    <lightning-input label="Email" class="validate" pattern="[A-Za-z0-9._-]+@[A-Za-z0-9-]+\.[A-Za-z]{2,}$" message-when-pattern-mismatch="Please enter a valid email" type="email" field-name={email} onchange={enterEmail} required="true"></lightning-input>
+                                    <p if:false={isLoaded}></p>
+                            
+                                    <div if:true={isLoaded} class="slds-is-relative">
+                                        <lightning-spinner alternative-text="Loading..." variant="brand" size="large">
+                                        </lightning-spinner>
+                                    </div>
+                                    <lightning-input label="Phone Number" class="validate" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}|[0-9]{10}|\([0-9]{3}\)\s[0-9]{3}-[0-9]{4}|[0-9]{3}\s[0-9]{3}\s[0-9]{4}$" message-when-pattern-mismatch="Please enter a valid phone number" field-name={phone} onchange={enterPhone} required="true"></lightning-input>
+                                    <lightning-input-field field-name={country} onchange={enterCountry} required="true"></lightning-input-field>
+                                    <lightning-input label="Zip Code" class="validate" pattern="[0-9]{5}|[0-9]{5}-[0-9]{4}" message-when-pattern-mismatch="Zip code must be in 99999 or 99999-9999 format." field-name={zip} onchange={enterZip} required="true"></lightning-input>
+                                    <lightning-input-field field-name={gradYear} onchange={enterGradYear} required="true"></lightning-input-field>
+                                </lightning-record-edit-form>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Terms & Conditions Checkbox: must be checked before proceeding. Submit button is greyed out until it is checked.-->
+                    <div class="row flex-safari-initial">
+                        <div class="col-sm-12">
+                            <div class="col-sm-1 row-label">
+                                <lightning-input class="termsAndConds" type="checkbox" label="I consent to Verto Education's Terms of Service and Privacy" onchange={termsAndConditions}></lightning-input>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Terms & Conditions Links-->
+                    <div class="row flex-safari-initial">
+                        <div class="col-sm-12">
+                            <div class="col-sm-1 row-label">
+                                <p>Please review Verto's <a href="https://vertoeducation.org/terms-of-service/">Terms of Service</a> and
+                                    <a href="https://vertoeducation.org/privacy-policy/"> Privacy Policy.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <!--Submit Button. Disabled by default-->
+                    <div class="form-group">
+                        <div class="center-block">
+                                <button class="slds-button slds-button_brand" id="submit_button" onclick={saveInquiry} type="button" disabled="enabled">Submit Form</button>
+                                <div class="slds-m-around_large">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</template>

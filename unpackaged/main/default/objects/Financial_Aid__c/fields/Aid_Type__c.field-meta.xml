@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aid_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Aid Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unsubsidized Student Loan</fullName>
+                <default>false</default>
+                <label>Unsubsidized Student Loan</label>
+            </value>
+            <value>
+                <fullName>Federal Pell Grant</fullName>
+                <default>false</default>
+                <label>Federal Pell Grant</label>
+            </value>
+            <value>
+                <fullName>Subsidized Student Loan</fullName>
+                <default>false</default>
+                <label>Subsidized Student Loan</label>
+            </value>
+            <value>
+                <fullName>Parent Plus Loan</fullName>
+                <default>false</default>
+                <label>Parent Plus Loan</label>
+            </value>
+            <value>
+                <fullName>Private Alternative Loan</fullName>
+                <default>false</default>
+                <label>Private Alternative Loan</label>
+            </value>
+            <value>
+                <fullName>Outside_Scholarship</fullName>
+                <default>false</default>
+                <label>Outside Scholarship</label>
+            </value>
+            <value>
+                <fullName>Student Loan - LEGACY</fullName>
+                <default>false</default>
+                <label>Student Loan - LEGACY</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

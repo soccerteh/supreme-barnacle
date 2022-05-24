@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revenue_Ops_Case_Topic__c</fullName>
+    <externalId>false</externalId>
+    <label>Revenue Ops Case Topic</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Question</fullName>
+                <default>false</default>
+                <label>Question</label>
+            </value>
+            <value>
+                <fullName>Bug</fullName>
+                <default>false</default>
+                <label>Bug</label>
+            </value>
+            <value>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+                <label>Feature Request</label>
+            </value>
+            <value>
+                <fullName>Upcoming Sprint Request</fullName>
+                <default>false</default>
+                <label>Upcoming Sprint Request</label>
+            </value>
+            <value>
+                <fullName>New Hire Request</fullName>
+                <default>false</default>
+                <label>New Hire Request</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Technology Idea/Request</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Technology Idea/Request</label>
+            </value>
+            <value>
+                <fullName>Technology Issue</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Technology Issue</label>
+            </value>
+            <value>
+                <fullName>Technology Question</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Technology Question</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

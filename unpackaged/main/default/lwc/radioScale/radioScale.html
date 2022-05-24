@@ -1,0 +1,20 @@
+<!-- sldsValidatorIgnore -->
+<template>
+	<fieldset class="slds-form-element">
+		<legend class="slds-form-element__legend slds-form-element__label">
+			<abbr class="slds-required" title={label}>*</abbr>
+			{label}
+		</legend>
+		<div class="slds-form-element__control">
+			<template for:each={options} for:item="option"> 
+				<span class="slds-radio radio-scale slds-m-horizontal_xxx-small" key={option.Id}>
+					<input type="radio" id={option.Id} value={option.Value} name={label} checked={option.Checked} required onchange={setValue}/>
+					<label class="slds-radio__label" for={option.Id}>
+						<span class="slds-radio_faux"></span>
+						<span class="slds-form-element__label">{option.Label}</span>
+					</label>
+				</span>
+			</template>
+		</div>
+	</fieldset>
+</template>

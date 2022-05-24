@@ -1,0 +1,34 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Dear&nbsp;{{{Recipient.FirstName}}},&nbsp;<br />
+&nbsp;
+<p>We have received your student information from Richard Bland College.&nbsp; Please use the information below to create your student account and set up your email.&nbsp; If an email address is not listed, you will be able to retrieve it by following the steps to set up your Student Account.&nbsp;<br />
+&nbsp;</p>
+
+<p>This is your Richard Bland College student information:&nbsp;</p>
+
+<ul>
+	<li><b>R Number:&nbsp;</b>{{{Enrollment_Record__c.Student_ID_SoR__c}}}</li>
+	<li><b>RBC Email:&nbsp;</b>{{{Enrollment_Record__c.School_of_Record_Email__c}}}</li>
+</ul>
+
+<p><br />
+To set up your Student Account:&nbsp;</p>
+
+<ul>
+	<li><b>Step 1:</b> Open your preferred web browser and go to <b><a href="https://rbc.edu">rbc.edu</a></b>.&nbsp; Click on the "<b>Info For</b>" arrow, which is next to the apply button.&nbsp;&nbsp;</li>
+	<li><b>Step 2:&nbsp;</b>Click "<b>Banner</b>" and create your Banner account by entering your <b>R Number and PIN </b>(<i>your six-digit date of birth</i>).&nbsp; You will be prompted to create a new PIN.&nbsp; (<i>NOTE: Some students have had trouble when creating their new PIN.&nbsp; A way to bypass this problem is to use the same PIN (your six-digit date of birth) again when creating the new one</i>. (See <b><a href="https://vimeo.com/427830431">this video</a></b>&nbsp;for more about Banner)).</li>
+	<li><b>Step 3:&nbsp;</b>Return to the "Info For" tab and click on the <b>Statesman Mail</b> link under "Statesman" (middle column, second from the top).&nbsp;&nbsp;</li>
+	<li><b>Step 4:&nbsp;</b>Enter your <b>User Name</b> (your RBC email address) and<b> Create a New Password</b> (<i>current password is your R# plus ! plus the lowercase first letter of your last name.&nbsp; For example, if your name is John Smith and your R# is R001234, your password would be R001234!s</i>).&nbsp; Then click <b>Sign In</b>.&nbsp;</li>
+</ul>
+<b>If you have any difficulty setting up your RBC account, reach out to the Richard Bland help desk by calling 804-862-6401.&nbsp;</b><br />
+<br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}<br />
+<br />
+{{{Sender.Signature}}}
+<p>&nbsp;</p>
+
+</body></html>

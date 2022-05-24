@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program_Must_be_Populated</fullName>
+    <active>true</active>
+    <errorConditionFormula>and(
+$User.Bypass_Validation__c = false,
+
+isblank( Program__c ),
+
+or(isnew(),
+ischanged( Program__c )
+)
+)</errorConditionFormula>
+    <errorDisplayField>Program__c</errorDisplayField>
+    <errorMessage>The Program field must always be filled.</errorMessage>
+</ValidationRule>

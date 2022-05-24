@@ -1,0 +1,38 @@
+{
+  "appPageId" : "343e1c50-9b03-4e63-98c9-c932e5e44c31",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "762f61c0-90c4-4f74-830b-19790337007f",
+  "label" : "Enrollment Record Related List",
+  "regions" : [ {
+    "id" : "16de6cf1-f2f1-4837-b52f-b357794d2916",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "915a37cd-4468-47fd-a710-8443565bd839",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f9aea3e5-92ed-48a2-b6bb-1ae26224713b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "66e5a309-747e-4fb7-a958-ef5d28101b6c",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-a17"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Academic Provider Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Academic Provider Mappings</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Academic Provider Mapping Layout</layout>
+        <sections>
+            <label><!-- Academic Provider Related Course Information --></label>
+            <section>Academic Provider Related Course Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>School of Record Mapping Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Add_Course_Mapping --></label>
+        <name>Add_Course_Mapping</name>
+    </webLinks>
+</CustomObjectTranslation>

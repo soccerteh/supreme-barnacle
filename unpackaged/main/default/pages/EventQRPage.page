@@ -1,0 +1,37 @@
+<apex:page standardController="Event__c" sidebar="false" showheader="false" applyHtmlTag="false" renderAs="pdf" contentType="application/pdf#Event QR Page.pdf">
+    <html>
+        <head>
+            <title></title>
+        </head>
+    </html>
+    <style type="text/css">
+        @page {
+            size: portrait;
+            margin: 0.1in;
+            border: 2px solid black;
+            @top-center {
+                content: element(header);
+            }
+            @bottom-center {
+                content: element(footer);
+            }
+            div.header {
+                position: running(header);
+            }
+        }
+        body {
+            margin: 0%;
+            padding: 0%;
+        }
+
+    </style>
+    <body>
+        <div class="header" style="text-align:center;">
+            <apex:image url="{!$Resource.logo}" width="350" height="350" alt="Logo"/>
+        </div>
+        <div style="text-align:center;">
+            <h1>Scan to learn more about starting college abroad!</h1>
+            <apex:outputText value="{!Event__c.Event_QR_Code__c}" escape="false"/>
+        </div>
+    </body>
+</apex:page>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>53.0</apiVersion>
+    <assignments>
+        <name>Assign_Final_1_1_Values</name>
+        <label>Assign Final 1:1 Values</label>
+        <locationX>578</locationX>
+        <locationY>431</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Due_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>FinalCheckpoint_DueDate</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Initial_1_1_Values</name>
+        <label>Assign Initial 1:1 Values</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Due_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>InitialCheckpoint_DueDate</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Mid_Semester_1_1_Values</name>
+        <label>Assign Mid-Semester 1:1 Values</label>
+        <locationX>314</locationX>
+        <locationY>431</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Due_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>MidSemesterCheckpoint_DueDate</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>Determine_Checkpoint_Type</name>
+        <label>Determine Checkpoint Type</label>
+        <locationX>446</locationX>
+        <locationY>311</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Initial_1_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Initial 1:1</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Initial_1_1_Values</targetReference>
+            </connector>
+            <label>Initial 1:1</label>
+        </rules>
+        <rules>
+            <name>Mid_Semester_1_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Mid-Semester 1:1</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Mid_Semester_1_1_Values</targetReference>
+            </connector>
+            <label>Mid-Semester 1:1</label>
+        </rules>
+        <rules>
+            <name>Final_1_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Final 1:1</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Final_1_1_Values</targetReference>
+            </connector>
+            <label>Final 1:1</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <name>FinalCheckpoint_DueDate</name>
+        <dataType>Date</dataType>
+        <expression>{!Program_EndDate} - 21</expression>
+    </formulas>
+    <formulas>
+        <name>InitialCheckpoint_DueDate</name>
+        <dataType>Date</dataType>
+        <expression>{!Program_StartDate} + 21</expression>
+    </formulas>
+    <formulas>
+        <name>MidSemesterCheckpoint_DueDate</name>
+        <dataType>Date</dataType>
+        <expression>{!Program_StartDate} + 55</expression>
+    </formulas>
+    <formulas>
+        <name>Program_EndDate</name>
+        <dataType>Date</dataType>
+        <expression>{!$Record.Enrollment_Record__r.Program__r.Program_End_Date__c}</expression>
+    </formulas>
+    <formulas>
+        <name>Program_StartDate</name>
+        <dataType>Date</dataType>
+        <expression>{!$Record.Enrollment_Record__r.Program__r.Program_Start_Date__c}</expression>
+    </formulas>
+    <interviewLabel>Set Default Checkpoint Meetings {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Set Default Checkpoint Meetings</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>320</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Determine_Checkpoint_Type</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>Type__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Initial 1:1</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Type__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Mid-Semester 1:1</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Type__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Final 1:1</stringValue>
+            </value>
+        </filters>
+        <object>Checkpoint__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

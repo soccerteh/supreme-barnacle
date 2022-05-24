@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- I&apos;d like help deciding on a major --></label>
+        <name>Id_like_help_deciding_on_a_major__c</name>
+    </CustomFieldTranslation>

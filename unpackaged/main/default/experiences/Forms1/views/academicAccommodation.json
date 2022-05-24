@@ -1,0 +1,49 @@
+{
+  "appPageId" : "81b23b67-9300-4e85-9dd3-4db0997ab9ba",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "235c2561-2d92-4220-8ede-491422a2ae0f",
+  "label" : "AcademicAccommodation",
+  "regions" : [ {
+    "id" : "979ecd2c-78e4-4240-95a7-9e7307b6077b",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[{\"label\":\"Account_Id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!aid}\"},{\"label\":\"Program_Id\",\"dataType\":\"String\",\"supportsRecordId\":false,\"value\":\"{!program}\"}]",
+        "flowLayout" : "oneColumn",
+        "flowName" : "Academic_Accommodation_Form"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "e6849870-f27e-4191-89ba-d88714e1513b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3c265602-ecf6-4dc0-9bbe-db44f74dd647",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "47d75442-c874-4758-b0e0-5b91df95e461",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "AcademicAccommodation"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b8397c8a-d53e-40b7-8dfc-8992f165c168",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e0ceeabe-53dd-49f2-9b73-f31ec4491738",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-academicaccommodation"
+}

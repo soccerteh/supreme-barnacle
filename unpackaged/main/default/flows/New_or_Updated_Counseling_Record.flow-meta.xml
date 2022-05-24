@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <decisions>
+        <name>New_or_Updated_Counseling</name>
+        <label>New or Updated Counseling</label>
+        <locationX>182</locationX>
+        <locationY>311</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Counseling_Status_is_Withdrew_or_Dismissed</name>
+            <conditionLogic>1 AND (2 OR 3)</conditionLogic>
+            <conditions>
+                <leftValueReference>isStatusChanged</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Counseling_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Withdrew</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Counseling_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Dismissed</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_the_Stage_Withdrew_or_Dismissed</targetReference>
+            </connector>
+            <label>Counseling Status is Withdrew or Dismissed</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <name>CounselingName</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Student_s_Account__r.Name} + &#39; &#39; + TEXT(DATEVALUE({!$Record.CreatedDate})) + &#39; - &#39; + {!$Record.RecordType.Name}</expression>
+    </formulas>
+    <formulas>
+        <description>Determines if the Counseling Status was updated</description>
+        <name>isStatusChanged</name>
+        <dataType>Boolean</dataType>
+        <expression>ISCHANGED({!$Record.Counseling_Status__c})</expression>
+    </formulas>
+    <interviewLabel>New or Updated Counseling Record {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>New or Updated Counseling Record</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Set_the_Stage_Withdrew_or_Dismissed</name>
+        <label>Set the Stage Withdrew or Dismissed</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <inputAssignments>
+            <field>Stage_Withdrew_or_Dismissed__c</field>
+            <value>
+                <elementReference>$Record__Prior.Counseling_Status__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>New_or_Updated_Counseling</targetReference>
+        </connector>
+        <object>Counseling__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

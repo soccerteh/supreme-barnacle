@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>College_Application__c$University__c</field>
+    </columns>
+    <columns>
+        <field>College_Application__c$College_Application_Owner__c</field>
+    </columns>
+    <columns>
+        <field>College_Application__c$Name</field>
+    </columns>
+    <columns>
+        <field>College_Application__c$Semester_Applying_to_Partner__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>College_Application__c$Application_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Review Complete</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>College_Application__c$Counseling__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Ready for PROC Review</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>College_Applications_Custom__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>College_Application__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

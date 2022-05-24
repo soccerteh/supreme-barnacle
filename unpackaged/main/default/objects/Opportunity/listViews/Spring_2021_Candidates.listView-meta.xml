@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Spring_2021_Candidates</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Z_Year_of_Graduation__c</columns>
+    <columns>z_High_School_GPA__c</columns>
+    <columns>TempGPA__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Closed Won (Enrolled)</value>
+    </filters>
+    <filters>
+        <field>Z_Select_your_Starting_Semester__c</field>
+        <operation>equals</operation>
+        <value>Spring 2021,Fall 2021</value>
+    </filters>
+    <filters>
+        <field>College_Counselor__c</field>
+        <operation>equals</operation>
+        <value>Erika Strauss-Cacsire</value>
+    </filters>
+    <label>Spring 2021 Candidates</label>
+</ListView>

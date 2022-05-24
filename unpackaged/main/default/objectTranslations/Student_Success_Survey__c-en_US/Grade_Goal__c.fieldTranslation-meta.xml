@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Grade Goal --></label>
+        <name>Grade_Goal__c</name>
+        <picklistValues>
+            <masterLabel>No grade below a B</masterLabel>
+            <translation><!-- No grade below a B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No grade below a C</masterLabel>
+            <translation><!-- No grade below a C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No grade below a D</masterLabel>
+            <translation><!-- No grade below a D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Straight As</masterLabel>
+            <translation><!-- Straight As --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

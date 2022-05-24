@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Withdrawal_Request</fullName>
+    <active>true</active>
+    <label>Withdrawal Request</label>
+    <picklistValues>
+        <picklist>Internal_Staff_Notified__c</picklist>
+        <values>
+            <fullName>Academic Success Coach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Admissions Counselor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Counselor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No%2C I have not spoken with anyone about my intent to withdraw</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professor%28s%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Program Leader</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Life Coordinator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student Onboarding Advisor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason__c</picklist>
+        <values>
+            <fullName>An unforeseen health issue has come up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I cannot afford Verto at this time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I had a poor experience with Verto Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%27m no longer interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%27ve made other college plans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>My parents are not on board with Verto Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verto does not seem like the right fit for me</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

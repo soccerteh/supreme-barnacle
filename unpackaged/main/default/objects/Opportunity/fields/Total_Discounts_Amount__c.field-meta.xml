@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Discounts_Amount__c</fullName>
+    <description>The sum of the discounts given to the student</description>
+    <externalId>false</externalId>
+    <formula>Pay_in_Full_Discount__c + Early_Enrollment_Discount_Amount__c +  Prior_Pricing_Discount__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The sum of the discounts given to the student (Pay in Full + Early Enrollment + Prior Pricing)</inlineHelpText>
+    <label>Total Discounts Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

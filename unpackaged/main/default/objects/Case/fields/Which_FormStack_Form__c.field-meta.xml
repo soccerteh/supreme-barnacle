@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Which_FormStack_Form__c</fullName>
+    <externalId>false</externalId>
+    <label>Which FormStack Form</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Change the World Application</fullName>
+                <default>false</default>
+                <label>Change the World Application</label>
+            </value>
+            <value>
+                <fullName>College Planning Form</fullName>
+                <default>false</default>
+                <label>College Planning Form</label>
+            </value>
+            <value>
+                <fullName>Enrollment Form</fullName>
+                <default>false</default>
+                <label>Enrollment Form</label>
+            </value>
+            <value>
+                <fullName>Financial Appeals Form</fullName>
+                <default>false</default>
+                <label>Financial Appeals Form</label>
+            </value>
+            <value>
+                <fullName>Opportunity Grant Application</fullName>
+                <default>false</default>
+                <label>Opportunity Grant Application</label>
+            </value>
+            <value>
+                <fullName>Student Application (Page 1 and 2)</fullName>
+                <default>false</default>
+                <label>Student Application (Page 1 and 2)</label>
+            </value>
+            <value>
+                <fullName>Submit Your Documents</fullName>
+                <default>false</default>
+                <label>Submit Your Documents</label>
+            </value>
+            <value>
+                <fullName>Withdrawal Form</fullName>
+                <default>false</default>
+                <label>Withdrawal Form</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

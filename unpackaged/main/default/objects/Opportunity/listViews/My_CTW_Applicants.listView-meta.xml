@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_CTW_Applicants</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>z_Email__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <columns>z_High_School_GPA__c</columns>
+    <columns>Z_Year_of_Graduation__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>z_CTW_Interest__c</field>
+        <operation>equals</operation>
+        <value>Yes</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Closed Lost</value>
+    </filters>
+    <filters>
+        <field>Z_Year_of_Graduation__c</field>
+        <operation>notEqual</operation>
+        <value>2022,2023,2024,2025</value>
+    </filters>
+    <label>My CTW Applicants</label>
+    <sharedTo>
+        <roleAndSubordinates>COO</roleAndSubordinates>
+    </sharedTo>
+</ListView>

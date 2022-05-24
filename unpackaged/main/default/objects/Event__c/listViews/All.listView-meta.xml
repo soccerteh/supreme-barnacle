@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Counselor__c</columns>
+    <columns>High_School__c</columns>
+    <columns>Event_Type__c</columns>
+    <columns>Event_Status__c</columns>
+    <columns>Event_Start__c</columns>
+    <columns>Event_End__c</columns>
+    <columns>Virtual_Event__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Event_Type__c</field>
+        <operation>equals</operation>
+        <value>Assembly Presentation,Classroom Presentation,College Fair,Counselor Meeting,Home Visit/Student 1:1,Lunch Visit/High School Visit</value>
+    </filters>
+    <filters>
+        <field>Event_Start__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>9/1/2021 12:00 AM</value>
+    </filters>
+    <label>All</label>
+</ListView>

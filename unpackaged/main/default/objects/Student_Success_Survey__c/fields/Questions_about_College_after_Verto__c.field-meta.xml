@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Questions_about_College_after_Verto__c</fullName>
+    <description>What questions do you have regarding college and/or college transfer after Verto? What would you like to learn more about?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What questions do you have regarding college and/or college transfer after Verto? What would you like to learn more about?</inlineHelpText>
+    <label>Questions about College after Verto</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

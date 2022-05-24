@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Counseling Status --></label>
+        <name>Counseling_Status__c</name>
+        <picklistValues>
+            <masterLabel>Applications Sent</masterLabel>
+            <translation><!-- Applications Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Committing</masterLabel>
+            <translation><!-- Committing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Counselor Research</masterLabel>
+            <translation><!-- Counselor Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decisions Received</masterLabel>
+            <translation><!-- Decisions Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dismissed</masterLabel>
+            <translation><!-- Dismissed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation><!-- On Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outreached</masterLabel>
+            <translation><!-- Outreached --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student Decision-making</masterLabel>
+            <translation><!-- Student Decision-making --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student Research &amp; Docs</masterLabel>
+            <translation><!-- Student Research &amp; Docs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waived</masterLabel>
+            <translation><!-- Waived --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Welcome Call Scheduled</masterLabel>
+            <translation><!-- Welcome Call Scheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrew</masterLabel>
+            <translation><!-- Withdrew --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Accounting</fullName>
+        <default>false</default>
+        <label>Accounting</label>
+    </customValue>
+    <customValue>
+        <fullName>Actuarial Science</fullName>
+        <default>false</default>
+        <label>Actuarial Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Advertising</fullName>
+        <default>false</default>
+        <label>Advertising</label>
+    </customValue>
+    <customValue>
+        <fullName>Aerospace Engineering</fullName>
+        <default>false</default>
+        <label>Aerospace Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>African-American Studies</fullName>
+        <default>false</default>
+        <label>African-American Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>African Languages, Literatures, and Linguistics</fullName>
+        <default>false</default>
+        <label>African Languages, Literatures, and Linguistics</label>
+    </customValue>
+    <customValue>
+        <fullName>African Studies</fullName>
+        <default>false</default>
+        <label>African Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Agricultural/Biological Engineering and Bioengineering</fullName>
+        <default>false</default>
+        <label>Agricultural/Biological Engineering and Bioengineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Agricultural Business and Management</fullName>
+        <default>false</default>
+        <label>Agricultural Business and Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Agricultural Economics</fullName>
+        <default>false</default>
+        <label>Agricultural Economics</label>
+    </customValue>
+    <customValue>
+        <fullName>Agricultural Education</fullName>
+        <default>false</default>
+        <label>Agricultural Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Agricultural Journalism</fullName>
+        <default>false</default>
+        <label>Agricultural Journalism</label>
+    </customValue>
+    <customValue>
+        <fullName>Agricultural Mechanization</fullName>
+        <default>false</default>
+        <label>Agricultural Mechanization</label>
+    </customValue>
+    <customValue>
+        <fullName>Agricultural Technology Management</fullName>
+        <default>false</default>
+        <label>Agricultural Technology Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Agriculture</fullName>
+        <default>false</default>
+        <label>Agriculture</label>
+    </customValue>
+    <customValue>
+        <fullName>Agronomy and Crop Science</fullName>
+        <default>false</default>
+        <label>Agronomy and Crop Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Air Traffic Control</fullName>
+        <default>false</default>
+        <label>Air Traffic Control</label>
+    </customValue>
+    <customValue>
+        <fullName>American History</fullName>
+        <default>false</default>
+        <label>American History</label>
+    </customValue>
+    <customValue>
+        <fullName>American Literature</fullName>
+        <default>false</default>
+        <label>American Literature</label>
+    </customValue>
+    <customValue>
+        <fullName>American Sign Language</fullName>
+        <default>false</default>
+        <label>American Sign Language</label>
+    </customValue>
+    <customValue>
+        <fullName>American Studies</fullName>
+        <default>false</default>
+        <label>American Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Anatomy</fullName>
+        <default>false</default>
+        <label>Anatomy</label>
+    </customValue>
+    <customValue>
+        <fullName>Ancient Studies</fullName>
+        <default>false</default>
+        <label>Ancient Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Animal Behavior and Ethology</fullName>
+        <default>false</default>
+        <label>Animal Behavior and Ethology</label>
+    </customValue>
+    <customValue>
+        <fullName>Animal Science</fullName>
+        <default>false</default>
+        <label>Animal Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Animation and Special Effects</fullName>
+        <default>false</default>
+        <label>Animation and Special Effects</label>
+    </customValue>
+    <customValue>
+        <fullName>Anthropology</fullName>
+        <default>false</default>
+        <label>Anthropology</label>
+    </customValue>
+    <customValue>
+        <fullName>Applied Mathematics</fullName>
+        <default>false</default>
+        <label>Applied Mathematics</label>
+    </customValue>
+    <customValue>
+        <fullName>Aquaculture</fullName>
+        <default>false</default>
+        <label>Aquaculture</label>
+    </customValue>
+    <customValue>
+        <fullName>Aquatic Biology</fullName>
+        <default>false</default>
+        <label>Aquatic Biology</label>
+    </customValue>
+    <customValue>
+        <fullName>Arabic</fullName>
+        <default>false</default>
+        <label>Arabic</label>
+    </customValue>
+    <customValue>
+        <fullName>Archeology</fullName>
+        <default>false</default>
+        <label>Archeology</label>
+    </customValue>
+    <customValue>
+        <fullName>Architectural Engineering</fullName>
+        <default>false</default>
+        <label>Architectural Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Architectural History</fullName>
+        <default>false</default>
+        <label>Architectural History</label>
+    </customValue>
+    <customValue>
+        <fullName>Architecture</fullName>
+        <default>false</default>
+        <label>Architecture</label>
+    </customValue>
+    <customValue>
+        <fullName>Art</fullName>
+        <default>false</default>
+        <label>Art</label>
+    </customValue>
+    <customValue>
+        <fullName>Art Education</fullName>
+        <default>false</default>
+        <label>Art Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Art History</fullName>
+        <default>false</default>
+        <label>Art History</label>
+    </customValue>
+    <customValue>
+        <fullName>Artificial Intelligence and Robotics</fullName>
+        <default>false</default>
+        <label>Artificial Intelligence and Robotics</label>
+    </customValue>
+    <customValue>
+        <fullName>Art Therapy</fullName>
+        <default>false</default>
+        <label>Art Therapy</label>
+    </customValue>
+    <customValue>
+        <fullName>Asian-American Studies</fullName>
+        <default>false</default>
+        <label>Asian-American Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Astronomy</fullName>
+        <default>false</default>
+        <label>Astronomy</label>
+    </customValue>
+    <customValue>
+        <fullName>Astrophysics</fullName>
+        <default>false</default>
+        <label>Astrophysics</label>
+    </customValue>
+    <customValue>
+        <fullName>Athletic Training</fullName>
+        <default>false</default>
+        <label>Athletic Training</label>
+    </customValue>
+    <customValue>
+        <fullName>Atmospheric Science</fullName>
+        <default>false</default>
+        <label>Atmospheric Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Automotive Engineering</fullName>
+        <default>false</default>
+        <label>Automotive Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Aviation</fullName>
+        <default>false</default>
+        <label>Aviation</label>
+    </customValue>
+    <customValue>
+        <fullName>Bakery Science</fullName>
+        <default>false</default>
+        <label>Bakery Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Biblical Studies</fullName>
+        <default>false</default>
+        <label>Biblical Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Biochemistry</fullName>
+        <default>false</default>
+        <label>Biochemistry</label>
+    </customValue>
+    <customValue>
+        <fullName>Bioethics</fullName>
+        <default>false</default>
+        <label>Bioethics</label>
+    </customValue>
+    <customValue>
+        <fullName>Biology</fullName>
+        <default>false</default>
+        <label>Biology</label>
+    </customValue>
+    <customValue>
+        <fullName>Biomedical Engineering</fullName>
+        <default>false</default>
+        <label>Biomedical Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Biomedical Science</fullName>
+        <default>false</default>
+        <label>Biomedical Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Biopsychology</fullName>
+        <default>false</default>
+        <label>Biopsychology</label>
+    </customValue>
+    <customValue>
+        <fullName>Biotechnology</fullName>
+        <default>false</default>
+        <label>Biotechnology</label>
+    </customValue>
+    <customValue>
+        <fullName>Botany/Plant Biology</fullName>
+        <default>false</default>
+        <label>Botany/Plant Biology</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Administration/Management</fullName>
+        <default>false</default>
+        <label>Business Administration/Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Communications</fullName>
+        <default>false</default>
+        <label>Business Communications</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Education</fullName>
+        <default>false</default>
+        <label>Business Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Canadian Studies</fullName>
+        <default>false</default>
+        <label>Canadian Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Caribbean Studies</fullName>
+        <default>false</default>
+        <label>Caribbean Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Cell Biology</fullName>
+        <default>false</default>
+        <label>Cell Biology</label>
+    </customValue>
+    <customValue>
+        <fullName>Ceramic Engineering</fullName>
+        <default>false</default>
+        <label>Ceramic Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Ceramics</fullName>
+        <default>false</default>
+        <label>Ceramics</label>
+    </customValue>
+    <customValue>
+        <fullName>Chemical Engineering</fullName>
+        <default>false</default>
+        <label>Chemical Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Chemical Physics</fullName>
+        <default>false</default>
+        <label>Chemical Physics</label>
+    </customValue>
+    <customValue>
+        <fullName>Chemistry</fullName>
+        <default>false</default>
+        <label>Chemistry</label>
+    </customValue>
+    <customValue>
+        <fullName>Child Care</fullName>
+        <default>false</default>
+        <label>Child Care</label>
+    </customValue>
+    <customValue>
+        <fullName>Child Development</fullName>
+        <default>false</default>
+        <label>Child Development</label>
+    </customValue>
+    <customValue>
+        <fullName>Chinese</fullName>
+        <default>false</default>
+        <label>Chinese</label>
+    </customValue>
+    <customValue>
+        <fullName>Chiropractic</fullName>
+        <default>false</default>
+        <label>Chiropractic</label>
+    </customValue>
+    <customValue>
+        <fullName>Church Music</fullName>
+        <default>false</default>
+        <label>Church Music</label>
+    </customValue>
+    <customValue>
+        <fullName>Cinematography and Film/Video Production</fullName>
+        <default>false</default>
+        <label>Cinematography and Film/Video Production</label>
+    </customValue>
+    <customValue>
+        <fullName>Circulation Technology</fullName>
+        <default>false</default>
+        <label>Circulation Technology</label>
+    </customValue>
+    <customValue>
+        <fullName>Civil Engineering</fullName>
+        <default>false</default>
+        <label>Civil Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Classics</fullName>
+        <default>false</default>
+        <label>Classics</label>
+    </customValue>
+    <customValue>
+        <fullName>Clinical Psychology</fullName>
+        <default>false</default>
+        <label>Clinical Psychology</label>
+    </customValue>
+    <customValue>
+        <fullName>Cognitive Psychology</fullName>
+        <default>false</default>
+        <label>Cognitive Psychology</label>
+    </customValue>
+    <customValue>
+        <fullName>Communication Disorders</fullName>
+        <default>false</default>
+        <label>Communication Disorders</label>
+    </customValue>
+    <customValue>
+        <fullName>Communications Studies/Speech Communication and Rhetoric</fullName>
+        <default>false</default>
+        <label>Communications Studies/Speech Communication and Rhetoric</label>
+    </customValue>
+    <customValue>
+        <fullName>Comparative Literature</fullName>
+        <default>false</default>
+        <label>Comparative Literature</label>
+    </customValue>
+    <customValue>
+        <fullName>Computer and Information Science</fullName>
+        <default>false</default>
+        <label>Computer and Information Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Computer Engineering</fullName>
+        <default>false</default>
+        <label>Computer Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Computer Graphics</fullName>
+        <default>false</default>
+        <label>Computer Graphics</label>
+    </customValue>
+    <customValue>
+        <fullName>Computer Systems Analysis</fullName>
+        <default>false</default>
+        <label>Computer Systems Analysis</label>
+    </customValue>
+    <customValue>
+        <fullName>Construction Management</fullName>
+        <default>false</default>
+        <label>Construction Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Counseling</fullName>
+        <default>false</default>
+        <label>Counseling</label>
+    </customValue>
+    <customValue>
+        <fullName>Crafts</fullName>
+        <default>false</default>
+        <label>Crafts</label>
+    </customValue>
+    <customValue>
+        <fullName>Creative Writing</fullName>
+        <default>false</default>
+        <label>Creative Writing</label>
+    </customValue>
+    <customValue>
+        <fullName>Criminal Science</fullName>
+        <default>false</default>
+        <label>Criminal Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Criminology</fullName>
+        <default>false</default>
+        <label>Criminology</label>
+    </customValue>
+    <customValue>
+        <fullName>Culinary Arts</fullName>
+        <default>false</default>
+        <label>Culinary Arts</label>
+    </customValue>
+    <customValue>
+        <fullName>Dance</fullName>
+        <default>false</default>
+        <label>Dance</label>
+    </customValue>
+    <customValue>
+        <fullName>Data Processing</fullName>
+        <default>false</default>
+        <label>Data Processing</label>
+    </customValue>
+    <customValue>
+        <fullName>Dental Hygiene</fullName>
+        <default>false</default>
+        <label>Dental Hygiene</label>
+    </customValue>
+    <customValue>
+        <fullName>Developmental Psychology</fullName>
+        <default>false</default>
+        <label>Developmental Psychology</label>
+    </customValue>
+    <customValue>
+        <fullName>Diagnostic Medical Sonography</fullName>
+        <default>false</default>
+        <label>Diagnostic Medical Sonography</label>
+    </customValue>
+    <customValue>
+        <fullName>Dietetics</fullName>
+        <default>false</default>
+        <label>Dietetics</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Communications and Media/Multimedia</fullName>
+        <default>false</default>
+        <label>Digital Communications and Media/Multimedia</label>
+    </customValue>
+    <customValue>
+        <fullName>Drawing</fullName>
+        <default>false</default>
+        <label>Drawing</label>
+    </customValue>
+    <customValue>
+        <fullName>Early Childhood Education</fullName>
+        <default>false</default>
+        <label>Early Childhood Education</label>
+    </customValue>
+    <customValue>
+        <fullName>East Asian Studies</fullName>
+        <default>false</default>
+        <label>East Asian Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>East European Studies</fullName>
+        <default>false</default>
+        <label>East European Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Ecology</fullName>
+        <default>false</default>
+        <label>Ecology</label>
+    </customValue>
+    <customValue>
+        <fullName>Economics</fullName>
+        <default>false</default>
+        <label>Economics</label>
+    </customValue>
+    <customValue>
+        <fullName>Education</fullName>
+        <default>false</default>
+        <label>Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Education Administration</fullName>
+        <default>false</default>
+        <label>Education Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>Educational Psychology</fullName>
+        <default>false</default>
+        <label>Educational Psychology</label>
+    </customValue>
+    <customValue>
+        <fullName>Education of the Deaf</fullName>
+        <default>false</default>
+        <label>Education of the Deaf</label>
+    </customValue>
+    <customValue>
+        <fullName>Electrical Engineering</fullName>
+        <default>false</default>
+        <label>Electrical Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Elementary Education</fullName>
+        <default>false</default>
+        <label>Elementary Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Engineering Mechanics</fullName>
+        <default>false</default>
+        <label>Engineering Mechanics</label>
+    </customValue>
+    <customValue>
+        <fullName>Engineering Physics</fullName>
+        <default>false</default>
+        <label>Engineering Physics</label>
+    </customValue>
+    <customValue>
+        <fullName>English</fullName>
+        <default>false</default>
+        <label>English</label>
+    </customValue>
+    <customValue>
+        <fullName>English Composition</fullName>
+        <default>false</default>
+        <label>English Composition</label>
+    </customValue>
+    <customValue>
+        <fullName>English Literature</fullName>
+        <default>false</default>
+        <label>English Literature</label>
+    </customValue>
+    <customValue>
+        <fullName>Entomology</fullName>
+        <default>false</default>
+        <label>Entomology</label>
+    </customValue>
+    <customValue>
+        <fullName>Entrepreneurship</fullName>
+        <default>false</default>
+        <label>Entrepreneurship</label>
+    </customValue>
+    <customValue>
+        <fullName>Environmental/Environmental Health Engineering</fullName>
+        <default>false</default>
+        <label>Environmental/Environmental Health Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Environmental Design/Architecture</fullName>
+        <default>false</default>
+        <label>Environmental Design/Architecture</label>
+    </customValue>
+    <customValue>
+        <fullName>Environmental Science</fullName>
+        <default>false</default>
+        <label>Environmental Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Epidemiology</fullName>
+        <default>false</default>
+        <label>Epidemiology</label>
+    </customValue>
+    <customValue>
+        <fullName>Equine Studies</fullName>
+        <default>false</default>
+        <label>Equine Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Ethnic Studies</fullName>
+        <default>false</default>
+        <label>Ethnic Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>European History</fullName>
+        <default>false</default>
+        <label>European History</label>
+    </customValue>
+    <customValue>
+        <fullName>Experimental Pathology</fullName>
+        <default>false</default>
+        <label>Experimental Pathology</label>
+    </customValue>
+    <customValue>
+        <fullName>Experimental Psychology</fullName>
+        <default>false</default>
+        <label>Experimental Psychology</label>
+    </customValue>
+    <customValue>
+        <fullName>Fashion Design</fullName>
+        <default>false</default>
+        <label>Fashion Design</label>
+    </customValue>
+    <customValue>
+        <fullName>Fashion Merchandising</fullName>
+        <default>false</default>
+        <label>Fashion Merchandising</label>
+    </customValue>
+    <customValue>
+        <fullName>Feed Science</fullName>
+        <default>false</default>
+        <label>Feed Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Fiber, Textiles, and Weaving Arts</fullName>
+        <default>false</default>
+        <label>Fiber, Textiles, and Weaving Arts</label>
+    </customValue>
+    <customValue>
+        <fullName>Film</fullName>
+        <default>false</default>
+        <label>Film</label>
+    </customValue>
+    <customValue>
+        <fullName>Finance</fullName>
+        <default>false</default>
+        <label>Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>Floriculture</fullName>
+        <default>false</default>
+        <label>Floriculture</label>
+    </customValue>
+    <customValue>
+        <fullName>Food Science</fullName>
+        <default>false</default>
+        <label>Food Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Forensic Science</fullName>
+        <default>false</default>
+        <label>Forensic Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Forestry</fullName>
+        <default>false</default>
+        <label>Forestry</label>
+    </customValue>
+    <customValue>
+        <fullName>French</fullName>
+        <default>false</default>
+        <label>French</label>
+    </customValue>
+    <customValue>
+        <fullName>Furniture Design</fullName>
+        <default>false</default>
+        <label>Furniture Design</label>
+    </customValue>
+    <customValue>
+        <fullName>Game Design</fullName>
+        <default>false</default>
+        <label>Game Design</label>
+    </customValue>
+    <customValue>
+        <fullName>Gay and Lesbian Studies</fullName>
+        <default>false</default>
+        <label>Gay and Lesbian Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Genetics</fullName>
+        <default>false</default>
+        <label>Genetics</label>
+    </customValue>
+    <customValue>
+        <fullName>Geography</fullName>
+        <default>false</default>
+        <label>Geography</label>
+    </customValue>
+    <customValue>
+        <fullName>Geological Engineering</fullName>
+        <default>false</default>
+        <label>Geological Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Geology</fullName>
+        <default>false</default>
+        <label>Geology</label>
+    </customValue>
+    <customValue>
+        <fullName>Geophysics</fullName>
+        <default>false</default>
+        <label>Geophysics</label>
+    </customValue>
+    <customValue>
+        <fullName>German</fullName>
+        <default>false</default>
+        <label>German</label>
+    </customValue>
+    <customValue>
+        <fullName>Gerontology</fullName>
+        <default>false</default>
+        <label>Gerontology</label>
+    </customValue>
+    <customValue>
+        <fullName>Government</fullName>
+        <default>false</default>
+        <label>Government</label>
+    </customValue>
+    <customValue>
+        <fullName>Graphic Design</fullName>
+        <default>false</default>
+        <label>Graphic Design</label>
+    </customValue>
+    <customValue>
+        <fullName>Health Administration</fullName>
+        <default>false</default>
+        <label>Health Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>Hebrew</fullName>
+        <default>false</default>
+        <label>Hebrew</label>
+    </customValue>
+    <customValue>
+        <fullName>Hispanic-American, Puerto Rican, and Chicano Studies</fullName>
+        <default>false</default>
+        <label>Hispanic-American, Puerto Rican, and Chicano Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Historic Preservation</fullName>
+        <default>false</default>
+        <label>Historic Preservation</label>
+    </customValue>
+    <customValue>
+        <fullName>History</fullName>
+        <default>false</default>
+        <label>History</label>
+    </customValue>
+    <customValue>
+        <fullName>Home Economics</fullName>
+        <default>false</default>
+        <label>Home Economics</label>
+    </customValue>
+    <customValue>
+        <fullName>Horticulture</fullName>
+        <default>false</default>
+        <label>Horticulture</label>
+    </customValue>
+    <customValue>
+        <fullName>Hospitality</fullName>
+        <default>false</default>
+        <label>Hospitality</label>
+    </customValue>
+    <customValue>
+        <fullName>Human Development</fullName>
+        <default>false</default>
+        <label>Human Development</label>
+    </customValue>
+    <customValue>
+        <fullName>Human Resources Management</fullName>
+        <default>false</default>
+        <label>Human Resources Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Illustration</fullName>
+        <default>false</default>
+        <label>Illustration</label>
+    </customValue>
+    <customValue>
+        <fullName>Industrial Design</fullName>
+        <default>false</default>
+        <label>Industrial Design</label>
+    </customValue>
+    <customValue>
+        <fullName>Industrial Engineering</fullName>
+        <default>false</default>
+        <label>Industrial Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Industrial Management</fullName>
+        <default>false</default>
+        <label>Industrial Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Industrial Psychology</fullName>
+        <default>false</default>
+        <label>Industrial Psychology</label>
+    </customValue>
+    <customValue>
+        <fullName>Information Technology</fullName>
+        <default>false</default>
+        <label>Information Technology</label>
+    </customValue>
+    <customValue>
+        <fullName>Interior Architecture</fullName>
+        <default>false</default>
+        <label>Interior Architecture</label>
+    </customValue>
+    <customValue>
+        <fullName>Interior Design</fullName>
+        <default>false</default>
+        <label>Interior Design</label>
+    </customValue>
+    <customValue>
+        <fullName>International Agriculture</fullName>
+        <default>false</default>
+        <label>International Agriculture</label>
+    </customValue>
+    <customValue>
+        <fullName>International Business</fullName>
+        <default>false</default>
+        <label>International Business</label>
+    </customValue>
+    <customValue>
+        <fullName>International Relations</fullName>
+        <default>false</default>
+        <label>International Relations</label>
+    </customValue>
+    <customValue>
+        <fullName>International Studies</fullName>
+        <default>false</default>
+        <label>International Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Islamic Studies</fullName>
+        <default>false</default>
+        <label>Islamic Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Italian</fullName>
+        <default>false</default>
+        <label>Italian</label>
+    </customValue>
+    <customValue>
+        <fullName>Japanese</fullName>
+        <default>false</default>
+        <label>Japanese</label>
+    </customValue>
+    <customValue>
+        <fullName>Jazz Studies</fullName>
+        <default>false</default>
+        <label>Jazz Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Jewelry and Metalsmithing</fullName>
+        <default>false</default>
+        <label>Jewelry and Metalsmithing</label>
+    </customValue>
+    <customValue>
+        <fullName>Jewish Studies</fullName>
+        <default>false</default>
+        <label>Jewish Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Journalism</fullName>
+        <default>false</default>
+        <label>Journalism</label>
+    </customValue>
+    <customValue>
+        <fullName>Kinesiology</fullName>
+        <default>false</default>
+        <label>Kinesiology</label>
+    </customValue>
+    <customValue>
+        <fullName>Korean</fullName>
+        <default>false</default>
+        <label>Korean</label>
+    </customValue>
+    <customValue>
+        <fullName>Landscape Architecture</fullName>
+        <default>false</default>
+        <label>Landscape Architecture</label>
+    </customValue>
+    <customValue>
+        <fullName>Landscape Horticulture</fullName>
+        <default>false</default>
+        <label>Landscape Horticulture</label>
+    </customValue>
+    <customValue>
+        <fullName>Land Use Planning and Management</fullName>
+        <default>false</default>
+        <label>Land Use Planning and Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Latin American Studies</fullName>
+        <default>false</default>
+        <label>Latin American Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Library Science</fullName>
+        <default>false</default>
+        <label>Library Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Linguistics</fullName>
+        <default>false</default>
+        <label>Linguistics</label>
+    </customValue>
+    <customValue>
+        <fullName>Logistics Management</fullName>
+        <default>false</default>
+        <label>Logistics Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Management Information Systems</fullName>
+        <default>false</default>
+        <label>Management Information Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>Managerial Economics</fullName>
+        <default>false</default>
+        <label>Managerial Economics</label>
+    </customValue>
+    <customValue>
+        <fullName>Marine Biology</fullName>
+        <default>false</default>
+        <label>Marine Biology</label>
+    </customValue>
+    <customValue>
+        <fullName>Marine Science</fullName>
+        <default>false</default>
+        <label>Marine Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing</fullName>
+        <default>false</default>
+        <label>Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Massage Therapy</fullName>
+        <default>false</default>
+        <label>Massage Therapy</label>
+    </customValue>
+    <customValue>
+        <fullName>Mass Communication</fullName>
+        <default>false</default>
+        <label>Mass Communication</label>
+    </customValue>
+    <customValue>
+        <fullName>Materials Science</fullName>
+        <default>false</default>
+        <label>Materials Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Mathematics</fullName>
+        <default>false</default>
+        <label>Mathematics</label>
+    </customValue>
+    <customValue>
+        <fullName>Mechanical Engineering</fullName>
+        <default>false</default>
+        <label>Mechanical Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical Technology</fullName>
+        <default>false</default>
+        <label>Medical Technology</label>
+    </customValue>
+    <customValue>
+        <fullName>Medieval and Renaissance Studies</fullName>
+        <default>false</default>
+        <label>Medieval and Renaissance Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Mental Health Services</fullName>
+        <default>false</default>
+        <label>Mental Health Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Merchandising and Buying Operations</fullName>
+        <default>false</default>
+        <label>Merchandising and Buying Operations</label>
+    </customValue>
+    <customValue>
+        <fullName>Metallurgical Engineering</fullName>
+        <default>false</default>
+        <label>Metallurgical Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Microbiology</fullName>
+        <default>false</default>
+        <label>Microbiology</label>
+    </customValue>
+    <customValue>
+        <fullName>Middle Eastern Studies</fullName>
+        <default>false</default>
+        <label>Middle Eastern Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Military Science</fullName>
+        <default>false</default>
+        <label>Military Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Mineral Engineering</fullName>
+        <default>false</default>
+        <label>Mineral Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Missions</fullName>
+        <default>false</default>
+        <label>Missions</label>
+    </customValue>
+    <customValue>
+        <fullName>Modern Greek</fullName>
+        <default>false</default>
+        <label>Modern Greek</label>
+    </customValue>
+    <customValue>
+        <fullName>Molecular Biology</fullName>
+        <default>false</default>
+        <label>Molecular Biology</label>
+    </customValue>
+    <customValue>
+        <fullName>Molecular Genetics</fullName>
+        <default>false</default>
+        <label>Molecular Genetics</label>
+    </customValue>
+    <customValue>
+        <fullName>Mortuary Science</fullName>
+        <default>false</default>
+        <label>Mortuary Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Museum Studies</fullName>
+        <default>false</default>
+        <label>Museum Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Music</fullName>
+        <default>false</default>
+        <label>Music</label>
+    </customValue>
+    <customValue>
+        <fullName>Musical Theater</fullName>
+        <default>false</default>
+        <label>Musical Theater</label>
+    </customValue>
+    <customValue>
+        <fullName>Music Education</fullName>
+        <default>false</default>
+        <label>Music Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Music History</fullName>
+        <default>false</default>
+        <label>Music History</label>
+    </customValue>
+    <customValue>
+        <fullName>Music Management</fullName>
+        <default>false</default>
+        <label>Music Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Music Therapy</fullName>
+        <default>false</default>
+        <label>Music Therapy</label>
+    </customValue>
+    <customValue>
+        <fullName>Native American Studies</fullName>
+        <default>false</default>
+        <label>Native American Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Natural Resources Conservation</fullName>
+        <default>false</default>
+        <label>Natural Resources Conservation</label>
+    </customValue>
+    <customValue>
+        <fullName>Naval Architecture</fullName>
+        <default>false</default>
+        <label>Naval Architecture</label>
+    </customValue>
+    <customValue>
+        <fullName>Neurobiology</fullName>
+        <default>false</default>
+        <label>Neurobiology</label>
+    </customValue>
+    <customValue>
+        <fullName>Neuroscience</fullName>
+        <default>false</default>
+        <label>Neuroscience</label>
+    </customValue>
+    <customValue>
+        <fullName>Nuclear Engineering</fullName>
+        <default>false</default>
+        <label>Nuclear Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Nursing</fullName>
+        <default>false</default>
+        <label>Nursing</label>
+    </customValue>
+    <customValue>
+        <fullName>Nutrition</fullName>
+        <default>false</default>
+        <label>Nutrition</label>
+    </customValue>
+    <customValue>
+        <fullName>Occupational Therapy</fullName>
+        <default>false</default>
+        <label>Occupational Therapy</label>
+    </customValue>
+    <customValue>
+        <fullName>Ocean Engineering</fullName>
+        <default>false</default>
+        <label>Ocean Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Oceanography</fullName>
+        <default>false</default>
+        <label>Oceanography</label>
+    </customValue>
+    <customValue>
+        <fullName>Operations Management</fullName>
+        <default>false</default>
+        <label>Operations Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Organizational Behavior Studies</fullName>
+        <default>false</default>
+        <label>Organizational Behavior Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Painting</fullName>
+        <default>false</default>
+        <label>Painting</label>
+    </customValue>
+    <customValue>
+        <fullName>Paleontology</fullName>
+        <default>false</default>
+        <label>Paleontology</label>
+    </customValue>
+    <customValue>
+        <fullName>Pastoral Studies</fullName>
+        <default>false</default>
+        <label>Pastoral Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Peace Studies</fullName>
+        <default>false</default>
+        <label>Peace Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Petroleum Engineering</fullName>
+        <default>false</default>
+        <label>Petroleum Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmacology</fullName>
+        <default>false</default>
+        <label>Pharmacology</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmacy</fullName>
+        <default>false</default>
+        <label>Pharmacy</label>
+    </customValue>
+    <customValue>
+        <fullName>Philosophy</fullName>
+        <default>false</default>
+        <label>Philosophy</label>
+    </customValue>
+    <customValue>
+        <fullName>Photography</fullName>
+        <default>false</default>
+        <label>Photography</label>
+    </customValue>
+    <customValue>
+        <fullName>Photojournalism</fullName>
+        <default>false</default>
+        <label>Photojournalism</label>
+    </customValue>
+    <customValue>
+        <fullName>Physical Education</fullName>
+        <default>false</default>
+        <label>Physical Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Physical Therapy</fullName>
+        <default>false</default>
+        <label>Physical Therapy</label>
+    </customValue>
+    <customValue>
+        <fullName>Physician Assistant</fullName>
+        <default>false</default>
+        <label>Physician Assistant</label>
+    </customValue>
+    <customValue>
+        <fullName>Physics</fullName>
+        <default>false</default>
+        <label>Physics</label>
+    </customValue>
+    <customValue>
+        <fullName>Physiological Psychology</fullName>
+        <default>false</default>
+        <label>Physiological Psychology</label>
+    </customValue>
+    <customValue>
+        <fullName>Piano</fullName>
+        <default>false</default>
+        <label>Piano</label>
+    </customValue>
+    <customValue>
+        <fullName>Planetary Science</fullName>
+        <default>false</default>
+        <label>Planetary Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Plant Pathology</fullName>
+        <default>false</default>
+        <label>Plant Pathology</label>
+    </customValue>
+    <customValue>
+        <fullName>Playwriting and Screenwriting</fullName>
+        <default>false</default>
+        <label>Playwriting and Screenwriting</label>
+    </customValue>
+    <customValue>
+        <fullName>Political Communication</fullName>
+        <default>false</default>
+        <label>Political Communication</label>
+    </customValue>
+    <customValue>
+        <fullName>Political Science</fullName>
+        <default>false</default>
+        <label>Political Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Portuguese</fullName>
+        <default>false</default>
+        <label>Portuguese</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre-Dentistry</fullName>
+        <default>false</default>
+        <label>Pre-Dentistry</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre-Law</fullName>
+        <default>false</default>
+        <label>Pre-Law</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre-Medicine</fullName>
+        <default>false</default>
+        <label>Pre-Medicine</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre-Optometry</fullName>
+        <default>false</default>
+        <label>Pre-Optometry</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre-Seminary</fullName>
+        <default>false</default>
+        <label>Pre-Seminary</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre-Veterinary Medicine</fullName>
+        <default>false</default>
+        <label>Pre-Veterinary Medicine</label>
+    </customValue>
+    <customValue>
+        <fullName>Printmaking</fullName>
+        <default>false</default>
+        <label>Printmaking</label>
+    </customValue>
+    <customValue>
+        <fullName>Psychology</fullName>
+        <default>false</default>
+        <label>Psychology</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Administration</fullName>
+        <default>false</default>
+        <label>Public Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Health</fullName>
+        <default>false</default>
+        <label>Public Health</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Policy Analysis</fullName>
+        <default>false</default>
+        <label>Public Policy Analysis</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Relations</fullName>
+        <default>false</default>
+        <label>Public Relations</label>
+    </customValue>
+    <customValue>
+        <fullName>Radio and Television</fullName>
+        <default>false</default>
+        <label>Radio and Television</label>
+    </customValue>
+    <customValue>
+        <fullName>Radiologic Technology</fullName>
+        <default>false</default>
+        <label>Radiologic Technology</label>
+    </customValue>
+    <customValue>
+        <fullName>Range Science and Management</fullName>
+        <default>false</default>
+        <label>Range Science and Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate</fullName>
+        <default>false</default>
+        <label>Real Estate</label>
+    </customValue>
+    <customValue>
+        <fullName>Recording Arts Technology</fullName>
+        <default>false</default>
+        <label>Recording Arts Technology</label>
+    </customValue>
+    <customValue>
+        <fullName>Recreation Management</fullName>
+        <default>false</default>
+        <label>Recreation Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Rehabilitation Services</fullName>
+        <default>false</default>
+        <label>Rehabilitation Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Religious Studies</fullName>
+        <default>false</default>
+        <label>Religious Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Respiratory Therapy</fullName>
+        <default>false</default>
+        <label>Respiratory Therapy</label>
+    </customValue>
+    <customValue>
+        <fullName>Risk Management</fullName>
+        <default>false</default>
+        <label>Risk Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Rural Sociology</fullName>
+        <default>false</default>
+        <label>Rural Sociology</label>
+    </customValue>
+    <customValue>
+        <fullName>Russian</fullName>
+        <default>false</default>
+        <label>Russian</label>
+    </customValue>
+    <customValue>
+        <fullName>Scandinavian Studies</fullName>
+        <default>false</default>
+        <label>Scandinavian Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Sculpture</fullName>
+        <default>false</default>
+        <label>Sculpture</label>
+    </customValue>
+    <customValue>
+        <fullName>Slavic Languages and Literatures</fullName>
+        <default>false</default>
+        <label>Slavic Languages and Literatures</label>
+    </customValue>
+    <customValue>
+        <fullName>Social Psychology</fullName>
+        <default>false</default>
+        <label>Social Psychology</label>
+    </customValue>
+    <customValue>
+        <fullName>Social Work</fullName>
+        <default>false</default>
+        <label>Social Work</label>
+    </customValue>
+    <customValue>
+        <fullName>Sociology</fullName>
+        <default>false</default>
+        <label>Sociology</label>
+    </customValue>
+    <customValue>
+        <fullName>Soil Science</fullName>
+        <default>false</default>
+        <label>Soil Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Sound Engineering</fullName>
+        <default>false</default>
+        <label>Sound Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>South Asian Studies</fullName>
+        <default>false</default>
+        <label>South Asian Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Southeast Asia Studies</fullName>
+        <default>false</default>
+        <label>Southeast Asia Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Spanish</fullName>
+        <default>false</default>
+        <label>Spanish</label>
+    </customValue>
+    <customValue>
+        <fullName>Special Education</fullName>
+        <default>false</default>
+        <label>Special Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Speech Pathology</fullName>
+        <default>false</default>
+        <label>Speech Pathology</label>
+    </customValue>
+    <customValue>
+        <fullName>Sport and Leisure Studies</fullName>
+        <default>false</default>
+        <label>Sport and Leisure Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Sports Management</fullName>
+        <default>false</default>
+        <label>Sports Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Statistics</fullName>
+        <default>false</default>
+        <label>Statistics</label>
+    </customValue>
+    <customValue>
+        <fullName>Surveying</fullName>
+        <default>false</default>
+        <label>Surveying</label>
+    </customValue>
+    <customValue>
+        <fullName>Sustainable Resource Management</fullName>
+        <default>false</default>
+        <label>Sustainable Resource Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Teacher Education</fullName>
+        <default>false</default>
+        <label>Teacher Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Teaching English as a Second Language</fullName>
+        <default>false</default>
+        <label>Teaching English as a Second Language</label>
+    </customValue>
+    <customValue>
+        <fullName>Technical Writing</fullName>
+        <default>false</default>
+        <label>Technical Writing</label>
+    </customValue>
+    <customValue>
+        <fullName>Technology Education</fullName>
+        <default>false</default>
+        <label>Technology Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Textile Engineering</fullName>
+        <default>false</default>
+        <label>Textile Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Theatre</fullName>
+        <default>false</default>
+        <label>Theatre</label>
+    </customValue>
+    <customValue>
+        <fullName>Theology</fullName>
+        <default>false</default>
+        <label>Theology</label>
+    </customValue>
+    <customValue>
+        <fullName>Tourism</fullName>
+        <default>false</default>
+        <label>Tourism</label>
+    </customValue>
+    <customValue>
+        <fullName>Toxicology</fullName>
+        <default>false</default>
+        <label>Toxicology</label>
+    </customValue>
+    <customValue>
+        <fullName>Turfgrass Science</fullName>
+        <default>false</default>
+        <label>Turfgrass Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Undecided</fullName>
+        <default>false</default>
+        <label>Undecided</label>
+    </customValue>
+    <customValue>
+        <fullName>Urban Planning</fullName>
+        <default>false</default>
+        <label>Urban Planning</label>
+    </customValue>
+    <customValue>
+        <fullName>Urban Studies</fullName>
+        <default>false</default>
+        <label>Urban Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Visual Communication</fullName>
+        <default>false</default>
+        <label>Visual Communication</label>
+    </customValue>
+    <customValue>
+        <fullName>Voice</fullName>
+        <default>false</default>
+        <label>Voice</label>
+    </customValue>
+    <customValue>
+        <fullName>Web Design</fullName>
+        <default>false</default>
+        <label>Web Design</label>
+    </customValue>
+    <customValue>
+        <fullName>Webmaster and Web Management</fullName>
+        <default>false</default>
+        <label>Webmaster and Web Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Welding Engineering</fullName>
+        <default>false</default>
+        <label>Welding Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Wildlife Management</fullName>
+        <default>false</default>
+        <label>Wildlife Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Women&#39;s Studies</fullName>
+        <default>false</default>
+        <label>Women&#39;s Studies</label>
+    </customValue>
+    <customValue>
+        <fullName>Youth Ministries</fullName>
+        <default>false</default>
+        <label>Youth Ministries</label>
+    </customValue>
+    <description>This provides a list of possible majors a student may select.</description>
+    <masterLabel>College Major Options</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

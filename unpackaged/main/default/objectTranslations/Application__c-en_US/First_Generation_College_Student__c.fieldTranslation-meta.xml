@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Form Question: &quot;Do you define yourself as a first-generation college student? (A first-generation college student is defined as a student whose parent(s)/legal guardian(s) have not completed a bachelor’s degree.)&quot; --></help>
+        <label><!-- First Generation College Student --></label>
+        <name>First_Generation_College_Student__c</name>
+    </CustomFieldTranslation>

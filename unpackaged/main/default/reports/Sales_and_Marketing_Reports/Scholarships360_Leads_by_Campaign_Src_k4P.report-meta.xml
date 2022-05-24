@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Lead$Name</field>
+    </columns>
+    <columns>
+        <field>Lead.Inquiries__r$Name</field>
+    </columns>
+    <description>S360 Leads by Source. (s360oppgrant = Landing Page &amp; Blank = Import from Google Sheet)</description>
+    <filter>
+        <criteriaItems>
+            <column>Lead$UTM_Source__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>scholarships360</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Lead.Inquiries__r$UTM_Campaign_Last_Touch__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,s360oppgrant</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Lead.Inquiries__r$UTM_Campaign_Last_Touch__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Scholarships360 Leads by Campaign Src</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Leads_with_Inquiries__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Lead$CreatedDate</dateColumn>
+        <endDate>2022-04-30</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2022-04-01</startDate>
+    </timeFrameFilter>
+</Report>

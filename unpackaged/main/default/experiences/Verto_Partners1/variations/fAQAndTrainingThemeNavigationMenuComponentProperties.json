@@ -1,0 +1,15 @@
+{
+  "componentVariants" : [ {
+    "id" : "4b3482fb-b8b1-4a4e-9aa9-933e196c96b3",
+    "propertyOverrides" : {
+      "componentAttributes" : {
+        "navigationMenuEditorRefresh" : "Channel_Partner_Navigation"
+      }
+    },
+    "targetId" : "d9e0b356-602b-49c5-8810-b4b59236baee",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "FAQ_and_Training_Theme_Navigation_Menu_Component_Properties",
+  "id" : "2db3f355-5039-4ea8-9396-f34ed0360493",
+  "type" : "experienceVariation"
+}

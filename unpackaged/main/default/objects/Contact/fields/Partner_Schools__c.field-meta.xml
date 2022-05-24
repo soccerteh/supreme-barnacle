@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Schools__c</fullName>
+    <externalId>false</externalId>
+    <label>Partner Schools</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adelphi University</fullName>
+                <default>false</default>
+                <label>Adelphi University</label>
+            </value>
+            <value>
+                <fullName>Belhaven U</fullName>
+                <default>false</default>
+                <label>Belhaven U</label>
+            </value>
+            <value>
+                <fullName>Berry College</fullName>
+                <default>false</default>
+                <label>Berry College</label>
+            </value>
+            <value>
+                <fullName>Bucknell University</fullName>
+                <default>false</default>
+                <label>Bucknell University</label>
+            </value>
+            <value>
+                <fullName>Butler University</fullName>
+                <default>false</default>
+                <label>Butler University</label>
+            </value>
+            <value>
+                <fullName>Case Western Reserve</fullName>
+                <default>false</default>
+                <label>Case Western Reserve</label>
+            </value>
+            <value>
+                <fullName>Catholic University</fullName>
+                <default>false</default>
+                <label>Catholic University</label>
+            </value>
+            <value>
+                <fullName>Chatham University</fullName>
+                <default>false</default>
+                <label>Chatham University</label>
+            </value>
+            <value>
+                <fullName>Clark University</fullName>
+                <default>false</default>
+                <label>Clark University</label>
+            </value>
+            <value>
+                <fullName>College of Wooster</fullName>
+                <default>false</default>
+                <label>College of Wooster</label>
+            </value>
+            <value>
+                <fullName>Cornell College</fullName>
+                <default>false</default>
+                <label>Cornell College</label>
+            </value>
+            <value>
+                <fullName>DePauw University</fullName>
+                <default>false</default>
+                <label>DePauw University</label>
+            </value>
+            <value>
+                <fullName>Goucher College</fullName>
+                <default>false</default>
+                <label>Goucher College</label>
+            </value>
+            <value>
+                <fullName>Grinnell College</fullName>
+                <default>false</default>
+                <label>Grinnell College</label>
+            </value>
+            <value>
+                <fullName>Hanover College</fullName>
+                <default>false</default>
+                <label>Hanover College</label>
+            </value>
+            <value>
+                <fullName>High Point University</fullName>
+                <default>false</default>
+                <label>High Point University</label>
+            </value>
+            <value>
+                <fullName>Illinois Institute of Technology</fullName>
+                <default>false</default>
+                <label>Illinois Institute of Technology</label>
+            </value>
+            <value>
+                <fullName>James Madison University</fullName>
+                <default>false</default>
+                <label>James Madison University</label>
+            </value>
+            <value>
+                <fullName>Lewis &amp; Clark College</fullName>
+                <default>false</default>
+                <label>Lewis &amp; Clark College</label>
+            </value>
+            <value>
+                <fullName>Lynn University</fullName>
+                <default>false</default>
+                <label>Lynn University</label>
+            </value>
+            <value>
+                <fullName>Macquarie University</fullName>
+                <default>false</default>
+                <label>Macquarie University</label>
+            </value>
+            <value>
+                <fullName>Merrimack College</fullName>
+                <default>false</default>
+                <label>Merrimack College</label>
+            </value>
+            <value>
+                <fullName>Mills College</fullName>
+                <default>false</default>
+                <label>Mills College</label>
+            </value>
+            <value>
+                <fullName>Muhlenberg College</fullName>
+                <default>false</default>
+                <label>Muhlenberg College</label>
+            </value>
+            <value>
+                <fullName>Naropa University</fullName>
+                <default>false</default>
+                <label>Naropa University</label>
+            </value>
+            <value>
+                <fullName>Ohio Wesleyan U</fullName>
+                <default>false</default>
+                <label>Ohio Wesleyan U</label>
+            </value>
+            <value>
+                <fullName>Pace University</fullName>
+                <default>false</default>
+                <label>Pace University</label>
+            </value>
+            <value>
+                <fullName>Portland State University</fullName>
+                <default>false</default>
+                <label>Portland State University</label>
+            </value>
+            <value>
+                <fullName>Prescott College</fullName>
+                <default>false</default>
+                <label>Prescott College</label>
+            </value>
+            <value>
+                <fullName>Regis University</fullName>
+                <default>false</default>
+                <label>Regis University</label>
+            </value>
+            <value>
+                <fullName>Rhodes College</fullName>
+                <default>false</default>
+                <label>Rhodes College</label>
+            </value>
+            <value>
+                <fullName>Richard Bland CollegeForeign University Partners</fullName>
+                <default>false</default>
+                <label>Richard Bland CollegeForeign University Partners</label>
+            </value>
+            <value>
+                <fullName>Saint Michael&#39;s College of Vermont</fullName>
+                <default>false</default>
+                <label>Saint Michael&#39;s College of Vermont</label>
+            </value>
+            <value>
+                <fullName>Springfield College</fullName>
+                <default>false</default>
+                <label>Springfield College</label>
+            </value>
+            <value>
+                <fullName>Temple University</fullName>
+                <default>false</default>
+                <label>Temple University</label>
+            </value>
+            <value>
+                <fullName>University College of Dublin</fullName>
+                <default>false</default>
+                <label>University College of Dublin</label>
+            </value>
+            <value>
+                <fullName>University of Auckland</fullName>
+                <default>false</default>
+                <label>University of Auckland</label>
+            </value>
+            <value>
+                <fullName>University of Bristol</fullName>
+                <default>false</default>
+                <label>University of Bristol</label>
+            </value>
+            <value>
+                <fullName>University of Oregon</fullName>
+                <default>false</default>
+                <label>University of Oregon</label>
+            </value>
+            <value>
+                <fullName>University of Southern Maine</fullName>
+                <default>false</default>
+                <label>University of Southern Maine</label>
+            </value>
+            <value>
+                <fullName>University of South Florida</fullName>
+                <default>false</default>
+                <label>University of South Florida</label>
+            </value>
+            <value>
+                <fullName>University of Tennessee</fullName>
+                <default>false</default>
+                <label>University of Tennessee</label>
+            </value>
+            <value>
+                <fullName>University of Vermont</fullName>
+                <default>false</default>
+                <label>University of Vermont</label>
+            </value>
+            <value>
+                <fullName>Valparaiso University</fullName>
+                <default>false</default>
+                <label>Valparaiso University</label>
+            </value>
+            <value>
+                <fullName>William &amp; Mary</fullName>
+                <default>false</default>
+                <label>William &amp; Mary</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

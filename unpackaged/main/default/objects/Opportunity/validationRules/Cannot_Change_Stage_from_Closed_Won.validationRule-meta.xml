@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Change_Stage_from_Closed_Won</fullName>
+    <active>true</active>
+    <description>Once the opportunity is in the closed won stage, it can&#39;t be moved to a different stage.</description>
+    <errorConditionFormula>and(
+$User.Bypass_Validation__c = false,
+
+or(
+left( RecordTypeId , 15) = left( $Label.RT_Opp_TraditionalEnrollment , 15),
+left( RecordTypeId , 15) = left( $Label.RT_Opp_ChannelEnrollment , 15),
+left( RecordTypeId , 15) = left( $Label.RT_Opp_Additional_Semester , 15)
+),
+
+priorvalue(IsWon) = true,
+
+IsWon = false,
+
+or(
+ischanged(IsWon),
+ischanged(StageName)
+)
+)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>The stage can&#39;t be changed from Closed Won. Instead, the Student Success Coach should update the enrollment record.</errorMessage>
+</ValidationRule>

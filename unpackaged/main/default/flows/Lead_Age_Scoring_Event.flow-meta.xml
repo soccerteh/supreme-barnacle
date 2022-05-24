@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <assignments>
+        <description>assign the single record variable to the record collection which will end up being the records that get updated.</description>
+        <name>Add_Lead_to_Update_Collection</name>
+        <label>Add Lead to Update Collection</label>
+        <locationX>447</locationX>
+        <locationY>416</locationY>
+        <assignmentItems>
+            <assignToReference>LeadCollectionForUpdate</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Loop_through_Leads</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_through_Leads</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Behavior_Score</name>
+        <label>Assign Behavior Score</label>
+        <locationX>603</locationX>
+        <locationY>546</locationY>
+        <assignmentItems>
+            <assignToReference>Loop_through_Leads.Behavior_Score__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>BehaviorScoreFormula</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Add_Lead_to_Update_Collection</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Lead_Count</name>
+        <label>Assign Lead Count</label>
+        <locationX>453</locationX>
+        <locationY>643</locationY>
+        <assignmentItems>
+            <assignToReference>LeadCount</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Assign_Behavior_Score</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>Assigns the value of the Lead Count field from the platform event that triggered this flow to the Lead Count resource in the flow.</description>
+        <name>Assign_Lead_Count_from_Platform_Event</name>
+        <label>Assign Lead Count from Platform Event</label>
+        <locationX>258</locationX>
+        <locationY>262</locationY>
+        <assignmentItems>
+            <assignToReference>LeadCount</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Lead_Count__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_through_Leads</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>Keeps track of the loop counter with an assignment element that adds 1 to the loop counter every time it’s evaluated.</description>
+        <name>Update_Counter</name>
+        <label>Update Counter</label>
+        <locationX>251</locationX>
+        <locationY>646</locationY>
+        <assignmentItems>
+            <assignToReference>LoopCounter</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Check_Limit</targetReference>
+        </connector>
+    </assignments>
+    <constants>
+        <description>Keeps track of the maximum number of iterations before stopping the flow and invoking another one.</description>
+        <name>LoopLimit</name>
+        <dataType>Number</dataType>
+        <value>
+            <numberValue>300.0</numberValue>
+        </value>
+    </constants>
+    <decisions>
+        <description>Checks if the iteration limit has been reached. The default outcome is when the limit hasn’t been reached so the loop should continue. When the limit has been reached, flow updates the records that have processed and then creates another platform event to trigger a new flow that can handle the rest of the records.</description>
+        <name>Check_Limit</name>
+        <label>Check Limit</label>
+        <locationX>243</locationX>
+        <locationY>817</locationY>
+        <defaultConnector>
+            <targetReference>Assign_Lead_Count</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>At or Below Limit</defaultConnectorLabel>
+        <rules>
+            <name>Limit_Reached</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>LoopLimitReached</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Lead_Collection_0</targetReference>
+            </connector>
+            <label>Limit Reached</label>
+        </rules>
+    </decisions>
+    <description>When a Lead Age Scoring platform event is created, update lead Behavior Score in a series of batches. This flow is designed to avoid exceeding the number of iterations limit.</description>
+    <formulas>
+        <name>BehaviorScoreFormula</name>
+        <dataType>Number</dataType>
+        <expression>IF(
+( NOW() - DATETIMEVALUE( {!Loop_through_Leads.Last_Qualifying_Activity_Date__c} ))*24 &lt;= 24, {!Loop_through_Leads.Activity_Score__c},
+IF(
+AND(
+( NOW() - DATETIMEVALUE( {!Loop_through_Leads.Last_Qualifying_Activity_Date__c} ))*24 &gt; 24,
+( NOW() - DATETIMEVALUE( {!Loop_through_Leads.Last_Qualifying_Activity_Date__c} ))*24 &lt;= 168
+), {!Loop_through_Leads.Activity_Score__c}*0.9,
+IF(
+AND(
+( NOW() - DATETIMEVALUE( {!Loop_through_Leads.Last_Qualifying_Activity_Date__c} ))*24 &gt; 168,
+( NOW() - DATETIMEVALUE( {!Loop_through_Leads.Last_Qualifying_Activity_Date__c} ))*24 &lt;= 336
+), {!Loop_through_Leads.Activity_Score__c}*0.8,
+IF(
+AND(
+( NOW() - DATETIMEVALUE( {!Loop_through_Leads.Last_Qualifying_Activity_Date__c} ))*24 &gt; 336,
+( NOW() - DATETIMEVALUE( {!Loop_through_Leads.Last_Qualifying_Activity_Date__c} ))*24 &lt;= 720
+), {!Loop_through_Leads.Activity_Score__c}*0.5,
+{!Loop_through_Leads.Activity_Score__c}*0.3 
+)
+)
+)
+)</expression>
+        <scale>1</scale>
+    </formulas>
+    <formulas>
+        <description>Checks when to pause the flow when the LoopLimit has been reached</description>
+        <name>LoopLimitReached</name>
+        <dataType>Boolean</dataType>
+        <expression>MOD({!LoopCounter},{!LoopLimit})==0</expression>
+    </formulas>
+    <formulas>
+        <description>31 days represented as 744 hours</description>
+        <name>ThirtyOneDaysAgo</name>
+        <dataType>Date</dataType>
+        <expression>NOW() - (744/24)</expression>
+    </formulas>
+    <interviewLabel>Lead Age Scoring Event {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Lead Age Scoring Event</label>
+    <loops>
+        <name>Loop_through_Leads</name>
+        <label>Loop through Leads</label>
+        <locationX>256</locationX>
+        <locationY>409</locationY>
+        <collectionReference>Get_Leads</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Update_Counter</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Update_Lead_Collection</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <description>Creates a platform event to launch another instance of this flow in order to handle the remaining records.</description>
+        <name>Create_Platform_Event</name>
+        <label>Create Platform Event</label>
+        <locationX>753</locationX>
+        <locationY>834</locationY>
+        <inputAssignments>
+            <field>Lead_Count__c</field>
+            <value>
+                <elementReference>LeadCount</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Lead_Age_Scoring_Event__e</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordLookups>
+        <name>Get_Leads</name>
+        <label>Get Leads</label>
+        <locationX>473</locationX>
+        <locationY>262</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Lead_Count_from_Platform_Event</targetReference>
+        </connector>
+        <filterLogic>(1 OR 2) AND 3 AND 4 AND 5 AND 6</filterLogic>
+        <filters>
+            <field>RecordTypeId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Label.RT_Lead_TraditionalEnrollment</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>RecordTypeId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Label.RT_Lead_ChannelEnrollment</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Last_Qualifying_Activity_Date__c</field>
+            <operator>GreaterThanOrEqualTo</operator>
+            <value>
+                <elementReference>ThirtyOneDaysAgo</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>IsConverted</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Last_Qualifying_Activity_Date__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Activity_Score__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Lead</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Lead_Collection</name>
+        <label>Update Lead Collection</label>
+        <locationX>878</locationX>
+        <locationY>398</locationY>
+        <inputReference>LeadCollectionForUpdate</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Lead_Collection_0</name>
+        <label>Update Lead Collection</label>
+        <locationX>599</locationX>
+        <locationY>834</locationY>
+        <connector>
+            <targetReference>Create_Platform_Event</targetReference>
+        </connector>
+        <inputReference>LeadCollectionForUpdate</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>347</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Get_Leads</targetReference>
+        </connector>
+        <object>Lead_Age_Scoring_Event__e</object>
+        <triggerType>PlatformEvent</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>LeadCollectionForUpdate</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Lead</objectType>
+    </variables>
+    <variables>
+        <name>LeadCount</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+    </variables>
+    <variables>
+        <name>LeadRecord</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Lead</objectType>
+    </variables>
+    <variables>
+        <description>Keeps track of the current iteration and increments it every loop, exiting the loop when it&#39;s about to hit a limit (the max number of iterations depends on the number of elements in the loop)</description>
+        <name>LoopCounter</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+</Flow>

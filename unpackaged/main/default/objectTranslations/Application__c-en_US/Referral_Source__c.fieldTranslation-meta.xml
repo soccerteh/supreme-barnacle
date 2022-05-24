@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The applicant&apos;s response to the question &quot;How did you hear about Verto?&quot; --></help>
+        <label><!-- Referral Source --></label>
+        <name>Referral_Source__c</name>
+        <picklistValues>
+            <masterLabel>A Verto Representative Visited My School</masterLabel>
+            <translation><!-- A Verto Representative Visited My School --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>College Fair</masterLabel>
+            <translation><!-- College Fair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family or Friend</masterLabel>
+            <translation><!-- Family or Friend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Google Search (or another search engine)</masterLabel>
+            <translation><!-- Google Search (or another search engine) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Independent Educational Consultant</masterLabel>
+            <translation><!-- Independent Educational Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>My College</masterLabel>
+            <translation><!-- My College --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>My High School Counselor</masterLabel>
+            <translation><!-- My High School Counselor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Ad</masterLabel>
+            <translation><!-- Online Ad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation><!-- Social Media --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>
